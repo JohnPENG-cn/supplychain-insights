@@ -1,0 +1,19 @@
+{
+  "name": "supplychain-insights",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "dev": "vitepress dev docs --host 127.0.0.1",
+    "build": "node scripts/validate-series.mjs && node scripts/check-tokenize.mjs && vitepress build docs && node scripts/check-dist.mjs",
+    "preview": "vitepress preview docs --host 127.0.0.1 --port 4173",
+    "validate:data": "node scripts/validate-series.mjs && node scripts/check-tokenize.mjs"
+  },
+  "devDependencies": {
+    "markdown-it-container": "^4.0.0",
+    "vitepress": "^1.6.4",
+    "vue": "^3.5.44"
+  }
+}
