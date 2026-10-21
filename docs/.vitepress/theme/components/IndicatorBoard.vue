@@ -1,4 +1,5 @@
 <script setup>
+import { withBase } from 'vitepress'
 import catalogFile from '../../../../data/electronics/catalog.json'
 import seriesFile from '../../../../data/electronics/series.json'
 
@@ -73,8 +74,9 @@ function chartOf(points) {
     <div class="board-status">
       <span class="status status-wip">建设中</span>
       <p v-if="plottable.length === 0">
-        曲线区还是空的。数据文件 <code>data/electronics/series.json</code> 里没有序列，
-        这页不会拿猜测的数字画图。
+        这张清单还没有曲线。MLCC 不在这里，去
+        <a :href="withBase('/dashboard/mlcc/')">MLCC 采购信号</a>。
+        <code>data/electronics/series.json</code> 仍然是空的，不会拿猜测的数字画图。
       </p>
       <p v-else>
         已读到 {{ plottable.length }} 条带数值的序列。

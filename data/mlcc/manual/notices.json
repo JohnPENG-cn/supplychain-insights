@@ -1,0 +1,165 @@
+{
+  "updatedAt": "2026-10-21",
+  "staleAfter": "2026-12-05",
+  "events": [
+    {
+      "id": "murata-2026-04",
+      "date": "2026-04-01",
+      "makers": ["Murata"],
+      "makerLabels": { "Murata": "村田" },
+      "kind": "price_hike",
+      "credibility": "media",
+      "summary": "媒体报道村田上调了 AI 服务器和高端车规 MLCC 的价格。幅度以原文为准。",
+      "links": [
+        {
+          "name": "Defiance 汇总",
+          "url": "https://www.defianceetfs.com/mlcc-shortage-2026-why-capacitor-prices-keep-rising/"
+        }
+      ]
+    },
+    {
+      "id": "taiyo-2026-q2",
+      "date": "2026-05-01",
+      "makers": ["Taiyo Yuden"],
+      "makerLabels": { "Taiyo Yuden": "太阳诱电" },
+      "kind": "price_hike",
+      "credibility": "media",
+      "summary": "媒体报道太阳诱电在 4 月到 5 月有过一轮调价，高容车规和消费级分开。没有精确到某一天。",
+      "links": [
+        {
+          "name": "TrendForce",
+          "url": "https://www.trendforce.com/news/2026/08/04/news-across-the-board-30-price-hike-mlcc-price-surge-intensifies/"
+        }
+      ]
+    },
+    {
+      "id": "yageo-2026-07",
+      "date": "2026-07-01",
+      "makers": ["Yageo"],
+      "makerLabels": { "Yageo": "国巨" },
+      "kind": "price_hike",
+      "credibility": "media",
+      "summary": "媒体报道国巨从 7 月 1 日起调涨电容，范围扩到直供客户。同一篇也提到华新科消费级 MLCC。幅度以原文为准。",
+      "links": [
+        {
+          "name": "TrendForce",
+          "url": "https://www.trendforce.com/news/2026/07/01/news-passive-component-prices-rise-as-yageo-reportedly-begins-broadest-capacitor-hike-in-years-on-july-1/"
+        }
+      ]
+    },
+    {
+      "id": "samsung-channel-2026-08",
+      "date": "2026-08-01",
+      "makers": ["Samsung Electro-Mechanics"],
+      "makerLabels": { "Samsung Electro-Mechanics": "三星电机" },
+      "kind": "price_hike",
+      "credibility": "maker_notice",
+      "summary": "媒体引用了三星电机给经销渠道的通知，渠道价格上调。",
+      "links": [
+        {
+          "name": "TheElec",
+          "url": "https://www.thelec.net/news/articleView.html?idxno=12636"
+        }
+      ]
+    },
+    {
+      "id": "samsung-oem-2026-08",
+      "date": "2026-08-27",
+      "makers": ["Samsung Electro-Mechanics"],
+      "makerLabels": { "Samsung Electro-Mechanics": "三星电机" },
+      "kind": "price_hike",
+      "credibility": "media",
+      "summary": "TrendForce 估计三星电机从第四季起对直供客户调价，消费级和 AI 用料分开。这是研究机构的估计，不是我们看到的原厂 PDF。",
+      "links": [
+        {
+          "name": "TrendForce",
+          "url": "https://www.trendforce.com/presscenter/news/20260827-13202.html"
+        }
+      ]
+    },
+    {
+      "id": "taiyo-2026-09",
+      "date": "2026-09-01",
+      "makers": ["Taiyo Yuden"],
+      "makerLabels": { "Taiyo Yuden": "太阳诱电" },
+      "kind": "price_hike",
+      "credibility": "maker_notice",
+      "summary": "媒体称太阳诱电开始第二轮调价，理由是钛酸钡、镍粉和稀土添加剂涨价，并写到接受涨价也不保证交期。",
+      "links": [
+        {
+          "name": "TheElec",
+          "url": "https://www.thelec.net/news/articleView.html?idxno=12636"
+        }
+      ]
+    },
+    {
+      "id": "murata-eol-2026",
+      "date": null,
+      "makers": ["Murata"],
+      "makerLabels": { "Murata": "村田" },
+      "kind": "eol",
+      "broad": true,
+      "inForce": true,
+      "credibility": "maker_notice",
+      "replyBy": "2027-12-31",
+      "lastOrder": "2028-03-31",
+      "lastShip": "2029-03-31",
+      "summary": "村田通知，九个系列里的部分料号停产。书面回复截止 2027-12-31，最后下单 2028-03-31，最后出货 2029-03-31。料号清单在代理商 PTN 里，这里不抄表。",
+      "links": [
+        {
+          "name": "Anglia PTN",
+          "url": "https://www.anglia.com/registration/pcn_ptn/docs/ptn/PTNMURD10149AG4.pdf"
+        },
+        {
+          "name": "钜亨",
+          "url": "https://news.cnyes.com/news/id/6603207"
+        }
+      ]
+    },
+    {
+      "id": "samsung-lta-2026-10",
+      "date": "2026-10-06",
+      "makers": ["Samsung Electro-Mechanics"],
+      "makerLabels": { "Samsung Electro-Mechanics": "三星电机" },
+      "kind": "contract",
+      "credibility": "maker_notice",
+      "summary": "三星电机公告签了 AI 服务器 MLCC 长约，履约期覆盖 2027 年。这是锁产能，不是涨价通知，不计入涨价灯。",
+      "links": [
+        {
+          "name": "钜亨",
+          "url": "https://news.cnyes.com/news/id/6622691"
+        }
+      ]
+    },
+    {
+      "id": "yageo-rumour-2026-10",
+      "date": "2026-10-21",
+      "makers": ["Yageo"],
+      "makerLabels": { "Yageo": "国巨" },
+      "kind": "price_hike",
+      "credibility": "broker_rumour",
+      "summary": "有券商调研传闻国巨在 10 月底到 11 月再调价。没有公司公告，未证实，不计入红灯。",
+      "links": [
+        {
+          "name": "新浪转载",
+          "url": "https://www.sina.cn/news/detail/5353851867891634.html"
+        }
+      ]
+    },
+    {
+      "id": "sanhuan-rumour-2026-10",
+      "date": "2026-10-21",
+      "makers": ["Sanhuan"],
+      "makerLabels": { "Sanhuan": "三环" },
+      "kind": "price_hike",
+      "credibility": "broker_rumour",
+      "summary": "有券商跟踪称三环对代理商调价。三环不在打灯用的六家头部厂里，而且没有公告。",
+      "links": [
+        {
+          "name": "行业文章",
+          "url": "https://www.szcxwykj.com/news/n1792141366024.html"
+        }
+      ]
+    }
+  ]
+}

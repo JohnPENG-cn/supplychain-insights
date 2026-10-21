@@ -1,0 +1,28 @@
+{
+  "updatedAt": "2026-10-21",
+  "items": [
+    {
+      "date": "2026-10-28",
+      "text": "三星电机公布第三季初步业绩",
+      "status": "confirmed"
+    },
+    {
+      "date": "2026-10-30",
+      "text": "村田公布 FY2026 第二季业绩",
+      "status": "tentative",
+      "note": "公司日程标为暂定"
+    },
+    {
+      "date": "2026-11-10",
+      "text": "台系公司申报 10 月营收的截止日",
+      "status": "confirmed",
+      "note": "交易所通常在这之后几天出表"
+    },
+    {
+      "date": null,
+      "text": "太阳诱电第二季，公开说法是 11 月上旬",
+      "status": "unverified",
+      "note": "具体日期没有核实"
+    }
+  ]
+}

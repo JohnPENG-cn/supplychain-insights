@@ -1,0 +1,30 @@
+{
+  "updatedAt": "2026-10-21",
+  "asOf": "2026-10-19",
+  "staleAfter": "2026-11-20",
+  "light": "red",
+  "direction": "lengthening",
+  "summary": "读过 2026 年 10 月的市场状况页，以及引用该页的卖方报告之后，我们把主要品牌标准料评为仍然偏紧，而且比上个月更长。周数表不转载。",
+  "sources": [
+    {
+      "name": "Future Electronics 市场状况",
+      "url": "https://www.futureelectronics.com/resources/market-conditions-report",
+      "readAt": "2026-10-19"
+    },
+    {
+      "name": "引用该市场状况的卖方报告",
+      "url": "https://www.hankyung.com/koreamarket/consensus/pdf/2026-10-8a5caeaa4dd628e88350719f99c01791",
+      "readAt": "2026-10-20"
+    },
+    {
+      "name": "Lytica 2026 年 9 月",
+      "url": "https://lytica.com/state-of-the-electronic-components-market-september-2026/",
+      "readAt": "2026-10-06"
+    },
+    {
+      "name": "Lytica 2026 年 8 月",
+      "url": "https://lytica.com/state-of-the-electronic-components-market-august-2026/",
+      "readAt": "2026-08-01"
+    }
+  ]
+}

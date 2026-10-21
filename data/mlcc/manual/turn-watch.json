@@ -1,0 +1,25 @@
+{
+  "updatedAt": "2026-10-21",
+  "staleAfter": "2026-11-06",
+  "lytica": {
+    "hit": false,
+    "readAt": "2026-10-21",
+    "sourceUrl": "https://lytica.com/state-of-the-electronic-components-market-september-2026/",
+    "note": "2026 年 9 月月报里，全市场交期指数仍是正的，电容不在交期涨幅前列。可得率有没有回到 95% 以上，读完来源后只改 hit，不要把指数抄进来。"
+  },
+  "inventoryRemark": {
+    "hit": true,
+    "partial": true,
+    "note": "村田 2026 年 7 月说，交期长的订单在增加，有些应用可能因为担心缺货而提前下单。TrendForce 10 月 19 日提到消费电子第四季需求偏弱。还没有看到原厂明确说客户正在调库存，或提前下的订单已经回吐。",
+    "sources": [
+      {
+        "name": "村田 FY2026 第一季简报",
+        "url": "https://corporate.murata.com/-/media/corporate/about/newsroom/news/irnews/irnews/2026/0731d/26q1-e-speach.ashx"
+      },
+      {
+        "name": "TrendForce 2026-10-19",
+        "url": "https://www.trendforce.com/research/download/RP261019DC"
+      }
+    ]
+  }
+}
