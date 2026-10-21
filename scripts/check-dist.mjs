@@ -32,6 +32,7 @@ const pages = [
   'methods/leveling.html',
   'methods/delivery-tracking.html',
   'dashboard/index.html',
+  'dashboard/mlcc/index.html',
   'data/electronics/series.json',
   'sitemap.xml'
 ]
@@ -54,6 +55,21 @@ if (!read('dashboard/index.html').includes('全球半导体月销售额')) {
   console.error('看板页没有渲染指标清单')
   process.exit(1)
 }
+if (!read('dashboard/index.html').includes('已上线') || !read('dashboard/index.html').includes('MLCC')) {
+  console.error('看板目录没有把 MLCC 标成已上线')
+  process.exit(1)
+}
+const mlcc = read('dashboard/mlcc/index.html')
+for (const text of ['整体判断', '拐点哨兵', '判断', '数据与版权', '政府資料開放授權條款', '生産動態統計']) {
+  if (!mlcc.includes(text)) {
+    console.error(`MLCC 页缺少：${text}`)
+    process.exit(1)
+  }
+}
+if (/DDR4|DRAMeXchange|30~36|30~52/.test(mlcc)) {
+  console.error('MLCC 页混入了存储行情或交期原表')
+  process.exit(1)
+}
 
 const series = JSON.parse(read('data/electronics/series.json'))
 if (series.status !== 'empty' || !Array.isArray(series.series) || series.series.length !== 0) {
@@ -62,6 +78,11 @@ if (series.status !== 'empty' || !Array.isArray(series.series) || series.series.
 }
 
 const sitemap = read('sitemap.xml')
+if (!sitemap.includes('https://johnpeng-cn.github.io/supplychain-insights/dashboard/mlcc/')) {
+  console.error('站点地图没有 MLCC 看板')
+  console.error(sitemap.slice(0, 500))
+  process.exit(1)
+}
 if (!sitemap.includes('https://johnpeng-cn.github.io/supplychain-insights/categories/electronics/')) {
   console.error('站点地图没有包含正确的项目站路径')
   console.error(sitemap.slice(0, 500))

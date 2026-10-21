@@ -8,7 +8,7 @@
 
 文章就是 Markdown，改完在侧边栏登记即可。VitePress 自带中文界面和本地搜索，这个仓库又加了中文分词，搜「交期」「EOL」能找到正文。构建结果是纯静态文件，用 GitHub Actions 部署到 GitHub Pages，不需要服务器，公开仓库可以免费托管。
 
-数据看板不靠手填。`data/electronics/` 里放指标名单和空的序列文件，以后定时任务只要按格式写入 JSON 并提交，网站重新构建就会出曲线。
+电子元器件指标名单在 `data/electronics/`，序列文件现在是空的。MLCC 看板用 `data/mlcc/`：台湾月营收和日本产量由定时任务写入，订单出货比、交期灯和涨价台账要人工改。
 
 ## 本地预览
 
@@ -93,4 +93,37 @@ npm run build
 
 ## 指标数据
 
-看板的约定写在 [data/README.md](data/README.md)。现在 `data/electronics/series.json` 是空的，页面显示建设中，不会出现曲线。不要为了看效果填假数。
+看板的约定写在 [data/README.md](data/README.md)。`data/electronics/series.json` 仍是空的，除 MLCC 以外的指标显示建设中，不会出现曲线。不要为了看效果填假数，也不要把存储价格写进公开仓库。
+
+## 更新 MLCC 看板
+
+页面在 `/dashboard/mlcc/`。灯和「建议动作」由 `data/mlcc/signal-config.json` 里的阈值算出来，改阈值要一起改 `tests/mlcc/`。
+
+自动抓的只有两类，人不要手改里面的数字，除非抓取坏了要回滚：
+
+- `data/mlcc/tw-monthly-revenue.json`：国巨 2327、华新科 2492、禾伸堂 3026 的月营收。来源是台湾证券交易所 OpenAPI。缺月时才补公开资讯观测站的一页历史。
+- `data/mlcc/meti-ceramic-capacitors.json`：日本经济产业省陶瓷电容产量和金额。
+
+定时任务在 `.github/workflows/mlcc-data.yml`。每月 11 日和 15 日抓台湾营收，每月 20 日抓日本产量（都是 UTC 01:20，大约是台北时间上午 9:20）。也可以在 Actions 里手动跑，并选择只抓一项。每次每个来源只请求一次。失败就保留上一笔数字，把状态写成失败；页面显示「数据过期」，并开或更新一条标题以「MLCC 数据抓取失败」开头的 issue。成功后关掉对应 issue。
+
+数据提交到 `main` 之后，这个任务会再触发「构建并部署到 GitHub Pages」。GitHub 默认不会因为机器人推送而级联启动另一个工作流，所以这里用手动触发补上。拉取请求里会真的抓一次并跑测试，不会提交，也不会部署。网站只在 `main` 上部署。
+
+仓库需要允许 Actions 写内容和开 issue：Settings → Actions → General → Workflow permissions，选 **Read and write permissions**。只读令牌提交不了数据。
+
+下面四个文件要人工改。改完跑 `npm test`，再 `npm run build`。
+
+1. `data/mlcc/manual/book-to-bill.json`  
+   村田、太阳诱电出季报后追加或改最新一条。要有 PDF 链接、`publishedAt` 和 `periodEnd`。参与灯的是村田 `scope` 为 `MLCC`、太阳诱电 `scope` 为 `电容`。全公司数字和媒体转述的三星电机数字把 `countsTowardSignal` 设为 `false`。`history` 从旧到新写下订单出货比，最后一格要等于 `bookToBill`。稼动率写成 0 到 1 的小数，例如 85% 写 `0.85`。村田下一季预计 10 月 30 日（暂定）之后，把 `staleAfter` 改到再下一季发布后大约一周，否则页面会显示数据过期。
+
+2. `data/mlcc/manual/lead-time.json`  
+   只改 `light`（`red` / `yellow` / `green`）、`direction`（`lengthening` / `flat` / `shortening`）、一句 `summary` 和来源链接。不要粘贴 Future、Lytica 或券商报告里的交期周数表。阈值写在配置文件里：主要品牌标准料中位数到 26 周及以上，或还在拉长，是红灯。
+
+3. `data/mlcc/manual/notices.json`  
+   一条涨价或停产用自己的一两句话，加上链接。`credibility` 只能是 `maker_notice`（原厂通知）、`media`（媒体转述）、`broker_rumour`（券商传闻）。传闻不会单独把灯打红。大范围停产要写 `kind: "eol"`、`broad: true`、`inForce: true` 和 `lastOrder`。料号清单留在链接里，不要抄进仓库。
+
+4. `data/mlcc/manual/turn-watch.json`  
+   拐点哨兵里有两条要人看完再改：`lytica.hit` 和 `inventoryRemark.hit`。只改 true 或 false。Lytica 的指数、可得率不要抄进来。`partial: true` 表示只听到了「有人提前下单」，还没听到「库存已经在调」。哨兵是判断。命中两条或以上转红，意思是停止追加备货，和前面几条红灯相反。
+
+关键日程在 `data/mlcc/schedule.json`。过期的可以留着，页面会标「已过」。
+
+日本海关和韩国海关的出口单价还没接。那两个接口要本人注册的免费 key，没有 key 之前不要把猜测的数字写进来。

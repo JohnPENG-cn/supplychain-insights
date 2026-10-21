@@ -26,9 +26,9 @@ features:
     link: /methods/
     linkText: 看方法
   - title: 产业链看板
-    details: 建设中。先写清以后要跟踪哪些公开指标，数据文件是空的。没有曲线，因为还没有数。
+    details: MLCC 采购信号已上线。其他指标还在建设中，没有曲线。
     link: /dashboard/
-    linkText: 看规划
+    linkText: 看看板
 ---
 
 ## 这是给谁看的

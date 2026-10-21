@@ -96,12 +96,21 @@
   background: rgba(15, 107, 99, 0.14);
 }
 
+.status-live {
+  color: #065f46;
+  background: rgba(6, 95, 70, 0.14);
+}
+
 .dark .status-soon {
   color: #f6c98a;
 }
 
 .dark .status-wip {
   color: #b7ebe4;
+}
+
+.dark .status-live {
+  color: #8fd9cf;
 }
 
 .chain {
@@ -204,6 +213,170 @@
 .chart-card .axis {
   fill: var(--vp-c-text-2);
   font-size: 12px;
+}
+
+.mlcc-board {
+  margin-top: 1rem;
+}
+
+.mlcc-stale-note,
+.mlcc-schedule {
+  margin: 0.5rem 0 1rem;
+  padding: 0.9rem 1rem;
+  border: 1px dashed var(--vp-c-divider);
+  border-radius: 12px;
+  background: var(--vp-c-bg-soft);
+}
+
+.mlcc-schedule h2 {
+  margin: 0 0 0.4rem;
+  border: 0;
+  font-size: 1.15rem;
+}
+
+.mlcc-schedule li,
+.mlcc-note,
+.mlcc-gloss,
+.mlcc-meta {
+  color: var(--vp-c-text-2);
+}
+
+.mlcc-card {
+  margin: 0 0 1rem;
+  padding: 0.9rem 1rem 0.4rem;
+  border: 1px solid var(--vp-c-divider);
+  border-radius: 12px;
+  background: var(--vp-c-bg-elv);
+}
+
+.mlcc-head {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem 0.6rem;
+  align-items: center;
+}
+
+.mlcc-head h3 {
+  margin: 0;
+  border: 0;
+  font-size: 1.08rem;
+}
+
+.mlcc-latest {
+  margin: 0.7rem 0 0.2rem;
+}
+
+.mlcc-gloss,
+.mlcc-meta,
+.mlcc-note {
+  margin: 0.25rem 0;
+}
+
+.light {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  font-weight: 700;
+}
+
+.light::before {
+  content: '';
+  width: 0.7rem;
+  height: 0.7rem;
+  border-radius: 999px;
+  background: currentColor;
+}
+
+.light-red {
+  color: #b42318;
+}
+
+.light-yellow {
+  color: #9a6700;
+}
+
+.light-green {
+  color: #067647;
+}
+
+.light-unknown {
+  color: #66716f;
+}
+
+.status-judgment {
+  color: #9a3412;
+  background: rgba(180, 83, 9, 0.14);
+}
+
+.status-stale {
+  color: #9f1239;
+  background: rgba(190, 18, 60, 0.12);
+}
+
+.dark .light-red {
+  color: #fda4a4;
+}
+
+.dark .light-yellow {
+  color: #f6c98a;
+}
+
+.dark .light-green {
+  color: #8fd9cf;
+}
+
+.dark .status-judgment {
+  color: #fdba74;
+}
+
+.dark .status-stale {
+  color: #fda4af;
+}
+
+.mlcc-chart {
+  margin: 0.6rem 0 0.8rem;
+}
+
+.mlcc-chart figcaption,
+.mlcc-legend {
+  color: var(--vp-c-text-2);
+  font-size: 0.92rem;
+}
+
+.mlcc-chart svg {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.mlcc-line {
+  fill: none;
+  stroke-width: 2.4;
+  stroke-linejoin: round;
+  stroke-linecap: round;
+}
+
+.mlcc-legend span {
+  display: inline-flex;
+  align-items: center;
+  margin-right: 0.9rem;
+}
+
+.mlcc-legend i {
+  width: 0.7rem;
+  height: 0.7rem;
+  margin-right: 0.3rem;
+  border-radius: 999px;
+}
+
+.mlcc-triggers,
+.mlcc-events {
+  padding-left: 1.2rem;
+}
+
+.mlcc-events a,
+.mlcc-meta a {
+  margin-right: 0.7rem;
 }
 
 .entry-list {
