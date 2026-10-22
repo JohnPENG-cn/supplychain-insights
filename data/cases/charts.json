@@ -2,8 +2,8 @@
   "yageo-walsin-2017-2019": {
     "id": "yageo-walsin-2017-2019",
     "title": "国巨、华新科月营收",
-    "caption": "国巨月营收 2018 年 8 月到 106 亿元新台币，2017 年 2 月是 22 亿元。华新科 2018 年 9 月到 63 亿元。这是公司月营收，不是 MLCC 单价。",
-    "note": "公开资讯观测站上市公司每月营业收入。原表单位是新台币千元，图上换成亿元（千元 ÷ 100,000）。2327 是国巨，2492 是华新科。取当月营收，不是累计营收。每个月对应一份 t21sc03 档案。",
+    "caption": "国巨月营收 2018 年 8 月冲到 106 亿，将近 2017 年 2 月的五倍，三个月后腰斩到 54 亿。",
+    "note": "图上是公司月营收，不是 MLCC 单价。公开资讯观测站上市公司每月营业收入。原表单位是新台币千元，图上换成亿元（千元 ÷ 100,000）。2327 是国巨，2492 是华新科。取当月营收，不是累计营收。每个月对应一份 t21sc03 档案。2017 年 2 月国巨 21.66 亿元，2018 年 8 月 106.02 亿元，2018 年 11 月 53.78 亿元。",
     "source": {
       "name": "台湾证券交易所公开资讯观测站，上市公司每月营业收入（民国 106 至 108 年）",
       "url": "https://mopsov.twse.com.tw/nas/t21/sii/t21sc03_106_1_0.html"
@@ -462,8 +462,8 @@
   "micron-2017-2020": {
     "id": "micron-2017-2020",
     "title": "美光季度营收、毛利率和库存天数，2017–2020",
-    "caption": "2018 年 11 月季营收还有 79 亿美元。2019 年 5 月季降到 48 亿美元，毛利率降到四成以下，库存天数升过 140 天。这是公司总数，不是 DRAM 平均售价。",
-    "note": "营收取 RevenueFromContractWithCustomerExcludingAssessedTax，毛利取 GrossProfit，成本取 CostOfGoodsAndServicesSold，库存取 InventoryNet。只保留约 80 到 100 天的季度，同一季用最早一次申报。毛利率 = 毛利 ÷ 营收。库存天数 = 季末库存 ÷ 当季成本 × 当季天数。标成由财年轧差的点，是财年总数减去前三季；公司事实数据里这季没有单独的约 90 天记录。2019 财年四笔营收加总 234.06 亿美元，与公司披露的 234 亿美元一致。",
+    "caption": "2018 年 11 月季营收还有 79 亿美元，到 2019 年 5 月季降到 48 亿，库存天数升过 140 天。",
+    "note": "图上是美光公司营收、毛利率和库存天数，不是 DRAM 平均售价。营收取 RevenueFromContractWithCustomerExcludingAssessedTax，毛利取 GrossProfit，成本取 CostOfGoodsAndServicesSold，库存取 InventoryNet。只保留约 80 到 100 天的季度，同一季用最早一次申报。毛利率 = 毛利 ÷ 营收。库存天数 = 季末库存 ÷ 当季成本 × 当季天数。标成由财年轧差的点，是财年总数减去前三季；公司事实数据里这季没有单独的约 90 天记录。2019 财年四笔营收加总 234.06 亿美元，与公司披露的 234 亿美元一致。",
     "source": {
       "name": "美国证监会公司事实数据，Micron Technology, Inc.（CIK 0000723125）",
       "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000723125.json"
@@ -682,8 +682,8 @@
   "micron-2021-2024": {
     "id": "micron-2021-2024",
     "title": "美光季度营收、毛利率和库存天数，2021–2024",
-    "caption": "2022 年 6 月季营收还有 86 亿美元。2022 年 12 月季掉到 41 亿美元，库存天数升到 236 天。下一季毛利率为负。这是公司总数，不是合约价。",
-    "note": "营收取 RevenueFromContractWithCustomerExcludingAssessedTax，毛利取 GrossProfit，成本取 CostOfGoodsAndServicesSold，库存取 InventoryNet。只保留约 80 到 100 天的季度，同一季用最早一次申报。毛利率 = 毛利 ÷ 营收。库存天数 = 季末库存 ÷ 当季成本 × 当季天数。标成由财年轧差的点，是财年总数减去前三季；公司事实数据里这季没有单独的约 90 天记录。2019 财年四笔营收加总 234.06 亿美元，与公司披露的 234 亿美元一致。",
+    "caption": "2022 年 6 月季营收还有 86 亿美元，12 月季掉到 41 亿，库存天数升到 236 天，下一季毛利率跌成负数。",
+    "note": "图上是美光公司营收、毛利率和库存天数，不是合约价。营收取 RevenueFromContractWithCustomerExcludingAssessedTax，毛利取 GrossProfit，成本取 CostOfGoodsAndServicesSold，库存取 InventoryNet。只保留约 80 到 100 天的季度，同一季用最早一次申报。毛利率 = 毛利 ÷ 营收。库存天数 = 季末库存 ÷ 当季成本 × 当季天数。标成由财年轧差的点，是财年总数减去前三季；公司事实数据里这季没有单独的约 90 天记录。",
     "source": {
       "name": "美国证监会公司事实数据，Micron Technology, Inc.（CIK 0000723125）",
       "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000723125.json"
@@ -971,8 +971,8 @@
   "micron-hbm-era": {
     "id": "micron-hbm-era",
     "title": "美光季度营收、毛利率和库存天数，2023–2025",
-    "caption": "2023 年 6 月季营收大约 38 亿美元。2025 年 11 月季升到 136 亿美元。这是美光公司营收，不是 HBM 单价，也不包含 SK 海力士。",
-    "note": "营收取 RevenueFromContractWithCustomerExcludingAssessedTax，毛利取 GrossProfit，成本取 CostOfGoodsAndServicesSold，库存取 InventoryNet。只保留约 80 到 100 天的季度，同一季用最早一次申报。毛利率 = 毛利 ÷ 营收。库存天数 = 季末库存 ÷ 当季成本 × 当季天数。标成由财年轧差的点，是财年总数减去前三季；公司事实数据里这季没有单独的约 90 天记录。2019 财年四笔营收加总 234.06 亿美元，与公司披露的 234 亿美元一致。",
+    "caption": "2023 年 6 月季营收大约 38 亿美元，到 2025 年 11 月季升到 136 亿美元。",
+    "note": "图上是美光公司营收，不是 HBM 单价，也不包含 SK 海力士。营收取 RevenueFromContractWithCustomerExcludingAssessedTax，毛利取 GrossProfit，成本取 CostOfGoodsAndServicesSold，库存取 InventoryNet。只保留约 80 到 100 天的季度，同一季用最早一次申报。毛利率 = 毛利 ÷ 营收。库存天数 = 季末库存 ÷ 当季成本 × 当季天数。标成由财年轧差的点，是财年总数减去前三季；公司事实数据里这季没有单独的约 90 天记录。",
     "source": {
       "name": "美国证监会公司事实数据，Micron Technology, Inc.（CIK 0000723125）",
       "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000723125.json"
@@ -1182,8 +1182,8 @@
   "wd-seagate-2010-2013": {
     "id": "wd-seagate-2010-2013",
     "title": "西部数据、希捷季度营收",
-    "caption": "西部数据 2011 年 12 月季营收降到 20 亿美元以下，前一季是 27 亿美元。希捷同一季是 32 亿美元。这是公司营收，不是硬盘单价，也不是出货台数。",
-    "note": "西部数据取 SalesRevenueGoodsNet，申报主体 Western Digital Corporation（CIK 0000106040）。希捷取 SalesRevenueNet，申报主体 Seagate Technology Holdings plc（CIK 0001137789）。约 80 到 100 天的季度，同一季用最早一次申报。希捷有的第四季没有单独一条约 90 天的记录，图上标成由财年轧差，即财年营收减去前三季。",
+    "caption": "西部数据 2011 年 12 月季营收不到 20 亿美元，前一季大约 27 亿，希捷同一季是 32 亿。",
+    "note": "图上是公司营收，不是硬盘单价，也不是出货台数。西部数据取 SalesRevenueGoodsNet，申报主体 Western Digital Corporation（CIK 0000106040）。希捷取 SalesRevenueNet，申报主体 Seagate Technology Holdings plc（CIK 0001137789）。约 80 到 100 天的季度，同一季用最早一次申报。希捷有的第四季没有单独一条约 90 天的记录，图上标成由财年轧差，即财年营收减去前三季。",
     "source": {
       "name": "美国证监会公司事实数据：西部数据",
       "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000106040.json"

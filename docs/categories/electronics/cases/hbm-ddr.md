@@ -25,7 +25,7 @@ HBM 是叠起来给 AI 用的高带宽内存。它和 DDR4、DDR5 抢的是同�
 路透社 2025 年 10 月 29 日报道，SK 海力士第三季利润创纪录，并表示次年（2026 年）的芯片产出已经全部售出。公司预期这轮超级周期还会延长，并计划从第四季推进 HBM4（[路透社](https://www.reuters.com/world/china/nvidia-supplier-sk-hynix-posts-record-q3-profit-meets-forecasts-2025-10-28/)）。
 :::
 
-DDR4 的停产时间表是另一层。三大原厂在 2025 年对 DDR4 发过停止接单或停产的安排，后来又有把生产延长到 2026 年的报道。日期以 TrendForce 的新闻稿为准。这里不把合约价逐季抄成表（[停产时间表](https://www.trendforce.com/news/2025/07/09/news-ddr4-exit-timeline-unfolds-for-top-memory-makers-plans-for-samsung-sk-hynix-and-micron/)、[延长生产的报道](https://www.trendforce.com/news/2025/09/02/news-samsung-sk-hynix-reportedly-delay-phase-out-to-2026-as-ddr4-becomes-unexpected-cash-cow/)）。站点里已有的叙述见 [周期史](../cycle-history)。
+DDR4 的停产时间表是另一层。三大原厂在 2025 年对 DDR4 发过停止接单或停产的安排，后来又有把生产延长到 2026 年的报道。日期以 TrendForce 的新闻稿为准。合约价不逐季抄成表（[停产时间表](https://www.trendforce.com/news/2025/07/09/news-ddr4-exit-timeline-unfolds-for-top-memory-makers-plans-for-samsung-sk-hynix-and-micron/)、[延长生产的报道](https://www.trendforce.com/news/2025/09/02/news-samsung-sk-hynix-reportedly-delay-phase-out-to-2026-as-ddr4-becomes-unexpected-cash-cow/)）。站点里已有的叙述见 [周期史](../cycle-history)。
 
 ## 因果是怎么串起来的
 
