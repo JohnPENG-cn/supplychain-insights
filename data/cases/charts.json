@@ -1,0 +1,1380 @@
+{
+  "yageo-walsin-2017-2019": {
+    "id": "yageo-walsin-2017-2019",
+    "title": "国巨、华新科月营收",
+    "caption": "国巨月营收 2018 年 8 月到 106 亿元新台币，2017 年 2 月是 22 亿元。华新科 2018 年 9 月到 63 亿元。这是公司月营收，不是 MLCC 单价。",
+    "note": "公开资讯观测站上市公司每月营业收入。原表单位是新台币千元，图上换成亿元（千元 ÷ 100,000）。2327 是国巨，2492 是华新科。取当月营收，不是累计营收。每个月对应一份 t21sc03 档案。",
+    "source": {
+      "name": "台湾证券交易所公开资讯观测站，上市公司每月营业收入（民国 106 至 108 年）",
+      "url": "https://mopsov.twse.com.tw/nas/t21/sii/t21sc03_106_1_0.html"
+    },
+    "series": [
+      {
+        "name": "国巨",
+        "axis": "left",
+        "kind": "line",
+        "unit": "新台币亿元",
+        "points": [
+          {
+            "x": "2017-01",
+            "y": 26.34,
+            "rawThousandTwd": 2634324,
+            "url": "https://mopsov.twse.com.tw/nas/t21/sii/t21sc03_106_1_0.html"
+          },
+          {
+            "x": "2017-02",
+            "y": 21.66,
+            "rawThousandTwd": 2165698,
+            "url": "https://mopsov.twse.com.tw/nas/t21/sii/t21sc03_106_2_0.html"
+          },
+          {
+            "x": "2017-03",
+            "y": 25.47,
+            "rawThousandTwd": 2546785,
+            "url": "https://mopsov.twse.com.tw/nas/t21/sii/t21sc03_106_3_0.html"
+          },
+          {
+            "x": "2017-04",
+            "y": 26.04,
+            "rawThousandTwd": 2603534,
+            "url": "https://mopsov.twse.com.tw/nas/t21/sii/t21sc03_106_4_0.html"
+          },
+          {
+            "x": "2017-05",
+            "y": 27.01,
+            "rawThousandTwd": 2701024,
+            "url": "https://mopsov.twse.com.tw/nas/t21/sii/t21sc03_106_5_0.html"
+          },
+          {
+            "x": "2017-06",
+            "y": 26.3,
+            "rawThousandTwd": 2630475,
+            "url": "https://mopsov.twse.com.tw/nas/t21/sii/t21sc03_106_6_0.html"
+          },
+          {
+            "x": "2017-07",
+            "y": 27.4,
+            "rawThousandTwd": 2740248,
+            "url": "https://mopsov.twse.com.tw/nas/t21/sii/t21sc03_106_7_0.html"
+          },
+          {
+            "x": "2017-08",
+            "y": 28.02,
+            "rawThousandTwd": 2802139,
+            "url": "https://mopsov.twse.com.tw/nas/t21/sii/t21sc03_106_8_0.html"
+          },
+          {
+            "x": "2017-09",
+            "y": 30.01,
+            "rawThousandTwd": 3001435,
+            "url": "https://mopsov.twse.com.tw/nas/t21/sii/t21sc03_106_9_0.html"
+          },
+          {
+            "x": "2017-10",
+            "y": 30.33,
+            "rawThousandTwd": 3033118,
+            "url": "https://mopsov.twse.com.tw/nas/t21/sii/t21sc03_106_10_0.html"
+          },
+          {
+            "x": "2017-11",
+            "y": 32.66,
+            "rawThousandTwd": 3266327,
+            "url": "https://mopsov.twse.com.tw/nas/t21/sii/t21sc03_106_11_0.html"
+          },
+          {
+            "x": "2017-12",
+            "y": 33.49,
+            "rawThousandTwd": 3348932,
+            "url": "https://mopsov.twse.com.tw/nas/t21/sii/t21sc03_106_12_0.html"
+          },
+          {
+            "x": "2018-01",
+            "y": 35.38,
+            "rawThousandTwd": 3538314,
+            "url": "https://mopsov.twse.com.tw/nas/t21/sii/t21sc03_107_1_0.html"
+          },
+          {
+            "x": "2018-02",
+            "y": 32.15,
+            "rawThousandTwd": 3215461,
+            "url": "https://mopsov.twse.com.tw/nas/t21/sii/t21sc03_107_2_0.html"
+          },
+          {
+            "x": "2018-03",
+            "y": 42.71,
+            "rawThousandTwd": 4271440,
+            "url": "https://mopsov.twse.com.tw/nas/t21/sii/t21sc03_107_3_0.html"
+          },
+          {
+            "x": "2018-04",
+            "y": 48.38,
+            "rawThousandTwd": 4838082,
+            "url": "https://mopsov.twse.com.tw/nas/t21/sii/t21sc03_107_4_0.html"
+          },
+          {
+            "x": "2018-05",
+            "y": 63.52,
+            "rawThousandTwd": 6351721,
+            "url": "https://mopsov.twse.com.tw/nas/t21/sii/t21sc03_107_5_0.html"
+          },
+          {
+            "x": "2018-06",
+            "y": 80.54,
+            "rawThousandTwd": 8053763,
+            "url": "https://mopsov.twse.com.tw/nas/t21/sii/t21sc03_107_6_0.html"
+          },
+          {
+            "x": "2018-07",
+            "y": 98.12,
+            "rawThousandTwd": 9811895,
+            "url": "https://mopsov.twse.com.tw/nas/t21/sii/t21sc03_107_7_0.html"
+          },
+          {
+            "x": "2018-08",
+            "y": 106.02,
+            "rawThousandTwd": 10602437,
+            "url": "https://mopsov.twse.com.tw/nas/t21/sii/t21sc03_107_8_0.html"
+          },
+          {
+            "x": "2018-09",
+            "y": 102.54,
+            "rawThousandTwd": 10253869,
+            "url": "https://mopsov.twse.com.tw/nas/t21/sii/t21sc03_107_9_0.html"
+          },
+          {
+            "x": "2018-10",
+            "y": 63.15,
+            "rawThousandTwd": 6315190,
+            "url": "https://mopsov.twse.com.tw/nas/t21/sii/t21sc03_107_10_0.html"
+          },
+          {
+            "x": "2018-11",
+            "y": 53.78,
+            "rawThousandTwd": 5377967,
+            "url": "https://mopsov.twse.com.tw/nas/t21/sii/t21sc03_107_11_0.html"
+          },
+          {
+            "x": "2018-12",
+            "y": 45.34,
+            "rawThousandTwd": 4534415,
+            "url": "https://mopsov.twse.com.tw/nas/t21/sii/t21sc03_107_12_0.html"
+          },
+          {
+            "x": "2019-01",
+            "y": 47.75,
+            "rawThousandTwd": 4774961,
+            "url": "https://mopsov.twse.com.tw/nas/t21/sii/t21sc03_108_1_0.html"
+          },
+          {
+            "x": "2019-02",
+            "y": 31.01,
+            "rawThousandTwd": 3100543,
+            "url": "https://mopsov.twse.com.tw/nas/t21/sii/t21sc03_108_2_0.html"
+          },
+          {
+            "x": "2019-03",
+            "y": 35.15,
+            "rawThousandTwd": 3515278,
+            "url": "https://mopsov.twse.com.tw/nas/t21/sii/t21sc03_108_3_0.html"
+          },
+          {
+            "x": "2019-04",
+            "y": 32.51,
+            "rawThousandTwd": 3251353,
+            "url": "https://mopsov.twse.com.tw/nas/t21/sii/t21sc03_108_4_0.html"
+          },
+          {
+            "x": "2019-05",
+            "y": 32.6,
+            "rawThousandTwd": 3260438,
+            "url": "https://mopsov.twse.com.tw/nas/t21/sii/t21sc03_108_5_0.html"
+          },
+          {
+            "x": "2019-06",
+            "y": 30.68,
+            "rawThousandTwd": 3067780,
+            "url": "https://mopsov.twse.com.tw/nas/t21/sii/t21sc03_108_6_0.html"
+          },
+          {
+            "x": "2019-07",
+            "y": 33.8,
+            "rawThousandTwd": 3380044,
+            "url": "https://mopsov.twse.com.tw/nas/t21/sii/t21sc03_108_7_0.html"
+          },
+          {
+            "x": "2019-08",
+            "y": 34.15,
+            "rawThousandTwd": 3414724,
+            "url": "https://mopsov.twse.com.tw/nas/t21/sii/t21sc03_108_8_0.html"
+          },
+          {
+            "x": "2019-09",
+            "y": 35.18,
+            "rawThousandTwd": 3517544,
+            "url": "https://mopsov.twse.com.tw/nas/t21/sii/t21sc03_108_9_0.html"
+          },
+          {
+            "x": "2019-10",
+            "y": 32.23,
+            "rawThousandTwd": 3222832,
+            "url": "https://mopsov.twse.com.tw/nas/t21/sii/t21sc03_108_10_0.html"
+          },
+          {
+            "x": "2019-11",
+            "y": 35.2,
+            "rawThousandTwd": 3520339,
+            "url": "https://mopsov.twse.com.tw/nas/t21/sii/t21sc03_108_11_0.html"
+          },
+          {
+            "x": "2019-12",
+            "y": 32.6,
+            "rawThousandTwd": 3260058,
+            "url": "https://mopsov.twse.com.tw/nas/t21/sii/t21sc03_108_12_0.html"
+          }
+        ]
+      },
+      {
+        "name": "华新科",
+        "axis": "left",
+        "kind": "line",
+        "unit": "新台币亿元",
+        "points": [
+          {
+            "x": "2017-01",
+            "y": 15.41,
+            "rawThousandTwd": 1541015,
+            "url": "https://mopsov.twse.com.tw/nas/t21/sii/t21sc03_106_1_0.html"
+          },
+          {
+            "x": "2017-02",
+            "y": 14.18,
+            "rawThousandTwd": 1418198,
+            "url": "https://mopsov.twse.com.tw/nas/t21/sii/t21sc03_106_2_0.html"
+          },
+          {
+            "x": "2017-03",
+            "y": 16.61,
+            "rawThousandTwd": 1661197,
+            "url": "https://mopsov.twse.com.tw/nas/t21/sii/t21sc03_106_3_0.html"
+          },
+          {
+            "x": "2017-04",
+            "y": 16.69,
+            "rawThousandTwd": 1669389,
+            "url": "https://mopsov.twse.com.tw/nas/t21/sii/t21sc03_106_4_0.html"
+          },
+          {
+            "x": "2017-05",
+            "y": 17.16,
+            "rawThousandTwd": 1715759,
+            "url": "https://mopsov.twse.com.tw/nas/t21/sii/t21sc03_106_5_0.html"
+          },
+          {
+            "x": "2017-06",
+            "y": 17.51,
+            "rawThousandTwd": 1750599,
+            "url": "https://mopsov.twse.com.tw/nas/t21/sii/t21sc03_106_6_0.html"
+          },
+          {
+            "x": "2017-07",
+            "y": 18.77,
+            "rawThousandTwd": 1876905,
+            "url": "https://mopsov.twse.com.tw/nas/t21/sii/t21sc03_106_7_0.html"
+          },
+          {
+            "x": "2017-08",
+            "y": 19.71,
+            "rawThousandTwd": 1970586,
+            "url": "https://mopsov.twse.com.tw/nas/t21/sii/t21sc03_106_8_0.html"
+          },
+          {
+            "x": "2017-09",
+            "y": 20.72,
+            "rawThousandTwd": 2071797,
+            "url": "https://mopsov.twse.com.tw/nas/t21/sii/t21sc03_106_9_0.html"
+          },
+          {
+            "x": "2017-10",
+            "y": 19.11,
+            "rawThousandTwd": 1911430,
+            "url": "https://mopsov.twse.com.tw/nas/t21/sii/t21sc03_106_10_0.html"
+          },
+          {
+            "x": "2017-11",
+            "y": 20.97,
+            "rawThousandTwd": 2096814,
+            "url": "https://mopsov.twse.com.tw/nas/t21/sii/t21sc03_106_11_0.html"
+          },
+          {
+            "x": "2017-12",
+            "y": 19.61,
+            "rawThousandTwd": 1961306,
+            "url": "https://mopsov.twse.com.tw/nas/t21/sii/t21sc03_106_12_0.html"
+          },
+          {
+            "x": "2018-01",
+            "y": 22.21,
+            "rawThousandTwd": 2220599,
+            "url": "https://mopsov.twse.com.tw/nas/t21/sii/t21sc03_107_1_0.html"
+          },
+          {
+            "x": "2018-02",
+            "y": 18.61,
+            "rawThousandTwd": 1861426,
+            "url": "https://mopsov.twse.com.tw/nas/t21/sii/t21sc03_107_2_0.html"
+          },
+          {
+            "x": "2018-03",
+            "y": 26.29,
+            "rawThousandTwd": 2628959,
+            "url": "https://mopsov.twse.com.tw/nas/t21/sii/t21sc03_107_3_0.html"
+          },
+          {
+            "x": "2018-04",
+            "y": 31.29,
+            "rawThousandTwd": 3129186,
+            "url": "https://mopsov.twse.com.tw/nas/t21/sii/t21sc03_107_4_0.html"
+          },
+          {
+            "x": "2018-05",
+            "y": 39.18,
+            "rawThousandTwd": 3918320,
+            "url": "https://mopsov.twse.com.tw/nas/t21/sii/t21sc03_107_5_0.html"
+          },
+          {
+            "x": "2018-06",
+            "y": 42.76,
+            "rawThousandTwd": 4275884,
+            "url": "https://mopsov.twse.com.tw/nas/t21/sii/t21sc03_107_6_0.html"
+          },
+          {
+            "x": "2018-07",
+            "y": 55.07,
+            "rawThousandTwd": 5507020,
+            "url": "https://mopsov.twse.com.tw/nas/t21/sii/t21sc03_107_7_0.html"
+          },
+          {
+            "x": "2018-08",
+            "y": 61.56,
+            "rawThousandTwd": 6155513,
+            "url": "https://mopsov.twse.com.tw/nas/t21/sii/t21sc03_107_8_0.html"
+          },
+          {
+            "x": "2018-09",
+            "y": 62.94,
+            "rawThousandTwd": 6293725,
+            "url": "https://mopsov.twse.com.tw/nas/t21/sii/t21sc03_107_9_0.html"
+          },
+          {
+            "x": "2018-10",
+            "y": 47.72,
+            "rawThousandTwd": 4772379,
+            "url": "https://mopsov.twse.com.tw/nas/t21/sii/t21sc03_107_10_0.html"
+          },
+          {
+            "x": "2018-11",
+            "y": 40.31,
+            "rawThousandTwd": 4031214,
+            "url": "https://mopsov.twse.com.tw/nas/t21/sii/t21sc03_107_11_0.html"
+          },
+          {
+            "x": "2018-12",
+            "y": 30.33,
+            "rawThousandTwd": 3032771,
+            "url": "https://mopsov.twse.com.tw/nas/t21/sii/t21sc03_107_12_0.html"
+          },
+          {
+            "x": "2019-01",
+            "y": 33.03,
+            "rawThousandTwd": 3303075,
+            "url": "https://mopsov.twse.com.tw/nas/t21/sii/t21sc03_108_1_0.html"
+          },
+          {
+            "x": "2019-02",
+            "y": 22.08,
+            "rawThousandTwd": 2208200,
+            "url": "https://mopsov.twse.com.tw/nas/t21/sii/t21sc03_108_2_0.html"
+          },
+          {
+            "x": "2019-03",
+            "y": 28.09,
+            "rawThousandTwd": 2808608,
+            "url": "https://mopsov.twse.com.tw/nas/t21/sii/t21sc03_108_3_0.html"
+          },
+          {
+            "x": "2019-04",
+            "y": 28.33,
+            "rawThousandTwd": 2832540,
+            "url": "https://mopsov.twse.com.tw/nas/t21/sii/t21sc03_108_4_0.html"
+          },
+          {
+            "x": "2019-05",
+            "y": 26.84,
+            "rawThousandTwd": 2683980,
+            "url": "https://mopsov.twse.com.tw/nas/t21/sii/t21sc03_108_5_0.html"
+          },
+          {
+            "x": "2019-06",
+            "y": 23.7,
+            "rawThousandTwd": 2370274,
+            "url": "https://mopsov.twse.com.tw/nas/t21/sii/t21sc03_108_6_0.html"
+          },
+          {
+            "x": "2019-07",
+            "y": 24.12,
+            "rawThousandTwd": 2412477,
+            "url": "https://mopsov.twse.com.tw/nas/t21/sii/t21sc03_108_7_0.html"
+          },
+          {
+            "x": "2019-08",
+            "y": 24.4,
+            "rawThousandTwd": 2440065,
+            "url": "https://mopsov.twse.com.tw/nas/t21/sii/t21sc03_108_8_0.html"
+          },
+          {
+            "x": "2019-09",
+            "y": 23.71,
+            "rawThousandTwd": 2370686,
+            "url": "https://mopsov.twse.com.tw/nas/t21/sii/t21sc03_108_9_0.html"
+          },
+          {
+            "x": "2019-10",
+            "y": 21.03,
+            "rawThousandTwd": 2103332,
+            "url": "https://mopsov.twse.com.tw/nas/t21/sii/t21sc03_108_10_0.html"
+          },
+          {
+            "x": "2019-11",
+            "y": 22.6,
+            "rawThousandTwd": 2259692,
+            "url": "https://mopsov.twse.com.tw/nas/t21/sii/t21sc03_108_11_0.html"
+          },
+          {
+            "x": "2019-12",
+            "y": 21.52,
+            "rawThousandTwd": 2151762,
+            "url": "https://mopsov.twse.com.tw/nas/t21/sii/t21sc03_108_12_0.html"
+          }
+        ]
+      }
+    ]
+  },
+  "micron-2017-2020": {
+    "id": "micron-2017-2020",
+    "title": "美光季度营收、毛利率和库存天数，2017–2020",
+    "caption": "2018 年 11 月季营收还有 79 亿美元。2019 年 5 月季降到 48 亿美元，毛利率降到四成以下，库存天数升过 140 天。这是公司总数，不是 DRAM 平均售价。",
+    "note": "营收取 RevenueFromContractWithCustomerExcludingAssessedTax，毛利取 GrossProfit，成本取 CostOfGoodsAndServicesSold，库存取 InventoryNet。只保留约 80 到 100 天的季度，同一季用最早一次申报。毛利率 = 毛利 ÷ 营收。库存天数 = 季末库存 ÷ 当季成本 × 当季天数。标成由财年轧差的点，是财年总数减去前三季；公司事实数据里这季没有单独的约 90 天记录。2019 财年四笔营收加总 234.06 亿美元，与公司披露的 234 亿美元一致。",
+    "source": {
+      "name": "美国证监会公司事实数据，Micron Technology, Inc.（CIK 0000723125）",
+      "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000723125.json"
+    },
+    "series": [
+      {
+        "name": "营收",
+        "axis": "left",
+        "kind": "bar",
+        "unit": "亿美元",
+        "points": [
+          {
+            "x": "2017-11",
+            "y": 68.03,
+            "end": "2017-11-30"
+          },
+          {
+            "x": "2018-03",
+            "y": 73.51,
+            "end": "2018-03-01"
+          },
+          {
+            "x": "2018-05",
+            "y": 77.97,
+            "end": "2018-05-31"
+          },
+          {
+            "x": "2018-08",
+            "y": 84.4,
+            "end": "2018-08-30"
+          },
+          {
+            "x": "2018-11",
+            "y": 79.13,
+            "end": "2018-11-29"
+          },
+          {
+            "x": "2019-02",
+            "y": 58.35,
+            "end": "2019-02-28"
+          },
+          {
+            "x": "2019-05",
+            "y": 47.88,
+            "end": "2019-05-30"
+          },
+          {
+            "x": "2019-08",
+            "y": 48.7,
+            "end": "2019-08-29"
+          },
+          {
+            "x": "2019-11",
+            "y": 51.44,
+            "end": "2019-11-28"
+          },
+          {
+            "x": "2020-02",
+            "y": 47.97,
+            "end": "2020-02-27"
+          },
+          {
+            "x": "2020-05",
+            "y": 54.38,
+            "end": "2020-05-28"
+          },
+          {
+            "x": "2020-09",
+            "y": 60.56,
+            "end": "2020-09-03"
+          }
+        ]
+      },
+      {
+        "name": "毛利率",
+        "axis": "right",
+        "kind": "line",
+        "unit": "%",
+        "points": [
+          {
+            "x": "2017-11",
+            "y": 55.1,
+            "end": "2017-11-30"
+          },
+          {
+            "x": "2018-03",
+            "y": 58.1,
+            "end": "2018-03-01"
+          },
+          {
+            "x": "2018-05",
+            "y": 60.6,
+            "end": "2018-05-31"
+          },
+          {
+            "x": "2018-08",
+            "y": 61.0,
+            "end": "2018-08-30"
+          },
+          {
+            "x": "2018-11",
+            "y": 58.3,
+            "end": "2018-11-29"
+          },
+          {
+            "x": "2019-02",
+            "y": 49.1,
+            "end": "2019-02-28"
+          },
+          {
+            "x": "2019-05",
+            "y": 38.2,
+            "end": "2019-05-30"
+          },
+          {
+            "x": "2019-08",
+            "y": 28.6,
+            "end": "2019-08-29"
+          },
+          {
+            "x": "2019-11",
+            "y": 26.6,
+            "end": "2019-11-28"
+          },
+          {
+            "x": "2020-02",
+            "y": 28.2,
+            "end": "2020-02-27"
+          },
+          {
+            "x": "2020-05",
+            "y": 32.4,
+            "end": "2020-05-28"
+          },
+          {
+            "x": "2020-09",
+            "y": 34.1,
+            "end": "2020-09-03"
+          }
+        ]
+      },
+      {
+        "name": "库存天数",
+        "axis": "left",
+        "kind": "line",
+        "unit": "天",
+        "panel": "days",
+        "points": [
+          {
+            "x": "2017-11",
+            "y": 93.1,
+            "end": "2017-11-30"
+          },
+          {
+            "x": "2018-03",
+            "y": 93.0,
+            "end": "2018-03-01"
+          },
+          {
+            "x": "2018-05",
+            "y": 98.6,
+            "end": "2018-05-31"
+          },
+          {
+            "x": "2018-08",
+            "y": 98.4,
+            "end": "2018-08-30",
+            "derived": true
+          },
+          {
+            "x": "2018-11",
+            "y": 105.8,
+            "end": "2018-11-29"
+          },
+          {
+            "x": "2019-02",
+            "y": 133.0,
+            "end": "2019-02-28"
+          },
+          {
+            "x": "2019-05",
+            "y": 149.1,
+            "end": "2019-05-30"
+          },
+          {
+            "x": "2019-08",
+            "y": 132.6,
+            "end": "2019-08-29",
+            "derived": true
+          },
+          {
+            "x": "2019-11",
+            "y": 117.8,
+            "end": "2019-11-28"
+          },
+          {
+            "x": "2020-02",
+            "y": 136.2,
+            "end": "2020-02-27"
+          },
+          {
+            "x": "2020-05",
+            "y": 132.4,
+            "end": "2020-05-28"
+          },
+          {
+            "x": "2020-09",
+            "y": 136.4,
+            "end": "2020-09-03",
+            "derived": true
+          }
+        ]
+      }
+    ]
+  },
+  "micron-2021-2024": {
+    "id": "micron-2021-2024",
+    "title": "美光季度营收、毛利率和库存天数，2021–2024",
+    "caption": "2022 年 6 月季营收还有 86 亿美元。2022 年 12 月季掉到 41 亿美元，库存天数升到 236 天。下一季毛利率为负。这是公司总数，不是合约价。",
+    "note": "营收取 RevenueFromContractWithCustomerExcludingAssessedTax，毛利取 GrossProfit，成本取 CostOfGoodsAndServicesSold，库存取 InventoryNet。只保留约 80 到 100 天的季度，同一季用最早一次申报。毛利率 = 毛利 ÷ 营收。库存天数 = 季末库存 ÷ 当季成本 × 当季天数。标成由财年轧差的点，是财年总数减去前三季；公司事实数据里这季没有单独的约 90 天记录。2019 财年四笔营收加总 234.06 亿美元，与公司披露的 234 亿美元一致。",
+    "source": {
+      "name": "美国证监会公司事实数据，Micron Technology, Inc.（CIK 0000723125）",
+      "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000723125.json"
+    },
+    "series": [
+      {
+        "name": "营收",
+        "axis": "left",
+        "kind": "bar",
+        "unit": "亿美元",
+        "points": [
+          {
+            "x": "2020-12",
+            "y": 57.73,
+            "end": "2020-12-03"
+          },
+          {
+            "x": "2021-03",
+            "y": 62.36,
+            "end": "2021-03-04"
+          },
+          {
+            "x": "2021-06",
+            "y": 74.22,
+            "end": "2021-06-03"
+          },
+          {
+            "x": "2021-09",
+            "y": 82.74,
+            "end": "2021-09-02",
+            "derived": true
+          },
+          {
+            "x": "2021-12",
+            "y": 76.87,
+            "end": "2021-12-02"
+          },
+          {
+            "x": "2022-03",
+            "y": 77.86,
+            "end": "2022-03-03"
+          },
+          {
+            "x": "2022-06",
+            "y": 86.42,
+            "end": "2022-06-02"
+          },
+          {
+            "x": "2022-09",
+            "y": 66.43,
+            "end": "2022-09-01",
+            "derived": true
+          },
+          {
+            "x": "2022-12",
+            "y": 40.85,
+            "end": "2022-12-01"
+          },
+          {
+            "x": "2023-03",
+            "y": 36.93,
+            "end": "2023-03-02"
+          },
+          {
+            "x": "2023-06",
+            "y": 37.52,
+            "end": "2023-06-01"
+          },
+          {
+            "x": "2023-08",
+            "y": 40.1,
+            "end": "2023-08-31",
+            "derived": true
+          },
+          {
+            "x": "2023-11",
+            "y": 47.26,
+            "end": "2023-11-30"
+          },
+          {
+            "x": "2024-02",
+            "y": 58.24,
+            "end": "2024-02-29"
+          },
+          {
+            "x": "2024-05",
+            "y": 68.11,
+            "end": "2024-05-30"
+          },
+          {
+            "x": "2024-08",
+            "y": 77.5,
+            "end": "2024-08-29",
+            "derived": true
+          }
+        ]
+      },
+      {
+        "name": "毛利率",
+        "axis": "right",
+        "kind": "line",
+        "unit": "%",
+        "points": [
+          {
+            "x": "2020-12",
+            "y": 30.1,
+            "end": "2020-12-03"
+          },
+          {
+            "x": "2021-03",
+            "y": 26.4,
+            "end": "2021-03-04"
+          },
+          {
+            "x": "2021-06",
+            "y": 42.1,
+            "end": "2021-06-03"
+          },
+          {
+            "x": "2021-09",
+            "y": 47.3,
+            "end": "2021-09-02",
+            "derived": true
+          },
+          {
+            "x": "2021-12",
+            "y": 46.4,
+            "end": "2021-12-02"
+          },
+          {
+            "x": "2022-03",
+            "y": 47.2,
+            "end": "2022-03-03"
+          },
+          {
+            "x": "2022-06",
+            "y": 46.7,
+            "end": "2022-06-02"
+          },
+          {
+            "x": "2022-09",
+            "y": 39.5,
+            "end": "2022-09-01",
+            "derived": true
+          },
+          {
+            "x": "2022-12",
+            "y": 21.9,
+            "end": "2022-12-01"
+          },
+          {
+            "x": "2023-03",
+            "y": -32.7,
+            "end": "2023-03-02"
+          },
+          {
+            "x": "2023-06",
+            "y": -17.8,
+            "end": "2023-06-01"
+          },
+          {
+            "x": "2023-08",
+            "y": -10.8,
+            "end": "2023-08-31",
+            "derived": true
+          },
+          {
+            "x": "2023-11",
+            "y": -0.7,
+            "end": "2023-11-30"
+          },
+          {
+            "x": "2024-02",
+            "y": 18.5,
+            "end": "2024-02-29"
+          },
+          {
+            "x": "2024-05",
+            "y": 26.9,
+            "end": "2024-05-30"
+          },
+          {
+            "x": "2024-08",
+            "y": 35.3,
+            "end": "2024-08-29",
+            "derived": true
+          }
+        ]
+      },
+      {
+        "name": "库存天数",
+        "axis": "left",
+        "kind": "line",
+        "unit": "天",
+        "panel": "days",
+        "points": [
+          {
+            "x": "2020-12",
+            "y": 123.1,
+            "end": "2020-12-03"
+          },
+          {
+            "x": "2021-03",
+            "y": 93.1,
+            "end": "2021-03-04"
+          },
+          {
+            "x": "2021-06",
+            "y": 95.0,
+            "end": "2021-06-03"
+          },
+          {
+            "x": "2021-09",
+            "y": 93.6,
+            "end": "2021-09-02",
+            "derived": true
+          },
+          {
+            "x": "2021-12",
+            "y": 105.4,
+            "end": "2021-12-02"
+          },
+          {
+            "x": "2022-03",
+            "y": 117.9,
+            "end": "2022-03-03"
+          },
+          {
+            "x": "2022-06",
+            "y": 110.0,
+            "end": "2022-06-02"
+          },
+          {
+            "x": "2022-09",
+            "y": 150.8,
+            "end": "2022-09-01",
+            "derived": true
+          },
+          {
+            "x": "2022-12",
+            "y": 235.7,
+            "end": "2022-12-01"
+          },
+          {
+            "x": "2023-03",
+            "y": 149.3,
+            "end": "2023-03-02"
+          },
+          {
+            "x": "2023-06",
+            "y": 167.7,
+            "end": "2023-06-01"
+          },
+          {
+            "x": "2023-08",
+            "y": 171.7,
+            "end": "2023-08-31",
+            "derived": true
+          },
+          {
+            "x": "2023-11",
+            "y": 156.4,
+            "end": "2023-11-30"
+          },
+          {
+            "x": "2024-02",
+            "y": 160.1,
+            "end": "2024-02-29"
+          },
+          {
+            "x": "2024-05",
+            "y": 153.9,
+            "end": "2024-05-30"
+          },
+          {
+            "x": "2024-08",
+            "y": 161.1,
+            "end": "2024-08-29",
+            "derived": true
+          }
+        ]
+      }
+    ]
+  },
+  "micron-hbm-era": {
+    "id": "micron-hbm-era",
+    "title": "美光季度营收、毛利率和库存天数，2023–2025",
+    "caption": "2023 年 6 月季营收大约 38 亿美元。2025 年 11 月季升到 136 亿美元。这是美光公司营收，不是 HBM 单价，也不包含 SK 海力士。",
+    "note": "营收取 RevenueFromContractWithCustomerExcludingAssessedTax，毛利取 GrossProfit，成本取 CostOfGoodsAndServicesSold，库存取 InventoryNet。只保留约 80 到 100 天的季度，同一季用最早一次申报。毛利率 = 毛利 ÷ 营收。库存天数 = 季末库存 ÷ 当季成本 × 当季天数。标成由财年轧差的点，是财年总数减去前三季；公司事实数据里这季没有单独的约 90 天记录。2019 财年四笔营收加总 234.06 亿美元，与公司披露的 234 亿美元一致。",
+    "source": {
+      "name": "美国证监会公司事实数据，Micron Technology, Inc.（CIK 0000723125）",
+      "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000723125.json"
+    },
+    "series": [
+      {
+        "name": "营收",
+        "axis": "left",
+        "kind": "bar",
+        "unit": "亿美元",
+        "points": [
+          {
+            "x": "2023-06",
+            "y": 37.52,
+            "end": "2023-06-01"
+          },
+          {
+            "x": "2023-08",
+            "y": 40.1,
+            "end": "2023-08-31",
+            "derived": true
+          },
+          {
+            "x": "2023-11",
+            "y": 47.26,
+            "end": "2023-11-30"
+          },
+          {
+            "x": "2024-02",
+            "y": 58.24,
+            "end": "2024-02-29"
+          },
+          {
+            "x": "2024-05",
+            "y": 68.11,
+            "end": "2024-05-30"
+          },
+          {
+            "x": "2024-08",
+            "y": 77.5,
+            "end": "2024-08-29",
+            "derived": true
+          },
+          {
+            "x": "2024-11",
+            "y": 87.09,
+            "end": "2024-11-28"
+          },
+          {
+            "x": "2025-02",
+            "y": 80.53,
+            "end": "2025-02-27"
+          },
+          {
+            "x": "2025-05",
+            "y": 93.01,
+            "end": "2025-05-29"
+          },
+          {
+            "x": "2025-08",
+            "y": 113.15,
+            "end": "2025-08-28",
+            "derived": true
+          },
+          {
+            "x": "2025-11",
+            "y": 136.43,
+            "end": "2025-11-27"
+          }
+        ]
+      },
+      {
+        "name": "毛利率",
+        "axis": "right",
+        "kind": "line",
+        "unit": "%",
+        "points": [
+          {
+            "x": "2023-06",
+            "y": -17.8,
+            "end": "2023-06-01"
+          },
+          {
+            "x": "2023-08",
+            "y": -10.8,
+            "end": "2023-08-31",
+            "derived": true
+          },
+          {
+            "x": "2023-11",
+            "y": -0.7,
+            "end": "2023-11-30"
+          },
+          {
+            "x": "2024-02",
+            "y": 18.5,
+            "end": "2024-02-29"
+          },
+          {
+            "x": "2024-05",
+            "y": 26.9,
+            "end": "2024-05-30"
+          },
+          {
+            "x": "2024-08",
+            "y": 35.3,
+            "end": "2024-08-29",
+            "derived": true
+          },
+          {
+            "x": "2024-11",
+            "y": 38.4,
+            "end": "2024-11-28"
+          },
+          {
+            "x": "2025-02",
+            "y": 36.8,
+            "end": "2025-02-27"
+          },
+          {
+            "x": "2025-05",
+            "y": 37.7,
+            "end": "2025-05-29"
+          },
+          {
+            "x": "2025-08",
+            "y": 44.7,
+            "end": "2025-08-28",
+            "derived": true
+          },
+          {
+            "x": "2025-11",
+            "y": 56.0,
+            "end": "2025-11-27"
+          }
+        ]
+      },
+      {
+        "name": "库存天数",
+        "axis": "left",
+        "kind": "line",
+        "unit": "天",
+        "panel": "days",
+        "points": [
+          {
+            "x": "2023-06",
+            "y": 167.7,
+            "end": "2023-06-01"
+          },
+          {
+            "x": "2023-08",
+            "y": 171.7,
+            "end": "2023-08-31",
+            "derived": true
+          },
+          {
+            "x": "2023-11",
+            "y": 156.4,
+            "end": "2023-11-30"
+          },
+          {
+            "x": "2024-02",
+            "y": 160.1,
+            "end": "2024-02-29"
+          },
+          {
+            "x": "2024-05",
+            "y": 153.9,
+            "end": "2024-05-30"
+          },
+          {
+            "x": "2024-08",
+            "y": 161.1,
+            "end": "2024-08-29",
+            "derived": true
+          },
+          {
+            "x": "2024-11",
+            "y": 146.1,
+            "end": "2024-11-28"
+          },
+          {
+            "x": "2025-02",
+            "y": 159.3,
+            "end": "2025-02-27"
+          },
+          {
+            "x": "2025-05",
+            "y": 135.6,
+            "end": "2025-05-29"
+          },
+          {
+            "x": "2025-08",
+            "y": 121.4,
+            "end": "2025-08-28",
+            "derived": true
+          },
+          {
+            "x": "2025-11",
+            "y": 123.1,
+            "end": "2025-11-27"
+          }
+        ]
+      }
+    ]
+  },
+  "wd-seagate-2010-2013": {
+    "id": "wd-seagate-2010-2013",
+    "title": "西部数据、希捷季度营收",
+    "caption": "西部数据 2011 年 12 月季营收降到 20 亿美元以下，前一季是 27 亿美元。希捷同一季是 32 亿美元。这是公司营收，不是硬盘单价，也不是出货台数。",
+    "note": "西部数据取 SalesRevenueGoodsNet，申报主体 Western Digital Corporation（CIK 0000106040）。希捷取 SalesRevenueNet，申报主体 Seagate Technology Holdings plc（CIK 0001137789）。约 80 到 100 天的季度，同一季用最早一次申报。希捷有的第四季没有单独一条约 90 天的记录，图上标成由财年轧差，即财年营收减去前三季。",
+    "source": {
+      "name": "美国证监会公司事实数据：西部数据",
+      "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000106040.json"
+    },
+    "sources": [
+      {
+        "name": "西部数据公司事实数据",
+        "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000106040.json"
+      },
+      {
+        "name": "希捷公司事实数据",
+        "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001137789.json"
+      }
+    ],
+    "series": [
+      {
+        "name": "西部数据",
+        "axis": "left",
+        "kind": "line",
+        "unit": "亿美元",
+        "points": [
+          {
+            "x": "2010-07",
+            "y": 23.82,
+            "rawUsd": 2382000000,
+            "end": "2010-07-02"
+          },
+          {
+            "x": "2010-10",
+            "y": 23.96,
+            "rawUsd": 2396000000,
+            "end": "2010-10-01"
+          },
+          {
+            "x": "2010-12",
+            "y": 24.75,
+            "rawUsd": 2475000000,
+            "end": "2010-12-31"
+          },
+          {
+            "x": "2011-04",
+            "y": 22.52,
+            "rawUsd": 2252000000,
+            "end": "2011-04-01"
+          },
+          {
+            "x": "2011-07",
+            "y": 24.03,
+            "rawUsd": 2403000000,
+            "end": "2011-07-01"
+          },
+          {
+            "x": "2011-09",
+            "y": 26.94,
+            "rawUsd": 2694000000,
+            "end": "2011-09-30"
+          },
+          {
+            "x": "2011-12",
+            "y": 19.95,
+            "rawUsd": 1995000000,
+            "end": "2011-12-30"
+          },
+          {
+            "x": "2012-03",
+            "y": 30.35,
+            "rawUsd": 3035000000,
+            "end": "2012-03-30"
+          },
+          {
+            "x": "2012-06",
+            "y": 47.54,
+            "rawUsd": 4754000000,
+            "end": "2012-06-29"
+          },
+          {
+            "x": "2012-09",
+            "y": 40.35,
+            "rawUsd": 4035000000,
+            "end": "2012-09-28"
+          },
+          {
+            "x": "2012-12",
+            "y": 38.24,
+            "rawUsd": 3824000000,
+            "end": "2012-12-28"
+          },
+          {
+            "x": "2013-03",
+            "y": 37.64,
+            "rawUsd": 3764000000,
+            "end": "2013-03-29"
+          },
+          {
+            "x": "2013-06",
+            "y": 37.28,
+            "rawUsd": 3728000000,
+            "end": "2013-06-28"
+          }
+        ]
+      },
+      {
+        "name": "希捷",
+        "axis": "left",
+        "kind": "line",
+        "unit": "亿美元",
+        "points": [
+          {
+            "x": "2010-07",
+            "y": 26.56,
+            "rawUsd": 2656000000,
+            "end": "2010-07-02",
+            "derived": true
+          },
+          {
+            "x": "2010-10",
+            "y": 26.97,
+            "rawUsd": 2697000000,
+            "end": "2010-10-01"
+          },
+          {
+            "x": "2010-12",
+            "y": 27.19,
+            "rawUsd": 2719000000,
+            "end": "2010-12-31"
+          },
+          {
+            "x": "2011-04",
+            "y": 26.95,
+            "rawUsd": 2695000000,
+            "end": "2011-04-01"
+          },
+          {
+            "x": "2011-07",
+            "y": 28.6,
+            "rawUsd": 2860000000,
+            "end": "2011-07-01",
+            "derived": true
+          },
+          {
+            "x": "2011-09",
+            "y": 28.11,
+            "rawUsd": 2811000000,
+            "end": "2011-09-30"
+          },
+          {
+            "x": "2011-12",
+            "y": 31.95,
+            "rawUsd": 3195000000,
+            "end": "2011-12-30"
+          },
+          {
+            "x": "2012-03",
+            "y": 44.5,
+            "rawUsd": 4450000000,
+            "end": "2012-03-30"
+          },
+          {
+            "x": "2012-06",
+            "y": 44.83,
+            "rawUsd": 4483000000,
+            "end": "2012-06-29",
+            "derived": true
+          },
+          {
+            "x": "2012-09",
+            "y": 37.32,
+            "rawUsd": 3732000000,
+            "end": "2012-09-28"
+          },
+          {
+            "x": "2012-12",
+            "y": 36.68,
+            "rawUsd": 3668000000,
+            "end": "2012-12-28"
+          },
+          {
+            "x": "2013-03",
+            "y": 35.26,
+            "rawUsd": 3526000000,
+            "end": "2013-03-29"
+          },
+          {
+            "x": "2013-06",
+            "y": 34.25,
+            "rawUsd": 3425000000,
+            "end": "2013-06-28",
+            "derived": true
+          }
+        ]
+      }
+    ]
+  }
+}
