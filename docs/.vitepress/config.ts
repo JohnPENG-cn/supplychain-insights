@@ -53,8 +53,9 @@ function labeledContainer(
   })
 }
 
-const electronics = [
+const electronicsCore = [
   { text: '这一类写什么', link: '/categories/electronics/' },
+  { text: '怎么读周期', link: '/categories/electronics/how-to-read-the-cycle' },
   { text: '产业链一张图看懂', link: '/categories/electronics/chain-map' },
   { text: '周期史：缺货时采购怎么吃亏', link: '/categories/electronics/cycle-history' },
   { text: '价格和交期为什么会变', link: '/categories/electronics/price-and-leadtime' },
@@ -64,6 +65,32 @@ const electronics = [
   { text: '2026 年 10 月看点', link: '/categories/electronics/snapshot-2026-10' },
   { text: '名词就这一句话', link: '/categories/electronics/glossary' },
   { text: '这些地方先别当定论', link: '/categories/electronics/unknowns' }
+]
+
+const electronicsParts = [
+  { text: '存储 DRAM / NAND', link: '/categories/electronics/parts/memory' },
+  { text: 'MLCC 和被动件', link: '/categories/electronics/parts/mlcc-passives' },
+  { text: 'MCU 和通用芯片', link: '/categories/electronics/parts/mcu' },
+  { text: '模拟和电源', link: '/categories/electronics/parts/analog-power' },
+  { text: '分立器件', link: '/categories/electronics/parts/discretes' },
+  { text: '连接器', link: '/categories/electronics/parts/connectors' },
+  { text: '晶振和振荡器', link: '/categories/electronics/parts/crystals' },
+  { text: 'PCB 和覆铜板', link: '/categories/electronics/parts/pcb-ccl' },
+  { text: '显示', link: '/categories/electronics/parts/displays' }
+]
+
+const electronicsCases = [
+  { text: '案例目录', link: '/categories/electronics/cases/' },
+  { text: '2017–2018 MLCC 缺货', link: '/categories/electronics/cases/mlcc-2017-2018' },
+  { text: '2018–2019 存储大跌', link: '/categories/electronics/cases/dram-2018-2019' },
+  { text: '2021–2022 缺芯', link: '/categories/electronics/cases/shortage-2021' },
+  { text: '2022–2023 库存', link: '/categories/electronics/cases/glut-2022-2023' },
+  { text: '2011 泰国洪水和硬盘', link: '/categories/electronics/cases/thailand-hdd-2011' },
+  { text: '2011 东日本大地震', link: '/categories/electronics/cases/tohoku-2011' },
+  { text: '安世 / 闻泰 2024–2025', link: '/categories/electronics/cases/nexperia' },
+  { text: 'HBM 挤占 DDR', link: '/categories/electronics/cases/hbm-ddr' },
+  { text: '钽电容和钽粉长约', link: '/categories/electronics/cases/tantalum' },
+  { text: '2012 年假货报告', link: '/categories/electronics/cases/counterfeit-2012' }
 ]
 
 export default defineConfig({
@@ -107,7 +134,16 @@ export default defineConfig({
     outline: { label: '本页目录', level: [2, 3] },
     nav: [
       { text: '首页', link: '/' },
-      { text: '品类采购经验', link: '/categories/' },
+      {
+        text: '品类采购经验',
+        link: '/categories/',
+        items: [
+          { text: '品类目录', link: '/categories/' },
+          { text: '电子料总览', link: '/categories/electronics/' },
+          { text: '怎么读周期', link: '/categories/electronics/how-to-read-the-cycle' },
+          { text: '历史案例', link: '/categories/electronics/cases/' }
+        ]
+      },
       { text: '采购方法论', link: '/methods/' },
       { text: '产业链看板', link: '/dashboard/' }
     ],
@@ -116,7 +152,9 @@ export default defineConfig({
         text: '品类采购经验',
         items: [
           { text: '品类目录', link: '/categories/' },
-          { text: '电子元器件与芯片', collapsed: false, items: electronics },
+          { text: '电子元器件与芯片', collapsed: false, items: electronicsCore },
+          { text: '按料拆开', collapsed: false, items: electronicsParts },
+          { text: '历史案例', collapsed: true, items: electronicsCases },
           { text: '钢材与金属件（即将上线）', link: '/categories/steel/' },
           { text: '塑料与化工原料（即将上线）', link: '/categories/plastics/' },
           { text: '机电件（即将上线）', link: '/categories/electromechanical/' }
