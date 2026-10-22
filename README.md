@@ -38,13 +38,13 @@ npm run build
    - 采购方法：`docs/methods/`
    - 新的品类：先建 `docs/categories/品类英文目录/index.md`，标题下加上「即将上线」。没有真实内容之前，不要写行情和案例。
 2. 新建文件，文件名用英文小写和短横线，例如 `safety-stock.md`。目录页用 `index.md`。
-3. 文首写清标签。电子类文章可以引用现成的说明：
+3.    文首写清标签。电子类文章可以引用现成的说明：
 
    ```md
    <!--@include: @/snippets/electronics-note.md-->
    ```
 
-   方法类用 `@/snippets/methods-note.md`。
+   页内有 `::: scenario` 时，改用 `@/snippets/electronics-scenario-note.md`，说明示例场景是虚构的。历史案例用 `@/snippets/case-note.md`，不要写成虚构。方法类用 `@/snippets/methods-note.md`。
 4. 用大白话写，让只读一遍的人能懂。术语第一次出现时用一句话解释，例如：EOL（原厂宣布这颗料以后不生产了）。
 5. 有公开数字，写成事实并给出处链接，数字以原文为准。经验推断用 `::: judgment`。没核实的用 `::: unknown`。虚构例子必须放进 `::: scenario`，不要起一个像真公司的名字，也不要把假设数字写成市场行情。
 6. 打开 `docs/.vitepress/config.ts`，把标题和链接加进 `sidebar`。链接不要写 `.html`。

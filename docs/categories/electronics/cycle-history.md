@@ -5,7 +5,7 @@ description: 2001 到 2026，几轮缺货和暴跌里，采购重复下单、忽
 
 # 周期史：每次缺芯潮发生了什么、采购怎么吃亏
 
-<!--@include: @/snippets/electronics-note.md-->
+<!--@include: @/snippets/electronics-scenario-note.md-->
 
 半导体大约几年就走一轮。缺的时候大家抢，松的时候库存砸在自己手里。下面每一段都先写公开报道里发生了什么，再写采购可以记住的教训。教训是判断。数字是事实的，都带了链接。
 

@@ -5,7 +5,7 @@ description: 按周期阶段决定保供还是压价，以及长约、安全库�
 
 # 实战打法：锁价、备货、EOL、国产替代、防假货
 
-<!--@include: @/snippets/electronics-note.md-->
+<!--@include: @/snippets/electronics-scenario-note.md-->
 
 做法跟着周期走。同一句话，在去库存的时候是对的，在缺货的时候会把线停掉。先认阶段，再选动作。阶段怎么认，见 [怎么读周期](./how-to-read-the-cycle)。
 

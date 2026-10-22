@@ -5,7 +5,7 @@ description: 美光说明 HBM 更吃晶圆，SK 海力士称 2026 年产出已�
 
 # 2024–2026：HBM 吃掉晶圆以后，DDR 也会紧
 
-<!--@include: @/snippets/electronics-note.md-->
+<!--@include: @/snippets/case-note.md-->
 
 HBM 是叠起来给 AI 用的高带宽内存。它和 DDR4、DDR5 抢的是同一类晶圆。2024 年 6 月 26 日，美光说同样位数的 HBM3E 大约要 DDR5 三倍晶圆，而且 2024 年的 HBM 已经售罄。2025 年 7 月 9 日，DDR4 停产时间表才见报。2025 年 10 月，SK 海力士说 2026 年的产出已经卖完。
 

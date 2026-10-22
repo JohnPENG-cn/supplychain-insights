@@ -5,7 +5,7 @@ description: 跨子类看缺货和跌价：领先信号是什么，MLCC 公开�
 
 # 怎么读电子料的周期
 
-<!--@include: @/snippets/electronics-note.md-->
+<!--@include: @/snippets/electronics-scenario-note.md-->
 
 电子料不是一根曲线。存储的价格可以一年翻几番再腰斩，MLCC 可能几分钱却让整条线停工，MCU 换一家要改软件，分立器件还会被一纸出口通知卡住。读周期只为了回答一句：这个月该保供，还是该压价。
 
