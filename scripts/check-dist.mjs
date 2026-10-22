@@ -25,6 +25,27 @@ const pages = [
   'categories/electronics/snapshot-2026-10.html',
   'categories/electronics/glossary.html',
   'categories/electronics/unknowns.html',
+  'categories/electronics/how-to-read-the-cycle.html',
+  'categories/electronics/parts/memory.html',
+  'categories/electronics/parts/mlcc-passives.html',
+  'categories/electronics/parts/mcu.html',
+  'categories/electronics/parts/analog-power.html',
+  'categories/electronics/parts/discretes.html',
+  'categories/electronics/parts/connectors.html',
+  'categories/electronics/parts/crystals.html',
+  'categories/electronics/parts/pcb-ccl.html',
+  'categories/electronics/parts/displays.html',
+  'categories/electronics/cases/index.html',
+  'categories/electronics/cases/mlcc-2017-2018.html',
+  'categories/electronics/cases/dram-2018-2019.html',
+  'categories/electronics/cases/shortage-2021.html',
+  'categories/electronics/cases/glut-2022-2023.html',
+  'categories/electronics/cases/thailand-hdd-2011.html',
+  'categories/electronics/cases/tohoku-2011.html',
+  'categories/electronics/cases/nexperia.html',
+  'categories/electronics/cases/hbm-ddr.html',
+  'categories/electronics/cases/tantalum.html',
+  'categories/electronics/cases/counterfeit-2012.html',
   'categories/steel/index.html',
   'categories/plastics/index.html',
   'categories/electromechanical/index.html',
@@ -68,6 +89,21 @@ for (const text of ['整体判断', '拐点哨兵', '判断', '数据与版权',
 }
 if (/DDR4|DRAMeXchange|30~36|30~52/.test(mlcc)) {
   console.error('MLCC 页混入了存储行情或交期原表')
+  process.exit(1)
+}
+
+const cycle = read('categories/electronics/how-to-read-the-cycle.html')
+if (!cycle.includes('/dashboard/mlcc/')) {
+  console.error('怎么读周期没有链到 MLCC 看板')
+  process.exit(1)
+}
+if (/dashboard\/memory|存储看板|dram-dashboard|memory-dashboard/.test(html)) {
+  console.error('站点露出了存储看板的路径或名称')
+  process.exit(1)
+}
+const memoryCase = read('categories/electronics/cases/hbm-ddr.html')
+if (memoryCase.includes('45%–50%') || memoryCase.includes('93%–98%')) {
+  console.error('HBM 案例抄进了合约价逐季格子')
   process.exit(1)
 }
 

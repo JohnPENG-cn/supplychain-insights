@@ -5,6 +5,8 @@ description: 2026 年 10 月 20 日那一周的电子元器件记录。不会自
 
 # 2026 年 10 月看点
 
+这一页是底稿那一周的记录。按料怎么买、案例怎么用，见 [这一类的目录](./) 和 [怎么读周期](./how-to-read-the-cycle)。
+
 <span class="status status-soon">记录，不会自动更新</span>
 
 <!--@include: @/snippets/electronics-note.md-->

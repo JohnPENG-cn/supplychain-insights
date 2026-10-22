@@ -11,6 +11,8 @@ description: 2001 到 2026，几轮缺货和暴跌里，采购重复下单、忽
 
 总的教训就一句：缺货时你下出去的订单，不等于客户的真需求。
 
+每一段下面若已有单独案例，只保留教训和必要的数字，细节和出处到案例页，避免两处各写一套。怎么把这些事放进每周看盘，见 [怎么读周期](./how-to-read-the-cycle)。
+
 ## 先有一张年表
 
 | 时期 | 发生了什么 | 有来源的数字 | 采购上的教训（判断） |
@@ -22,7 +24,7 @@ description: 2001 到 2026，几轮缺货和暴跌里，采购重复下单、忽
 | 2020–2022 | 疫情缺芯 | 2021 年有报道称 MCU 平均交期约 26.5 周 | 交期见顶，往往离周期见顶不远 |
 | 2023 | 去库存 | 全球销售额 5268 亿美元，跌 8.2% | 原厂求单，适合谈价、做替代、清不可退货的尾巴 |
 | 2025 | DDR4 停产潮，后来又延长 | 消费级 DDR4 合约价 2025 年第三季预计涨 40%–45% | 停产通知经常就是涨价通知 |
-| 2025 年底–2026 | 存储超级周期，再扩散到其他料 | DDR4 8Gb 现货从 2025 年 4 月约 1.72 美元到 2026-10-20 的 45.93 美元 | 涨得慢了，还不等于见顶 |
+| 2025 年底–2026 | 存储超级周期，再扩散到其他料 | TrendForce 多次发布合约价仍在上涨的新闻，逐季格子不抄进本表 | 涨得慢了，还不等于见顶 |
 
 ## 2001：重复下单把跌幅放大了
 
@@ -54,10 +56,10 @@ WSTS 在 2009 年春季预测全年市场下跌 21.6%（[WSTS](https://www.wsts.
 
 ## 2018：一颗电容停一条线
 
-日系 MLCC 厂把产能转向车规和高端，手机用量又上来。普通规格变得很难买。
+日系 MLCC 厂把产能转向车规和高端，手机用量又上来。普通规格变得很难买。涨价次数、库存天数、交期和 2018 年底渠道库存堆到半年以上，分出处写在 [MLCC 案例](./cases/mlcc-2017-2018)。6 月 12 日那篇台北时报写的是需求大约为出货的两倍、库存大约 35 天；四次涨价是 2017 年 11 月 20 日的另一篇，不要算进同一篇文章。
 
 ::: fact
-台北时报 2018 年报道，需求大约是出货的两倍，国巨库存只剩大约 35 天；国巨 2017 年涨价 4 次，2018 年初再涨约 15% 到 20%（[Taipei Times](https://www.taipeitimes.com/News/biz/archives/2018/06/12/2003694718)）。Avnet Abacus 的回顾写到，交期普遍约 20 周，部分新单报到约 50 周（[Avnet Abacus](https://my.avnet.com/abacus/solutions/technologies/passive/capacitors/the-global-mlcc-shortage/)）。
+Avnet Abacus 的回顾写到，交期普遍约 20 周，部分新单报到约 50 周（[Avnet Abacus](https://my.avnet.com/abacus/solutions/technologies/passive/capacitors/the-global-mlcc-shortage/)）。
 :::
 
 判断：低值料也要有第二来源，规格上留退路，比如封装从 0402 放到 0603，或者容值和耐压留一个能替代的组合。这些要在不缺的时候让研发写进 BOM，缺了再改板，产线等不起。
@@ -72,7 +74,7 @@ WSTS 在 2009 年春季预测全年市场下跌 21.6%（[WSTS](https://www.wsts.
 WSTS 2019 年春季预测全年市场下跌 12.1%（[WSTS](https://www.wsts.org/76/103/WSTS-Semiconductor-Market-Forecast-Spring-2019)）。
 :::
 
-判断：存储最像大宗商品。价格跌的时候谈 6 到 12 个月的量价，比在 2026 年这种上涨段把价格签死要安全。上涨段怎么谈，见 [实战打法](./playbook)。
+判断：存储最像大宗商品。价格跌的时候谈 6 到 12 个月的量价，比在上涨段把价格签死要安全。美光自己的财年跌幅和 WSTS 秋季的行业数字，见 [2019 案例](./cases/dram-2018-2019)。上涨段怎么谈，见 [实战打法](./playbook) 和 [存储](./parts/memory)。
 
 ## 2021：交期长到半年，现货可以贵到离谱
 
@@ -82,7 +84,7 @@ WSTS 2019 年春季预测全年市场下跌 12.1%（[WSTS](https://www.wsts.org/
 Electronics Weekly 在 2021 年 8 月报道，MCU 平均交期约 26.5 周，部分料号 52 周（[Electronics Weekly](https://www.electronicsweekly.com/news/business/worst-chip-shortage-ever-2021-08/)）。有媒体转述 Susquehanna 的统计，平均交期在 2022 年 6 月大约 27 周见顶（[autoevolution 的转述](https://www.autoevolution.com/news/microchip-shortage-peaked-in-june-with-delivery-times-showing-a-modest-relief-192990.html)）。美联储后来有文章专门讲这轮缺芯和汽车减产（[美联储，2026-09-28 的笔记](https://www.federalreserve.gov/econres/notes/feds-notes/when-the-chips-went-down-motor-vehicle-production-and-the-2021-2022-semiconductor-shortages-accessible-20260928.htm)）。
 :::
 
-判断：现货价格可以到正常授权价的很多倍。交期不再变长的那一段，往往就是周期接近顶部的时候。交期是同步或者稍微领先的指标，不是马后炮。
+判断：现货价格可以到正常授权价的很多倍。交期不再变长的那一段，往往就是周期接近顶部的时候。交期是同步或者稍微领先的指标，不是马后炮。那珂火灾、德州停电和延冈火灾分开写在 [2021 年案例](./cases/shortage-2021)，不要把上面的行业周数算成某一场火单独造成的。
 
 ## 2023：去库存，是谈价和做替代的窗口
 
@@ -92,7 +94,7 @@ Electronics Weekly 在 2021 年 8 月报道，MCU 平均交期约 26.5 周，部
 SIA 统计，2023 年全球销售额 5268 亿美元，比 2022 年下降 8.2%（[SIA](https://www.semiconductors.org/global-semiconductor-sales-decrease-8-2-in-2023-market-rebounds-late-in-year/)）。2024 年回到 6276 亿美元，增长 19.1%（[SIA](https://www.semiconductors.org/global-semiconductor-sales-increase-19-1-in-2024-double-digit-growth-projected-in-2025/)）。
 :::
 
-判断：这种时候原厂和代理都在找订单。适合压价、把国产第二来源导进 BOM、把 NCNR（下了就不能取消、也不能退货的订单）的尾巴谈掉，并降低安全库存。窗口会关。2024 年市场已经反弹。
+判断：这种时候原厂和代理都在找订单。适合压价、把国产第二来源导进 BOM、把 NCNR（下了就不能取消、也不能退货的订单）的尾巴谈掉，并降低安全库存。窗口会关。2024 年市场已经反弹。三星和美光当时怎么减产，见 [2023 案例](./cases/glut-2022-2023)。
 
 ## 2025：停产通知发出来，老料反而更贵
 
@@ -110,13 +112,13 @@ TrendForce 整理的时间表：三星原计划 2025 年 6 月停止接 DDR4 订
 
 ## 2026：存储领涨，然后其他料跟着涨
 
-AI 服务器占住先进产能，常规内存的合约价连续大涨。
+AI 服务器占住先进产能，常规内存跟着紧。HBM 为什么更吃晶圆、原厂怎么说售罄，见 [HBM 案例](./cases/hbm-ddr)。
 
 ::: fact
-常规 DRAM 合约价环比：2025 年第四季上涨 45%–50%，2026 年第一季上涨 93%–98%，第二季上涨 58%–63%，第三季预测上涨 13%–18%，第四季预测上涨 10%–15%。这是 TrendForce 历次发布的汇总，二手表在 [effectstory](https://effectstory.com/en/data/memory-contract-prices/memory-contract-prices.csv)，第四季预测以 [TrendForce 2026-09-30](https://www.trendforce.com/presscenter/news/20260930-13258.html) 为准。DDR4 8Gb 现货均价，2025 年 4 月约 1.72 美元（[TrendForce](https://www.trendforce.com/news/2025/04/30/insights-memory-spot-price-update-top-dram-suppliers-ending-ddr3ddr4-output-driving-spot-price-surge/)），2026-10-20 为 45.93 美元（[TrendForce 现货](https://www.trendforce.com/price/dram/dram_spot)），大约 27 倍。
+TrendForce 在 2025 年底到 2026 年多次发布常规 DRAM 合约价仍在环比上涨的新闻，并在 2026-09-30 的新闻稿里给出当时对后面季度的看法（[TrendForce](https://www.trendforce.com/presscenter/news/20260930-13258.html)）。逐季涨幅以他们的新闻稿为准，这里不抄成表，也不引用二手汇总表上的格子。现货打开 [TrendForce 现货页](https://www.trendforce.com/price/dram/dram_spot) 看方向。
 :::
 
-判断：涨幅从九成收窄到一成多，价格还在往上。涨得慢了，不等于见顶。要看现货有没有转跌，以及现货和合约价的差距有没有收拢。
+判断：公开报道里的涨幅比早几个季度收窄时，价格仍可能在往上。涨得慢了，不等于见顶。要看现货有没有转跌，以及现货和合约价的差距有没有收拢。
 
 同一年，涨价从存储扩散开。
 

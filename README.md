@@ -32,7 +32,9 @@ npm run build
 ## 怎么加一篇文章
 
 1. 选目录。
-   - 电子元器件：`docs/categories/electronics/`
+   - 电子元器件总览和跨类文章：`docs/categories/electronics/`
+   - 某一类料：`docs/categories/electronics/parts/`
+   - 一件能核对的历史案例：`docs/categories/electronics/cases/`
    - 采购方法：`docs/methods/`
    - 新的品类：先建 `docs/categories/品类英文目录/index.md`，标题下加上「即将上线」。没有真实内容之前，不要写行情和案例。
 2. 新建文件，文件名用英文小写和短横线，例如 `safety-stock.md`。目录页用 `index.md`。

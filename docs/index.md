@@ -18,7 +18,7 @@ hero:
 
 features:
   - title: 品类采购经验
-    details: 按你买的东西来分。第一类是电子元器件与芯片。钢材、塑料、机电件标着即将上线，里面没有假文章。
+    details: 电子料按存储、MLCC、MCU、电源等拆开，并附有带来源的历史案例。钢材、塑料、机电件标着即将上线，里面没有假文章。
     link: /categories/
     linkText: 进入品类
   - title: 采购方法论

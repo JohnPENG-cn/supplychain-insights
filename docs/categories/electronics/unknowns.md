@@ -19,4 +19,4 @@ description: 电子元器件这组文章里，底稿标明还没核实的数字�
 - 封测占一颗成熟制程芯片成本的大约两到三成、模拟和 MCU 大厂毛利大约 50% 到 65%，是行业经验，不是统一口径的统计。
 :::
 
-存储合约价有一部分来自 effectstory 对 TrendForce 历次发布的汇总，属于二手整理（[汇总表](https://effectstory.com/en/data/memory-contract-prices/memory-contract-prices.csv)）。2026 年第四季的预测另有 TrendForce 自己的新闻稿（[2026-09-30](https://www.trendforce.com/presscenter/news/20260930-13258.html)）。引用时请打开原文，不要只记汇总表上的一个格子。
+存储合约价有人做成二手汇总表（[effectstory](https://effectstory.com/en/data/memory-contract-prices/memory-contract-prices.csv)）。那是索引，不是本站的数据。子类页面和 [怎么读周期](./how-to-read-the-cycle) 不抄这张表的格子。要引用某一次预测，打开 TrendForce 自己的新闻稿，例如 [2026-09-30](https://www.trendforce.com/presscenter/news/20260930-13258.html)。
