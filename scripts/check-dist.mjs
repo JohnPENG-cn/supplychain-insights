@@ -50,6 +50,7 @@ const pages = [
   'categories/plastics/index.html',
   'categories/electromechanical/index.html',
   'methods/index.html',
+  'methods/industry-chain-insight.html',
   'methods/leveling.html',
   'methods/delivery-tracking.html',
   'dashboard/index.html',
@@ -105,6 +106,29 @@ const memoryCase = read('categories/electronics/cases/hbm-ddr.html')
 if (memoryCase.includes('45%–50%') || memoryCase.includes('93%–98%')) {
   console.error('HBM 案例抄进了合约价逐季格子')
   process.exit(1)
+}
+
+const insight = read('methods/industry-chain-insight.html')
+for (const text of ['传导链', '后见之明', '订单下大了', '单点灾害', '货的来路不清']) {
+  if (!insight.includes(text)) {
+    console.error(`产业链洞察页缺少：${text}`)
+    process.exit(1)
+  }
+}
+if (!insight.includes('/categories/electronics/cases/')) {
+  console.error('产业链洞察页没有链到案例')
+  process.exit(1)
+}
+
+const casePages = pages.filter((page) => page.includes('/cases/') && !page.endsWith('index.html'))
+for (const page of casePages) {
+  const text = read(page)
+  for (const heading of ['复盘', '传导链', '领先信号', '当时能不能看出来', '这次和以前有什么不一样', '采购动作']) {
+    if (!text.includes(heading)) {
+      console.error(`${page} 的复盘缺少：${heading}`)
+      process.exit(1)
+    }
+  }
 }
 
 const series = JSON.parse(read('data/electronics/series.json'))

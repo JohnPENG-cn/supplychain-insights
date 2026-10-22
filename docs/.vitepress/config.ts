@@ -144,7 +144,16 @@ export default defineConfig({
           { text: '历史案例', link: '/categories/electronics/cases/' }
         ]
       },
-      { text: '采购方法论', link: '/methods/' },
+      {
+        text: '采购方法论',
+        link: '/methods/',
+        items: [
+          { text: '方法目录', link: '/methods/' },
+          { text: '产业链洞察', link: '/methods/industry-chain-insight' },
+          { text: '计划均衡', link: '/methods/leveling' },
+          { text: '交期跟踪', link: '/methods/delivery-tracking' }
+        ]
+      },
       { text: '产业链看板', link: '/dashboard/' }
     ],
     sidebar: [
@@ -164,6 +173,7 @@ export default defineConfig({
         text: '采购方法论',
         items: [
           { text: '方法目录', link: '/methods/' },
+          { text: '产业链洞察：从案例里抽出方法', link: '/methods/industry-chain-insight' },
           { text: '采购计划均衡：削峰要有边界', link: '/methods/leveling' },
           { text: '供应商交期跟踪', link: '/methods/delivery-tracking' }
         ]

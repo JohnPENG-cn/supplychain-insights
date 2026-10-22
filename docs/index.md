@@ -22,7 +22,7 @@ features:
     link: /categories/
     linkText: 进入品类
   - title: 采购方法论
-    details: 计划怎么削峰才不会把真需求削没，交期怎么记账才不会被改期洗白。按通用做法来写，标成判断。
+    details: 十个电子料案例收成产业链洞察：先写传导链，再决定保供还是压价。计划削峰和交期记账也在这里。
     link: /methods/
     linkText: 看方法
   - title: 产业链看板
@@ -48,4 +48,4 @@ features:
 
 ## 建议从哪篇看
 
-忙的话，先看 [电子元器件这一类在说什么](/categories/electronics/)。想搞清货是从哪一层来的，看 [产业链一张图](/categories/electronics/chain-map)。手里正在涨价，看 [价格和交期为什么会变](/categories/electronics/price-and-leadtime) 和 [实战打法](/categories/electronics/playbook)。
+忙的话，先看 [电子元器件这一类在说什么](/categories/electronics/)。想搞清货是从哪一层来的，看 [产业链一张图](/categories/electronics/chain-map)。手里正在涨价，看 [价格和交期为什么会变](/categories/electronics/price-and-leadtime) 和 [实战打法](/categories/electronics/playbook)。拿到一件新的缺货或跌价，先走 [产业链洞察](/methods/industry-chain-insight) 的八步，再对照 [历史案例](/categories/electronics/cases/) 末尾的复盘。
