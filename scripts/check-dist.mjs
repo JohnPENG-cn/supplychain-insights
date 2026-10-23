@@ -121,6 +121,13 @@ if (!insight.includes('/categories/electronics/cases/')) {
 }
 
 const casePages = pages.filter((page) => page.includes('/cases/') && !page.endsWith('index.html'))
+const chartPages = new Set([
+  'categories/electronics/cases/mlcc-2017-2018.html',
+  'categories/electronics/cases/dram-2018-2019.html',
+  'categories/electronics/cases/glut-2022-2023.html',
+  'categories/electronics/cases/thailand-hdd-2011.html',
+  'categories/electronics/cases/hbm-ddr.html'
+])
 for (const page of casePages) {
   const text = read(page)
   for (const heading of ['复盘', '传导链', '领先信号', '当时能不能看出来', '这次和以前有什么不一样', '采购动作']) {
@@ -129,6 +136,18 @@ for (const page of casePages) {
       process.exit(1)
     }
   }
+  if (!text.includes('case-timeline')) {
+    console.error(`${page} 没有渲染时间线`)
+    process.exit(1)
+  }
+  if (chartPages.has(page) && !text.includes('series-chart')) {
+    console.error(`${page} 没有渲染数据图`)
+    process.exit(1)
+  }
+}
+if (!insight.includes('先看见什么')) {
+  console.error('产业链洞察页缺少七种样子的对照表')
+  process.exit(1)
 }
 
 const series = JSON.parse(read('data/electronics/series.json'))

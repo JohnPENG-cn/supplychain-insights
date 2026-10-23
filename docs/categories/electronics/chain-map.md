@@ -5,7 +5,7 @@ description: 电子元器件从材料到你的仓库要经过哪些层，定价�
 
 # 产业链一张图看懂
 
-<!--@include: @/snippets/electronics-note.md-->
+<!--@include: @/snippets/electronics-scenario-note.md-->
 
 你下单买的是一颗料号，付钱的时候却在跟一整条链结算。看懂层次，才知道涨价函是谁写的、交期卡在哪、跟代理磨价为什么经常磨不动。
 

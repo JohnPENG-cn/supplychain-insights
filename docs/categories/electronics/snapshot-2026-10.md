@@ -9,7 +9,7 @@ description: 2026 年 10 月 20 日那一周的电子元器件记录。不会自
 
 <span class="status status-soon">记录，不会自动更新</span>
 
-<!--@include: @/snippets/electronics-note.md-->
+<!--@include: @/snippets/electronics-scenario-note.md-->
 
 这是 2026 年 10 月 20 日那一周的读数。以后的月份如果要记，新开一页，不要回来改这些数字。它不是 [看板](/dashboard/)。看板上出现曲线之前，以各篇里的原文链接为准。
 

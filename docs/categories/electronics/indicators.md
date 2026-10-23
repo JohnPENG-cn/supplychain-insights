@@ -5,7 +5,7 @@ description: 不用买全套研报，采购也能跟踪的半导体销售额、�
 
 # 采购能免费跟踪的指标
 
-<!--@include: @/snippets/electronics-note.md-->
+<!--@include: @/snippets/electronics-scenario-note.md-->
 
 不要等代理上门解释行情。下面这些，大部分免费，一个月花不了一下午。看的时候记住：全球总数会被存储价格放大；你要看的是自己那一类料，再加上自己 ERP 里的承诺和到货。
 
