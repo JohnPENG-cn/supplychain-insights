@@ -59,6 +59,8 @@ const pages = [
   'briefs/inp.html',
   'briefs/fiber.html',
   'briefs/tglass.html',
+  'columns/company-lens/index.html',
+  'columns/company-lens/micron-fy26q4.html',
   'data/electronics/series.json',
   'sitemap.xml'
 ]
@@ -238,6 +240,23 @@ if (!read('categories/electronics/parts/memory.html').includes('/briefs/tglass')
 }
 if (!read('categories/electronics/cases/hbm-ddr.html').includes('/briefs/tglass')) {
   console.error('HBM 案例没有链到 T 玻璃')
+  process.exit(1)
+}
+
+const lensIndex = read('columns/company-lens/index.html')
+if (!lensIndex.includes('/columns/company-lens/micron-fy26q4.html')) {
+  console.error('财报专栏首页没有链到美光这一篇')
+  process.exit(1)
+}
+const lensMicron = read('columns/company-lens/micron-fy26q4.html')
+for (const text of ['不构成投资建议', '管理层说法', '待 John 补充', '/supplychain-insights/columns/company-lens/micron-fy26q4.png']) {
+  if (!lensMicron.includes(text)) {
+    console.error(`美光这一篇缺少：${text}`)
+    process.exit(1)
+  }
+}
+if (/\d+\s*%\s*的?涨|涨了?约?\s*\d+\s*%|合约价环比/.test(lensMicron)) {
+  console.error('财报专栏混入了存储涨价幅度')
   process.exit(1)
 }
 
