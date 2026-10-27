@@ -617,3 +617,53 @@
 .entry-list li {
   margin: 0.35rem 0;
 }
+
+.brief-meta {
+  margin: 0.15rem 0 0.85rem;
+  color: var(--vp-c-text-2);
+  font-weight: 700;
+}
+
+.listen {
+  display: grid;
+  gap: 0.75rem 1.15rem;
+  margin: 0.35rem 0 1.25rem;
+  padding: 0.9rem 1rem;
+  border: 1px solid var(--vp-c-divider);
+  border-radius: 12px;
+  background: var(--vp-c-bg-elv);
+}
+
+.listen audio {
+  width: 100%;
+}
+
+.listen figcaption {
+  margin: 0;
+  color: var(--vp-c-text-2);
+  line-height: 1.7;
+}
+
+@media (min-width: 720px) {
+  .listen {
+    grid-template-columns: minmax(16rem, 1.45fr) minmax(14rem, 1fr);
+    align-items: center;
+  }
+}
+
+.brief-process {
+  margin: 1.25rem 0;
+  padding: 0.75rem 1rem 0.35rem;
+  border: 1px solid var(--vp-c-divider);
+  border-radius: 12px;
+  background: var(--vp-c-bg-soft);
+}
+
+.brief-process summary {
+  cursor: pointer;
+  font-weight: 700;
+}
+
+.brief-process-body > :first-child {
+  margin-top: 0.75rem;
+}

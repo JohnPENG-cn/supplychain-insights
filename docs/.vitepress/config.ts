@@ -31,6 +31,18 @@ function escapeHtml(value: string) {
   })
 }
 
+function detailsContainer(md: { use: Function }) {
+  md.use(container, 'details', {
+    render(tokens: { info: string; nesting: number }[], idx: number) {
+      const token = tokens[idx]
+      const info = token.info.trim().slice('details'.length).trim()
+      if (token.nesting !== 1) return '</div></details>\n'
+      const title = escapeHtml(info || '展开')
+      return `<details class="brief-process"><summary>${title}</summary><div class="brief-process-body">\n`
+    }
+  })
+}
+
 function labeledContainer(
   md: { use: Function },
   name: string,
@@ -79,6 +91,13 @@ const electronicsParts = [
   { text: '显示', link: '/categories/electronics/parts/displays' }
 ]
 
+const briefs = [
+  { text: '这一栏写什么', link: '/briefs/' },
+  { text: '磷化铟：光芯片的底座', link: '/briefs/inp' },
+  { text: '光纤：涨价和 2028', link: '/briefs/fiber' },
+  { text: 'T玻璃：底座里那块布', link: '/briefs/tglass' }
+]
+
 const electronicsCases = [
   { text: '案例目录', link: '/categories/electronics/cases/' },
   { text: '2017–2018 MLCC 缺货', link: '/categories/electronics/cases/mlcc-2017-2018' },
@@ -117,6 +136,7 @@ export default defineConfig({
       labeledContainer(md, 'judgment', '判断', 'judgment')
       labeledContainer(md, 'unknown', '未知', 'unknown')
       labeledContainer(md, 'scenario', '示例场景（虚构，不是真实公司或数字）', 'scenario')
+      detailsContainer(md)
     }
   },
   vite: {
@@ -154,6 +174,11 @@ export default defineConfig({
           { text: '交期跟踪', link: '/methods/delivery-tracking' }
         ]
       },
+      {
+        text: '产业链情报中心',
+        link: '/briefs/',
+        items: briefs
+      },
       { text: '产业链看板', link: '/dashboard/' }
     ],
     sidebar: [
@@ -177,6 +202,10 @@ export default defineConfig({
           { text: '采购计划均衡：削峰要有边界', link: '/methods/leveling' },
           { text: '供应商交期跟踪', link: '/methods/delivery-tracking' }
         ]
+      },
+      {
+        text: '产业链情报中心',
+        items: briefs
       },
       {
         text: '产业链看板',

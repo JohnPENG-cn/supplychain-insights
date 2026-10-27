@@ -37,6 +37,7 @@ npm run build
    - 一件能核对的历史案例：`docs/categories/electronics/cases/`
    - 采购方法：`docs/methods/`
    - 新的品类：先建 `docs/categories/品类英文目录/index.md`，标题下加上「即将上线」。没有真实内容之前，不要写行情和案例。
+   - 产业链情报（按篇发布的公开信号，不是品类页）：`docs/briefs/`。栏目首页是 `index.md`。音频放在 `docs/public/audio/`，文章里写 `/audio/文件名.mp3`，由站点加上 `/supplychain-insights/`，不要写死域名。标题下面用 `ListenBar`，时长用稿子里的 `audio_duration`，不要改成另一套数字。文首引用 `@/snippets/brief-note.md`。
 2. 新建文件，文件名用英文小写和短横线，例如 `safety-stock.md`。目录页用 `index.md`。
 3.    文首写清标签。电子类文章可以引用现成的说明：
 
