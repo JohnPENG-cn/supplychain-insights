@@ -98,6 +98,11 @@ const briefs = [
   { text: 'T玻璃：底座里那块布', link: '/briefs/tglass' }
 ]
 
+const companyLens = [
+  { text: '这一栏写什么', link: '/columns/company-lens/' },
+  { text: '美光：该不该签存储长协', link: '/columns/company-lens/micron-fy26q4' }
+]
+
 const electronicsCases = [
   { text: '案例目录', link: '/categories/electronics/cases/' },
   { text: '2017–2018 MLCC 缺货', link: '/categories/electronics/cases/mlcc-2017-2018' },
@@ -179,6 +184,11 @@ export default defineConfig({
         link: '/briefs/',
         items: briefs
       },
+      {
+        text: '采购人视角读财报',
+        link: '/columns/company-lens/',
+        items: companyLens
+      },
       { text: '产业链看板', link: '/dashboard/' }
     ],
     sidebar: [
@@ -206,6 +216,10 @@ export default defineConfig({
       {
         text: '产业链情报中心',
         items: briefs
+      },
+      {
+        text: '采购人视角读财报',
+        items: companyLens
       },
       {
         text: '产业链看板',
