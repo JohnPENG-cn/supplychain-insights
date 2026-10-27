@@ -15,6 +15,9 @@ hero:
     - theme: alt
       text: 看采购方法
       link: /methods/
+    - theme: alt
+      text: 看产业链情报
+      link: /briefs/
 
 features:
   - title: 品类采购经验
@@ -29,6 +32,10 @@ features:
     details: MLCC 采购信号已上线。其他指标还在建设中，没有曲线。
     link: /dashboard/
     linkText: 看看板
+  - title: 产业链情报中心
+    details: 用海关、公告、许可、产能和交期，找这一轮真正卡住的那一层。事实、推断、没核实的分开写。不构成投资建议。
+    link: /briefs/
+    linkText: 看这一栏
 ---
 
 ## 这是给谁看的
@@ -48,4 +55,4 @@ features:
 
 ## 建议从哪篇看
 
-忙的话，先看 [电子元器件这一类在说什么](/categories/electronics/)。想搞清货是从哪一层来的，看 [产业链一张图](/categories/electronics/chain-map)。手里正在涨价，看 [价格和交期为什么会变](/categories/electronics/price-and-leadtime) 和 [实战打法](/categories/electronics/playbook)。拿到一件新的缺货或跌价，先走 [产业链洞察](/methods/industry-chain-insight) 的八步，再对照 [历史案例](/categories/electronics/cases/) 末尾的复盘。
+忙的话，先看 [电子元器件这一类在说什么](/categories/electronics/)。想搞清货是从哪一层来的，看 [产业链一张图](/categories/electronics/chain-map)。手里正在涨价，看 [价格和交期为什么会变](/categories/electronics/price-and-leadtime) 和 [实战打法](/categories/electronics/playbook)。拿到一件新的缺货或跌价，先走 [产业链洞察](/methods/industry-chain-insight) 的八步，再对照 [历史案例](/categories/electronics/cases/) 末尾的复盘。想用海关、公告和许可看这一轮卡在哪一层，打开 [产业链情报中心](/briefs/)。
