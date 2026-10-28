@@ -61,6 +61,7 @@ const pages = [
   'briefs/tglass.html',
   'columns/company-lens/index.html',
   'columns/company-lens/micron-fy26q4.html',
+  'columns/company-lens/ti-2026q3.html',
   'data/electronics/series.json',
   'sitemap.xml'
 ]
@@ -256,6 +257,21 @@ for (const text of ['不构成投资建议', '管理层说法', '待 John 补充
   }
 }
 if (/\d+\s*%\s*的?涨|涨了?约?\s*\d+\s*%|合约价环比/.test(lensMicron)) {
+  console.error('财报专栏混入了存储涨价幅度')
+  process.exit(1)
+}
+if (!lensIndex.includes('/columns/company-lens/ti-2026q3.html')) {
+  console.error('财报专栏首页没有链到德州仪器这一篇')
+  process.exit(1)
+}
+const lensTi = read('columns/company-lens/ti-2026q3.html')
+for (const text of ['不构成投资建议', '管理层说法', '待 John 补充', '/supplychain-insights/columns/company-lens/ti-2026q3.png']) {
+  if (!lensTi.includes(text)) {
+    console.error(`德州仪器这一篇缺少：${text}`)
+    process.exit(1)
+  }
+}
+if (/\d+\s*%\s*的?涨|涨了?约?\s*\d+\s*%|合约价环比/.test(lensTi)) {
   console.error('财报专栏混入了存储涨价幅度')
   process.exit(1)
 }
