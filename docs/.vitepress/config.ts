@@ -100,7 +100,8 @@ const briefs = [
 
 const companyLens = [
   { text: '这一栏写什么', link: '/columns/company-lens/' },
-  { text: '美光：该不该签存储长协', link: '/columns/company-lens/micron-fy26q4' }
+  { text: '美光：该不该签存储长协', link: '/columns/company-lens/micron-fy26q4' },
+  { text: '德州仪器：通用模拟该不该提前锁货', link: '/columns/company-lens/ti-2026q3' }
 ]
 
 const electronicsCases = [
