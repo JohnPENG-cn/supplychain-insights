@@ -85,6 +85,13 @@ export function validateMlcc() {
   if (typeof turnWatch.inventoryRemark?.hit !== 'boolean') fail('库存拐点必须是 true 或 false')
   for (const source of turnWatch.inventoryRemark.sources) assertUrl(source.url, '拐点来源')
 
+  for (const item of schedule.items || []) {
+    if (!['confirmed', 'tentative', 'unverified', 'published'].includes(item.status)) {
+      fail(`日程状态不合法：${item.text}`)
+    }
+    for (const link of item.links || []) assertUrl(link.url, `日程 ${item.text}`)
+  }
+
   for (const id of ['s1', 's2', 's3', 's4', 's5', 's6', 'overall']) {
     if (!config[id]) fail(`阈值配置缺少 ${id}`)
   }
