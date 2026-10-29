@@ -40,7 +40,7 @@ function linksOf(sources) {
   })
 }
 
-const statusLabel = { tentative: '暂定', unverified: '日期未核实', confirmed: '' }
+const statusLabel = { tentative: '暂定', unverified: '日期未核实', confirmed: '', published: '已发布' }
 </script>
 
 <template>
@@ -181,8 +181,15 @@ const statusLabel = { tentative: '暂定', unverified: '日期未核实', confir
           <strong>{{ item.date || '日期未定' }}</strong>
           {{ item.text }}
           <template v-if="item.note">。{{ item.note }}</template>
-          <template v-else-if="statusLabel[item.status]">（{{ statusLabel[item.status] }}）</template>
-          <template v-if="item.past">（已过）</template>
+          <template v-if="statusLabel[item.status]">（{{ statusLabel[item.status] }}）</template>
+          <template v-if="item.past && item.status !== 'published'">（已过）</template>
+          <a
+            v-for="link in item.links || []"
+            :key="link.url"
+            :href="link.url"
+            target="_blank"
+            rel="noopener noreferrer"
+          >{{ link.name }}</a>
         </li>
       </ul>
     </aside>

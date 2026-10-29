@@ -1,28 +1,66 @@
 {
-  "updatedAt": "2026-10-21",
+  "updatedAt": "2026-10-29",
   "items": [
     {
       "date": "2026-10-28",
-      "text": "三星电机公布第三季初步业绩",
-      "status": "confirmed"
+      "text": "三星电机公布第三季业绩",
+      "status": "published",
+      "links": [
+        {
+          "name": "三星电机新闻稿",
+          "url": "https://www.samsungsem.com/global/newsroom/news/view.do?id=10628"
+        },
+        {
+          "name": "三星电机英文简报",
+          "url": "https://www.samsungsem.com/resources/file/kr/ir/earnings_release/3Q26_Earnings_Release_eng.pdf"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-30",
+      "text": "经产省公布生产动态统计 2026 年 9 月速报",
+      "status": "confirmed",
+      "note": "08:50 日本时间",
+      "links": [
+        {
+          "name": "e-Stat 公布预定",
+          "url": "https://www.e-stat.go.jp/release-calendar/detail/00550200/202610300850"
+        },
+        {
+          "name": "经产省统计公布日程",
+          "url": "https://www.meti.go.jp/statistics/toppage/kohyo.html"
+        }
+      ]
     },
     {
       "date": "2026-10-30",
       "text": "村田公布 FY2026 第二季业绩",
       "status": "tentative",
-      "note": "公司日程标为暂定"
+      "note": "14:00 日本时间",
+      "links": [
+        {
+          "name": "村田 IR 日程",
+          "url": "https://corporate.murata.com/en-us/ir/calendar"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-05",
+      "text": "太阳诱电公布 2027 年 3 月期第二季业绩",
+      "status": "confirmed",
+      "note": "15:30 日本时间，日程上标了预定",
+      "links": [
+        {
+          "name": "太阳诱电 IR 日程",
+          "url": "https://www.yuden.co.jp/jp/ir/event/"
+        }
+      ]
     },
     {
       "date": "2026-11-10",
       "text": "台系公司申报 10 月营收的截止日",
       "status": "confirmed",
       "note": "交易所通常在这之后几天出表"
-    },
-    {
-      "date": null,
-      "text": "太阳诱电第二季，公开说法是 11 月上旬",
-      "status": "unverified",
-      "note": "具体日期没有核实"
     }
   ]
 }

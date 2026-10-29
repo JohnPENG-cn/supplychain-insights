@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-21",
+  "updatedAt": "2026-10-29",
   "staleAfter": "2026-11-06",
   "lytica": {
     "hit": false,
@@ -10,7 +10,7 @@
   "inventoryRemark": {
     "hit": true,
     "partial": true,
-    "note": "村田 2026 年 7 月说，交期长的订单在增加，有些应用可能因为担心缺货而提前下单。TrendForce 10 月 19 日提到消费电子第四季需求偏弱。还没有看到原厂明确说客户正在调库存，或提前下的订单已经回吐。",
+    "note": "三星电机 10 月 28 日第三季简报写：元件部门销售额 1,883.0 十亿韩元，同比增 36%，环比增 14%。这 1,883.0 里，电容占 92%。第四季展望是，AI 数据中心用的高端 MLCC 需求还是旺，要增加小型、超高容 MLCC 的供给，并继续和大科技客户签长期供货协议；车用需求也还稳。简报没写价格，也没写订单出货比。村田 2026 年 7 月说，交期长的订单在增加，有些应用可能因为担心缺货而提前下单。TrendForce 10 月 19 日提到消费电子第四季需求偏弱。判断：三星电机没有说客户在调库存，买高端 MLCC 不能拿这份财报当成转松。到现在也还没有原厂明确说客户正在调库存，或提前下的订单已经回吐。",
     "sources": [
       {
         "name": "村田 FY2026 第一季简报",
@@ -19,6 +19,14 @@
       {
         "name": "TrendForce 2026-10-19",
         "url": "https://www.trendforce.com/research/download/RP261019DC"
+      },
+      {
+        "name": "三星电机 2026 第三季新闻稿",
+        "url": "https://www.samsungsem.com/global/newsroom/news/view.do?id=10628"
+      },
+      {
+        "name": "三星电机 2026 第三季英文简报",
+        "url": "https://www.samsungsem.com/resources/file/kr/ir/earnings_release/3Q26_Earnings_Release_eng.pdf"
       }
     ]
   }
