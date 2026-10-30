@@ -185,7 +185,16 @@ if (sitemap.includes('/snippets/')) {
 }
 
 const briefIndex = read('briefs/index.html')
-for (const text of ['产业链情报中心', '实事分析', '不构成投资建议', '海关', '未核实', '更新 2026-10-27']) {
+for (const text of [
+  '产业链情报中心',
+  '实事分析',
+  '不构成投资建议',
+  '海关',
+  '未核实',
+  '更新 2026-10-28',
+  '光纤涨了5倍，2028年最危险的是中国普通光纤',
+  '音频约 12:44'
+]) {
   if (!briefIndex.includes(text)) {
     console.error(`情报栏目首页缺少：${text}`)
     process.exit(1)
@@ -199,11 +208,11 @@ for (const href of ['/briefs/inp.html', '/briefs/fiber.html', '/briefs/tglass.ht
 }
 
 const briefPages = [
-  ['briefs/inp.html', '/supplychain-insights/audio/inp.mp3', '9:50', '22,288,500', '未核实'],
-  ['briefs/fiber.html', '/supplychain-insights/audio/fiber.mp3', '11:24', '+392%', '未核实清单'],
-  ['briefs/tglass.html', '/supplychain-insights/audio/tglass.mp3', '10:14', '约1200亿日元', '未核实清单']
+  ['briefs/inp.html', '/supplychain-insights/audio/inp.mp3', '9:50', '22,288,500', '未核实', '发布 2026-10-2', '更新 2026-10-27'],
+  ['briefs/fiber.html', '/supplychain-insights/audio/fiber.mp3', '12:44', '+392%', '未核实清单', '首发2026-10-26', '更新2026-10-28'],
+  ['briefs/tglass.html', '/supplychain-insights/audio/tglass.mp3', '10:14', '约1200亿日元', '未核实清单', '发布 2026-10-2', '更新 2026-10-27']
 ]
-for (const [page, audioSrc, duration, marker, unverified] of briefPages) {
+for (const [page, audioSrc, duration, marker, unverified, published, updated] of briefPages) {
   const text = read(page)
   if (!text.includes('<audio') || !text.includes('controls') || !text.includes('preload="metadata"')) {
     console.error(`${page} 的音频播放器不完整`)
@@ -221,9 +230,19 @@ for (const [page, audioSrc, duration, marker, unverified] of briefPages) {
     console.error(`${page} 缺少免责声明、未核实清单或原稿数字`)
     process.exit(1)
   }
-  if (!text.includes('发布 2026-10-2') || !text.includes('更新 2026-10-27')) {
+  if (!text.includes(published) || !text.includes(updated)) {
     console.error(`${page} 缺少发布或更新日期`)
     process.exit(1)
+  }
+  if (page === 'briefs/fiber.html') {
+    if (!text.includes('光纤涨了5倍，2028年最危险的是中国普通光纤') || !text.includes('预测 vs 实际')) {
+      console.error('光纤页标题或第十一节没有更新')
+      process.exit(1)
+    }
+    if (text.includes('光纤涨了5倍，最怕的是行业自己') || text.includes('听这篇（约11:24）')) {
+      console.error('光纤页还留着旧标题或旧时长')
+      process.exit(1)
+    }
   }
   const file = page.replace('.html', '.mp3').replace('briefs/', 'audio/')
   const audioPath = resolve(dist, file)
