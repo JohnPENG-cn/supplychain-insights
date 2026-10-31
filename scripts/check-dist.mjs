@@ -63,6 +63,7 @@ const pages = [
   'columns/company-lens/micron-fy26q4.html',
   'columns/company-lens/ti-2026q3.html',
   'columns/company-lens/umc-2026q3.html',
+  'columns/company-lens/amkor-2026q3.html',
   'data/electronics/series.json',
   'sitemap.xml'
 ]
@@ -299,6 +300,28 @@ if (lensUmc.includes('待 John 补充')) {
   process.exit(1)
 }
 if (/\d+\s*%\s*的?涨|涨了?约?\s*\d+\s*%|合约价环比/.test(lensUmc)) {
+  console.error('财报专栏混入了存储涨价幅度')
+  process.exit(1)
+}
+if (!lensIndex.includes('/columns/company-lens/amkor-2026q3.html')) {
+  console.error('财报专栏首页没有链到安靠这一篇')
+  process.exit(1)
+}
+const lensAmkor = read('columns/company-lens/amkor-2026q3.html')
+for (const text of [
+  '不构成投资建议',
+  '管理层说法',
+  '待 John 补充',
+  '整厂都排满了',
+  '合同负债',
+  '/supplychain-insights/columns/company-lens/amkor-2026q3.png'
+]) {
+  if (!lensAmkor.includes(text)) {
+    console.error(`安靠这一篇缺少：${text}`)
+    process.exit(1)
+  }
+}
+if (/\d+\s*%\s*的?涨|涨了?约?\s*\d+\s*%|合约价环比/.test(lensAmkor)) {
   console.error('财报专栏混入了存储涨价幅度')
   process.exit(1)
 }
