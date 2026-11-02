@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-21",
+  "updatedAt": "2026-11-02",
   "staleAfter": "2026-11-06",
   "readings": [
     {
@@ -14,7 +14,7 @@
       "publishedAt": "2026-07-31",
       "sourceName": "村田 FY2026 第一季电话会逐字稿",
       "sourceUrl": "https://corporate.murata.com/-/media/corporate/about/newsroom/news/irnews/irnews/2026/0731d/26q1-e.ashx",
-      "note": "电话会上口头说的。简报表里没有单独的 MLCC 订单出货比。"
+      "note": "第一季电话会上口头说的。2026-10-30 的第二季说明会资料和决算短信没有单列 MLCC 订单出货比，说明会逐字稿还没挂出来，第二季这一格未发布。"
     },
     {
       "maker": "Taiyo Yuden",
@@ -35,15 +35,15 @@
       "maker": "Murata",
       "scope": "全公司",
       "label": "村田",
-      "period": "FY2026 Q1",
-      "periodEnd": "2026-06-30",
-      "bookToBill": 1.34,
-      "history": [1, 1.07, 1.24, 1.34],
+      "period": "FY2026 Q2",
+      "periodEnd": "2026-09-30",
+      "bookToBill": 1.28,
+      "history": [1, 1.07, 1.24, 1.34, 1.28],
       "countsTowardSignal": false,
-      "publishedAt": "2026-07-31",
-      "sourceName": "村田 FY2026 第一季简报",
-      "sourceUrl": "https://corporate.murata.com/-/media/corporate/about/newsroom/news/irnews/irnews/2026/0731d/26q1-e-speach.ashx",
-      "note": "全公司数字，不参与灯"
+      "publishedAt": "2026-10-30",
+      "sourceName": "村田 FY2026 第二季说明会资料",
+      "sourceUrl": "https://corporate.murata.com/-/media/corporate/about/newsroom/news/irnews/irnews/2026/1030b/26q2-j-speach.ashx",
+      "note": "全公司数字，不参与灯。MLCC 单独的订单出货比第二季未发布。"
     },
     {
       "maker": "Samsung Electro-Mechanics",

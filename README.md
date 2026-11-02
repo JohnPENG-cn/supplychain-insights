@@ -106,7 +106,7 @@ npm run build
 自动抓的只有两类，人不要手改里面的数字，除非抓取坏了要回滚：
 
 - `data/mlcc/tw-monthly-revenue.json`：国巨 2327、华新科 2492、禾伸堂 3026 的月营收。来源是台湾证券交易所 OpenAPI。缺月时才补公开资讯观测站的一页历史。
-- `data/mlcc/meti-ceramic-capacitors.json`：日本经济产业省陶瓷电容产量和金额。
+- `data/mlcc/meti-ceramic-capacitors.json`：日本经济产业省陶瓷电容产量和金额。优先读确报 Excel。确报还没挂出来时，改读统计表一览上的速报文件。
 
 定时任务在 `.github/workflows/mlcc-data.yml`。每月 11 日和 15 日抓台湾营收，每月 20 日抓日本产量（都是 UTC 01:20，大约是台北时间上午 9:20）。也可以在 Actions 里手动跑，并选择只抓一项。每次每个来源只请求一次。失败就保留上一笔数字，把状态写成失败；页面显示「数据过期」，并开或更新一条标题以「MLCC 数据抓取失败」开头的 issue。成功后关掉对应 issue。
 

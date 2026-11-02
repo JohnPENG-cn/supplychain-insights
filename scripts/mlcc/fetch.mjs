@@ -1,6 +1,6 @@
 import { readFile, writeFile } from 'node:fs/promises'
 import { resolve } from 'node:path'
-import { USER_AGENT, TWSE_URL, metiWorkbookUrl, mopsUrl, sourcesForRun, metiTargetMonth } from './constants.mjs'
+import { USER_AGENT, TWSE_URL, metiWorkbookUrl, metiSokuhoUrl, mopsUrl, sourcesForRun, metiTargetMonth } from './constants.mjs'
 import { addMonths, isoDate } from './dates.mjs'
 import { parseTwseRevenue } from './parse-twse.mjs'
 import { parseMopsRevenue } from './parse-mops.mjs'
@@ -97,13 +97,22 @@ function firstGap(current, latestMonth) {
 async function fetchMeti(current) {
   const through = current.months.at(-1)?.month || null
   const target = metiTargetMonth(through, today)
-  const url = metiWorkbookUrl(target)
-  const workbook = await requestBuffer(url)
-  const parsed = parseMetiCeramic(workbook)
-  if (!parsed.months.some((item) => item.month === target)) {
-    throw new Error(`工作簿里没有 ${target} 的陶瓷电容产量和金额`)
+  const urls = [metiWorkbookUrl(target), metiSokuhoUrl(target)]
+  let lastError = null
+  for (const [index, url] of urls.entries()) {
+    try {
+      const workbook = await requestBuffer(url)
+      const parsed = parseMetiCeramic(workbook)
+      if (!parsed.months.some((item) => item.month === target)) {
+        throw new Error(`工作簿里没有 ${target} 的陶瓷电容产量和金额`)
+      }
+      return applyMetiMonths(current, parsed.months)
+    } catch (error) {
+      lastError = error
+      if (index === 0) console.log(`确报工作簿没拿到（${error.message}），改读速报`)
+    }
   }
-  return applyMetiMonths(current, parsed.months)
+  throw lastError
 }
 
 async function requestText(url) {
