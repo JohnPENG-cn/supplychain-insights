@@ -20,6 +20,11 @@ export function metiWorkbookUrl(month) {
   return `https://www.meti.go.jp/statistics/tyo/seidou/result/ichiran/resourceData/08_seidou/kakuho/${year}/h2daa${yyyymm}_jikei.xlsx`
 }
 
+export function metiSokuhoUrl(month) {
+  const [year, monthNumber] = month.split('-')
+  return `https://www.meti.go.jp/statistics/tyo/seidou/result/ichiran/resourceData/08_seidou/sokuho/h2daa${year}${monthNumber}s.xlsx`
+}
+
 export function sourcesForRun({ event, schedule, input }) {
   if (input && input !== 'all') {
     if (input !== 'twse' && input !== 'meti') {

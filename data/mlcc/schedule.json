@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-29",
+  "updatedAt": "2026-11-02",
   "items": [
     {
       "date": "2026-10-28",
@@ -19,28 +19,48 @@
     {
       "date": "2026-10-30",
       "text": "经产省公布生产动态统计 2026 年 9 月速报",
-      "status": "confirmed",
-      "note": "08:50 日本时间",
+      "status": "published",
+      "note": "08:50 日本时间。陶瓷电容数量 119,755,938 千个，金额 77,073 百万日元",
       "links": [
         {
-          "name": "e-Stat 公布预定",
-          "url": "https://www.e-stat.go.jp/release-calendar/detail/00550200/202610300850"
+          "name": "经产省统计表一览",
+          "url": "https://www.meti.go.jp/statistics/tyo/seidou/result/ichiran/08_seidou.html"
         },
         {
-          "name": "经产省统计公布日程",
-          "url": "https://www.meti.go.jp/statistics/toppage/kohyo.html"
+          "name": "9 月速报 Excel",
+          "url": "https://www.meti.go.jp/statistics/tyo/seidou/result/ichiran/resourceData/08_seidou/sokuho/h2daa202609s.xlsx"
         }
       ]
     },
     {
       "date": "2026-10-30",
       "text": "村田公布 FY2026 第二季业绩",
-      "status": "tentative",
-      "note": "14:00 日本时间",
+      "status": "published",
+      "note": "全公司订单出货比 1.28。MLCC 单独的订单出货比未发布",
       "links": [
         {
-          "name": "村田 IR 日程",
-          "url": "https://corporate.murata.com/en-us/ir/calendar"
+          "name": "决算短信",
+          "url": "https://corporate.murata.com/-/media/corporate/about/newsroom/news/irnews/irnews/2026/1030/26q2-j-fls.ashx"
+        },
+        {
+          "name": "说明会资料",
+          "url": "https://corporate.murata.com/-/media/corporate/about/newsroom/news/irnews/irnews/2026/1030b/26q2-j-speach.ashx"
+        },
+        {
+          "name": "村田业绩资料库",
+          "url": "https://corporate.murata.com/ja-jp/ir/library/results"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-30",
+      "text": "村田公布积层陶瓷电容今后的产能扩张",
+      "status": "published",
+      "note": "2026 到 2030 年度大约投 1 兆日元，新厂房主要在 2028 年以后",
+      "links": [
+        {
+          "name": "村田新闻稿",
+          "url": "https://corporate.murata.com/ja-jp/newsroom/news/company/general/2026/1030c"
         }
       ]
     },
@@ -48,7 +68,7 @@
       "date": "2026-11-05",
       "text": "太阳诱电公布 2027 年 3 月期第二季业绩",
       "status": "confirmed",
-      "note": "15:30 日本时间，日程上标了预定",
+      "note": "15:30 日本时间，公司日程上标了预定",
       "links": [
         {
           "name": "太阳诱电 IR 日程",
@@ -58,9 +78,35 @@
     },
     {
       "date": "2026-11-10",
-      "text": "台系公司申报 10 月营收的截止日",
+      "text": "国巨、华新科申报 10 月营收的截止日",
       "status": "confirmed",
-      "note": "交易所通常在这之后几天出表"
+      "note": "证交所规定每月 10 日前申报上月营业额，遇到例假日顺延一日。2026-11-10 不在当年休市表里",
+      "links": [
+        {
+          "name": "证交所申报事项",
+          "url": "https://twse-regulation.twse.com.tw/m/LawContent.aspx?FID=FL007250"
+        },
+        {
+          "name": "2026 年休市日期",
+          "url": "https://www.twse.com.tw/holidaySchedule/holidaySchedule?response=html"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-16",
+      "text": "经产省公布生产动态统计 2026 年 9 月确报",
+      "status": "confirmed",
+      "note": "13:30 日本时间",
+      "links": [
+        {
+          "name": "e-Stat 公布预定",
+          "url": "https://www.e-stat.go.jp/release-calendar/detail/00550200/202611161330"
+        },
+        {
+          "name": "经产省统计公布日程",
+          "url": "https://www.meti.go.jp/statistics/toppage/kohyo.html"
+        }
+      ]
     }
   ]
 }

@@ -1,8 +1,7 @@
 {
   "lastRun": {
-    "date": "2026-10-21",
+    "date": "2026-11-02",
     "sources": [
-      "twse",
       "meti"
     ]
   },
@@ -17,10 +16,10 @@
   },
   "meti": {
     "ok": true,
-    "fetchedAt": "2026-10-21",
-    "lastAttemptAt": "2026-10-21",
-    "dataThrough": "2026-08",
-    "staleAfter": "2026-12-10",
+    "fetchedAt": "2026-11-02",
+    "lastAttemptAt": "2026-11-02",
+    "dataThrough": "2026-09",
+    "staleAfter": "2026-12-22",
     "staleAfterDays": 50,
     "error": null
   }

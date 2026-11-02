@@ -2,7 +2,7 @@ import assert from 'node:assert/strict'
 import { readFileSync } from 'node:fs'
 import { resolve } from 'node:path'
 import test from 'node:test'
-import { metiTargetMonth, sourcesForRun } from '../../scripts/mlcc/constants.mjs'
+import { metiSokuhoUrl, metiTargetMonth, metiWorkbookUrl, sourcesForRun } from '../../scripts/mlcc/constants.mjs'
 import { applyMetiMonths, applyRevenueMonth } from '../../scripts/mlcc/merge.mjs'
 import { evaluateMlcc } from '../../scripts/mlcc/signals.mjs'
 import { planIssueUpdates } from '../../scripts/mlcc/issues.mjs'
@@ -46,8 +46,8 @@ test('当前读数和报告里的灯一致', () => {
   assert.match(s1.notes.join('\n'), /4 到 5 个百分/)
   assert.match(s1.notes.join('\n'), /28\.7%/)
   const s3 = signal(result, 's3')
-  assert.match(s3.latest, /产量同比 \+19\.1%/)
-  assert.match(s3.latest, /单位产值同比 -12\.4%/)
+  assert.match(s3.latest, /产量同比 \+15\.0%/)
+  assert.match(s3.latest, /单位产值同比 -9\.3%/)
   assert.equal(s3.charts.length, 2)
   assert.equal(signal(result, 's4').charts.length, 0)
   assert.match(result.overall.highEnd, /锁产能/)
@@ -205,15 +205,26 @@ test('补月份不会冲掉更新的申报，失败路径则完全不调用合�
   assert.equal(merged.latestFiling.month, '2026-09')
   assert.equal(revenue.months.find((row) => row.month === '2026-08')['2327'], 16332196)
 
-  const meti = applyMetiMonths(baseInput().meti, [{ month: '2026-09', quantity: 5, value: 6 }])
+  const source = baseInput().meti
+  const originalQty = source.months.at(-1).quantity
+  const meti = applyMetiMonths(source, [{ month: '2026-09', quantity: 5, value: 6 }])
   assert.equal(meti.months.at(-1).month, '2026-09')
-  assert.equal(baseInput().meti.months.at(-1).month, '2026-08')
+  assert.equal(meti.months.at(-1).quantity, 5)
+  assert.equal(source.months.at(-1).quantity, originalQty)
 })
 
 test('定时任务按日期只抓一个来源，缺月时先补最近的洞', () => {
   assert.deepEqual(sourcesForRun({ event: 'schedule', schedule: '20 1 11 * *', input: '' }), ['twse'])
   assert.deepEqual(sourcesForRun({ event: 'schedule', schedule: '20 1 20 * *', input: '' }), ['meti'])
   assert.deepEqual(sourcesForRun({ event: 'workflow_dispatch', schedule: '', input: 'all' }), ['twse', 'meti'])
+  assert.equal(
+    metiWorkbookUrl('2026-09'),
+    'https://www.meti.go.jp/statistics/tyo/seidou/result/ichiran/resourceData/08_seidou/kakuho/2026/h2daa202609_jikei.xlsx'
+  )
+  assert.equal(
+    metiSokuhoUrl('2026-09'),
+    'https://www.meti.go.jp/statistics/tyo/seidou/result/ichiran/resourceData/08_seidou/sokuho/h2daa202609s.xlsx'
+  )
   assert.equal(metiTargetMonth('2026-08', '2026-10-21'), '2026-08')
   assert.equal(metiTargetMonth('2026-06', '2026-10-21'), '2026-07')
   assert.equal(metiTargetMonth('2026-08', '2026-11-20'), '2026-09')
