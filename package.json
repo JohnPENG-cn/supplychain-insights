@@ -8,7 +8,7 @@
   "scripts": {
     "dev": "vitepress dev docs --host 127.0.0.1",
     "test": "node --test tests/mlcc/*.test.mjs",
-    "build": "npm test && node scripts/validate-series.mjs && node scripts/check-tokenize.mjs && vitepress build docs && node scripts/check-dist.mjs",
+    "build": "npm test && node scripts/validate-series.mjs && node scripts/plastics/validate.mjs && node scripts/check-tokenize.mjs && vitepress build docs && node scripts/check-dist.mjs",
     "preview": "vitepress preview docs --host 127.0.0.1 --port 4173",
     "validate:data": "node scripts/validate-series.mjs && node scripts/validate-mlcc.mjs && node scripts/check-tokenize.mjs"
   },

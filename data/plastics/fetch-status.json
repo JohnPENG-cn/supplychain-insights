@@ -1,0 +1,35 @@
+{
+  "fetchedAt": "2026-11-03",
+  "status": {
+    "bls": {
+      "ok": true,
+      "fetchedAt": "2026-11-03",
+      "detail": "树脂 PPI 截至 2026-09 = 327.535"
+    },
+    "eia": {
+      "ok": true,
+      "fetchedAt": "2026-11-03",
+      "detail": "丙烷截至 2026-09 = 0.848 美元/加仑"
+    },
+    "eurostat": {
+      "ok": true,
+      "fetchedAt": "2026-11-03",
+      "detail": "产量截至 2026-08，出厂价截至 2026-08"
+    },
+    "mops": {
+      "ok": true,
+      "fetchedAt": "2026-11-03",
+      "detail": "2022-01 至 2026-09，57 个月"
+    },
+    "nbs": {
+      "ok": true,
+      "fetchedAt": "2026-11-03",
+      "detail": "2021-11中 至 2026-10中，171 旬，索引 171 条"
+    },
+    "sec": {
+      "ok": false,
+      "fetchedAt": "2026-11-03",
+      "error": "HTTP 403 https://data.sec.gov/api/xbrl/companyconcept/CIK0001489393/us-gaap/Revenues.json"
+    }
+  }
+}
