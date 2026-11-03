@@ -104,7 +104,8 @@ const companyLens = [
   { text: '德州仪器：通用模拟该不该提前锁货', link: '/columns/company-lens/ti-2026q3' },
   { text: '联电：成熟制程代工现在紧不紧', link: '/columns/company-lens/umc-2026q3' },
   { text: '安靠：封测现在是不是整厂都排满了', link: '/columns/company-lens/amkor-2026q3' },
-  { text: '台积电：先进制程和先进封装现在紧不紧', link: '/columns/company-lens/tsmc-2026q3' }
+  { text: '台积电：先进制程和先进封装现在紧不紧', link: '/columns/company-lens/tsmc-2026q3' },
+  { text: '日月光投控：先进封装和传统封测现在紧不紧', link: '/columns/company-lens/ase-2026q3' }
 ]
 
 const electronicsCases = [
