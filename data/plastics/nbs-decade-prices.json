@@ -1,0 +1,1717 @@
+{
+  "detail": "2021-11中 至 2026-10中，171 旬，索引 171 条",
+  "fetchedAt": "2026-11-03",
+  "observations": [
+    {
+      "x": "2021-11中",
+      "title": "2021年11月中旬流通领域重要生产资料市场价格变动情况",
+      "url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1901288.html",
+      "published": null,
+      "pp": null,
+      "lldpe": 9347.3,
+      "pvc": 9391.9,
+      "styrene": 8825.8
+    },
+    {
+      "x": "2021-11下",
+      "title": "2021年11月下旬流通领域重要生产资料市场价格变动情况",
+      "url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1901293.html",
+      "published": null,
+      "pp": null,
+      "lldpe": 9295,
+      "pvc": 9415.5,
+      "styrene": 8138.6
+    },
+    {
+      "x": "2021-12上",
+      "title": "2021年12月上旬流通领域重要生产资料市场价格变动情况",
+      "url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1901301.html",
+      "published": null,
+      "pp": null,
+      "lldpe": 9089.2,
+      "pvc": 8989,
+      "styrene": 8051.9
+    },
+    {
+      "x": "2021-12中",
+      "title": "2021年12月中旬流通领域重要生产资料市场价格变动情况",
+      "url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1901318.html",
+      "published": null,
+      "pp": null,
+      "lldpe": 9004.5,
+      "pvc": 8607.6,
+      "styrene": 8242.8
+    },
+    {
+      "x": "2021-12下",
+      "title": "2021年12月下旬流通领域重要生产资料市场价格变动情况",
+      "url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1901327.html",
+      "published": null,
+      "pp": null,
+      "lldpe": 8946.1,
+      "pvc": 8566,
+      "styrene": 8183.1
+    },
+    {
+      "x": "2022-01上",
+      "title": "2022年1月上旬流通领域重要生产资料市场价格变动情况",
+      "url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1901332.html",
+      "published": "2022/01/14 09:30",
+      "pp": 8300.3,
+      "lldpe": 8801,
+      "pvc": 8506,
+      "styrene": 8439.3
+    },
+    {
+      "x": "2022-01中",
+      "title": "2022年1月中旬流通领域重要生产资料市场价格变动情况",
+      "url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1901357.html",
+      "published": "2022/01/24 09:30",
+      "pp": 8333.3,
+      "lldpe": 8817.7,
+      "pvc": 8583.4,
+      "styrene": 8555.4
+    },
+    {
+      "x": "2022-01下",
+      "title": "2022年1月下旬流通领域重要生产资料市场价格变动情况",
+      "url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1901366.html",
+      "published": "2022/02/08 09:30",
+      "pp": 8442.5,
+      "lldpe": 8948.6,
+      "pvc": 8736.1,
+      "styrene": 8686.4
+    },
+    {
+      "x": "2022-02中",
+      "title": "2022年2月中旬流通领域重要生产资料市场价格变动情况",
+      "url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1901392.html",
+      "published": null,
+      "pp": 8456.7,
+      "lldpe": 8945.8,
+      "pvc": 8827,
+      "styrene": 8866.7
+    },
+    {
+      "x": "2022-02下",
+      "title": "2022年2月下旬流通领域重要生产资料市场价格变动情况",
+      "url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1901397.html",
+      "published": null,
+      "pp": 8450.8,
+      "lldpe": 8854.7,
+      "pvc": 8589,
+      "styrene": 9018.9
+    },
+    {
+      "x": "2022-03上",
+      "title": "2022年3月上旬流通领域重要生产资料市场价格变动情况",
+      "url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1901401.html",
+      "published": null,
+      "pp": 9102.7,
+      "lldpe": 9315.2,
+      "pvc": 9033.9,
+      "styrene": 9833.7
+    },
+    {
+      "x": "2022-03中",
+      "title": "2022年3月中旬流通领域重要生产资料市场价格变动情况",
+      "url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1901415.html",
+      "published": null,
+      "pp": 8870.8,
+      "lldpe": 9133.6,
+      "pvc": 9067.1,
+      "styrene": 9511.4
+    },
+    {
+      "x": "2022-03下",
+      "title": "2022年3月下旬流通领域重要生产资料市场价格变动情况",
+      "url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1901420.html",
+      "published": null,
+      "pp": 8926.1,
+      "lldpe": 9202.4,
+      "pvc": 9165.7,
+      "styrene": 9636.7
+    },
+    {
+      "x": "2022-04上",
+      "title": "2022年4月上旬流通领域重要生产资料市场价格变动情况",
+      "url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1901424.html",
+      "published": null,
+      "pp": 8830.3,
+      "lldpe": 9205,
+      "pvc": 9321.4,
+      "styrene": 9694
+    },
+    {
+      "x": "2022-04中",
+      "title": "2022年4月中旬流通领域重要生产资料市场价格变动情况",
+      "url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1901447.html",
+      "published": null,
+      "pp": 8760.2,
+      "lldpe": 9092.1,
+      "pvc": 9159.7,
+      "styrene": 9640.8
+    },
+    {
+      "x": "2022-04下",
+      "title": "2022年4月下旬流通领域重要生产资料市场价格变动情况",
+      "url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1901455.html",
+      "published": null,
+      "pp": 8721,
+      "lldpe": 9001.9,
+      "pvc": 8937.4,
+      "styrene": 9724.3
+    },
+    {
+      "x": "2022-05上",
+      "title": "2022年5月上旬流通领域重要生产资料市场价格变动情况",
+      "url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1901459.html",
+      "published": null,
+      "pp": 8754,
+      "lldpe": 9006.7,
+      "pvc": 8885.9,
+      "styrene": 10025.3
+    },
+    {
+      "x": "2022-05中",
+      "title": "2022年5月中旬流通领域重要生产资料市场价格变动情况",
+      "url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1901476.html",
+      "published": null,
+      "pp": 8684.8,
+      "lldpe": 8924.5,
+      "pvc": 8818.5,
+      "styrene": 10105.5
+    },
+    {
+      "x": "2022-05下",
+      "title": "2022年5月下旬流通领域重要生产资料市场价格变动情况",
+      "url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1901481.html",
+      "published": null,
+      "pp": 8653.3,
+      "lldpe": 8856.9,
+      "pvc": 8502.7,
+      "styrene": 10230.6
+    },
+    {
+      "x": "2022-06上",
+      "title": "2022年6月上旬流通领域重要生产资料市场价格变动情况",
+      "url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1901485.html",
+      "published": null,
+      "pp": 8901.1,
+      "lldpe": 9085.8,
+      "pvc": 8707.3,
+      "styrene": 10873.1
+    },
+    {
+      "x": "2022-06中",
+      "title": "2022年6月中旬流通领域重要生产资料市场价格变动情况",
+      "url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1901498.html",
+      "published": null,
+      "pp": 8736.9,
+      "lldpe": 8955.3,
+      "pvc": 8253.2,
+      "styrene": 10879.4
+    },
+    {
+      "x": "2022-06下",
+      "title": "2022年6月下旬流通领域重要生产资料市场价格变动情况",
+      "url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1901503.html",
+      "published": null,
+      "pp": 8566.9,
+      "lldpe": 8706,
+      "pvc": 7571.1,
+      "styrene": 10437.5
+    },
+    {
+      "x": "2022-07上",
+      "title": "2022年7月上旬流通领域重要生产资料市场价格变动情况",
+      "url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1901507.html",
+      "published": null,
+      "pp": 8459.7,
+      "lldpe": 8573.9,
+      "pvc": 6971.5,
+      "styrene": 10407.2
+    },
+    {
+      "x": "2022-07中",
+      "title": "2022年7月中旬流通领域重要生产资料市场价格变动情况",
+      "url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1901533.html",
+      "published": null,
+      "pp": 8229.8,
+      "lldpe": 8287.6,
+      "pvc": 6414.1,
+      "styrene": 10089.3
+    },
+    {
+      "x": "2022-07下",
+      "title": "2022年7月下旬流通领域重要生产资料市场价格变动情况",
+      "url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1901541.html",
+      "published": null,
+      "pp": 8087.6,
+      "lldpe": 8092.9,
+      "pvc": 6654.6,
+      "styrene": 9685.7
+    },
+    {
+      "x": "2022-08上",
+      "title": "2022年8月上旬流通领域重要生产资料市场价格变动情况",
+      "url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1901545.html",
+      "published": null,
+      "pp": 8129.4,
+      "lldpe": 8103.3,
+      "pvc": 6787.8,
+      "styrene": 8944.6
+    },
+    {
+      "x": "2022-08中",
+      "title": "2022年8月中旬流通领域重要生产资料市场价格变动情况",
+      "url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1901558.html",
+      "published": null,
+      "pp": 7999.5,
+      "lldpe": 7941,
+      "pvc": 6560,
+      "styrene": 8628.3
+    },
+    {
+      "x": "2022-08下",
+      "title": "2022年8月下旬流通领域重要生产资料市场价格变动情况",
+      "url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1901569.html",
+      "published": null,
+      "pp": 7960.5,
+      "lldpe": 7920.7,
+      "pvc": 6617.5,
+      "styrene": 8976.7
+    },
+    {
+      "x": "2022-09上",
+      "title": "2022年9月上旬流通领域重要生产资料市场价格变动情况",
+      "url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1901574.html",
+      "published": null,
+      "pp": 8047.6,
+      "lldpe": 8129.3,
+      "pvc": 6605.2,
+      "styrene": 9446.4
+    },
+    {
+      "x": "2022-09中",
+      "title": "2022年9月中旬流通领域重要生产资料市场价格变动情况",
+      "url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1901594.html",
+      "published": null,
+      "pp": 8185,
+      "lldpe": 8373.6,
+      "pvc": 6540.7,
+      "styrene": 9631.4
+    },
+    {
+      "x": "2022-09下",
+      "title": "2022年9月下旬流通领域重要生产资料市场价格变动情况",
+      "url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1901606.html",
+      "published": null,
+      "pp": 8106.4,
+      "lldpe": 8361.7,
+      "pvc": 6360.6,
+      "styrene": 9465.5
+    },
+    {
+      "x": "2022-10上",
+      "title": "2022年10月上旬流通领域重要生产资料市场价格变动情况",
+      "url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1901612.html",
+      "published": null,
+      "pp": 8384.4,
+      "lldpe": 8736.1,
+      "pvc": 6534.3,
+      "styrene": 9379.4
+    },
+    {
+      "x": "2022-10中",
+      "title": "2022年10月中旬流通领域重要生产资料市场价格变动情况",
+      "url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1901625.html",
+      "published": null,
+      "pp": 8113.6,
+      "lldpe": 8521.7,
+      "pvc": 6309.3,
+      "styrene": 8725
+    },
+    {
+      "x": "2022-10下",
+      "title": "2022年10月下旬流通领域重要生产资料市场价格变动情况",
+      "url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1901646.html",
+      "published": null,
+      "pp": 7923.3,
+      "lldpe": 8318.8,
+      "pvc": 6014.5,
+      "styrene": 8478.6
+    },
+    {
+      "x": "2022-11上",
+      "title": "2022年11月上旬流通领域重要生产资料市场价格变动情况",
+      "url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1901650.html",
+      "published": null,
+      "pp": 7886,
+      "lldpe": 8300.7,
+      "pvc": 6021,
+      "styrene": 8065.5
+    },
+    {
+      "x": "2022-11中",
+      "title": "2022年11月中旬流通领域重要生产资料市场价格变动情况",
+      "url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1901663.html",
+      "published": null,
+      "pp": 7928.9,
+      "lldpe": 8359.4,
+      "pvc": 6066.9,
+      "styrene": 8351.9
+    },
+    {
+      "x": "2022-11下",
+      "title": "2022年11月下旬流通领域重要生产资料市场价格变动情况",
+      "url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1901669.html",
+      "published": null,
+      "pp": 7850.2,
+      "lldpe": 8355.2,
+      "pvc": 6041.5,
+      "styrene": 7998.3
+    },
+    {
+      "x": "2022-12上",
+      "title": "2022年12月上旬流通领域重要生产资料市场价格变动情况",
+      "url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1901675.html",
+      "published": null,
+      "pp": 7851.7,
+      "lldpe": 8379.5,
+      "pvc": 6116.2,
+      "styrene": 8076.2
+    },
+    {
+      "x": "2022-12中",
+      "title": "2022年12月中旬流通领域重要生产资料市场价格变动情况",
+      "url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1901688.html",
+      "published": null,
+      "pp": 7892.1,
+      "lldpe": 8429.3,
+      "pvc": 6277.4,
+      "styrene": 8132.9
+    },
+    {
+      "x": "2022-12下",
+      "title": "2022年12月下旬流通领域重要生产资料市场价格变动情况",
+      "url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1901702.html",
+      "published": null,
+      "pp": 7832.1,
+      "lldpe": 8383.1,
+      "pvc": 6236.5,
+      "styrene": 8163.6
+    },
+    {
+      "x": "2023-01上",
+      "title": "2023年1月上旬流通领域重要生产资料市场价格变动情况",
+      "url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1901706.html",
+      "published": null,
+      "pp": 7735,
+      "lldpe": 8268.9,
+      "pvc": 6247.8,
+      "styrene": 8222.8
+    },
+    {
+      "x": "2023-01中",
+      "title": "2023年1月中旬流通领域重要生产资料市场价格变动情况",
+      "url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1901732.html",
+      "published": null,
+      "pp": 7777.8,
+      "lldpe": 8263.9,
+      "pvc": 6424,
+      "styrene": 8583.6
+    },
+    {
+      "x": "2023-02上",
+      "title": "2023年2月上旬流通领域重要生产资料市场价格变动情况",
+      "url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230220_1913663.html",
+      "published": null,
+      "pp": 7877.1,
+      "lldpe": 8298.1,
+      "pvc": 6264,
+      "styrene": 8474.5
+    },
+    {
+      "x": "2023-02中",
+      "title": "2023年2月中旬流通领域重要生产资料市场价格变动情况",
+      "url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230224_1918453.html",
+      "published": null,
+      "pp": 7782.5,
+      "lldpe": 8265.3,
+      "pvc": 6302.8,
+      "styrene": 8375
+    },
+    {
+      "x": "2023-02下",
+      "title": "2023年2月下旬流通领域重要生产资料市场价格变动情况",
+      "url": "https://www.stats.gov.cn/sj/zxfb/202303/t20230304_1927533.html",
+      "published": null,
+      "pp": 7831.7,
+      "lldpe": 8347.5,
+      "pvc": 6421.8,
+      "styrene": 8512.2
+    },
+    {
+      "x": "2023-03上",
+      "title": "2023年3月上旬流通领域重要生产资料市场价格变动情况",
+      "url": "https://www.stats.gov.cn/sj/zxfb/202303/t20230314_1937136.html",
+      "published": null,
+      "pp": 7802.4,
+      "lldpe": 8352.9,
+      "pvc": 6360.2,
+      "styrene": 8510
+    },
+    {
+      "x": "2023-03中",
+      "title": "2023年3月中旬流通领域重要生产资料市场价格变动情况",
+      "url": "https://www.stats.gov.cn/sj/zxfb/202303/t20230324_1937932.html",
+      "published": null,
+      "pp": 7678.1,
+      "lldpe": 8267.2,
+      "pvc": 6239.5,
+      "styrene": 8334.4
+    },
+    {
+      "x": "2023-03下",
+      "title": "2023年3月下旬流通领域重要生产资料市场价格变动情况",
+      "url": "https://www.stats.gov.cn/sj/zxfb/202304/t20230404_1938344.html",
+      "published": null,
+      "pp": 7634.2,
+      "lldpe": 8247.3,
+      "pvc": 6151.1,
+      "styrene": 8422.3
+    },
+    {
+      "x": "2023-04上",
+      "title": "2023年4月上旬流通领域重要生产资料市场价格变动情况",
+      "url": "https://www.stats.gov.cn/sj/zxfb/202304/t20230413_1938602.html",
+      "published": null,
+      "pp": 7684.3,
+      "lldpe": 8314.3,
+      "pvc": 6197.3,
+      "styrene": 8683
+    },
+    {
+      "x": "2023-04中",
+      "title": "2023年4月中旬流通领域重要生产资料市场价格变动情况",
+      "url": "https://www.stats.gov.cn/sj/zxfb/202304/t20230424_1938965.html",
+      "published": null,
+      "pp": 7626.7,
+      "lldpe": 8285.5,
+      "pvc": 6092.7,
+      "styrene": 8662.5
+    },
+    {
+      "x": "2023-04下",
+      "title": "2023年4月下旬流通领域重要生产资料市场价格变动情况",
+      "url": "https://www.stats.gov.cn/sj/zxfb/202305/t20230505_1939193.html",
+      "published": null,
+      "pp": 7584.5,
+      "lldpe": 8299.5,
+      "pvc": 6066,
+      "styrene": 8375.7
+    },
+    {
+      "x": "2023-05上",
+      "title": "2023年5月上旬流通领域重要生产资料市场价格变动情况",
+      "url": "https://www.stats.gov.cn/sj/zxfb/202305/t20230514_1939402.html",
+      "published": null,
+      "pp": 7433.9,
+      "lldpe": 8190.6,
+      "pvc": 5922.5,
+      "styrene": 8146.9
+    },
+    {
+      "x": "2023-05中",
+      "title": "2023年5月中旬流通领域重要生产资料市场价格变动情况",
+      "url": "https://www.stats.gov.cn/sj/zxfb/202305/t20230523_1939967.html",
+      "published": null,
+      "pp": 7266.4,
+      "lldpe": 8050,
+      "pvc": 5811.4,
+      "styrene": 7909.3
+    },
+    {
+      "x": "2023-05下",
+      "title": "2023年5月下旬流通领域重要生产资料市场价格变动情况",
+      "url": "https://www.stats.gov.cn/sj/zxfb/202306/t20230602_1940326.html",
+      "published": null,
+      "pp": 7065.7,
+      "lldpe": 7895,
+      "pvc": 5679,
+      "styrene": 7811
+    },
+    {
+      "x": "2023-06上",
+      "title": "2023年6月上旬流通领域重要生产资料市场价格变动情况",
+      "url": "https://www.stats.gov.cn/sj/zxfb/202306/t20230614_1940552.html",
+      "published": null,
+      "pp": 7043.3,
+      "lldpe": 7937.4,
+      "pvc": 5679.4,
+      "styrene": 7856.4
+    },
+    {
+      "x": "2023-06中",
+      "title": "2023年6月中旬流通领域重要生产资料市场价格变动情况",
+      "url": "https://www.stats.gov.cn/sj/zxfb/202306/t20230621_1940794.html",
+      "published": null,
+      "pp": 7020.6,
+      "lldpe": 7970.8,
+      "pvc": 5671.4,
+      "styrene": 7488.3
+    },
+    {
+      "x": "2023-06下",
+      "title": "2023年6月下旬流通领域重要生产资料市场价格变动情况",
+      "url": "https://www.stats.gov.cn/sj/zxfb/202307/t20230704_1941001.html",
+      "published": null,
+      "pp": 7039.2,
+      "lldpe": 8034.7,
+      "pvc": 5673.7,
+      "styrene": 7270.8
+    },
+    {
+      "x": "2023-07上",
+      "title": "2023年7月上旬流通领域重要生产资料市场价格变动情况",
+      "url": "https://www.stats.gov.cn/sj/zxfb/202307/t20230713_1941213.html",
+      "published": null,
+      "pp": 7084.4,
+      "lldpe": 8104.4,
+      "pvc": 5682.7,
+      "styrene": 7395
+    },
+    {
+      "x": "2023-07中",
+      "title": "2023年7月中旬流通领域重要生产资料市场价格变动情况",
+      "url": "https://www.stats.gov.cn/sj/zxfb/202307/t20230724_1941470.html",
+      "published": null,
+      "pp": 7222.9,
+      "lldpe": 8236.7,
+      "pvc": 5841.1,
+      "styrene": 7834.8
+    },
+    {
+      "x": "2023-07下",
+      "title": "2023年7月下旬流通领域重要生产资料市场价格变动情况",
+      "url": "https://www.stats.gov.cn/sj/zxfb/202308/t20230803_1941770.html",
+      "published": null,
+      "pp": 7283.6,
+      "lldpe": 8245.5,
+      "pvc": 5995.5,
+      "styrene": 8331.2
+    },
+    {
+      "x": "2023-08上",
+      "title": "2023年8月上旬流通领域重要生产资料市场价格变动情况",
+      "url": "https://www.stats.gov.cn/sj/zxfb/202308/t20230814_1941939.html",
+      "published": null,
+      "pp": 7368.8,
+      "lldpe": 8307.4,
+      "pvc": 6145.4,
+      "styrene": 8598.6
+    },
+    {
+      "x": "2023-08中",
+      "title": "2023年8月中旬流通领域重要生产资料市场价格变动情况",
+      "url": "https://www.stats.gov.cn/sj/zxfb/202308/t20230823_1942226.html",
+      "published": null,
+      "pp": 7375.3,
+      "lldpe": 8284.4,
+      "pvc": 6109.2,
+      "styrene": 8608.1
+    },
+    {
+      "x": "2023-08下",
+      "title": "2023年8月下旬流通领域重要生产资料市场价格变动情况",
+      "url": "https://www.stats.gov.cn/sj/zxfb/202309/t20230904_1942521.html",
+      "published": null,
+      "pp": 7594.4,
+      "lldpe": 8434.6,
+      "pvc": 6243.3,
+      "styrene": 8739.2
+    },
+    {
+      "x": "2023-09上",
+      "title": "2023年9月上旬流通领域重要生产资料市场价格变动情况",
+      "url": "https://www.stats.gov.cn/sj/zxfb/202309/t20230914_1942800.html",
+      "published": null,
+      "pp": 7846.9,
+      "lldpe": 8529.7,
+      "pvc": 6430.8,
+      "styrene": 9152.5
+    },
+    {
+      "x": "2023-09中",
+      "title": "2023年9月中旬流通领域重要生产资料市场价格变动情况",
+      "url": "https://www.stats.gov.cn/sj/zxfb/202309/t20230922_1943130.html",
+      "published": null,
+      "pp": 7971.3,
+      "lldpe": 8555.8,
+      "pvc": 6376.3,
+      "styrene": 9751.9
+    },
+    {
+      "x": "2023-09下",
+      "title": "2023年9月下旬流通领域重要生产资料市场价格变动情况",
+      "url": "https://www.stats.gov.cn/sj/zxfb/202310/t20231008_1943363.html",
+      "published": null,
+      "pp": 7861.7,
+      "lldpe": 8498.6,
+      "pvc": 6171.3,
+      "styrene": 9194.2
+    },
+    {
+      "x": "2023-10上",
+      "title": "2023年10月上旬流通领域重要生产资料市场价格变动情况",
+      "url": "https://www.stats.gov.cn/sj/zxfb/202310/t20231013_1943576.html",
+      "published": null,
+      "pp": 7682.9,
+      "lldpe": 8355.8,
+      "pvc": 6002.1,
+      "styrene": 8636.3
+    },
+    {
+      "x": "2023-10中",
+      "title": "2023年10月中旬流通领域重要生产资料市场价格变动情况",
+      "url": "https://www.stats.gov.cn/sj/zxfb/202310/t20231024_1943867.html",
+      "published": null,
+      "pp": 7561.7,
+      "lldpe": 8246,
+      "pvc": 5904.6,
+      "styrene": 8638.3
+    },
+    {
+      "x": "2023-10下",
+      "title": "2023年10月下旬流通领域重要生产资料市场价格变动情况",
+      "url": "https://www.stats.gov.cn/sj/zxfb/202311/t20231103_1944116.html",
+      "published": null,
+      "pp": 7548.3,
+      "lldpe": 8238.3,
+      "pvc": 5958.3,
+      "styrene": 8693.6
+    },
+    {
+      "x": "2023-11上",
+      "title": "2023年11月上旬流通领域重要生产资料市场价格变动情况",
+      "url": "https://www.stats.gov.cn/sj/zxfb/202311/t20231113_1944471.html",
+      "published": null,
+      "pp": 7599,
+      "lldpe": 8293.3,
+      "pvc": 5982.6,
+      "styrene": 8697.5
+    },
+    {
+      "x": "2023-11中",
+      "title": "2023年11月中旬流通领域重要生产资料市场价格变动情况",
+      "url": "https://www.stats.gov.cn/sj/zxfb/202311/t20231124_1944859.html",
+      "published": null,
+      "pp": 7585.8,
+      "lldpe": 8248.3,
+      "pvc": 5916.9,
+      "styrene": 8680.8
+    },
+    {
+      "x": "2023-11下",
+      "title": "2023年11月下旬流通领域重要生产资料市场价格变动情况",
+      "url": "https://www.stats.gov.cn/sj/zxfb/202312/t20231204_1945127.html",
+      "published": null,
+      "pp": 7484,
+      "lldpe": 8146.3,
+      "pvc": 5799.1,
+      "styrene": 8506.7
+    },
+    {
+      "x": "2023-12上",
+      "title": "2023年12月上旬流通领域重要生产资料市场价格变动情况",
+      "url": "https://www.stats.gov.cn/sj/zxfb/202312/t20231213_1945508.html",
+      "published": null,
+      "pp": 7445,
+      "lldpe": 8105,
+      "pvc": 5720.7,
+      "styrene": 8113.9
+    },
+    {
+      "x": "2023-12中",
+      "title": "2023年12月中旬流通领域重要生产资料市场价格变动情况",
+      "url": "https://www.stats.gov.cn/sj/zxfb/202312/t20231222_1945723.html",
+      "published": null,
+      "pp": 7467.1,
+      "lldpe": 8166.5,
+      "pvc": 5794.5,
+      "styrene": 8240
+    },
+    {
+      "x": "2023-12下",
+      "title": "2023年12月下旬流通领域重要生产资料市场价格变动情况",
+      "url": "https://www.stats.gov.cn/sj/zxfb/202401/t20240104_1946219.html",
+      "published": null,
+      "pp": 7512.9,
+      "lldpe": 8272.4,
+      "pvc": 5793.6,
+      "styrene": 8484.5
+    },
+    {
+      "x": "2024-01上",
+      "title": "2024年1月上旬流通领域重要生产资料市场价格变动情况",
+      "url": "https://www.stats.gov.cn/sj/zxfb/202401/t20240113_1946522.html",
+      "published": null,
+      "pp": 7415.2,
+      "lldpe": 8219.5,
+      "pvc": 5665.1,
+      "styrene": 8356.9
+    },
+    {
+      "x": "2024-01中",
+      "title": "2024年1月中旬流通领域重要生产资料市场价格变动情况",
+      "url": "https://www.stats.gov.cn/sj/zxfb/202401/t20240123_1946828.html",
+      "published": null,
+      "pp": 7339.8,
+      "lldpe": 8184,
+      "pvc": 5649.7,
+      "styrene": 8534
+    },
+    {
+      "x": "2024-01下",
+      "title": "2024年1月下旬流通领域重要生产资料市场价格变动情况",
+      "url": "https://www.stats.gov.cn/sj/zxfb/202402/t20240202_1947216.html",
+      "published": null,
+      "pp": 7369.8,
+      "lldpe": 8298.1,
+      "pvc": 5677.2,
+      "styrene": 8758.3
+    },
+    {
+      "x": "2024-02上",
+      "title": "2024年2月上旬流通领域重要生产资料市场价格变动情况",
+      "url": "https://www.stats.gov.cn/sj/zxfb/202402/t20240207_1947532.html",
+      "published": null,
+      "pp": 7312.9,
+      "lldpe": 8216.3,
+      "pvc": 5650.7,
+      "styrene": 8660.8
+    },
+    {
+      "x": "2024-02下",
+      "title": "2024年2月下旬流通领域重要生产资料市场价格变动情况",
+      "url": "https://www.stats.gov.cn/sj/zxfb/202403/t20240321_1948076.html",
+      "published": null,
+      "pp": 7369.8,
+      "lldpe": 8232.6,
+      "pvc": 5671,
+      "styrene": 9062.9
+    },
+    {
+      "x": "2024-03上",
+      "title": "2024年3月上旬流通领域重要生产资料市场价格变动情况",
+      "url": "https://www.stats.gov.cn/sj/zxfb/202403/t20240321_1948097.html",
+      "published": null,
+      "pp": 7381.1,
+      "lldpe": 8256.7,
+      "pvc": 5700.7,
+      "styrene": 9131.7
+    },
+    {
+      "x": "2024-03中",
+      "title": "2024年3月中旬流通领域重要生产资料市场价格变动情况",
+      "url": "https://www.stats.gov.cn/sj/zxfb/202403/t20240325_1948145.html",
+      "published": null,
+      "pp": 7441.7,
+      "lldpe": 8271.5,
+      "pvc": 5681.2,
+      "styrene": 9431.7
+    },
+    {
+      "x": "2024-03下",
+      "title": "2024年3月下旬流通领域重要生产资料市场价格变动情况",
+      "url": "https://www.stats.gov.cn/sj/zxfb/202404/t20240403_1948249.html",
+      "published": null,
+      "pp": 7460.2,
+      "lldpe": 8287.6,
+      "pvc": 5667.9,
+      "styrene": 9338.3
+    },
+    {
+      "x": "2024-04上",
+      "title": "2024年4月上旬流通领域重要生产资料市场价格变动情况",
+      "url": "https://www.stats.gov.cn/sj/zxfb/202404/t20240412_1948512.html",
+      "published": null,
+      "pp": 7522.1,
+      "lldpe": 8355.7,
+      "pvc": 5611.3,
+      "styrene": 9602.6
+    },
+    {
+      "x": "2024-04中",
+      "title": "2024年4月中旬流通领域重要生产资料市场价格变动情况",
+      "url": "https://www.stats.gov.cn/sj/zxfb/202404/t20240423_1948647.html",
+      "published": "2024/04/24 09:30",
+      "pp": 7553.6,
+      "lldpe": 8435.7,
+      "pvc": 5616.8,
+      "styrene": 9654.8
+    },
+    {
+      "x": "2024-04下",
+      "title": "2024年4月下旬流通领域重要生产资料市场价格变动情况",
+      "url": "https://www.stats.gov.cn/sj/zxfb/202405/t20240506_1948962.html",
+      "published": null,
+      "pp": 7569,
+      "lldpe": 8510.2,
+      "pvc": 5623.3,
+      "styrene": 9610.7
+    },
+    {
+      "x": "2024-05上",
+      "title": "2024年5月上旬流通领域重要生产资料市场价格变动情况",
+      "url": "https://www.stats.gov.cn/sj/zxfb/202405/t20240514_1950313.html",
+      "published": null,
+      "pp": 7557.3,
+      "lldpe": 8554,
+      "pvc": 5701.2,
+      "styrene": 9460.3
+    },
+    {
+      "x": "2024-05中",
+      "title": "2024年5月中旬流通领域重要生产资料市场价格变动情况",
+      "url": "https://www.stats.gov.cn/sj/zxfb/202405/t20240524_1952672.html",
+      "published": null,
+      "pp": 7583.3,
+      "lldpe": 8581.2,
+      "pvc": 5808.3,
+      "styrene": 9432.6
+    },
+    {
+      "x": "2024-05下",
+      "title": "2024年5月下旬流通领域重要生产资料市场价格变动情况",
+      "url": "https://www.stats.gov.cn/sj/zxfb/202406/t20240603_1954218.html",
+      "published": null,
+      "pp": 7712.5,
+      "lldpe": 8710.2,
+      "pvc": 6113.9,
+      "styrene": 9726.5
+    },
+    {
+      "x": "2024-06上",
+      "title": "2024年6月上旬流通领域重要生产资料市场价格变动情况",
+      "url": "https://www.stats.gov.cn/sj/zxfb/202406/t20240613_1954619.html",
+      "published": null,
+      "pp": 7689,
+      "lldpe": 8700.3,
+      "pvc": 6009.3,
+      "styrene": 9641.7
+    },
+    {
+      "x": "2024-06中",
+      "title": "2024年6月中旬流通领域重要生产资料市场价格变动情况",
+      "url": "https://www.stats.gov.cn/sj/zxfb/202406/t20240624_1955140.html",
+      "published": null,
+      "pp": 7691.7,
+      "lldpe": 8707.3,
+      "pvc": 5914.6,
+      "styrene": 9560.6
+    },
+    {
+      "x": "2024-06下",
+      "title": "2024年6月下旬流通领域重要生产资料市场价格变动情况",
+      "url": "https://www.stats.gov.cn/sj/zxfb/202407/t20240703_1955359.html",
+      "published": "2024/07/04 09:30",
+      "pp": 7695.3,
+      "lldpe": 8700,
+      "pvc": 5804.5,
+      "styrene": 9430.8
+    },
+    {
+      "x": "2024-07上",
+      "title": "2024年7月上旬流通领域重要生产资料市场价格变动情况",
+      "url": "https://www.stats.gov.cn/sj/zxfb/202407/t20240712_1955583.html",
+      "published": "2024/07/14 09:30",
+      "pp": 7717.5,
+      "lldpe": 8680,
+      "pvc": 5788.6,
+      "styrene": 9581
+    },
+    {
+      "x": "2024-07中",
+      "title": "2024年7月中旬流通领域重要生产资料市场价格变动情况",
+      "url": "https://www.stats.gov.cn/sj/zxfb/202407/t20240723_1955829.html",
+      "published": "2024/07/24 09:30",
+      "pp": 7670,
+      "lldpe": 8546.9,
+      "pvc": 5713,
+      "styrene": 9503.2
+    },
+    {
+      "x": "2024-07下",
+      "title": "2024年7月下旬流通领域重要生产资料市场价格变动情况",
+      "url": "https://www.stats.gov.cn/sj/zxfb/202408/t20240802_1955927.html",
+      "published": "2024/08/04 09:30",
+      "pp": 7602.3,
+      "lldpe": 8452.3,
+      "pvc": 5649.9,
+      "styrene": 9349
+    },
+    {
+      "x": "2024-08上",
+      "title": "2024年8月上旬流通领域重要生产资料市场价格变动情况",
+      "url": "https://www.stats.gov.cn/sj/zxfb/202408/t20240813_1955970.html",
+      "published": "2024/08/14 09:30",
+      "pp": 7602.6,
+      "lldpe": 8415.5,
+      "pvc": 5613,
+      "styrene": 9461.2
+    },
+    {
+      "x": "2024-08中",
+      "title": "2024年8月中旬流通领域重要生产资料市场价格变动情况",
+      "url": "https://www.stats.gov.cn/sj/zxfb/202408/t20240823_1956084.html",
+      "published": "2024/08/24 09:30",
+      "pp": 7589.3,
+      "lldpe": 8372.6,
+      "pvc": 5481.9,
+      "styrene": 9479.5
+    },
+    {
+      "x": "2024-08下",
+      "title": "2024年8月下旬流通领域重要生产资料市场价格变动情况",
+      "url": "https://www.stats.gov.cn/sj/zxfb/202409/t20240903_1956185.html",
+      "published": "2024/09/04 09:30",
+      "pp": 7605.2,
+      "lldpe": 8337.3,
+      "pvc": 5518,
+      "styrene": 9442.7
+    },
+    {
+      "x": "2024-09上",
+      "title": "2024年9月上旬流通领域重要生产资料市场价格变动情况",
+      "url": "https://www.stats.gov.cn/sj/zxfb/202409/t20240913_1956443.html",
+      "published": "2024/09/14 09:30",
+      "pp": 7539.3,
+      "lldpe": 8326.2,
+      "pvc": 5340.2,
+      "styrene": 9373.8
+    },
+    {
+      "x": "2024-09中",
+      "title": "2024年9月中旬流通领域重要生产资料市场价格变动情况",
+      "url": "https://www.stats.gov.cn/sj/zxfb/202409/t20240923_1956638.html",
+      "published": "2024/09/24 09:30",
+      "pp": 7467.8,
+      "lldpe": 8296.4,
+      "pvc": 5278.1,
+      "styrene": 9148.3
+    },
+    {
+      "x": "2024-09下",
+      "title": "2024年9月下旬流通领域重要生产资料市场价格变动情况",
+      "url": "https://www.stats.gov.cn/sj/zxfb/202410/t20241008_1956826.html",
+      "published": "2024/10/09 09:30",
+      "pp": 7453.1,
+      "lldpe": 8323.3,
+      "pvc": 5352.1,
+      "styrene": 8880
+    },
+    {
+      "x": "2024-10上",
+      "title": "2024年10月上旬流通领域重要生产资料市场价格变动情况",
+      "url": "https://www.stats.gov.cn/sj/zxfb/202410/t20241013_1956900.html",
+      "published": "2024/10/14 09:30",
+      "pp": 7696.7,
+      "lldpe": 8613.3,
+      "pvc": 5585.5,
+      "styrene": 9097.2
+    },
+    {
+      "x": "2024-10中",
+      "title": "2024年10月中旬流通领域重要生产资料市场价格变动情况",
+      "url": "https://www.stats.gov.cn/sj/zxfb/202410/t20241023_1957115.html",
+      "published": "2024/10/24 09:30",
+      "pp": 7586.7,
+      "lldpe": 8582.1,
+      "pvc": 5510,
+      "styrene": 8758.1
+    },
+    {
+      "x": "2024-10下",
+      "title": "2024年10月下旬流通领域重要生产资料市场价格变动情况",
+      "url": "https://www.stats.gov.cn/sj/zxfb/202411/t20241101_1957234.html",
+      "published": "2024/11/04 09:30",
+      "pp": 7474.8,
+      "lldpe": 8483.1,
+      "pvc": 5377.5,
+      "styrene": 8751
+    },
+    {
+      "x": "2024-11上",
+      "title": "2024年11月上旬流通领域重要生产资料市场价格变动情况",
+      "url": "https://www.stats.gov.cn/sj/zxfb/202411/t20241112_1957382.html",
+      "published": "2024/11/14 09:30",
+      "pp": 7466.7,
+      "lldpe": 8516.4,
+      "pvc": 5346.7,
+      "styrene": 8788.6
+    },
+    {
+      "x": "2024-11中",
+      "title": "2024年11月中旬流通领域重要生产资料市场价格变动情况",
+      "url": "https://www.stats.gov.cn/sj/zxfb/202411/t20241122_1957564.html",
+      "published": "2024/11/24 09:30",
+      "pp": 7479.4,
+      "lldpe": 8601.7,
+      "pvc": 5237.1,
+      "styrene": 8795.2
+    },
+    {
+      "x": "2024-11下",
+      "title": "2024年11月下旬流通领域重要生产资料市场价格变动情况",
+      "url": "https://www.stats.gov.cn/sj/zxfb/202412/t20241203_1957630.html",
+      "published": "2024/12/04 09:30",
+      "pp": 7522.1,
+      "lldpe": 8736.7,
+      "pvc": 5178.8,
+      "styrene": 8846.9
+    },
+    {
+      "x": "2024-12上",
+      "title": "2024年12月上旬流通领域重要生产资料市场价格变动情况",
+      "url": "https://www.stats.gov.cn/sj/zxfb/202412/t20241213_1957747.html",
+      "published": "2024/12/14 09:30",
+      "pp": 7519.5,
+      "lldpe": 8856,
+      "pvc": 5032.5,
+      "styrene": 8910
+    },
+    {
+      "x": "2024-12中",
+      "title": "2024年12月中旬流通领域重要生产资料市场价格变动情况",
+      "url": "https://www.stats.gov.cn/sj/zxfb/202412/t20241223_1957829.html",
+      "published": "2024/12/24 09:30",
+      "pp": 7513.8,
+      "lldpe": 8930,
+      "pvc": 5059.5,
+      "styrene": 8923.1
+    },
+    {
+      "x": "2024-12下",
+      "title": "2024年12月下旬流通领域重要生产资料市场价格变动情况",
+      "url": "https://www.stats.gov.cn/sj/zxfb/202501/t20250103_1958140.html",
+      "published": "2025/01/04 09:30",
+      "pp": 7497.2,
+      "lldpe": 9003.6,
+      "pvc": 5067,
+      "styrene": 8706.7
+    },
+    {
+      "x": "2025-01上",
+      "title": "2025年1月上旬流通领域重要生产资料市场价格变动情况",
+      "url": "https://www.stats.gov.cn/sj/zxfb/202501/t20250114_1958197.html",
+      "published": "2025/01/14 09:30",
+      "pp": 7455.8,
+      "lldpe": 8990.6,
+      "pvc": 5010.8,
+      "styrene": 8367.8
+    },
+    {
+      "x": "2025-01中",
+      "title": "2025年1月中旬流通领域重要生产资料市场价格变动情况",
+      "url": "https://www.stats.gov.cn/sj/zxfb/202501/t20250123_1958423.html",
+      "published": "2025/01/24 09:30",
+      "pp": 7423.6,
+      "lldpe": 8679.7,
+      "pvc": 5115.4,
+      "styrene": 8498.6
+    },
+    {
+      "x": "2025-02上",
+      "title": "2025年2月上旬流通领域重要生产资料市场价格变动情况",
+      "url": "https://www.stats.gov.cn/sj/zxfb/202502/t20250214_1958707.html",
+      "published": "2025/02/14 09:30",
+      "pp": 7367.3,
+      "lldpe": 8293,
+      "pvc": 5086.7,
+      "styrene": 8632.3
+    },
+    {
+      "x": "2025-02中",
+      "title": "2025年2月中旬流通领域重要生产资料市场价格变动情况",
+      "url": "https://www.stats.gov.cn/sj/zxfb/202502/t20250224_1958785.html",
+      "published": "2025/02/24 09:30",
+      "pp": 7387.4,
+      "lldpe": 8310.5,
+      "pvc": 5101.6,
+      "styrene": 8597.1
+    },
+    {
+      "x": "2025-02下",
+      "title": "2025年2月下旬流通领域重要生产资料市场价格变动情况",
+      "url": "https://www.stats.gov.cn/sj/zxfb/202503/t20250304_1958845.html",
+      "published": "2025/03/04 09:30",
+      "pp": 7365.3,
+      "lldpe": 8320.7,
+      "pvc": 5090,
+      "styrene": 8523.7
+    },
+    {
+      "x": "2025-03上",
+      "title": "2025年3月上旬流通领域重要生产资料市场价格变动情况",
+      "url": "https://www.stats.gov.cn/sj/zxfb/202503/t20250313_1958957.html",
+      "published": "2025/03/14 09:30",
+      "pp": 7350,
+      "lldpe": 8298.3,
+      "pvc": 5036.8,
+      "styrene": 8329.4
+    },
+    {
+      "x": "2025-03中",
+      "title": "2025年3月中旬流通领域重要生产资料市场价格变动情况",
+      "url": "https://www.stats.gov.cn/sj/zxfb/202503/t20250324_1959119.html",
+      "published": "2025/03/24 09:30",
+      "pp": 7306.3,
+      "lldpe": 8213.5,
+      "pvc": 4966.4,
+      "styrene": 8164.6
+    },
+    {
+      "x": "2025-03下",
+      "title": "2025年3月下旬流通领域重要生产资料市场价格变动情况",
+      "url": "https://www.stats.gov.cn/sj/zxfb/202504/t20250402_1959191.html",
+      "published": "2025/04/04 09:30",
+      "pp": 7321,
+      "lldpe": 8070,
+      "pvc": 5008.4,
+      "styrene": 8052.6
+    },
+    {
+      "x": "2025-04上",
+      "title": "2025年4月上旬流通领域重要生产资料市场价格变动情况",
+      "url": "https://www.stats.gov.cn/sj/zxfb/202504/t20250414_1959288.html",
+      "published": "2025/04/14 09:30",
+      "pp": 7290.7,
+      "lldpe": 7935.7,
+      "pvc": 4933.8,
+      "styrene": 7709
+    },
+    {
+      "x": "2025-04中",
+      "title": "2025年4月中旬流通领域重要生产资料市场价格变动情况",
+      "url": "https://www.stats.gov.cn/sj/zxfb/202504/t20250423_1959399.html",
+      "published": "2025/04/24 09:30",
+      "pp": 7253.9,
+      "lldpe": 7723.9,
+      "pvc": 4892.4,
+      "styrene": 7585.6
+    },
+    {
+      "x": "2025-04下",
+      "title": "2025年4月下旬流通领域重要生产资料市场价格变动情况",
+      "url": "https://www.stats.gov.cn/sj/zxfb/202505/t20250506_1959568.html",
+      "published": "2025/05/07 09:30",
+      "pp": 7248.1,
+      "lldpe": 7619.2,
+      "pvc": 4837.9,
+      "styrene": 7416
+    },
+    {
+      "x": "2025-05上",
+      "title": "2025年5月上旬流通领域重要生产资料市场价格变动情况",
+      "url": "https://www.stats.gov.cn/sj/zxfb/202505/t20250514_1959792.html",
+      "published": "2025/05/14 09:30",
+      "pp": 7198.3,
+      "lldpe": 7494.6,
+      "pvc": 4763,
+      "styrene": 7221.9
+    },
+    {
+      "x": "2025-05中",
+      "title": "2025年5月中旬流通领域重要生产资料市场价格变动情况",
+      "url": "https://www.stats.gov.cn/sj/zxfb/202505/t20250523_1959935.html",
+      "published": "2025/05/24 09:30",
+      "pp": 7231.9,
+      "lldpe": 7558.6,
+      "pvc": 4832.6,
+      "styrene": 7805.2
+    },
+    {
+      "x": "2025-05下",
+      "title": "2025年5月下旬流通领域重要生产资料市场价格变动情况",
+      "url": "https://www.stats.gov.cn/sj/zxfb/202506/t20250603_1959991.html",
+      "published": "2025/06/04 09:30",
+      "pp": 7149.3,
+      "lldpe": 7430.5,
+      "pvc": 4784.7,
+      "styrene": 7755.7
+    },
+    {
+      "x": "2025-06上",
+      "title": "2025年6月上旬流通领域重要生产资料市场价格变动情况",
+      "url": "https://www.stats.gov.cn/sj/zxfb/202506/t20250613_1960154.html",
+      "published": "2025/06/14 09:30",
+      "pp": 7078.6,
+      "lldpe": 7311.9,
+      "pvc": 4746.3,
+      "styrene": 7530.8
+    },
+    {
+      "x": "2025-06中",
+      "title": "2025年6月中旬流通领域重要生产资料市场价格变动情况",
+      "url": "https://www.stats.gov.cn/sj/zxfb/202506/t20250623_1960227.html",
+      "published": "2025/06/24 09:30",
+      "pp": 7174.8,
+      "lldpe": 7454,
+      "pvc": 4804.5,
+      "styrene": 7872.1
+    },
+    {
+      "x": "2025-06下",
+      "title": "2025年6月下旬流通领域重要生产资料市场价格变动情况",
+      "url": "https://www.stats.gov.cn/sj/zxfb/202507/t20250703_1960315.html",
+      "published": "2025/07/04 09:30",
+      "pp": 7183.9,
+      "lldpe": 7518.9,
+      "pvc": 4824.6,
+      "styrene": 7856.4
+    },
+    {
+      "x": "2025-07上",
+      "title": "2025年7月上旬流通领域重要生产资料市场价格变动情况",
+      "url": "https://www.stats.gov.cn/sj/zxfb/202507/t20250714_1960397.html",
+      "published": "2025/07/14 09:30",
+      "pp": 7110,
+      "lldpe": 7412.4,
+      "pvc": 4820,
+      "styrene": 7599
+    },
+    {
+      "x": "2025-07中",
+      "title": "2025年7月中旬流通领域重要生产资料市场价格变动情况",
+      "url": "https://www.stats.gov.cn/sj/zxfb/202507/t20250723_1960477.html",
+      "published": "2025/07/24 09:30",
+      "pp": 7068.6,
+      "lldpe": 7355.8,
+      "pvc": 4859,
+      "styrene": 7550
+    },
+    {
+      "x": "2025-07下",
+      "title": "2025年7月下旬流通领域重要生产资料市场价格变动情况",
+      "url": "https://www.stats.gov.cn/sj/zxfb/202508/t20250801_1960583.html",
+      "published": "2025/08/04 09:30",
+      "pp": 7095.4,
+      "lldpe": 7415.2,
+      "pvc": 5056.7,
+      "styrene": 7429.1
+    },
+    {
+      "x": "2025-08上",
+      "title": "2025年8月上旬流通领域重要生产资料市场价格变动情况",
+      "url": "https://www.stats.gov.cn/sj/zxfb/202508/t20250813_1960659.html",
+      "published": "2025/08/14 09:30",
+      "pp": 7038.9,
+      "lldpe": 7417.2,
+      "pvc": 4921.8,
+      "styrene": 7292.5
+    },
+    {
+      "x": "2025-08中",
+      "title": "2025年8月中旬流通领域重要生产资料市场价格变动情况",
+      "url": "https://www.stats.gov.cn/sj/zxfb/202508/t20250822_1960866.html",
+      "published": "2025/08/24 09:30",
+      "pp": 7009.2,
+      "lldpe": 7442.7,
+      "pvc": 4876.5,
+      "styrene": 7285.6
+    },
+    {
+      "x": "2025-08下",
+      "title": "2025年8月下旬流通领域重要生产资料市场价格变动情况",
+      "url": "https://www.stats.gov.cn/sj/zxfb/202509/t20250903_1961000.html",
+      "published": "2025/09/04 09:30",
+      "pp": 6953.1,
+      "lldpe": 7467.6,
+      "pvc": 4809.5,
+      "styrene": 7277.9
+    },
+    {
+      "x": "2025-09上",
+      "title": "2025年9月上旬流通领域重要生产资料市场价格变动情况",
+      "url": "https://www.stats.gov.cn/sj/zxfb/202509/t20250912_1961169.html",
+      "published": "2025/09/14 09:30",
+      "pp": 6859.8,
+      "lldpe": 7428.5,
+      "pvc": 4747.7,
+      "styrene": 7054.6
+    },
+    {
+      "x": "2025-09中",
+      "title": "2025年9月中旬流通领域重要生产资料市场价格变动情况",
+      "url": "https://www.stats.gov.cn/sj/zxfb/202509/t20250923_1961330.html",
+      "published": "2025/09/24 09:30",
+      "pp": 6809.5,
+      "lldpe": 7414,
+      "pvc": 4802,
+      "styrene": 7066.9
+    },
+    {
+      "x": "2025-09下",
+      "title": "2025年9月下旬流通领域重要生产资料市场价格变动情况",
+      "url": "https://www.stats.gov.cn/sj/zxfb/202510/t20251009_1961456.html",
+      "published": "2025/10/10 09:30",
+      "pp": 6741.4,
+      "lldpe": 7367.9,
+      "pvc": 4796,
+      "styrene": 6884.5
+    },
+    {
+      "x": "2025-10中",
+      "title": "2025年10月中旬流通领域重要生产资料市场价格变动情况",
+      "url": "https://www.stats.gov.cn/sj/zxfb/202510/t20251023_1961676.html",
+      "published": "2025/10/24 09:30",
+      "pp": 6564.8,
+      "lldpe": 7225,
+      "pvc": 4664.8,
+      "styrene": 6546
+    },
+    {
+      "x": "2025-10下",
+      "title": "2025年10月下旬流通领域重要生产资料市场价格变动情况",
+      "url": "https://www.stats.gov.cn/sj/zxfb/202511/t20251103_1961784.html",
+      "published": "2025/11/04 09:30",
+      "pp": 6543.8,
+      "lldpe": 7196.9,
+      "pvc": 4684.4,
+      "styrene": 6437.9
+    },
+    {
+      "x": "2025-11上",
+      "title": "2025年11月上旬流通领域重要生产资料市场价格变动情况",
+      "url": "https://www.stats.gov.cn/sj/zxfb/202511/t20251113_1961845.html",
+      "published": "2025/11/14 09:30",
+      "pp": 6452.8,
+      "lldpe": 7138.6,
+      "pvc": 4612.9,
+      "styrene": 6320.8
+    },
+    {
+      "x": "2025-11中",
+      "title": "2025年11月中旬流通领域重要生产资料市场价格变动情况",
+      "url": "https://www.stats.gov.cn/sj/zxfb/202511/t20251124_1961911.html",
+      "published": "2025/11/24 09:30",
+      "pp": 6410.2,
+      "lldpe": 7102.1,
+      "pvc": 4534.1,
+      "styrene": 6430.2
+    },
+    {
+      "x": "2025-11下",
+      "title": "2025年11月下旬流通领域重要生产资料市场价格变动情况",
+      "url": "https://www.stats.gov.cn/sj/zxfb/202512/t20251203_1961979.html",
+      "published": "2025/12/04 09:30",
+      "pp": 6331.7,
+      "lldpe": 7049.4,
+      "pvc": 4494.2,
+      "styrene": 6531
+    },
+    {
+      "x": "2025-12上",
+      "title": "2025年12月上旬流通领域重要生产资料市场价格变动情况",
+      "url": "https://www.stats.gov.cn/sj/zxfb/202512/t20251212_1962058.html",
+      "published": "2025/12/14 09:30",
+      "pp": 6276,
+      "lldpe": 6915.4,
+      "pvc": 4447.9,
+      "styrene": 6648.3
+    },
+    {
+      "x": "2025-12中",
+      "title": "2025年12月中旬流通领域重要生产资料市场价格变动情况",
+      "url": "https://www.stats.gov.cn/sj/zxfb/202512/t20251223_1962128.html",
+      "published": "2025/12/24 09:30",
+      "pp": 6176.1,
+      "lldpe": 6665,
+      "pvc": 4378.9,
+      "styrene": 6603.6
+    },
+    {
+      "x": "2025-12下",
+      "title": "2025年12月下旬流通领域重要生产资料市场价格变动情况",
+      "url": "https://www.stats.gov.cn/sj/zxfb/202601/t20260104_1962240.html",
+      "published": "2026/01/04 09:30",
+      "pp": 6115.8,
+      "lldpe": 6427.2,
+      "pvc": 4483,
+      "styrene": 6616.7
+    },
+    {
+      "x": "2026-01上",
+      "title": "2026年1月上旬流通领域重要生产资料市场价格变动情况",
+      "url": "https://www.stats.gov.cn/sj/zxfb/202601/t20260113_1962302.html",
+      "published": "2026/01/14 09:30",
+      "pp": 6269.2,
+      "lldpe": 6613.3,
+      "pvc": null,
+      "styrene": null
+    },
+    {
+      "x": "2026-01中",
+      "title": "2026年1月中旬流通领域重要生产资料市场价格变动情况",
+      "url": "https://www.stats.gov.cn/sj/zxfb/202601/t20260123_1962369.html",
+      "published": "2026/01/24 09:30",
+      "pp": 6441.9,
+      "lldpe": 6903.8,
+      "pvc": null,
+      "styrene": null
+    },
+    {
+      "x": "2026-01下",
+      "title": "2026年1月下旬流通领域重要生产资料市场价格变动情况",
+      "url": "https://www.stats.gov.cn/sj/zxfb/202602/t20260204_1962539.html",
+      "published": "2026/02/04 09:30",
+      "pp": 6544.5,
+      "lldpe": 6943.6,
+      "pvc": null,
+      "styrene": null
+    },
+    {
+      "x": "2026-02上",
+      "title": "2026年2月上旬流通领域重要生产资料市场价格变动情况",
+      "url": "https://www.stats.gov.cn/sj/zxfb/202602/t20260213_1962621.html",
+      "published": "2026/02/14 09:30",
+      "pp": 6638.6,
+      "lldpe": 6911.9,
+      "pvc": null,
+      "styrene": null
+    },
+    {
+      "x": "2026-02下",
+      "title": "2026年2月下旬流通领域重要生产资料市场价格变动情况",
+      "url": "https://www.stats.gov.cn/sj/zxfb/202603/t20260303_1962691.html",
+      "published": "2026/03/04 09:30",
+      "pp": 6626.3,
+      "lldpe": 6825.4,
+      "pvc": null,
+      "styrene": null
+    },
+    {
+      "x": "2026-03上",
+      "title": "2026年3月上旬流通领域重要生产资料市场价格变动情况",
+      "url": "https://www.stats.gov.cn/sj/zxfb/202603/t20260312_1962756.html",
+      "published": "2026/03/14 09:30",
+      "pp": 7774.8,
+      "lldpe": 7913.3,
+      "pvc": null,
+      "styrene": null
+    },
+    {
+      "x": "2026-03中",
+      "title": "2026年3月中旬流通领域重要生产资料市场价格变动情况",
+      "url": "https://www.stats.gov.cn/sj/zxfb/202603/t20260323_1962824.html",
+      "published": "2026/03/24 09:30",
+      "pp": 8546,
+      "lldpe": 8703.8,
+      "pvc": null,
+      "styrene": null
+    },
+    {
+      "x": "2026-03下",
+      "title": "2026年3月下旬流通领域重要生产资料市场价格变动情况",
+      "url": "https://www.stats.gov.cn/sj/zxfb/202604/t20260403_1962983.html",
+      "published": "2026/04/04 09:30",
+      "pp": 9125,
+      "lldpe": 9171.7,
+      "pvc": null,
+      "styrene": null
+    },
+    {
+      "x": "2026-04上",
+      "title": "2026年4月上旬流通领域重要生产资料市场价格变动情况",
+      "url": "https://www.stats.gov.cn/sj/zxfb/202604/t20260413_1963295.html",
+      "published": "2026/04/14 09:30",
+      "pp": 9336.1,
+      "lldpe": 9341.9,
+      "pvc": null,
+      "styrene": null
+    },
+    {
+      "x": "2026-04中",
+      "title": "2026年4月中旬流通领域重要生产资料市场价格变动情况",
+      "url": "https://www.stats.gov.cn/sj/zxfb/202604/t20260424_1963388.html",
+      "published": "2026/04/24 09:30",
+      "pp": 9280.8,
+      "lldpe": 9034.4,
+      "pvc": null,
+      "styrene": null
+    },
+    {
+      "x": "2026-04下",
+      "title": "2026年4月下旬流通领域重要生产资料市场价格变动情况",
+      "url": "https://www.stats.gov.cn/sj/zxfb/202605/t20260506_1963594.html",
+      "published": "2026/05/07 09:30",
+      "pp": 9190,
+      "lldpe": 8841.4,
+      "pvc": null,
+      "styrene": null
+    },
+    {
+      "x": "2026-05上",
+      "title": "2026年5月上旬流通领域重要生产资料市场价格变动情况",
+      "url": "https://www.stats.gov.cn/sj/zxfb/202605/t20260514_1963691.html",
+      "published": "2026/05/14 09:30",
+      "pp": 9457.5,
+      "lldpe": 8992.9,
+      "pvc": null,
+      "styrene": null
+    },
+    {
+      "x": "2026-05中",
+      "title": "2026年5月中旬流通领域重要生产资料市场价格变动情况",
+      "url": "https://www.stats.gov.cn/sj/zxfb/202605/t20260522_1963786.html",
+      "published": "2026/05/24 09:30",
+      "pp": 9645.4,
+      "lldpe": 8911.7,
+      "pvc": null,
+      "styrene": null
+    },
+    {
+      "x": "2026-05下",
+      "title": "2026年5月下旬流通领域重要生产资料市场价格变动情况",
+      "url": "https://www.stats.gov.cn/sj/zxfb/202606/t20260603_1963874.html",
+      "published": "2026/06/04 09:30",
+      "pp": 9749.3,
+      "lldpe": 8639,
+      "pvc": null,
+      "styrene": null
+    },
+    {
+      "x": "2026-06上",
+      "title": "2026年6月上旬流通领域重要生产资料市场价格变动情况",
+      "url": "https://www.stats.gov.cn/sj/zxfb/202606/t20260612_1963938.html",
+      "published": "2026/06/14 09:30",
+      "pp": 9752.5,
+      "lldpe": 8556.7,
+      "pvc": null,
+      "styrene": null
+    },
+    {
+      "x": "2026-06中",
+      "title": "2026年6月中旬流通领域重要生产资料市场价格变动情况",
+      "url": "https://www.stats.gov.cn/sj/zxfb/202606/t20260623_1963989.html",
+      "published": "2026/06/24 09:30",
+      "pp": 9526.9,
+      "lldpe": 8365.6,
+      "pvc": null,
+      "styrene": null
+    },
+    {
+      "x": "2026-06下",
+      "title": "2026年6月下旬流通领域重要生产资料市场价格变动情况",
+      "url": "https://www.stats.gov.cn/sj/zxfb/202607/t20260703_1964057.html",
+      "published": "2026/07/04 09:30",
+      "pp": 8186.9,
+      "lldpe": 7599.8,
+      "pvc": null,
+      "styrene": null
+    },
+    {
+      "x": "2026-07上",
+      "title": "2026年7月上旬流通领域重要生产资料市场价格变动情况",
+      "url": "https://www.stats.gov.cn/sj/zxfb/202607/t20260713_1964100.html",
+      "published": "2026/07/14 09:30",
+      "pp": 8053.3,
+      "lldpe": 7549.8,
+      "pvc": null,
+      "styrene": null
+    },
+    {
+      "x": "2026-07中",
+      "title": "2026年7月中旬流通领域重要生产资料市场价格变动情况",
+      "url": "https://www.stats.gov.cn/sj/zxfb/202607/t20260723_1964185.html",
+      "published": "2026/07/24 09:30",
+      "pp": 8875,
+      "lldpe": 8423.1,
+      "pvc": null,
+      "styrene": null
+    },
+    {
+      "x": "2026-07下",
+      "title": "2026年7月下旬流通领域重要生产资料市场价格变动情况",
+      "url": "https://www.stats.gov.cn/sj/zxfb/202608/t20260803_1964273.html",
+      "published": "2026/08/04 09:30",
+      "pp": 8929,
+      "lldpe": 8500.4,
+      "pvc": null,
+      "styrene": null
+    },
+    {
+      "x": "2026-08上",
+      "title": "2026年8月上旬流通领域重要生产资料市场价格变动情况",
+      "url": "https://www.stats.gov.cn/sj/zxfb/202608/t20260813_1965025.html",
+      "published": "2026/08/14 09:30",
+      "pp": 8838.6,
+      "lldpe": 8413.3,
+      "pvc": null,
+      "styrene": null
+    },
+    {
+      "x": "2026-08中",
+      "title": "2026年8月中旬流通领域重要生产资料市场价格变动情况",
+      "url": "https://www.stats.gov.cn/sj/zxfb/202608/t20260821_1965093.html",
+      "published": "2026/08/24 09:30",
+      "pp": 9034.4,
+      "lldpe": 8602.3,
+      "pvc": null,
+      "styrene": null
+    },
+    {
+      "x": "2026-08下",
+      "title": "2026年8月下旬流通领域重要生产资料市场价格变动情况",
+      "url": "https://www.stats.gov.cn/sj/zxfb/202609/t20260903_1965182.html",
+      "published": "2026/09/04 09:30",
+      "pp": 9187.1,
+      "lldpe": 8745.5,
+      "pvc": null,
+      "styrene": null
+    },
+    {
+      "x": "2026-09上",
+      "title": "2026年9月上旬流通领域重要生产资料市场价格变动情况",
+      "url": "https://www.stats.gov.cn/sj/zxfb/202609/t20260914_1965293.html",
+      "published": "2026/09/14 09:30",
+      "pp": 9634.4,
+      "lldpe": 9239.6,
+      "pvc": null,
+      "styrene": null
+    },
+    {
+      "x": "2026-09中",
+      "title": "2026年9月中旬流通领域重要生产资料市场价格变动情况",
+      "url": "https://www.stats.gov.cn/sj/zxfb/202609/t20260923_1965403.html",
+      "published": "2026/09/24 09:30",
+      "pp": 10040,
+      "lldpe": 9589.8,
+      "pvc": null,
+      "styrene": null
+    },
+    {
+      "x": "2026-09下",
+      "title": "2026年9月下旬流通领域重要生产资料市场价格变动情况",
+      "url": "https://www.stats.gov.cn/sj/zxfb/202610/t20261008_1965465.html",
+      "published": "2026/10/09 09:30",
+      "pp": 9891.9,
+      "lldpe": 9341.9,
+      "pvc": null,
+      "styrene": null
+    },
+    {
+      "x": "2026-10中",
+      "title": "2026年10月中旬流通领域重要生产资料市场价格变动情况",
+      "url": "https://www.stats.gov.cn/sj/zxfb/202610/t20261023_1965679.html",
+      "published": "2026/10/24 09:30",
+      "pp": 10666.4,
+      "lldpe": 9999,
+      "pvc": null,
+      "styrene": null
+    }
+  ],
+  "failed": []
+}

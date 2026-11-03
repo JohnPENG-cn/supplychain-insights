@@ -107,6 +107,42 @@ const companyLens = [
   { text: '台积电：先进制程和先进封装现在紧不紧', link: '/columns/company-lens/tsmc-2026q3' }
 ]
 
+const plasticsCore = [
+  { text: '这一类写什么', link: '/categories/plastics/' },
+  { text: '产业链一张图看懂', link: '/categories/plastics/chain-map' },
+  { text: '周期史', link: '/categories/plastics/cycle-history' },
+  { text: '价格和交期为什么会变', link: '/categories/plastics/price-and-leadtime' },
+  { text: '采购能免费跟踪的指标', link: '/categories/plastics/indicators' },
+  { text: '实战打法', link: '/categories/plastics/playbook' },
+  { text: '名词就这一句话', link: '/categories/plastics/glossary' },
+  { text: '这些地方先别当定论', link: '/categories/plastics/unknowns' }
+]
+
+const plasticsParts = [
+  { text: '工程塑料：PC/ABS、PA66、PBT', link: '/categories/plastics/parts/engineering-plastics' },
+  { text: '线缆料、阻燃剂、助剂', link: '/categories/plastics/parts/cable-compounds-additives' },
+  { text: '特种工程塑料：LCP、PPS', link: '/categories/plastics/parts/specialty-plastics' },
+  { text: '通用树脂', link: '/categories/plastics/parts/commodity-resins' },
+  { text: '含氟聚合物与 PFAS', link: '/categories/plastics/parts/fluoropolymers-pfas' },
+  { text: '胶粘剂与灌封料', link: '/categories/plastics/parts/adhesives-potting' },
+  { text: '再生料与生物基', link: '/categories/plastics/parts/recycled-biobased' }
+]
+
+const plasticsCases = [
+  { text: '案例目录', link: '/categories/plastics/cases/' },
+  { text: 'PA66 / ADN，2017–2019', link: '/categories/plastics/cases/pa66-adn-2018' },
+  { text: 'RoHS 四种邻苯，2019', link: '/categories/plastics/cases/rohs-phthalates-2019' },
+  { text: '得州寒潮，2021', link: '/categories/plastics/cases/texas-freeze-2021' },
+  { text: '哈维飓风，2017', link: '/categories/plastics/cases/harvey-2017' },
+  { text: '欧洲能源冲击，2022', link: '/categories/plastics/cases/europe-energy-2022' },
+  { text: '树脂 PPI 回落，2022–2023', link: '/categories/plastics/cases/ppi-retreat-2022' },
+  { text: '中国聚烯烃过剩，2023–2024', link: '/categories/plastics/cases/china-glut-2024' },
+  { text: '赢创 PA12，2012', link: '/categories/plastics/cases/evonik-pa12-2012' },
+  { text: '熔喷布和 PP 纤维料，2020', link: '/categories/plastics/cases/meltblown-2020' },
+  { text: 'PFAS：3M 退出', link: '/categories/plastics/cases/pfas-exit' },
+  { text: '再生料进口，2024–2025', link: '/categories/plastics/cases/recycled-imports' }
+]
+
 const electronicsCases = [
   { text: '案例目录', link: '/categories/electronics/cases/' },
   { text: '2017–2018 MLCC 缺货', link: '/categories/electronics/cases/mlcc-2017-2018' },
@@ -169,8 +205,10 @@ export default defineConfig({
         items: [
           { text: '品类目录', link: '/categories/' },
           { text: '电子料总览', link: '/categories/electronics/' },
+          { text: '塑料与化工原料', link: '/categories/plastics/' },
           { text: '怎么读周期', link: '/categories/electronics/how-to-read-the-cycle' },
-          { text: '历史案例', link: '/categories/electronics/cases/' }
+          { text: '电子料历史案例', link: '/categories/electronics/cases/' },
+          { text: '塑料历史案例', link: '/categories/plastics/cases/' }
         ]
       },
       {
@@ -203,8 +241,10 @@ export default defineConfig({
           { text: '电子元器件与芯片', collapsed: false, items: electronicsCore },
           { text: '按料拆开', collapsed: false, items: electronicsParts },
           { text: '历史案例', collapsed: true, items: electronicsCases },
+          { text: '塑料与化工原料', collapsed: true, items: plasticsCore },
+          { text: '塑料按料拆开', collapsed: true, items: plasticsParts },
+          { text: '塑料历史案例', collapsed: true, items: plasticsCases },
           { text: '钢材与金属件（即将上线）', link: '/categories/steel/' },
-          { text: '塑料与化工原料（即将上线）', link: '/categories/plastics/' },
           { text: '机电件（即将上线）', link: '/categories/electromechanical/' }
         ]
       },

@@ -48,6 +48,32 @@ const pages = [
   'categories/electronics/cases/counterfeit-2012.html',
   'categories/steel/index.html',
   'categories/plastics/index.html',
+  'categories/plastics/chain-map.html',
+  'categories/plastics/cycle-history.html',
+  'categories/plastics/price-and-leadtime.html',
+  'categories/plastics/indicators.html',
+  'categories/plastics/playbook.html',
+  'categories/plastics/glossary.html',
+  'categories/plastics/unknowns.html',
+  'categories/plastics/parts/engineering-plastics.html',
+  'categories/plastics/parts/cable-compounds-additives.html',
+  'categories/plastics/parts/specialty-plastics.html',
+  'categories/plastics/parts/commodity-resins.html',
+  'categories/plastics/parts/fluoropolymers-pfas.html',
+  'categories/plastics/parts/adhesives-potting.html',
+  'categories/plastics/parts/recycled-biobased.html',
+  'categories/plastics/cases/index.html',
+  'categories/plastics/cases/pa66-adn-2018.html',
+  'categories/plastics/cases/rohs-phthalates-2019.html',
+  'categories/plastics/cases/texas-freeze-2021.html',
+  'categories/plastics/cases/harvey-2017.html',
+  'categories/plastics/cases/europe-energy-2022.html',
+  'categories/plastics/cases/ppi-retreat-2022.html',
+  'categories/plastics/cases/china-glut-2024.html',
+  'categories/plastics/cases/evonik-pa12-2012.html',
+  'categories/plastics/cases/meltblown-2020.html',
+  'categories/plastics/cases/pfas-exit.html',
+  'categories/plastics/cases/recycled-imports.html',
   'categories/electromechanical/index.html',
   'methods/index.html',
   'methods/industry-chain-insight.html',
@@ -73,6 +99,28 @@ const html = pages.filter((page) => page.endsWith('.html')).map((page) => read(p
 
 if (!html.includes('/supplychain-insights/')) {
   console.error('构建结果没有带上 /supplychain-insights/ 基础路径')
+  process.exit(1)
+}
+const plasticsIndex = read('categories/plastics/index.html')
+if (plasticsIndex.includes('这一类留给塑料') || plasticsIndex.includes('现在没有正文')) {
+  console.error('塑料首页还是占位页')
+  process.exit(1)
+}
+for (const text of ['PC/ABS', 'PA66', 'LCP', '邻苯']) {
+  if (!plasticsIndex.includes(text)) {
+    console.error(`塑料首页缺少：${text}`)
+    process.exit(1)
+  }
+}
+const plasticsChina = read('categories/plastics/cases/china-glut-2024.html')
+for (const text of ['10666.4', '检索摘要', 'series-chart']) {
+  if (!plasticsChina.includes(text)) {
+    console.error(`中国过剩案例缺少：${text}`)
+    process.exit(1)
+  }
+}
+if (!read('categories/plastics/unknowns.html').includes('书面授权')) {
+  console.error('塑料未知页没有写明期货授权')
   process.exit(1)
 }
 if (!read('categories/steel/index.html').includes('即将上线')) {
@@ -136,7 +184,12 @@ const chartPages = new Set([
   'categories/electronics/cases/dram-2018-2019.html',
   'categories/electronics/cases/glut-2022-2023.html',
   'categories/electronics/cases/thailand-hdd-2011.html',
-  'categories/electronics/cases/hbm-ddr.html'
+  'categories/electronics/cases/hbm-ddr.html',
+  'categories/plastics/cases/texas-freeze-2021.html',
+  'categories/plastics/cases/harvey-2017.html',
+  'categories/plastics/cases/europe-energy-2022.html',
+  'categories/plastics/cases/ppi-retreat-2022.html',
+  'categories/plastics/cases/china-glut-2024.html'
 ])
 for (const page of casePages) {
   const text = read(page)
@@ -174,6 +227,10 @@ if (!sitemap.includes('https://johnpeng-cn.github.io/supplychain-insights/dashbo
 }
 if (!sitemap.includes('https://johnpeng-cn.github.io/supplychain-insights/briefs/')) {
   console.error('站点地图没有产业链情报中心')
+  process.exit(1)
+}
+if (!sitemap.includes('https://johnpeng-cn.github.io/supplychain-insights/categories/plastics/')) {
+  console.error('站点地图没有塑料章节')
   process.exit(1)
 }
 if (!sitemap.includes('https://johnpeng-cn.github.io/supplychain-insights/categories/electronics/')) {

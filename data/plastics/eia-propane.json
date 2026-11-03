@@ -1,0 +1,2069 @@
+{
+  "detail": "丙烷截至 2026-09 = 0.848 美元/加仑",
+  "fetchedAt": "2026-11-03",
+  "source": "https://www.eia.gov/dnav/pet/hist/LeafHandler.ashx?n=PET&s=EER_EPLLPA_PF4_Y44MB_DPG&f=M",
+  "seriesId": "EER_EPLLPA_PF4_Y44MB_DPG",
+  "unit": "Dollars per Gallon",
+  "points": [
+    {
+      "x": "1992-06",
+      "dollarsPerGallon": 0.344,
+      "centsPerGallon": 34.4
+    },
+    {
+      "x": "1992-07",
+      "dollarsPerGallon": 0.342,
+      "centsPerGallon": 34.2
+    },
+    {
+      "x": "1992-08",
+      "dollarsPerGallon": 0.354,
+      "centsPerGallon": 35.4
+    },
+    {
+      "x": "1992-09",
+      "dollarsPerGallon": 0.375,
+      "centsPerGallon": 37.5
+    },
+    {
+      "x": "1992-10",
+      "dollarsPerGallon": 0.354,
+      "centsPerGallon": 35.4
+    },
+    {
+      "x": "1992-11",
+      "dollarsPerGallon": 0.327,
+      "centsPerGallon": 32.7
+    },
+    {
+      "x": "1992-12",
+      "dollarsPerGallon": 0.312,
+      "centsPerGallon": 31.2
+    },
+    {
+      "x": "1993-01",
+      "dollarsPerGallon": 0.337,
+      "centsPerGallon": 33.7
+    },
+    {
+      "x": "1993-02",
+      "dollarsPerGallon": 0.33,
+      "centsPerGallon": 33
+    },
+    {
+      "x": "1993-03",
+      "dollarsPerGallon": 0.342,
+      "centsPerGallon": 34.2
+    },
+    {
+      "x": "1993-04",
+      "dollarsPerGallon": 0.344,
+      "centsPerGallon": 34.4
+    },
+    {
+      "x": "1993-05",
+      "dollarsPerGallon": 0.328,
+      "centsPerGallon": 32.8
+    },
+    {
+      "x": "1993-06",
+      "dollarsPerGallon": 0.328,
+      "centsPerGallon": 32.8
+    },
+    {
+      "x": "1993-07",
+      "dollarsPerGallon": 0.314,
+      "centsPerGallon": 31.4
+    },
+    {
+      "x": "1993-08",
+      "dollarsPerGallon": 0.305,
+      "centsPerGallon": 30.5
+    },
+    {
+      "x": "1993-09",
+      "dollarsPerGallon": 0.299,
+      "centsPerGallon": 29.9
+    },
+    {
+      "x": "1993-10",
+      "dollarsPerGallon": 0.293,
+      "centsPerGallon": 29.3
+    },
+    {
+      "x": "1993-11",
+      "dollarsPerGallon": 0.275,
+      "centsPerGallon": 27.5
+    },
+    {
+      "x": "1993-12",
+      "dollarsPerGallon": 0.245,
+      "centsPerGallon": 24.5
+    },
+    {
+      "x": "1994-01",
+      "dollarsPerGallon": 0.263,
+      "centsPerGallon": 26.3
+    },
+    {
+      "x": "1994-02",
+      "dollarsPerGallon": 0.29,
+      "centsPerGallon": 29
+    },
+    {
+      "x": "1994-03",
+      "dollarsPerGallon": 0.284,
+      "centsPerGallon": 28.4
+    },
+    {
+      "x": "1994-04",
+      "dollarsPerGallon": 0.289,
+      "centsPerGallon": 28.9
+    },
+    {
+      "x": "1994-05",
+      "dollarsPerGallon": 0.296,
+      "centsPerGallon": 29.6
+    },
+    {
+      "x": "1994-06",
+      "dollarsPerGallon": 0.288,
+      "centsPerGallon": 28.8
+    },
+    {
+      "x": "1994-07",
+      "dollarsPerGallon": 0.292,
+      "centsPerGallon": 29.2
+    },
+    {
+      "x": "1994-08",
+      "dollarsPerGallon": 0.3,
+      "centsPerGallon": 30
+    },
+    {
+      "x": "1994-09",
+      "dollarsPerGallon": 0.299,
+      "centsPerGallon": 29.9
+    },
+    {
+      "x": "1994-10",
+      "dollarsPerGallon": 0.324,
+      "centsPerGallon": 32.4
+    },
+    {
+      "x": "1994-11",
+      "dollarsPerGallon": 0.344,
+      "centsPerGallon": 34.4
+    },
+    {
+      "x": "1994-12",
+      "dollarsPerGallon": 0.333,
+      "centsPerGallon": 33.3
+    },
+    {
+      "x": "1995-01",
+      "dollarsPerGallon": 0.327,
+      "centsPerGallon": 32.7
+    },
+    {
+      "x": "1995-02",
+      "dollarsPerGallon": 0.316,
+      "centsPerGallon": 31.6
+    },
+    {
+      "x": "1995-03",
+      "dollarsPerGallon": 0.327,
+      "centsPerGallon": 32.7
+    },
+    {
+      "x": "1995-04",
+      "dollarsPerGallon": 0.323,
+      "centsPerGallon": 32.3
+    },
+    {
+      "x": "1995-05",
+      "dollarsPerGallon": 0.327,
+      "centsPerGallon": 32.7
+    },
+    {
+      "x": "1995-06",
+      "dollarsPerGallon": 0.318,
+      "centsPerGallon": 31.8
+    },
+    {
+      "x": "1995-07",
+      "dollarsPerGallon": 0.308,
+      "centsPerGallon": 30.8
+    },
+    {
+      "x": "1995-08",
+      "dollarsPerGallon": 0.313,
+      "centsPerGallon": 31.3
+    },
+    {
+      "x": "1995-09",
+      "dollarsPerGallon": 0.313,
+      "centsPerGallon": 31.3
+    },
+    {
+      "x": "1995-10",
+      "dollarsPerGallon": 0.309,
+      "centsPerGallon": 30.9
+    },
+    {
+      "x": "1995-11",
+      "dollarsPerGallon": 0.31,
+      "centsPerGallon": 31
+    },
+    {
+      "x": "1995-12",
+      "dollarsPerGallon": 0.354,
+      "centsPerGallon": 35.4
+    },
+    {
+      "x": "1996-01",
+      "dollarsPerGallon": 0.354,
+      "centsPerGallon": 35.4
+    },
+    {
+      "x": "1996-02",
+      "dollarsPerGallon": 0.39,
+      "centsPerGallon": 39
+    },
+    {
+      "x": "1996-03",
+      "dollarsPerGallon": 0.369,
+      "centsPerGallon": 36.9
+    },
+    {
+      "x": "1996-04",
+      "dollarsPerGallon": 0.356,
+      "centsPerGallon": 35.6
+    },
+    {
+      "x": "1996-05",
+      "dollarsPerGallon": 0.348,
+      "centsPerGallon": 34.8
+    },
+    {
+      "x": "1996-06",
+      "dollarsPerGallon": 0.348,
+      "centsPerGallon": 34.8
+    },
+    {
+      "x": "1996-07",
+      "dollarsPerGallon": 0.356,
+      "centsPerGallon": 35.6
+    },
+    {
+      "x": "1996-08",
+      "dollarsPerGallon": 0.384,
+      "centsPerGallon": 38.4
+    },
+    {
+      "x": "1996-09",
+      "dollarsPerGallon": 0.47,
+      "centsPerGallon": 47
+    },
+    {
+      "x": "1996-10",
+      "dollarsPerGallon": 0.513,
+      "centsPerGallon": 51.3
+    },
+    {
+      "x": "1996-11",
+      "dollarsPerGallon": 0.583,
+      "centsPerGallon": 58.3
+    },
+    {
+      "x": "1996-12",
+      "dollarsPerGallon": 0.608,
+      "centsPerGallon": 60.8
+    },
+    {
+      "x": "1997-01",
+      "dollarsPerGallon": 0.474,
+      "centsPerGallon": 47.4
+    },
+    {
+      "x": "1997-02",
+      "dollarsPerGallon": 0.386,
+      "centsPerGallon": 38.6
+    },
+    {
+      "x": "1997-03",
+      "dollarsPerGallon": 0.385,
+      "centsPerGallon": 38.5
+    },
+    {
+      "x": "1997-04",
+      "dollarsPerGallon": 0.349,
+      "centsPerGallon": 34.9
+    },
+    {
+      "x": "1997-05",
+      "dollarsPerGallon": 0.353,
+      "centsPerGallon": 35.3
+    },
+    {
+      "x": "1997-06",
+      "dollarsPerGallon": 0.344,
+      "centsPerGallon": 34.4
+    },
+    {
+      "x": "1997-07",
+      "dollarsPerGallon": 0.348,
+      "centsPerGallon": 34.8
+    },
+    {
+      "x": "1997-08",
+      "dollarsPerGallon": 0.369,
+      "centsPerGallon": 36.9
+    },
+    {
+      "x": "1997-09",
+      "dollarsPerGallon": 0.387,
+      "centsPerGallon": 38.7
+    },
+    {
+      "x": "1997-10",
+      "dollarsPerGallon": 0.398,
+      "centsPerGallon": 39.8
+    },
+    {
+      "x": "1997-11",
+      "dollarsPerGallon": 0.36,
+      "centsPerGallon": 36
+    },
+    {
+      "x": "1997-12",
+      "dollarsPerGallon": 0.336,
+      "centsPerGallon": 33.6
+    },
+    {
+      "x": "1998-01",
+      "dollarsPerGallon": 0.302,
+      "centsPerGallon": 30.2
+    },
+    {
+      "x": "1998-02",
+      "dollarsPerGallon": 0.298,
+      "centsPerGallon": 29.8
+    },
+    {
+      "x": "1998-03",
+      "dollarsPerGallon": 0.275,
+      "centsPerGallon": 27.5
+    },
+    {
+      "x": "1998-04",
+      "dollarsPerGallon": 0.291,
+      "centsPerGallon": 29.1
+    },
+    {
+      "x": "1998-05",
+      "dollarsPerGallon": 0.274,
+      "centsPerGallon": 27.4
+    },
+    {
+      "x": "1998-06",
+      "dollarsPerGallon": 0.245,
+      "centsPerGallon": 24.5
+    },
+    {
+      "x": "1998-07",
+      "dollarsPerGallon": 0.246,
+      "centsPerGallon": 24.6
+    },
+    {
+      "x": "1998-08",
+      "dollarsPerGallon": 0.241,
+      "centsPerGallon": 24.1
+    },
+    {
+      "x": "1998-09",
+      "dollarsPerGallon": 0.249,
+      "centsPerGallon": 24.9
+    },
+    {
+      "x": "1998-10",
+      "dollarsPerGallon": 0.257,
+      "centsPerGallon": 25.7
+    },
+    {
+      "x": "1998-11",
+      "dollarsPerGallon": 0.248,
+      "centsPerGallon": 24.8
+    },
+    {
+      "x": "1998-12",
+      "dollarsPerGallon": 0.209,
+      "centsPerGallon": 20.9
+    },
+    {
+      "x": "1999-01",
+      "dollarsPerGallon": 0.217,
+      "centsPerGallon": 21.7
+    },
+    {
+      "x": "1999-02",
+      "dollarsPerGallon": 0.224,
+      "centsPerGallon": 22.4
+    },
+    {
+      "x": "1999-03",
+      "dollarsPerGallon": 0.242,
+      "centsPerGallon": 24.2
+    },
+    {
+      "x": "1999-04",
+      "dollarsPerGallon": 0.282,
+      "centsPerGallon": 28.2
+    },
+    {
+      "x": "1999-05",
+      "dollarsPerGallon": 0.283,
+      "centsPerGallon": 28.3
+    },
+    {
+      "x": "1999-06",
+      "dollarsPerGallon": 0.309,
+      "centsPerGallon": 30.9
+    },
+    {
+      "x": "1999-07",
+      "dollarsPerGallon": 0.372,
+      "centsPerGallon": 37.2
+    },
+    {
+      "x": "1999-08",
+      "dollarsPerGallon": 0.406,
+      "centsPerGallon": 40.6
+    },
+    {
+      "x": "1999-09",
+      "dollarsPerGallon": 0.432,
+      "centsPerGallon": 43.2
+    },
+    {
+      "x": "1999-10",
+      "dollarsPerGallon": 0.454,
+      "centsPerGallon": 45.4
+    },
+    {
+      "x": "1999-11",
+      "dollarsPerGallon": 0.436,
+      "centsPerGallon": 43.6
+    },
+    {
+      "x": "1999-12",
+      "dollarsPerGallon": 0.428,
+      "centsPerGallon": 42.8
+    },
+    {
+      "x": "2000-01",
+      "dollarsPerGallon": 0.555,
+      "centsPerGallon": 55.5
+    },
+    {
+      "x": "2000-02",
+      "dollarsPerGallon": 0.596,
+      "centsPerGallon": 59.6
+    },
+    {
+      "x": "2000-03",
+      "dollarsPerGallon": 0.512,
+      "centsPerGallon": 51.2
+    },
+    {
+      "x": "2000-04",
+      "dollarsPerGallon": 0.469,
+      "centsPerGallon": 46.9
+    },
+    {
+      "x": "2000-05",
+      "dollarsPerGallon": 0.512,
+      "centsPerGallon": 51.2
+    },
+    {
+      "x": "2000-06",
+      "dollarsPerGallon": 0.555,
+      "centsPerGallon": 55.5
+    },
+    {
+      "x": "2000-07",
+      "dollarsPerGallon": 0.551,
+      "centsPerGallon": 55.1
+    },
+    {
+      "x": "2000-08",
+      "dollarsPerGallon": 0.583,
+      "centsPerGallon": 58.3
+    },
+    {
+      "x": "2000-09",
+      "dollarsPerGallon": 0.643,
+      "centsPerGallon": 64.3
+    },
+    {
+      "x": "2000-10",
+      "dollarsPerGallon": 0.62,
+      "centsPerGallon": 62
+    },
+    {
+      "x": "2000-11",
+      "dollarsPerGallon": 0.608,
+      "centsPerGallon": 60.8
+    },
+    {
+      "x": "2000-12",
+      "dollarsPerGallon": 0.775,
+      "centsPerGallon": 77.5
+    },
+    {
+      "x": "2001-01",
+      "dollarsPerGallon": 0.774,
+      "centsPerGallon": 77.4
+    },
+    {
+      "x": "2001-02",
+      "dollarsPerGallon": 0.593,
+      "centsPerGallon": 59.3
+    },
+    {
+      "x": "2001-03",
+      "dollarsPerGallon": 0.558,
+      "centsPerGallon": 55.8
+    },
+    {
+      "x": "2001-04",
+      "dollarsPerGallon": 0.547,
+      "centsPerGallon": 54.7
+    },
+    {
+      "x": "2001-05",
+      "dollarsPerGallon": 0.513,
+      "centsPerGallon": 51.3
+    },
+    {
+      "x": "2001-06",
+      "dollarsPerGallon": 0.431,
+      "centsPerGallon": 43.1
+    },
+    {
+      "x": "2001-07",
+      "dollarsPerGallon": 0.39,
+      "centsPerGallon": 39
+    },
+    {
+      "x": "2001-08",
+      "dollarsPerGallon": 0.415,
+      "centsPerGallon": 41.5
+    },
+    {
+      "x": "2001-09",
+      "dollarsPerGallon": 0.421,
+      "centsPerGallon": 42.1
+    },
+    {
+      "x": "2001-10",
+      "dollarsPerGallon": 0.395,
+      "centsPerGallon": 39.5
+    },
+    {
+      "x": "2001-11",
+      "dollarsPerGallon": 0.331,
+      "centsPerGallon": 33.1
+    },
+    {
+      "x": "2001-12",
+      "dollarsPerGallon": 0.301,
+      "centsPerGallon": 30.1
+    },
+    {
+      "x": "2002-01",
+      "dollarsPerGallon": 0.291,
+      "centsPerGallon": 29.1
+    },
+    {
+      "x": "2002-02",
+      "dollarsPerGallon": 0.313,
+      "centsPerGallon": 31.3
+    },
+    {
+      "x": "2002-03",
+      "dollarsPerGallon": 0.38,
+      "centsPerGallon": 38
+    },
+    {
+      "x": "2002-04",
+      "dollarsPerGallon": 0.415,
+      "centsPerGallon": 41.5
+    },
+    {
+      "x": "2002-05",
+      "dollarsPerGallon": 0.406,
+      "centsPerGallon": 40.6
+    },
+    {
+      "x": "2002-06",
+      "dollarsPerGallon": 0.375,
+      "centsPerGallon": 37.5
+    },
+    {
+      "x": "2002-07",
+      "dollarsPerGallon": 0.372,
+      "centsPerGallon": 37.2
+    },
+    {
+      "x": "2002-08",
+      "dollarsPerGallon": 0.415,
+      "centsPerGallon": 41.5
+    },
+    {
+      "x": "2002-09",
+      "dollarsPerGallon": 0.471,
+      "centsPerGallon": 47.1
+    },
+    {
+      "x": "2002-10",
+      "dollarsPerGallon": 0.479,
+      "centsPerGallon": 47.9
+    },
+    {
+      "x": "2002-11",
+      "dollarsPerGallon": 0.472,
+      "centsPerGallon": 47.2
+    },
+    {
+      "x": "2002-12",
+      "dollarsPerGallon": 0.523,
+      "centsPerGallon": 52.3
+    },
+    {
+      "x": "2003-01",
+      "dollarsPerGallon": 0.606,
+      "centsPerGallon": 60.6
+    },
+    {
+      "x": "2003-02",
+      "dollarsPerGallon": 0.775,
+      "centsPerGallon": 77.5
+    },
+    {
+      "x": "2003-03",
+      "dollarsPerGallon": 0.623,
+      "centsPerGallon": 62.3
+    },
+    {
+      "x": "2003-04",
+      "dollarsPerGallon": 0.504,
+      "centsPerGallon": 50.4
+    },
+    {
+      "x": "2003-05",
+      "dollarsPerGallon": 0.541,
+      "centsPerGallon": 54.1
+    },
+    {
+      "x": "2003-06",
+      "dollarsPerGallon": 0.559,
+      "centsPerGallon": 55.9
+    },
+    {
+      "x": "2003-07",
+      "dollarsPerGallon": 0.53,
+      "centsPerGallon": 53
+    },
+    {
+      "x": "2003-08",
+      "dollarsPerGallon": 0.548,
+      "centsPerGallon": 54.8
+    },
+    {
+      "x": "2003-09",
+      "dollarsPerGallon": 0.519,
+      "centsPerGallon": 51.9
+    },
+    {
+      "x": "2003-10",
+      "dollarsPerGallon": 0.553,
+      "centsPerGallon": 55.3
+    },
+    {
+      "x": "2003-11",
+      "dollarsPerGallon": 0.547,
+      "centsPerGallon": 54.7
+    },
+    {
+      "x": "2003-12",
+      "dollarsPerGallon": 0.628,
+      "centsPerGallon": 62.8
+    },
+    {
+      "x": "2004-01",
+      "dollarsPerGallon": 0.745,
+      "centsPerGallon": 74.5
+    },
+    {
+      "x": "2004-02",
+      "dollarsPerGallon": 0.704,
+      "centsPerGallon": 70.4
+    },
+    {
+      "x": "2004-03",
+      "dollarsPerGallon": 0.585,
+      "centsPerGallon": 58.5
+    },
+    {
+      "x": "2004-04",
+      "dollarsPerGallon": 0.607,
+      "centsPerGallon": 60.7
+    },
+    {
+      "x": "2004-05",
+      "dollarsPerGallon": 0.677,
+      "centsPerGallon": 67.7
+    },
+    {
+      "x": "2004-06",
+      "dollarsPerGallon": 0.67,
+      "centsPerGallon": 67
+    },
+    {
+      "x": "2004-07",
+      "dollarsPerGallon": 0.741,
+      "centsPerGallon": 74.1
+    },
+    {
+      "x": "2004-08",
+      "dollarsPerGallon": 0.837,
+      "centsPerGallon": 83.7
+    },
+    {
+      "x": "2004-09",
+      "dollarsPerGallon": 0.802,
+      "centsPerGallon": 80.2
+    },
+    {
+      "x": "2004-10",
+      "dollarsPerGallon": 0.906,
+      "centsPerGallon": 90.6
+    },
+    {
+      "x": "2004-11",
+      "dollarsPerGallon": 0.863,
+      "centsPerGallon": 86.3
+    },
+    {
+      "x": "2004-12",
+      "dollarsPerGallon": 0.774,
+      "centsPerGallon": 77.4
+    },
+    {
+      "x": "2005-01",
+      "dollarsPerGallon": 0.737,
+      "centsPerGallon": 73.7
+    },
+    {
+      "x": "2005-02",
+      "dollarsPerGallon": 0.758,
+      "centsPerGallon": 75.8
+    },
+    {
+      "x": "2005-03",
+      "dollarsPerGallon": 0.878,
+      "centsPerGallon": 87.8
+    },
+    {
+      "x": "2005-04",
+      "dollarsPerGallon": 0.854,
+      "centsPerGallon": 85.4
+    },
+    {
+      "x": "2005-05",
+      "dollarsPerGallon": 0.797,
+      "centsPerGallon": 79.7
+    },
+    {
+      "x": "2005-06",
+      "dollarsPerGallon": 0.818,
+      "centsPerGallon": 81.8
+    },
+    {
+      "x": "2005-07",
+      "dollarsPerGallon": 0.845,
+      "centsPerGallon": 84.5
+    },
+    {
+      "x": "2005-08",
+      "dollarsPerGallon": 0.941,
+      "centsPerGallon": 94.1
+    },
+    {
+      "x": "2005-09",
+      "dollarsPerGallon": 1.13,
+      "centsPerGallon": 113
+    },
+    {
+      "x": "2005-10",
+      "dollarsPerGallon": 1.137,
+      "centsPerGallon": 113.7
+    },
+    {
+      "x": "2005-11",
+      "dollarsPerGallon": 0.999,
+      "centsPerGallon": 99.9
+    },
+    {
+      "x": "2005-12",
+      "dollarsPerGallon": 1.056,
+      "centsPerGallon": 105.6
+    },
+    {
+      "x": "2006-01",
+      "dollarsPerGallon": 0.989,
+      "centsPerGallon": 98.9
+    },
+    {
+      "x": "2006-02",
+      "dollarsPerGallon": 0.919,
+      "centsPerGallon": 91.9
+    },
+    {
+      "x": "2006-03",
+      "dollarsPerGallon": 0.926,
+      "centsPerGallon": 92.6
+    },
+    {
+      "x": "2006-04",
+      "dollarsPerGallon": 1.016,
+      "centsPerGallon": 101.6
+    },
+    {
+      "x": "2006-05",
+      "dollarsPerGallon": 1.041,
+      "centsPerGallon": 104.1
+    },
+    {
+      "x": "2006-06",
+      "dollarsPerGallon": 1.097,
+      "centsPerGallon": 109.7
+    },
+    {
+      "x": "2006-07",
+      "dollarsPerGallon": 1.165,
+      "centsPerGallon": 116.5
+    },
+    {
+      "x": "2006-08",
+      "dollarsPerGallon": 1.138,
+      "centsPerGallon": 113.8
+    },
+    {
+      "x": "2006-09",
+      "dollarsPerGallon": 1.012,
+      "centsPerGallon": 101.2
+    },
+    {
+      "x": "2006-10",
+      "dollarsPerGallon": 0.938,
+      "centsPerGallon": 93.8
+    },
+    {
+      "x": "2006-11",
+      "dollarsPerGallon": 0.954,
+      "centsPerGallon": 95.4
+    },
+    {
+      "x": "2006-12",
+      "dollarsPerGallon": 0.966,
+      "centsPerGallon": 96.6
+    },
+    {
+      "x": "2007-01",
+      "dollarsPerGallon": 0.893,
+      "centsPerGallon": 89.3
+    },
+    {
+      "x": "2007-02",
+      "dollarsPerGallon": 0.975,
+      "centsPerGallon": 97.5
+    },
+    {
+      "x": "2007-03",
+      "dollarsPerGallon": 1.037,
+      "centsPerGallon": 103.7
+    },
+    {
+      "x": "2007-04",
+      "dollarsPerGallon": 1.108,
+      "centsPerGallon": 110.8
+    },
+    {
+      "x": "2007-05",
+      "dollarsPerGallon": 1.149,
+      "centsPerGallon": 114.9
+    },
+    {
+      "x": "2007-06",
+      "dollarsPerGallon": 1.139,
+      "centsPerGallon": 113.9
+    },
+    {
+      "x": "2007-07",
+      "dollarsPerGallon": 1.19,
+      "centsPerGallon": 119
+    },
+    {
+      "x": "2007-08",
+      "dollarsPerGallon": 1.186,
+      "centsPerGallon": 118.6
+    },
+    {
+      "x": "2007-09",
+      "dollarsPerGallon": 1.295,
+      "centsPerGallon": 129.5
+    },
+    {
+      "x": "2007-10",
+      "dollarsPerGallon": 1.432,
+      "centsPerGallon": 143.2
+    },
+    {
+      "x": "2007-11",
+      "dollarsPerGallon": 1.556,
+      "centsPerGallon": 155.6
+    },
+    {
+      "x": "2007-12",
+      "dollarsPerGallon": 1.529,
+      "centsPerGallon": 152.9
+    },
+    {
+      "x": "2008-01",
+      "dollarsPerGallon": 1.506,
+      "centsPerGallon": 150.6
+    },
+    {
+      "x": "2008-02",
+      "dollarsPerGallon": 1.425,
+      "centsPerGallon": 142.5
+    },
+    {
+      "x": "2008-03",
+      "dollarsPerGallon": 1.475,
+      "centsPerGallon": 147.5
+    },
+    {
+      "x": "2008-04",
+      "dollarsPerGallon": 1.59,
+      "centsPerGallon": 159
+    },
+    {
+      "x": "2008-05",
+      "dollarsPerGallon": 1.7,
+      "centsPerGallon": 170
+    },
+    {
+      "x": "2008-06",
+      "dollarsPerGallon": 1.813,
+      "centsPerGallon": 181.3
+    },
+    {
+      "x": "2008-07",
+      "dollarsPerGallon": 1.862,
+      "centsPerGallon": 186.2
+    },
+    {
+      "x": "2008-08",
+      "dollarsPerGallon": 1.651,
+      "centsPerGallon": 165.1
+    },
+    {
+      "x": "2008-09",
+      "dollarsPerGallon": 1.53,
+      "centsPerGallon": 153
+    },
+    {
+      "x": "2008-10",
+      "dollarsPerGallon": 1.045,
+      "centsPerGallon": 104.5
+    },
+    {
+      "x": "2008-11",
+      "dollarsPerGallon": 0.738,
+      "centsPerGallon": 73.8
+    },
+    {
+      "x": "2008-12",
+      "dollarsPerGallon": 0.61,
+      "centsPerGallon": 61
+    },
+    {
+      "x": "2009-01",
+      "dollarsPerGallon": 0.727,
+      "centsPerGallon": 72.7
+    },
+    {
+      "x": "2009-02",
+      "dollarsPerGallon": 0.659,
+      "centsPerGallon": 65.9
+    },
+    {
+      "x": "2009-03",
+      "dollarsPerGallon": 0.653,
+      "centsPerGallon": 65.3
+    },
+    {
+      "x": "2009-04",
+      "dollarsPerGallon": 0.638,
+      "centsPerGallon": 63.8
+    },
+    {
+      "x": "2009-05",
+      "dollarsPerGallon": 0.701,
+      "centsPerGallon": 70.1
+    },
+    {
+      "x": "2009-06",
+      "dollarsPerGallon": 0.846,
+      "centsPerGallon": 84.6
+    },
+    {
+      "x": "2009-07",
+      "dollarsPerGallon": 0.752,
+      "centsPerGallon": 75.2
+    },
+    {
+      "x": "2009-08",
+      "dollarsPerGallon": 0.906,
+      "centsPerGallon": 90.6
+    },
+    {
+      "x": "2009-09",
+      "dollarsPerGallon": 0.946,
+      "centsPerGallon": 94.6
+    },
+    {
+      "x": "2009-10",
+      "dollarsPerGallon": 1.008,
+      "centsPerGallon": 100.8
+    },
+    {
+      "x": "2009-11",
+      "dollarsPerGallon": 1.076,
+      "centsPerGallon": 107.6
+    },
+    {
+      "x": "2009-12",
+      "dollarsPerGallon": 1.19,
+      "centsPerGallon": 119
+    },
+    {
+      "x": "2010-01",
+      "dollarsPerGallon": 1.312,
+      "centsPerGallon": 131.2
+    },
+    {
+      "x": "2010-02",
+      "dollarsPerGallon": 1.284,
+      "centsPerGallon": 128.4
+    },
+    {
+      "x": "2010-03",
+      "dollarsPerGallon": 1.136,
+      "centsPerGallon": 113.6
+    },
+    {
+      "x": "2010-04",
+      "dollarsPerGallon": 1.137,
+      "centsPerGallon": 113.7
+    },
+    {
+      "x": "2010-05",
+      "dollarsPerGallon": 1.082,
+      "centsPerGallon": 108.2
+    },
+    {
+      "x": "2010-06",
+      "dollarsPerGallon": 1.037,
+      "centsPerGallon": 103.7
+    },
+    {
+      "x": "2010-07",
+      "dollarsPerGallon": 1.01,
+      "centsPerGallon": 101
+    },
+    {
+      "x": "2010-08",
+      "dollarsPerGallon": 1.072,
+      "centsPerGallon": 107.2
+    },
+    {
+      "x": "2010-09",
+      "dollarsPerGallon": 1.132,
+      "centsPerGallon": 113.2
+    },
+    {
+      "x": "2010-10",
+      "dollarsPerGallon": 1.234,
+      "centsPerGallon": 123.4
+    },
+    {
+      "x": "2010-11",
+      "dollarsPerGallon": 1.254,
+      "centsPerGallon": 125.4
+    },
+    {
+      "x": "2010-12",
+      "dollarsPerGallon": 1.296,
+      "centsPerGallon": 129.6
+    },
+    {
+      "x": "2011-01",
+      "dollarsPerGallon": 1.348,
+      "centsPerGallon": 134.8
+    },
+    {
+      "x": "2011-02",
+      "dollarsPerGallon": 1.379,
+      "centsPerGallon": 137.9
+    },
+    {
+      "x": "2011-03",
+      "dollarsPerGallon": 1.397,
+      "centsPerGallon": 139.7
+    },
+    {
+      "x": "2011-04",
+      "dollarsPerGallon": 1.454,
+      "centsPerGallon": 145.4
+    },
+    {
+      "x": "2011-05",
+      "dollarsPerGallon": 1.521,
+      "centsPerGallon": 152.1
+    },
+    {
+      "x": "2011-06",
+      "dollarsPerGallon": 1.52,
+      "centsPerGallon": 152
+    },
+    {
+      "x": "2011-07",
+      "dollarsPerGallon": 1.528,
+      "centsPerGallon": 152.8
+    },
+    {
+      "x": "2011-08",
+      "dollarsPerGallon": 1.528,
+      "centsPerGallon": 152.8
+    },
+    {
+      "x": "2011-09",
+      "dollarsPerGallon": 1.56,
+      "centsPerGallon": 156
+    },
+    {
+      "x": "2011-10",
+      "dollarsPerGallon": 1.472,
+      "centsPerGallon": 147.2
+    },
+    {
+      "x": "2011-11",
+      "dollarsPerGallon": 1.458,
+      "centsPerGallon": 145.8
+    },
+    {
+      "x": "2011-12",
+      "dollarsPerGallon": 1.395,
+      "centsPerGallon": 139.5
+    },
+    {
+      "x": "2012-01",
+      "dollarsPerGallon": 1.294,
+      "centsPerGallon": 129.4
+    },
+    {
+      "x": "2012-02",
+      "dollarsPerGallon": 1.22,
+      "centsPerGallon": 122
+    },
+    {
+      "x": "2012-03",
+      "dollarsPerGallon": 1.261,
+      "centsPerGallon": 126.1
+    },
+    {
+      "x": "2012-04",
+      "dollarsPerGallon": 1.196,
+      "centsPerGallon": 119.6
+    },
+    {
+      "x": "2012-05",
+      "dollarsPerGallon": 0.954,
+      "centsPerGallon": 95.4
+    },
+    {
+      "x": "2012-06",
+      "dollarsPerGallon": 0.788,
+      "centsPerGallon": 78.8
+    },
+    {
+      "x": "2012-07",
+      "dollarsPerGallon": 0.874,
+      "centsPerGallon": 87.4
+    },
+    {
+      "x": "2012-08",
+      "dollarsPerGallon": 0.901,
+      "centsPerGallon": 90.1
+    },
+    {
+      "x": "2012-09",
+      "dollarsPerGallon": 0.91,
+      "centsPerGallon": 91
+    },
+    {
+      "x": "2012-10",
+      "dollarsPerGallon": 0.962,
+      "centsPerGallon": 96.2
+    },
+    {
+      "x": "2012-11",
+      "dollarsPerGallon": 0.89,
+      "centsPerGallon": 89
+    },
+    {
+      "x": "2012-12",
+      "dollarsPerGallon": 0.797,
+      "centsPerGallon": 79.7
+    },
+    {
+      "x": "2013-01",
+      "dollarsPerGallon": 0.838,
+      "centsPerGallon": 83.8
+    },
+    {
+      "x": "2013-02",
+      "dollarsPerGallon": 0.862,
+      "centsPerGallon": 86.2
+    },
+    {
+      "x": "2013-03",
+      "dollarsPerGallon": 0.895,
+      "centsPerGallon": 89.5
+    },
+    {
+      "x": "2013-04",
+      "dollarsPerGallon": 0.939,
+      "centsPerGallon": 93.9
+    },
+    {
+      "x": "2013-05",
+      "dollarsPerGallon": 0.932,
+      "centsPerGallon": 93.2
+    },
+    {
+      "x": "2013-06",
+      "dollarsPerGallon": 0.863,
+      "centsPerGallon": 86.3
+    },
+    {
+      "x": "2013-07",
+      "dollarsPerGallon": 0.92,
+      "centsPerGallon": 92
+    },
+    {
+      "x": "2013-08",
+      "dollarsPerGallon": 1.061,
+      "centsPerGallon": 106.1
+    },
+    {
+      "x": "2013-09",
+      "dollarsPerGallon": 1.107,
+      "centsPerGallon": 110.7
+    },
+    {
+      "x": "2013-10",
+      "dollarsPerGallon": 1.136,
+      "centsPerGallon": 113.6
+    },
+    {
+      "x": "2013-11",
+      "dollarsPerGallon": 1.181,
+      "centsPerGallon": 118.1
+    },
+    {
+      "x": "2013-12",
+      "dollarsPerGallon": 1.275,
+      "centsPerGallon": 127.5
+    },
+    {
+      "x": "2014-01",
+      "dollarsPerGallon": 1.395,
+      "centsPerGallon": 139.5
+    },
+    {
+      "x": "2014-02",
+      "dollarsPerGallon": 1.443,
+      "centsPerGallon": 144.3
+    },
+    {
+      "x": "2014-03",
+      "dollarsPerGallon": 1.064,
+      "centsPerGallon": 106.4
+    },
+    {
+      "x": "2014-04",
+      "dollarsPerGallon": 1.101,
+      "centsPerGallon": 110.1
+    },
+    {
+      "x": "2014-05",
+      "dollarsPerGallon": 1.043,
+      "centsPerGallon": 104.3
+    },
+    {
+      "x": "2014-06",
+      "dollarsPerGallon": 1.046,
+      "centsPerGallon": 104.6
+    },
+    {
+      "x": "2014-07",
+      "dollarsPerGallon": 1.036,
+      "centsPerGallon": 103.6
+    },
+    {
+      "x": "2014-08",
+      "dollarsPerGallon": 1.018,
+      "centsPerGallon": 101.8
+    },
+    {
+      "x": "2014-09",
+      "dollarsPerGallon": 1.062,
+      "centsPerGallon": 106.2
+    },
+    {
+      "x": "2014-10",
+      "dollarsPerGallon": 0.936,
+      "centsPerGallon": 93.6
+    },
+    {
+      "x": "2014-11",
+      "dollarsPerGallon": 0.802,
+      "centsPerGallon": 80.2
+    },
+    {
+      "x": "2014-12",
+      "dollarsPerGallon": 0.558,
+      "centsPerGallon": 55.8
+    },
+    {
+      "x": "2015-01",
+      "dollarsPerGallon": 0.478,
+      "centsPerGallon": 47.8
+    },
+    {
+      "x": "2015-02",
+      "dollarsPerGallon": 0.573,
+      "centsPerGallon": 57.3
+    },
+    {
+      "x": "2015-03",
+      "dollarsPerGallon": 0.542,
+      "centsPerGallon": 54.2
+    },
+    {
+      "x": "2015-04",
+      "dollarsPerGallon": 0.548,
+      "centsPerGallon": 54.8
+    },
+    {
+      "x": "2015-05",
+      "dollarsPerGallon": 0.47,
+      "centsPerGallon": 47
+    },
+    {
+      "x": "2015-06",
+      "dollarsPerGallon": 0.369,
+      "centsPerGallon": 36.9
+    },
+    {
+      "x": "2015-07",
+      "dollarsPerGallon": 0.409,
+      "centsPerGallon": 40.9
+    },
+    {
+      "x": "2015-08",
+      "dollarsPerGallon": 0.374,
+      "centsPerGallon": 37.4
+    },
+    {
+      "x": "2015-09",
+      "dollarsPerGallon": 0.453,
+      "centsPerGallon": 45.3
+    },
+    {
+      "x": "2015-10",
+      "dollarsPerGallon": 0.451,
+      "centsPerGallon": 45.1
+    },
+    {
+      "x": "2015-11",
+      "dollarsPerGallon": 0.43,
+      "centsPerGallon": 43
+    },
+    {
+      "x": "2015-12",
+      "dollarsPerGallon": 0.387,
+      "centsPerGallon": 38.7
+    },
+    {
+      "x": "2016-01",
+      "dollarsPerGallon": 0.336,
+      "centsPerGallon": 33.6
+    },
+    {
+      "x": "2016-02",
+      "dollarsPerGallon": 0.375,
+      "centsPerGallon": 37.5
+    },
+    {
+      "x": "2016-03",
+      "dollarsPerGallon": 0.452,
+      "centsPerGallon": 45.2
+    },
+    {
+      "x": "2016-04",
+      "dollarsPerGallon": 0.457,
+      "centsPerGallon": 45.7
+    },
+    {
+      "x": "2016-05",
+      "dollarsPerGallon": 0.516,
+      "centsPerGallon": 51.6
+    },
+    {
+      "x": "2016-06",
+      "dollarsPerGallon": 0.507,
+      "centsPerGallon": 50.7
+    },
+    {
+      "x": "2016-07",
+      "dollarsPerGallon": 0.478,
+      "centsPerGallon": 47.8
+    },
+    {
+      "x": "2016-08",
+      "dollarsPerGallon": 0.449,
+      "centsPerGallon": 44.9
+    },
+    {
+      "x": "2016-09",
+      "dollarsPerGallon": 0.495,
+      "centsPerGallon": 49.5
+    },
+    {
+      "x": "2016-10",
+      "dollarsPerGallon": 0.573,
+      "centsPerGallon": 57.3
+    },
+    {
+      "x": "2016-11",
+      "dollarsPerGallon": 0.538,
+      "centsPerGallon": 53.8
+    },
+    {
+      "x": "2016-12",
+      "dollarsPerGallon": 0.637,
+      "centsPerGallon": 63.7
+    },
+    {
+      "x": "2017-01",
+      "dollarsPerGallon": 0.747,
+      "centsPerGallon": 74.7
+    },
+    {
+      "x": "2017-02",
+      "dollarsPerGallon": 0.768,
+      "centsPerGallon": 76.8
+    },
+    {
+      "x": "2017-03",
+      "dollarsPerGallon": 0.615,
+      "centsPerGallon": 61.5
+    },
+    {
+      "x": "2017-04",
+      "dollarsPerGallon": 0.651,
+      "centsPerGallon": 65.1
+    },
+    {
+      "x": "2017-05",
+      "dollarsPerGallon": 0.64,
+      "centsPerGallon": 64
+    },
+    {
+      "x": "2017-06",
+      "dollarsPerGallon": 0.59,
+      "centsPerGallon": 59
+    },
+    {
+      "x": "2017-07",
+      "dollarsPerGallon": 0.647,
+      "centsPerGallon": 64.7
+    },
+    {
+      "x": "2017-08",
+      "dollarsPerGallon": 0.758,
+      "centsPerGallon": 75.8
+    },
+    {
+      "x": "2017-09",
+      "dollarsPerGallon": 0.883,
+      "centsPerGallon": 88.3
+    },
+    {
+      "x": "2017-10",
+      "dollarsPerGallon": 0.934,
+      "centsPerGallon": 93.4
+    },
+    {
+      "x": "2017-11",
+      "dollarsPerGallon": 0.98,
+      "centsPerGallon": 98
+    },
+    {
+      "x": "2017-12",
+      "dollarsPerGallon": 0.957,
+      "centsPerGallon": 95.7
+    },
+    {
+      "x": "2018-01",
+      "dollarsPerGallon": 0.904,
+      "centsPerGallon": 90.4
+    },
+    {
+      "x": "2018-02",
+      "dollarsPerGallon": 0.827,
+      "centsPerGallon": 82.7
+    },
+    {
+      "x": "2018-03",
+      "dollarsPerGallon": 0.788,
+      "centsPerGallon": 78.8
+    },
+    {
+      "x": "2018-04",
+      "dollarsPerGallon": 0.821,
+      "centsPerGallon": 82.1
+    },
+    {
+      "x": "2018-05",
+      "dollarsPerGallon": 0.917,
+      "centsPerGallon": 91.7
+    },
+    {
+      "x": "2018-06",
+      "dollarsPerGallon": 0.88,
+      "centsPerGallon": 88
+    },
+    {
+      "x": "2018-07",
+      "dollarsPerGallon": 0.938,
+      "centsPerGallon": 93.8
+    },
+    {
+      "x": "2018-08",
+      "dollarsPerGallon": 0.974,
+      "centsPerGallon": 97.4
+    },
+    {
+      "x": "2018-09",
+      "dollarsPerGallon": 1.057,
+      "centsPerGallon": 105.7
+    },
+    {
+      "x": "2018-10",
+      "dollarsPerGallon": 0.959,
+      "centsPerGallon": 95.9
+    },
+    {
+      "x": "2018-11",
+      "dollarsPerGallon": 0.745,
+      "centsPerGallon": 74.5
+    },
+    {
+      "x": "2018-12",
+      "dollarsPerGallon": 0.677,
+      "centsPerGallon": 67.7
+    },
+    {
+      "x": "2019-01",
+      "dollarsPerGallon": 0.665,
+      "centsPerGallon": 66.5
+    },
+    {
+      "x": "2019-02",
+      "dollarsPerGallon": 0.673,
+      "centsPerGallon": 67.3
+    },
+    {
+      "x": "2019-03",
+      "dollarsPerGallon": 0.67,
+      "centsPerGallon": 67
+    },
+    {
+      "x": "2019-04",
+      "dollarsPerGallon": 0.642,
+      "centsPerGallon": 64.2
+    },
+    {
+      "x": "2019-05",
+      "dollarsPerGallon": 0.577,
+      "centsPerGallon": 57.7
+    },
+    {
+      "x": "2019-06",
+      "dollarsPerGallon": 0.449,
+      "centsPerGallon": 44.9
+    },
+    {
+      "x": "2019-07",
+      "dollarsPerGallon": 0.487,
+      "centsPerGallon": 48.7
+    },
+    {
+      "x": "2019-08",
+      "dollarsPerGallon": 0.405,
+      "centsPerGallon": 40.5
+    },
+    {
+      "x": "2019-09",
+      "dollarsPerGallon": 0.448,
+      "centsPerGallon": 44.8
+    },
+    {
+      "x": "2019-10",
+      "dollarsPerGallon": 0.466,
+      "centsPerGallon": 46.6
+    },
+    {
+      "x": "2019-11",
+      "dollarsPerGallon": 0.533,
+      "centsPerGallon": 53.3
+    },
+    {
+      "x": "2019-12",
+      "dollarsPerGallon": 0.496,
+      "centsPerGallon": 49.6
+    },
+    {
+      "x": "2020-01",
+      "dollarsPerGallon": 0.43,
+      "centsPerGallon": 43
+    },
+    {
+      "x": "2020-02",
+      "dollarsPerGallon": 0.397,
+      "centsPerGallon": 39.7
+    },
+    {
+      "x": "2020-03",
+      "dollarsPerGallon": 0.292,
+      "centsPerGallon": 29.2
+    },
+    {
+      "x": "2020-04",
+      "dollarsPerGallon": 0.327,
+      "centsPerGallon": 32.7
+    },
+    {
+      "x": "2020-05",
+      "dollarsPerGallon": 0.417,
+      "centsPerGallon": 41.7
+    },
+    {
+      "x": "2020-06",
+      "dollarsPerGallon": 0.496,
+      "centsPerGallon": 49.6
+    },
+    {
+      "x": "2020-07",
+      "dollarsPerGallon": 0.491,
+      "centsPerGallon": 49.1
+    },
+    {
+      "x": "2020-08",
+      "dollarsPerGallon": 0.506,
+      "centsPerGallon": 50.6
+    },
+    {
+      "x": "2020-09",
+      "dollarsPerGallon": 0.495,
+      "centsPerGallon": 49.5
+    },
+    {
+      "x": "2020-10",
+      "dollarsPerGallon": 0.526,
+      "centsPerGallon": 52.6
+    },
+    {
+      "x": "2020-11",
+      "dollarsPerGallon": 0.545,
+      "centsPerGallon": 54.5
+    },
+    {
+      "x": "2020-12",
+      "dollarsPerGallon": 0.644,
+      "centsPerGallon": 64.4
+    },
+    {
+      "x": "2021-01",
+      "dollarsPerGallon": 0.863,
+      "centsPerGallon": 86.3
+    },
+    {
+      "x": "2021-02",
+      "dollarsPerGallon": 0.905,
+      "centsPerGallon": 90.5
+    },
+    {
+      "x": "2021-03",
+      "dollarsPerGallon": 0.922,
+      "centsPerGallon": 92.2
+    },
+    {
+      "x": "2021-04",
+      "dollarsPerGallon": 0.823,
+      "centsPerGallon": 82.3
+    },
+    {
+      "x": "2021-05",
+      "dollarsPerGallon": 0.816,
+      "centsPerGallon": 81.6
+    },
+    {
+      "x": "2021-06",
+      "dollarsPerGallon": 0.965,
+      "centsPerGallon": 96.5
+    },
+    {
+      "x": "2021-07",
+      "dollarsPerGallon": 1.09,
+      "centsPerGallon": 109
+    },
+    {
+      "x": "2021-08",
+      "dollarsPerGallon": 1.115,
+      "centsPerGallon": 111.5
+    },
+    {
+      "x": "2021-09",
+      "dollarsPerGallon": 1.291,
+      "centsPerGallon": 129.1
+    },
+    {
+      "x": "2021-10",
+      "dollarsPerGallon": 1.454,
+      "centsPerGallon": 145.4
+    },
+    {
+      "x": "2021-11",
+      "dollarsPerGallon": 1.252,
+      "centsPerGallon": 125.2
+    },
+    {
+      "x": "2021-12",
+      "dollarsPerGallon": 1.033,
+      "centsPerGallon": 103.3
+    },
+    {
+      "x": "2022-01",
+      "dollarsPerGallon": 1.169,
+      "centsPerGallon": 116.9
+    },
+    {
+      "x": "2022-02",
+      "dollarsPerGallon": 1.283,
+      "centsPerGallon": 128.3
+    },
+    {
+      "x": "2022-03",
+      "dollarsPerGallon": 1.448,
+      "centsPerGallon": 144.8
+    },
+    {
+      "x": "2022-04",
+      "dollarsPerGallon": 1.302,
+      "centsPerGallon": 130.2
+    },
+    {
+      "x": "2022-05",
+      "dollarsPerGallon": 1.223,
+      "centsPerGallon": 122.3
+    },
+    {
+      "x": "2022-06",
+      "dollarsPerGallon": 1.219,
+      "centsPerGallon": 121.9
+    },
+    {
+      "x": "2022-07",
+      "dollarsPerGallon": 1.142,
+      "centsPerGallon": 114.2
+    },
+    {
+      "x": "2022-08",
+      "dollarsPerGallon": 1.093,
+      "centsPerGallon": 109.3
+    },
+    {
+      "x": "2022-09",
+      "dollarsPerGallon": 0.991,
+      "centsPerGallon": 99.1
+    },
+    {
+      "x": "2022-10",
+      "dollarsPerGallon": 0.859,
+      "centsPerGallon": 85.9
+    },
+    {
+      "x": "2022-11",
+      "dollarsPerGallon": 0.852,
+      "centsPerGallon": 85.2
+    },
+    {
+      "x": "2022-12",
+      "dollarsPerGallon": 0.692,
+      "centsPerGallon": 69.2
+    },
+    {
+      "x": "2023-01",
+      "dollarsPerGallon": 0.842,
+      "centsPerGallon": 84.2
+    },
+    {
+      "x": "2023-02",
+      "dollarsPerGallon": 0.828,
+      "centsPerGallon": 82.8
+    },
+    {
+      "x": "2023-03",
+      "dollarsPerGallon": 0.794,
+      "centsPerGallon": 79.4
+    },
+    {
+      "x": "2023-04",
+      "dollarsPerGallon": 0.811,
+      "centsPerGallon": 81.1
+    },
+    {
+      "x": "2023-05",
+      "dollarsPerGallon": 0.666,
+      "centsPerGallon": 66.6
+    },
+    {
+      "x": "2023-06",
+      "dollarsPerGallon": 0.574,
+      "centsPerGallon": 57.4
+    },
+    {
+      "x": "2023-07",
+      "dollarsPerGallon": 0.629,
+      "centsPerGallon": 62.9
+    },
+    {
+      "x": "2023-08",
+      "dollarsPerGallon": 0.679,
+      "centsPerGallon": 67.9
+    },
+    {
+      "x": "2023-09",
+      "dollarsPerGallon": 0.73,
+      "centsPerGallon": 73
+    },
+    {
+      "x": "2023-10",
+      "dollarsPerGallon": 0.675,
+      "centsPerGallon": 67.5
+    },
+    {
+      "x": "2023-11",
+      "dollarsPerGallon": 0.639,
+      "centsPerGallon": 63.9
+    },
+    {
+      "x": "2023-12",
+      "dollarsPerGallon": 0.687,
+      "centsPerGallon": 68.7
+    },
+    {
+      "x": "2024-01",
+      "dollarsPerGallon": 0.821,
+      "centsPerGallon": 82.1
+    },
+    {
+      "x": "2024-02",
+      "dollarsPerGallon": 0.908,
+      "centsPerGallon": 90.8
+    },
+    {
+      "x": "2024-03",
+      "dollarsPerGallon": 0.803,
+      "centsPerGallon": 80.3
+    },
+    {
+      "x": "2024-04",
+      "dollarsPerGallon": 0.8,
+      "centsPerGallon": 80
+    },
+    {
+      "x": "2024-05",
+      "dollarsPerGallon": 0.698,
+      "centsPerGallon": 69.8
+    },
+    {
+      "x": "2024-06",
+      "dollarsPerGallon": 0.762,
+      "centsPerGallon": 76.2
+    },
+    {
+      "x": "2024-07",
+      "dollarsPerGallon": 0.797,
+      "centsPerGallon": 79.7
+    },
+    {
+      "x": "2024-08",
+      "dollarsPerGallon": 0.755,
+      "centsPerGallon": 75.5
+    },
+    {
+      "x": "2024-09",
+      "dollarsPerGallon": 0.656,
+      "centsPerGallon": 65.6
+    },
+    {
+      "x": "2024-10",
+      "dollarsPerGallon": 0.774,
+      "centsPerGallon": 77.4
+    },
+    {
+      "x": "2024-11",
+      "dollarsPerGallon": 0.803,
+      "centsPerGallon": 80.3
+    },
+    {
+      "x": "2024-12",
+      "dollarsPerGallon": 0.773,
+      "centsPerGallon": 77.3
+    },
+    {
+      "x": "2025-01",
+      "dollarsPerGallon": 0.901,
+      "centsPerGallon": 90.1
+    },
+    {
+      "x": "2025-02",
+      "dollarsPerGallon": 0.925,
+      "centsPerGallon": 92.5
+    },
+    {
+      "x": "2025-03",
+      "dollarsPerGallon": 0.87,
+      "centsPerGallon": 87
+    },
+    {
+      "x": "2025-04",
+      "dollarsPerGallon": 0.846,
+      "centsPerGallon": 84.6
+    },
+    {
+      "x": "2025-05",
+      "dollarsPerGallon": 0.746,
+      "centsPerGallon": 74.6
+    },
+    {
+      "x": "2025-06",
+      "dollarsPerGallon": 0.756,
+      "centsPerGallon": 75.6
+    },
+    {
+      "x": "2025-07",
+      "dollarsPerGallon": 0.711,
+      "centsPerGallon": 71.1
+    },
+    {
+      "x": "2025-08",
+      "dollarsPerGallon": 0.67,
+      "centsPerGallon": 67
+    },
+    {
+      "x": "2025-09",
+      "dollarsPerGallon": 0.688,
+      "centsPerGallon": 68.8
+    },
+    {
+      "x": "2025-10",
+      "dollarsPerGallon": 0.638,
+      "centsPerGallon": 63.8
+    },
+    {
+      "x": "2025-11",
+      "dollarsPerGallon": 0.605,
+      "centsPerGallon": 60.5
+    },
+    {
+      "x": "2025-12",
+      "dollarsPerGallon": 0.646,
+      "centsPerGallon": 64.6
+    },
+    {
+      "x": "2026-01",
+      "dollarsPerGallon": 0.622,
+      "centsPerGallon": 62.2
+    },
+    {
+      "x": "2026-02",
+      "dollarsPerGallon": 0.614,
+      "centsPerGallon": 61.4
+    },
+    {
+      "x": "2026-03",
+      "dollarsPerGallon": 0.727,
+      "centsPerGallon": 72.7
+    },
+    {
+      "x": "2026-04",
+      "dollarsPerGallon": 0.766,
+      "centsPerGallon": 76.6
+    },
+    {
+      "x": "2026-05",
+      "dollarsPerGallon": 0.83,
+      "centsPerGallon": 83
+    },
+    {
+      "x": "2026-06",
+      "dollarsPerGallon": 0.755,
+      "centsPerGallon": 75.5
+    },
+    {
+      "x": "2026-07",
+      "dollarsPerGallon": 0.703,
+      "centsPerGallon": 70.3
+    },
+    {
+      "x": "2026-08",
+      "dollarsPerGallon": 0.688,
+      "centsPerGallon": 68.8
+    },
+    {
+      "x": "2026-09",
+      "dollarsPerGallon": 0.848,
+      "centsPerGallon": 84.8
+    }
+  ]
+}

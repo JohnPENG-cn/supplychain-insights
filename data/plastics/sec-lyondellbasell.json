@@ -1,0 +1,5 @@
+{
+  "ok": false,
+  "fetchedAt": "2026-11-03",
+  "error": "HTTP 403 https://data.sec.gov/api/xbrl/companyconcept/CIK0001489393/us-gaap/Revenues.json"
+}
