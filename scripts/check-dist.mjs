@@ -93,6 +93,7 @@ const pages = [
   'columns/company-lens/tsmc-2026q3.html',
   'columns/company-lens/ase-2026q3.html',
   'columns/company-lens/tongfu-2026q3.html',
+  'columns/company-lens/gf-2026q3.html',
   'data/electronics/series.json',
   'sitemap.xml'
 ]
@@ -452,6 +453,29 @@ for (const text of [
   }
 }
 if (/\d+\s*%\s*的?涨|涨了?约?\s*\d+\s*%|合约价环比/.test(lensTongfu)) {
+  console.error('财报专栏混入了存储涨价幅度')
+  process.exit(1)
+}
+if (!lensIndex.includes('/columns/company-lens/gf-2026q3.html')) {
+  console.error('财报专栏首页没有链到格芯这一篇')
+  process.exit(1)
+}
+const lensGf = read('columns/company-lens/gf-2026q3.html')
+for (const text of [
+  '不构成投资建议',
+  '管理层说法',
+  '待 John 补充',
+  '合同负债',
+  '库存天数',
+  '高 80%',
+  '/supplychain-insights/columns/company-lens/gf-2026q3.png'
+]) {
+  if (!lensGf.includes(text)) {
+    console.error(`格芯这一篇缺少：${text}`)
+    process.exit(1)
+  }
+}
+if (/\d+\s*%\s*的?涨|涨了?约?\s*\d+\s*%|合约价环比/.test(lensGf)) {
   console.error('财报专栏混入了存储涨价幅度')
   process.exit(1)
 }
