@@ -94,6 +94,7 @@ const pages = [
   'columns/company-lens/ase-2026q3.html',
   'columns/company-lens/tongfu-2026q3.html',
   'columns/company-lens/gf-2026q3.html',
+  'columns/company-lens/huahong-2026q3.html',
   'data/electronics/series.json',
   'sitemap.xml'
 ]
@@ -476,6 +477,29 @@ for (const text of [
   }
 }
 if (/\d+\s*%\s*的?涨|涨了?约?\s*\d+\s*%|合约价环比/.test(lensGf)) {
+  console.error('财报专栏混入了存储涨价幅度')
+  process.exit(1)
+}
+if (!lensIndex.includes('/columns/company-lens/huahong-2026q3.html')) {
+  console.error('财报专栏首页没有链到华虹宏力这一篇')
+  process.exit(1)
+}
+const lensHuahong = read('columns/company-lens/huahong-2026q3.html')
+for (const text of [
+  '不构成投资建议',
+  '管理层说法',
+  '待 John 补充',
+  '102.9%',
+  '合同负债',
+  '88 天',
+  '/supplychain-insights/columns/company-lens/huahong-2026q3.png'
+]) {
+  if (!lensHuahong.includes(text)) {
+    console.error(`华虹宏力这一篇缺少：${text}`)
+    process.exit(1)
+  }
+}
+if (/\d+\s*%\s*的?涨|涨了?约?\s*\d+\s*%|合约价环比/.test(lensHuahong)) {
   console.error('财报专栏混入了存储涨价幅度')
   process.exit(1)
 }
