@@ -255,8 +255,11 @@ for (const text of [
   '海关',
   '未核实',
   '更新 2026-10-28',
+  '更新 2026-11-08',
   '光纤涨了5倍，2028年最危险的是中国普通光纤',
-  '音频约 12:44'
+  '音频约 12:44',
+  '音频约 7:33',
+  '订单很热，但不是所有客户都能拿够货'
 ]) {
   if (!briefIndex.includes(text)) {
     console.error(`情报栏目首页缺少：${text}`)
@@ -271,7 +274,7 @@ for (const href of ['/briefs/inp.html', '/briefs/fiber.html', '/briefs/tglass.ht
 }
 
 const briefPages = [
-  ['briefs/inp.html', '/supplychain-insights/audio/inp.mp3', '9:50', '22,288,500', '未核实', '发布 2026-10-2', '更新 2026-10-27'],
+  ['briefs/inp.html', '/supplychain-insights/audio/inp.mp3', '7:33', '22,288,500', '未核实', '首发2026-10-23', '更新2026-11-08'],
   ['briefs/fiber.html', '/supplychain-insights/audio/fiber.mp3', '12:44', '+392%', '未核实清单', '首发2026-10-26', '更新2026-10-28'],
   ['briefs/tglass.html', '/supplychain-insights/audio/tglass.mp3', '10:14', '约1200亿日元', '未核实清单', '发布 2026-10-2', '更新 2026-10-27']
 ]
@@ -304,6 +307,20 @@ for (const [page, audioSrc, duration, marker, unverified, published, updated] of
     }
     if (text.includes('光纤涨了5倍，最怕的是行业自己') || text.includes('听这篇（约11:24）')) {
       console.error('光纤页还留着旧标题或旧时长')
+      process.exit(1)
+    }
+  }
+  if (page === 'briefs/inp.html') {
+    if (!text.includes('11/8更新：订单很热，但不是所有客户都能拿够货') || !text.includes('预测与实际对账') || !text.includes('等三季报检验需求与业绩')) {
+      console.error('磷化铟页更新段或对账表没有更新')
+      process.exit(1)
+    }
+    if (!text.includes('<table')) {
+      console.error('磷化铟页对账没有渲染成表格')
+      process.exit(1)
+    }
+    if (text.includes('听这篇（约9:50）') || text.includes('更新 2026-10-27') || text.includes('非GAAP毛利率一年内从8.2%升到45.0%')) {
+      console.error('磷化铟页还留着旧时长、旧日期或旧毛利率表述')
       process.exit(1)
     }
   }
