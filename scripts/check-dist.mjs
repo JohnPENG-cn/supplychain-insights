@@ -95,6 +95,7 @@ const pages = [
   'columns/company-lens/tongfu-2026q3.html',
   'columns/company-lens/gf-2026q3.html',
   'columns/company-lens/huahong-2026q3.html',
+  'columns/company-lens/jcet-2026q3.html',
   'data/electronics/series.json',
   'sitemap.xml'
 ]
@@ -536,6 +537,31 @@ for (const text of [
   }
 }
 if (/\d+\s*%\s*的?涨|涨了?约?\s*\d+\s*%|合约价环比/.test(lensHuahong)) {
+  console.error('财报专栏混入了存储涨价幅度')
+  process.exit(1)
+}
+if (!lensIndex.includes('/columns/company-lens/jcet-2026q3.html')) {
+  console.error('财报专栏首页没有链到长电科技这一篇')
+  process.exit(1)
+}
+const lensJcet = read('columns/company-lens/jcet-2026q3.html')
+for (const text of [
+  '不构成投资建议',
+  '管理层说法',
+  '待 John 补充',
+  '合同负债',
+  '库存天数',
+  '3.678',
+  '88.91',
+  '182.0',
+  '/supplychain-insights/columns/company-lens/jcet-2026q3.png'
+]) {
+  if (!lensJcet.includes(text)) {
+    console.error(`长电科技这一篇缺少：${text}`)
+    process.exit(1)
+  }
+}
+if (/\d+\s*%\s*的?涨|涨了?约?\s*\d+\s*%|合约价环比/.test(lensJcet)) {
   console.error('财报专栏混入了存储涨价幅度')
   process.exit(1)
 }
