@@ -671,3 +671,11 @@
 .brief-process-body > :first-child {
   margin-top: 0.75rem;
 }
+
+/* 长期投资笔记：宽表不折行，横向滚动 */
+.invest-wide table th,
+.invest-wide table td {
+  white-space: nowrap;
+  font-size: 0.9rem;
+  padding: 6px 10px;
+}

@@ -113,6 +113,11 @@ const companyLens = [
   { text: '华天科技：封测现在是不是整厂都排满了', link: '/columns/company-lens/huatian-2026q3' }
 ]
 
+const investing = [
+  { text: '这一栏写什么', link: '/columns/investing/' },
+  { text: 'A股有没有巴菲特式股票', link: '/columns/investing/buffett-style-a-shares' }
+]
+
 const plasticsCore = [
   { text: '这一类写什么', link: '/categories/plastics/' },
   { text: '产业链一张图看懂', link: '/categories/plastics/chain-map' },
@@ -237,6 +242,11 @@ export default defineConfig({
         link: '/columns/company-lens/',
         items: companyLens
       },
+      {
+        text: '长期投资笔记',
+        link: '/columns/investing/',
+        items: investing
+      },
       { text: '产业链看板', link: '/dashboard/' }
     ],
     sidebar: [
@@ -270,6 +280,10 @@ export default defineConfig({
       {
         text: '采购人视角读财报',
         items: companyLens
+      },
+      {
+        text: '长期投资笔记',
+        items: investing
       },
       {
         text: '产业链看板',

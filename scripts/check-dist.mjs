@@ -97,6 +97,8 @@ const pages = [
   'columns/company-lens/huahong-2026q3.html',
   'columns/company-lens/jcet-2026q3.html',
   'columns/company-lens/huatian-2026q3.html',
+  'columns/investing/index.html',
+  'columns/investing/buffett-style-a-shares.html',
   'data/electronics/series.json',
   'sitemap.xml'
 ]
@@ -590,6 +592,28 @@ for (const text of [
 if (/\d+\s*%\s*的?涨|涨了?约?\s*\d+\s*%|合约价环比/.test(lensHuatian)) {
   console.error('财报专栏混入了存储涨价幅度')
   process.exit(1)
+}
+
+const investIndex = read('columns/investing/index.html')
+if (!investIndex.includes('/columns/investing/buffett-style-a-shares.html')) {
+  console.error('长期投资笔记首页没有链到巴菲特式股票这一篇')
+  process.exit(1)
+}
+const investBuffett = read('columns/investing/buffett-style-a-shares.html')
+for (const text of [
+  '不构成投资建议',
+  '幸存者偏差',
+  '<details',
+  '570',
+  '4.3%',
+  '59.8',
+  '/supplychain-insights/columns/investing/buffett-style-compare.png',
+  '/supplychain-insights/columns/investing/tr-pe-600519.png'
+]) {
+  if (!investBuffett.includes(text)) {
+    console.error(`巴菲特式股票这一篇缺少：${text}`)
+    process.exit(1)
+  }
 }
 
 const assets = read('index.html')
