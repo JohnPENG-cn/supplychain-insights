@@ -55,4 +55,4 @@ features:
 
 ## 建议从哪篇看
 
-忙的话，先看 [电子元器件这一类在说什么](/categories/electronics/)。想搞清货是从哪一层来的，看 [产业链一张图](/categories/electronics/chain-map)。手里正在涨价，看 [价格和交期为什么会变](/categories/electronics/price-and-leadtime) 和 [实战打法](/categories/electronics/playbook)。拿到一件新的缺货或跌价，先走 [产业链洞察](/methods/industry-chain-insight) 的八步，再对照 [历史案例](/categories/electronics/cases/) 末尾的复盘。想用海关、公告和许可看这一轮卡在哪一层，打开 [产业链情报中心](/briefs/)。
+忙的话，先看 [电子元器件这一类在说什么](/categories/electronics/)。想搞清货是从哪一层来的，看 [产业链一张图](/categories/electronics/chain-map)。手里正在涨价，看 [价格和交期为什么会变](/categories/electronics/price-and-leadtime) 和 [实战打法](/categories/electronics/playbook)。拿到一件新的缺货或跌价，先走 [产业链洞察](/methods/industry-chain-insight) 的八步，再对照 [历史案例](/categories/electronics/cases/) 末尾的复盘。想用海关、公告和许可看这一轮卡在哪一层，打开 [产业链情报中心](/briefs/)。想用财报看代工、封测、模拟和设备这四组走到哪了，打开 [半导体周期](/columns/semi-cycle/)。

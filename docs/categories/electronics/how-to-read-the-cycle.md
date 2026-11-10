@@ -62,6 +62,8 @@ description: 跨子类看缺货和跌价：领先信号是什么，MLCC 公开�
 
 存储没有放在这个看板上。每周看三样就够用：原厂财报和新闻稿里有没有「售罄」「减产」「停产」；[SIA](https://www.semiconductors.org/policies/tax/market-data/?type=post) 和 [WSTS](https://www.wsts.org/61/Forecasts) 把存储从总销售额里拆开；TrendForce 的[新闻稿](https://www.trendforce.com/presscenter)和[现货页](https://www.trendforce.com/price/dram/dram_spot)打开原文。不要从二手网站把逐季涨幅抄成自己的表。
 
+上市公司财报拉长到二十年的读法，在 [半导体周期](/columns/semi-cycle/)：代工、封测、模拟/MCU、设备四组分开，不写存储价格。那一栏回答「这四组账本走到哪」，不代替上面这张按料看信号的表。
+
 其他免费指标的目录在 [采购能跟踪的指标](./indicators)。
 
 ## 四个阶段，动作不要用反
