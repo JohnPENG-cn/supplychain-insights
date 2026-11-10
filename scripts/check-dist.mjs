@@ -97,6 +97,8 @@ const pages = [
   'columns/company-lens/huahong-2026q3.html',
   'columns/company-lens/jcet-2026q3.html',
   'columns/company-lens/huatian-2026q3.html',
+  'columns/semi-cycle/index.html',
+  'columns/semi-cycle/twenty-years.html',
   'data/electronics/series.json',
   'sitemap.xml'
 ]
@@ -237,6 +239,10 @@ if (!sitemap.includes('https://johnpeng-cn.github.io/supplychain-insights/briefs
 }
 if (!sitemap.includes('https://johnpeng-cn.github.io/supplychain-insights/categories/plastics/')) {
   console.error('站点地图没有塑料章节')
+  process.exit(1)
+}
+if (!sitemap.includes('https://johnpeng-cn.github.io/supplychain-insights/columns/semi-cycle/')) {
+  console.error('站点地图没有半导体周期栏目')
   process.exit(1)
 }
 if (!sitemap.includes('https://johnpeng-cn.github.io/supplychain-insights/categories/electronics/')) {
@@ -590,6 +596,66 @@ for (const text of [
 if (/\d+\s*%\s*的?涨|涨了?约?\s*\d+\s*%|合约价环比/.test(lensHuatian)) {
   console.error('财报专栏混入了存储涨价幅度')
   process.exit(1)
+}
+
+const cycleIndex = read('columns/semi-cycle/index.html')
+if (!cycleIndex.includes('/columns/semi-cycle/twenty-years.html')) {
+  console.error('半导体周期栏目首页没有链到二十年财报这一篇')
+  process.exit(1)
+}
+if (!cycleIndex.includes('/supplychain-insights/columns/semi-cycle/data.csv')) {
+  console.error('半导体周期栏目首页没有链到数据集')
+  process.exit(1)
+}
+const cycleArticle = read('columns/semi-cycle/twenty-years.html')
+for (const text of [
+  '不构成投资建议',
+  '待 John 补充',
+  '判断',
+  '事实',
+  '组内中位数',
+  '库存天数',
+  '朱格拉',
+  '现场观察',
+  '管理层说法',
+  '/supplychain-insights/columns/semi-cycle/data.csv',
+  '/supplychain-insights/columns/semi-cycle/foundry-revenue-yoy.png',
+  '/supplychain-insights/columns/semi-cycle/capex-vs-equipment-yoy.png'
+]) {
+  if (!cycleArticle.includes(text)) {
+    console.error(`半导体周期这一篇缺少：${text}`)
+    process.exit(1)
+  }
+}
+if (/\d+\s*%\s*的?涨|涨了?约?\s*\d+\s*%|合约价环比/.test(cycleArticle)) {
+  console.error('半导体周期这一篇混入了存储涨价幅度')
+  process.exit(1)
+}
+const cycleCsv = read('columns/semi-cycle/data.csv')
+if (!cycleCsv.includes('source_url') || !cycleCsv.includes('TSMC 台积电') || /美光|Micron|DRAM|NAND/.test(cycleCsv)) {
+  console.error('半导体周期数据集不对，或混入了存储厂')
+  process.exit(1)
+}
+for (const img of [
+  'columns/semi-cycle/foundry-revenue-yoy.png',
+  'columns/semi-cycle/foundry-inventory-days.png',
+  'columns/semi-cycle/foundry-utilization.png',
+  'columns/semi-cycle/foundry-ocf-capex.png',
+  'columns/semi-cycle/osat-revenue-yoy.png',
+  'columns/semi-cycle/osat-inventory-days.png',
+  'columns/semi-cycle/osat-ocf-capex.png',
+  'columns/semi-cycle/analog-revenue-yoy.png',
+  'columns/semi-cycle/analog-inventory-days.png',
+  'columns/semi-cycle/analog-ocf-capex.png',
+  'columns/semi-cycle/equipment-revenue-yoy.png',
+  'columns/semi-cycle/equipment-bookings.png',
+  'columns/semi-cycle/equipment-inventory-days.png',
+  'columns/semi-cycle/capex-vs-equipment-yoy.png'
+]) {
+  if (!existsSync(resolve(dist, img))) {
+    console.error(`半导体周期缺图：${img}`)
+    process.exit(1)
+  }
 }
 
 const assets = read('index.html')

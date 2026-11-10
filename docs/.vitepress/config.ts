@@ -98,6 +98,11 @@ const briefs = [
   { text: 'T玻璃：底座里那块布', link: '/briefs/tglass' }
 ]
 
+const semiCycle = [
+  { text: '这一栏写什么', link: '/columns/semi-cycle/' },
+  { text: '用二十年财报看库存和投资', link: '/columns/semi-cycle/twenty-years' }
+]
+
 const companyLens = [
   { text: '这一栏写什么', link: '/columns/company-lens/' },
   { text: '美光：该不该签存储长协', link: '/columns/company-lens/micron-fy26q4' },
@@ -237,6 +242,11 @@ export default defineConfig({
         link: '/columns/company-lens/',
         items: companyLens
       },
+      {
+        text: '半导体周期',
+        link: '/columns/semi-cycle/',
+        items: semiCycle
+      },
       { text: '产业链看板', link: '/dashboard/' }
     ],
     sidebar: [
@@ -270,6 +280,10 @@ export default defineConfig({
       {
         text: '采购人视角读财报',
         items: companyLens
+      },
+      {
+        text: '半导体周期',
+        items: semiCycle
       },
       {
         text: '产业链看板',
