@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-10-21",
-  "staleAfter": "2026-12-05",
+  "updatedAt": "2026-11-11",
+  "staleAfter": "2026-12-20",
   "events": [
     {
       "id": "murata-2026-04",
@@ -128,6 +128,21 @@
         {
           "name": "钜亨",
           "url": "https://news.cnyes.com/news/id/6622691"
+        }
+      ]
+    },
+    {
+      "id": "yageo-call-2026-10-29",
+      "date": "2026-10-29",
+      "makers": ["Yageo"],
+      "makerLabels": { "Yageo": "国巨" },
+      "kind": "comment",
+      "credibility": "media",
+      "summary": "法说会说公司会按原物料成本和供需调价，没有公布幅度和生效日。这是媒体转述的管理层说法，不是涨价函，不计入涨价灯。",
+      "links": [
+        {
+          "name": "钜亨",
+          "url": "https://news.cnyes.com/news/id/6640891"
         }
       ]
     },

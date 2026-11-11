@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-02",
+  "updatedAt": "2026-11-11",
   "items": [
     {
       "date": "2026-10-28",
@@ -67,12 +67,28 @@
     {
       "date": "2026-11-05",
       "text": "太阳诱电公布 2027 年 3 月期第二季业绩",
-      "status": "confirmed",
-      "note": "15:30 日本时间，公司日程上标了预定",
+      "status": "published",
+      "note": "电容订单出货比 1.83，全公司 1.70。说明会没有给出稼动率百分比",
       "links": [
         {
-          "name": "太阳诱电 IR 日程",
-          "url": "https://www.yuden.co.jp/jp/ir/event/"
+          "name": "決算説明会资料",
+          "url": "https://www.nikkei.com/markets/ir/irftp/data/tdnr/tdnetg3/20261105/g7sws6/140120261105564982.pdf"
+        },
+        {
+          "name": "太阳诱电 IR 资料室",
+          "url": "https://www.yuden.co.jp/jp/ir/library/"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-09",
+      "text": "国巨公布 10 月营收",
+      "status": "published",
+      "note": "自结营收 175.97 亿元新台币。证交所 OpenAPI 在 2026-11-11 仍只有到 2026-09，自动文件没有手补",
+      "links": [
+        {
+          "name": "钜亨转载重大讯息",
+          "url": "https://news.cnyes.com/news/id/6653364"
         }
       ]
     },

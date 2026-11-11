@@ -46,8 +46,8 @@ description: 跨子类看缺货和跌价：领先信号是什么，MLCC 公开�
 | --- | --- | --- |
 | [存储](./parts/memory) | 原厂财报里的售罄、减产、平均售价方向；现货是否转跌；停产信 | 美光、三星、SK 海力士的财报和新闻稿。TrendForce 的新闻稿打开原文，不把逐季报价抄进自己的表。案例：[2019](./cases/dram-2018-2019)、[2023](./cases/glut-2022-2023)、[HBM](./cases/hbm-ddr) |
 | [MLCC 和被动件](./parts/mlcc-passives) | 台湾被动厂月营收、日本产量、订单出货比、库存天数、涨价函 | 本站 [MLCC 采购信号](/dashboard/mlcc/) 把能公开抓到的曲线放在一起。案例：[2017–2018](./cases/mlcc-2017-2018)、[钽粉](./cases/tantalum) |
-| [MCU](./parts/mcu) | 交期是否还在拉长、分配按哪段历史提货、晶圆厂有没有事故 | [2021 年三场意外](./cases/shortage-2021)、[2011 年地震](./cases/tohoku-2011) |
-| [模拟和电源](./parts/analog-power) | 原厂涨价函、成熟制程利用率、功率器件交期 | 和 MCU 共用很多工厂。安世的功率管同时看 [出口管制案例](./cases/nexperia) |
+| [MCU](./parts/mcu) | 交期是否还在拉长、分配按哪段历史提货、晶圆厂有没有事故 | [IC 采购信号](/dashboard/ic/) 看德州仪器、亚德诺、微芯、恩智浦的同比和库存天数。[2021 年三场意外](./cases/shortage-2021)、[2011 年地震](./cases/tohoku-2011) |
+| [模拟和电源](./parts/analog-power) | 原厂涨价函、成熟制程利用率、功率器件交期 | 和 MCU 共用 [IC 采购信号](/dashboard/ic/)。安世的功率管同时看 [出口管制案例](./cases/nexperia) |
 | [分立器件](./parts/discretes) | 出口和许可通知、晶圆有没有停运、第二品牌验证做完没有 | [安世 / 闻泰](./cases/nexperia) |
 | [连接器](./parts/connectors) | 模具交期、树脂和金属报价有效期、有货比例 | 定制件看你自己的开模进度，不看存储价格 |
 | [晶振](./parts/crystals) | 前道芯片厂和晶振厂是不是同一处、ppm 和温度的第二来源 | [延冈火灾](./cases/shortage-2021)、[2011 年 NDK](./cases/tohoku-2011) |
@@ -56,9 +56,11 @@ description: 跨子类看缺货和跌价：领先信号是什么，MLCC 公开�
 
 硬盘的地理集中是另一课，见 [2011 年泰国洪水](./cases/thailand-hdd-2011)。假货不跟景气走，紧缺时更容易钻进来，见 [2012 年参议院报告](./cases/counterfeit-2012)。
 
-## 本站公开的曲线，目前是 MLCC
+## 本站公开的曲线
 
 [MLCC 采购信号](/dashboard/mlcc/) 用的是台湾上市公司月营收、日本经济产业省的生产动态统计，再加上需要人工维护的订单出货比、交期灯和涨价台账。看的时候记住看板页自己的版权说明：不复制卖方的交期原表，也不把收费价格库的数字贴进来。
+
+[IC 采购信号（模拟/MCU）](/dashboard/ic/) 用四家原厂的季度营收、营业成本和存货，自算同比和库存天数。灯不预测下一次下行在哪一季。长历史在 [用二十年财报看半导体](/columns/semi-cycle/twenty-years)。
 
 存储没有放在这个看板上。每周看三样就够用：原厂财报和新闻稿里有没有「售罄」「减产」「停产」；[SIA](https://www.semiconductors.org/policies/tax/market-data/?type=post) 和 [WSTS](https://www.wsts.org/61/Forecasts) 把存储从总销售额里拆开；TrendForce 的[新闻稿](https://www.trendforce.com/presscenter)和[现货页](https://www.trendforce.com/price/dram/dram_spot)打开原文。不要从二手网站把逐季涨幅抄成自己的表。
 

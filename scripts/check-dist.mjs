@@ -81,6 +81,7 @@ const pages = [
   'methods/delivery-tracking.html',
   'dashboard/index.html',
   'dashboard/mlcc/index.html',
+  'dashboard/ic/index.html',
   'briefs/index.html',
   'briefs/inp.html',
   'briefs/fiber.html',
@@ -158,6 +159,24 @@ if (/DDR4|DRAMeXchange|30~36|30~52/.test(mlcc)) {
   console.error('MLCC 页混入了存储行情或交期原表')
   process.exit(1)
 }
+const icBoard = read('dashboard/ic/index.html')
+for (const text of ['IC 采购信号', '判断', '自算', '不预测', '大约 2027', '现场观察', '待 John 补充', '亚德诺', '2026-11-24', '/columns/semi-cycle/twenty-years']) {
+  if (!icBoard.includes(text)) {
+    console.error(`IC 看板缺少：${text}`)
+    process.exit(1)
+  }
+}
+const icStart = icBoard.indexOf('class="vp-doc')
+const icEnd = icBoard.indexOf('VPDocFooter')
+const icArticle = icStart >= 0 && icEnd > icStart ? icBoard.slice(icStart, icEnd) : icBoard
+if (/DDR4|DRAMeXchange|NAND|合约价环比/.test(icArticle)) {
+  console.error('IC 看板正文混入了存储行情')
+  process.exit(1)
+}
+if (!read('dashboard/index.html').includes('IC 采购信号')) {
+  console.error('看板目录没有链到 IC 采购信号')
+  process.exit(1)
+}
 
 const cycle = read('categories/electronics/how-to-read-the-cycle.html')
 if (!cycle.includes('/dashboard/mlcc/')) {
@@ -231,6 +250,10 @@ const sitemap = read('sitemap.xml')
 if (!sitemap.includes('https://johnpeng-cn.github.io/supplychain-insights/dashboard/mlcc/')) {
   console.error('站点地图没有 MLCC 看板')
   console.error(sitemap.slice(0, 500))
+  process.exit(1)
+}
+if (!sitemap.includes('https://johnpeng-cn.github.io/supplychain-insights/dashboard/ic/')) {
+  console.error('站点地图没有 IC 看板')
   process.exit(1)
 }
 if (!sitemap.includes('https://johnpeng-cn.github.io/supplychain-insights/briefs/')) {
@@ -618,6 +641,7 @@ for (const text of [
   '朱格拉',
   '现场观察',
   '管理层说法',
+  '/dashboard/ic/',
   '/supplychain-insights/columns/semi-cycle/data.csv',
   '/supplychain-insights/columns/semi-cycle/foundry-revenue-yoy.png',
   '/supplychain-insights/columns/semi-cycle/capex-vs-equipment-yoy.png'

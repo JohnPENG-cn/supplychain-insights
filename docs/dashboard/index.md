@@ -1,26 +1,29 @@
 ---
 title: 产业链看板
-description: MLCC 采购信号已上线。其他电子元器件指标还在建设中，没有存储行情。
+description: MLCC 和模拟/MCU 采购信号已上线。其他电子元器件指标还在建设中，没有存储行情。
 ---
 
 # 产业链看板
 
-MLCC 采购信号已经上线。半导体销售额、代工利用率、代理出货、交期指数这些仍是 <span class="status status-wip">建设中</span>，没有曲线。这页不放存储行情。
+MLCC 采购信号和 IC 采购信号（模拟/MCU）已经上线。半导体销售额、代工利用率、代理出货、交期指数这些仍是 <span class="status status-wip">建设中</span>，没有曲线。这页不放存储行情。
 
 | 看板 | 状态 |
 | --- | --- |
 | [MLCC 采购信号](/dashboard/mlcc/) | 已上线 |
+| [IC 采购信号（模拟/MCU）](/dashboard/ic/) | 已上线 |
 | 下面这张电子元器件指标清单 | 建设中 |
 
 <!--@include: @/snippets/electronics-note.md-->
 
-读指标本身怎么用，看 [采购能免费跟踪的指标](/categories/electronics/indicators)。MLCC 的灯和动作在 [采购信号](/dashboard/mlcc/)。
+读指标本身怎么用，看 [采购能免费跟踪的指标](/categories/electronics/indicators)。MLCC 的灯和动作在 [采购信号](/dashboard/mlcc/)。模拟和 MCU 的灯在 [IC 采购信号](/dashboard/ic/)，长历史在 [用二十年财报看半导体](/columns/semi-cycle/twenty-years)。
 
 <IndicatorBoard />
 
 ## 数据从哪进网站
 
 MLCC 的台湾月营收和日本产量由定时任务写入 `data/mlcc/`。订单出货比、交期灯、涨价台账要人工改，步骤见仓库 README 的「更新 MLCC 看板」。
+
+IC 看板的季度数从 [半导体周期数据集](/columns/semi-cycle/data.csv) 抽出，放在 `data/ic/`。营收同比和库存天数由页面自算。电话会那一盏灯改 `data/ic/manual/management.json`，没有原文就留空。
 
 其他指标还没接上：
 
