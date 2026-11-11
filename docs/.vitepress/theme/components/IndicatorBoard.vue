@@ -76,6 +76,8 @@ function chartOf(points) {
       <p v-if="plottable.length === 0">
         这张清单还没有曲线。MLCC 不在这里，去
         <a :href="withBase('/dashboard/mlcc/')">MLCC 采购信号</a>。
+        模拟和 MCU 去
+        <a :href="withBase('/dashboard/ic/')">IC 采购信号</a>。
         <code>data/electronics/series.json</code> 仍然是空的，不会拿猜测的数字画图。
       </p>
       <p v-else>

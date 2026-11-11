@@ -289,7 +289,8 @@ export default defineConfig({
         text: '产业链看板',
         items: [
           { text: '看板目录', link: '/dashboard/' },
-          { text: 'MLCC 采购信号', link: '/dashboard/mlcc/' }
+          { text: 'MLCC 采购信号', link: '/dashboard/mlcc/' },
+          { text: 'IC 采购信号（模拟/MCU）', link: '/dashboard/ic/' }
         ]
       }
     ],

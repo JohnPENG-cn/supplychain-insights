@@ -1,0 +1,46 @@
+{
+  "updatedAt": "2026-11-11",
+  "note": "只收录对得上原文的句子。亚德诺自然年 2026 年第二季的电话会，这里没有摘到客户消化或渠道库存的原句，不编。下一份财报公司定在 2026-11-24。",
+  "entries": [
+    {
+      "company": "ti",
+      "companyLabel": "德州仪器",
+      "date": "2026-10-21",
+      "period": "2026Q3",
+      "hit": false,
+      "summary": "2026-10-21 电话会。本站采购专栏摘到的管理层说法是：公司自己为通用料提前生产，成品金额下降，交期略紧。专栏没有摘到「客户正在消化库存」或「渠道库存上升」。这里不把没摘到写成已经逐字核对过全文。",
+      "sourceName": "德州仪器 2026 年第三季电话会文字稿",
+      "sourceUrl": "https://ti.gcs-web.com/static-files/b012c095-ee25-4280-970f-728ceed4af7b"
+    },
+    {
+      "company": "mchp",
+      "companyLabel": "微芯",
+      "date": "2026-11-05",
+      "period": "2026Q3",
+      "hit": false,
+      "summary": "FY2027 第二季电话会，对应自然年 2026 年第三季、季末 2026-09-30。公司说，这一季客户库存消化告一段落，接着因为晶圆厂、封测和自家工厂交期拉长，部分产品出现紧缺。经销商库存 25 天，与 6 月那一季持平。公司自己的库存天数是 184 天，比上一季多 9 天。管理层说，广泛的客户并没有要建立库存的意愿。按本看板的规则，消化已经结束、渠道天数没有上升，不点亮。",
+      "sourceName": "Microchip FY2027 第二季电话会文字稿",
+      "sourceUrl": "https://www.fool.com/earnings/call-transcripts/2026/11/06/microchip-mchp-q2-2027-earnings-call-transcript/"
+    },
+    {
+      "company": "nxp",
+      "companyLabel": "恩智浦",
+      "date": "2026-10-27",
+      "period": "2026Q3",
+      "hit": false,
+      "summary": "业绩稿写渠道库存 11 周，与上一季相同，一年前是 9 周。电话会说没有看到汽车客户普遍补库存；电动化产品的库存消化是上一年的事。当季渠道周数没有上升，不点亮。一年前的 9 周高于上季这个事实留在这里，不改写成「这一季还在升」。",
+      "sourceName": "恩智浦 2026 年第三季业绩稿",
+      "sourceUrl": "https://investors.nxp.com/news-releases/news-release-details/nxp-semiconductors-reports-third-quarter-2026-results/",
+      "links": [
+        {
+          "name": "恩智浦 2026 年第三季业绩稿",
+          "url": "https://investors.nxp.com/news-releases/news-release-details/nxp-semiconductors-reports-third-quarter-2026-results/"
+        },
+        {
+          "name": "恩智浦 2026 年第三季电话会文字稿",
+          "url": "https://www.fool.com/earnings/call-transcripts/2026/10/27/nxp-nxpi-q3-2026-earnings-call-transcript/"
+        }
+      ]
+    }
+  ]
+}

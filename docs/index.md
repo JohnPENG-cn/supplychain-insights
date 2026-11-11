@@ -29,7 +29,7 @@ features:
     link: /methods/
     linkText: 看方法
   - title: 产业链看板
-    details: MLCC 采购信号已上线。其他指标还在建设中，没有曲线。
+    details: MLCC 和模拟/MCU 两块采购信号已上线。其他指标还在建设中，没有曲线。
     link: /dashboard/
     linkText: 看看板
   - title: 产业链情报中心

@@ -2,6 +2,7 @@ import type { Theme } from 'vitepress'
 import DefaultTheme from 'vitepress/theme'
 import IndicatorBoard from './components/IndicatorBoard.vue'
 import MlccBoard from './components/MlccBoard.vue'
+import IcBoard from './components/IcBoard.vue'
 import CaseTimeline from './components/CaseTimeline.vue'
 import ListenBar from './components/ListenBar.vue'
 import SeriesChart from './components/SeriesChart.vue'
@@ -12,6 +13,7 @@ export default {
   enhanceApp({ app }) {
     app.component('IndicatorBoard', IndicatorBoard)
     app.component('MlccBoard', MlccBoard)
+    app.component('IcBoard', IcBoard)
     app.component('CaseTimeline', CaseTimeline)
     app.component('ListenBar', ListenBar)
     app.component('SeriesChart', SeriesChart)

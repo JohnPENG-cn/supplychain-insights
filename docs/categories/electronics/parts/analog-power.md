@@ -9,7 +9,7 @@ description: 电源芯片、运放、MOSFET、IGBT、碳化硅的供给、涨价
 
 模拟芯片处理连续的电压和电流：电源管理（常叫 PMIC）、运放、接口、栅极驱动。功率器件负责开关大电流：MOSFET、IGBT，以及碳化硅（SiC）、氮化镓这类更耐高压高温的管子。料号极多，单颗常常不贵，板子上缺一颗电源，主芯片再多也开不了机。
 
-和 MCU 共用很多工厂，事故见 [2021 年缺芯](../cases/shortage-2021)。小信号和安世的 MOSFET 同时看 [安世案例](../cases/nexperia)。读周期见 [怎么读周期](../how-to-read-the-cycle)。
+和 MCU 共用很多工厂，事故见 [2021 年缺芯](../cases/shortage-2021)。小信号和安世的 MOSFET 同时看 [安世案例](../cases/nexperia)。读周期见 [怎么读周期](../how-to-read-the-cycle)。四家原厂的财报曲线在 [IC 采购信号](/dashboard/ic/)。
 
 ## 这条链怎么转，谁在定价
 

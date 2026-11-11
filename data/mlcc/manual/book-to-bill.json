@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-11-02",
-  "staleAfter": "2026-11-06",
+  "updatedAt": "2026-11-11",
+  "staleAfter": "2027-02-12",
   "readings": [
     {
       "maker": "Murata",
@@ -14,22 +14,35 @@
       "publishedAt": "2026-07-31",
       "sourceName": "村田 FY2026 第一季电话会逐字稿",
       "sourceUrl": "https://corporate.murata.com/-/media/corporate/about/newsroom/news/irnews/irnews/2026/0731d/26q1-e.ashx",
-      "note": "第一季电话会上口头说的。2026-10-30 的第二季说明会资料和决算短信没有单列 MLCC 订单出货比，说明会逐字稿还没挂出来，第二季这一格未发布。"
+      "note": "第一季电话会上口头说的。截至 2026-11-11，2026-10-30 的第二季说明会资料和决算短信仍没有单列 MLCC 订单出货比，第二季这一格未发布。"
     },
     {
       "maker": "Taiyo Yuden",
       "scope": "电容",
       "label": "太阳诱电电容",
-      "period": "FY2026 Q1",
-      "periodEnd": "2026-06-30",
-      "bookToBill": 1.72,
-      "utilization": 0.85,
-      "history": [0.95, 0.88, 1.08, 1.31, 1.72],
+      "period": "FY2026 Q2",
+      "periodEnd": "2026-09-30",
+      "bookToBill": 1.83,
+      "history": [0.95, 0.88, 1.08, 1.31, 1.72, 1.83],
       "countsTowardSignal": true,
-      "publishedAt": "2026-08-05",
-      "sourceName": "太阳诱电 FY2026 第一季说明",
-      "sourceUrl": "https://fs2.magicalir.net/tdnet/2026/6976/20260805509466.pdf",
-      "note": "电容订单出货比。稼动率大约 85%。"
+      "publishedAt": "2026-11-05",
+      "sourceName": "太阳诱电 2027年3月期第2四半期決算説明会",
+      "sourceUrl": "https://www.nikkei.com/markets/ir/irftp/data/tdnr/tdnetg3/20261105/g7sws6/140120261105564982.pdf",
+      "note": "电容订单出货比 1.83，上一季 1.72。公司文件标题是 2027年3月期第2四半期。说明会没有给出稼动率百分比，这一格空着。和本文件上一笔 FY2026 Q1 是同一套财年叫法。"
+    },
+    {
+      "maker": "Taiyo Yuden",
+      "scope": "全公司",
+      "label": "太阳诱电",
+      "period": "FY2026 Q2",
+      "periodEnd": "2026-09-30",
+      "bookToBill": 1.7,
+      "history": [0.95, 0.89, 1.07, 1.25, 1.58, 1.7],
+      "countsTowardSignal": false,
+      "publishedAt": "2026-11-05",
+      "sourceName": "太阳诱电 2027年3月期第2四半期決算説明会",
+      "sourceUrl": "https://www.nikkei.com/markets/ir/irftp/data/tdnr/tdnetg3/20261105/g7sws6/140120261105564982.pdf",
+      "note": "全公司订单出货比 1.70，不参与灯。"
     },
     {
       "maker": "Murata",

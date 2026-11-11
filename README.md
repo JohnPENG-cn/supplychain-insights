@@ -98,7 +98,7 @@ npm run build
 
 ## 指标数据
 
-看板的约定写在 [data/README.md](data/README.md)。`data/electronics/series.json` 仍是空的，除 MLCC 以外的指标显示建设中，不会出现曲线。不要为了看效果填假数，也不要把存储价格写进公开仓库。
+看板的约定写在 [data/README.md](data/README.md)。`data/electronics/series.json` 仍是空的。MLCC 和模拟/MCU 两块采购信号已经单独做了，其余指标显示建设中，不会出现曲线。不要为了看效果填假数，也不要把存储价格写进公开仓库。
 
 ## 更新 MLCC 看板
 
@@ -132,3 +132,11 @@ npm run build
 关键日程在 `data/mlcc/schedule.json`。过期的可以留着，页面会标「已过」。
 
 日本海关和韩国海关的出口单价还没接。那两个接口要本人注册的免费 key，没有 key 之前不要把猜测的数字写进来。
+
+## 更新 IC 看板
+
+页面在 `/dashboard/ic/`。季度营收、营业成本、存货从 `docs/public/columns/semi-cycle/data.csv` 抽出，写在 `data/ic/quarters.json`。营收同比和库存天数由 `scripts/ic/signals.mjs` 自算，并购季度不进中位数。改数据集之后要重新抽出这份 JSON，再跑 `node scripts/validate-ic.mjs`。不要手改算出来的同比。
+
+电话会那一盏灯只改 `data/ic/manual/management.json`。每条要有日期、季度和 https 链接。`hit: true` 只用于管理层说客户库存还在消化，或渠道库存比上一季上升。对不上原文就不要加。亚德诺 2026-11-24 的财报出来之后，先把新季度补进数据集，再决定这条灯。
+
+三盏灯都是判断。页面写明不预测下一次下行落在哪一季。
