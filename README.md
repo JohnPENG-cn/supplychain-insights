@@ -140,3 +140,16 @@ npm run build
 电话会那一盏灯只改 `data/ic/manual/management.json`。每条要有日期、季度和 https 链接。`hit: true` 只用于管理层说客户库存还在消化，或渠道库存比上一季上升。对不上原文就不要加。亚德诺 2026-11-24 的财报出来之后，先把新季度补进数据集，再决定这条灯。
 
 三盏灯都是判断。页面写明不预测下一次下行落在哪一季。
+
+## 更新周期专栏的两份数据集
+
+被动元件在 `docs/public/columns/passive-cycle/data.csv`，航运在 `docs/public/columns/shipping-cycle/data.csv`。每一行都要有 `source_url`。不要写入存储价格。
+
+MLCC 看板的「周期位置」读 `data/mlcc/cycle-position.json`，航运看板读 `data/shipping/position.json`。这两份 JSON 不要手改。数据集更新后运行：
+
+```bash
+node scripts/cycle/build-json.mjs
+npm test
+```
+
+断点季度分别在 `data/passive/breaks.json` 和 `data/shipping/breaks.json`。航运三组不要合成一个中位数。人工 MLCC 台账（订单出货比、交期、涨价）仍按上一节改，不和周期位置合成一个数。

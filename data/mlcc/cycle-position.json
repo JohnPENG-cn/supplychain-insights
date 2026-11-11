@@ -1,0 +1,1152 @@
+{
+  "extractedFrom": "/columns/passive-cycle/data.csv",
+  "asOf": "2026-11-11",
+  "disclaimer": "本块不预测下一次下行落在哪一季。谷底间隔大约三年半，是这批被动元件账本自己算出来的，不是把半导体那口四年的钟挪过来。",
+  "median": {
+    "points": [
+      {
+        "period": "2004Q1",
+        "value": 10.188,
+        "n": 3
+      },
+      {
+        "period": "2004Q2",
+        "value": 19.296,
+        "n": 3
+      },
+      {
+        "period": "2004Q3",
+        "value": 4.7063,
+        "n": 3
+      },
+      {
+        "period": "2004Q4",
+        "value": 4.3691,
+        "n": 3
+      },
+      {
+        "period": "2005Q1",
+        "value": -10.9735,
+        "n": 3
+      },
+      {
+        "period": "2005Q2",
+        "value": -2.1836,
+        "n": 3
+      },
+      {
+        "period": "2005Q3",
+        "value": 3.8075,
+        "n": 3
+      },
+      {
+        "period": "2005Q4",
+        "value": 27.5411,
+        "n": 4
+      },
+      {
+        "period": "2006Q1",
+        "value": 36.5342,
+        "n": 4
+      },
+      {
+        "period": "2006Q2",
+        "value": 27.3971,
+        "n": 4
+      },
+      {
+        "period": "2006Q3",
+        "value": 27.3144,
+        "n": 4
+      },
+      {
+        "period": "2006Q4",
+        "value": 16.8351,
+        "n": 4
+      },
+      {
+        "period": "2007Q1",
+        "value": 17.9805,
+        "n": 4
+      },
+      {
+        "period": "2007Q2",
+        "value": 24.2899,
+        "n": 4
+      },
+      {
+        "period": "2007Q3",
+        "value": 21.007,
+        "n": 4
+      },
+      {
+        "period": "2007Q4",
+        "value": 8.7655,
+        "n": 4
+      },
+      {
+        "period": "2008Q1",
+        "value": 7.0906,
+        "n": 4
+      },
+      {
+        "period": "2008Q2",
+        "value": -5.7217,
+        "n": 4
+      },
+      {
+        "period": "2008Q3",
+        "value": -11.0474,
+        "n": 4
+      },
+      {
+        "period": "2008Q4",
+        "value": -38.6506,
+        "n": 4
+      },
+      {
+        "period": "2009Q1",
+        "value": -47.1322,
+        "n": 4
+      },
+      {
+        "period": "2009Q2",
+        "value": -26.3948,
+        "n": 4
+      },
+      {
+        "period": "2009Q3",
+        "value": -16.2211,
+        "n": 4
+      },
+      {
+        "period": "2009Q4",
+        "value": 32.0946,
+        "n": 4
+      },
+      {
+        "period": "2010Q1",
+        "value": 71.5111,
+        "n": 4
+      },
+      {
+        "period": "2010Q2",
+        "value": 34.3132,
+        "n": 5
+      },
+      {
+        "period": "2010Q3",
+        "value": 16.7753,
+        "n": 5
+      },
+      {
+        "period": "2010Q4",
+        "value": 10.2521,
+        "n": 5
+      },
+      {
+        "period": "2011Q1",
+        "value": 4.2266,
+        "n": 5
+      },
+      {
+        "period": "2011Q2",
+        "value": -0.5763,
+        "n": 6
+      },
+      {
+        "period": "2011Q3",
+        "value": -13.5416,
+        "n": 6
+      },
+      {
+        "period": "2011Q4",
+        "value": -16.1712,
+        "n": 6
+      },
+      {
+        "period": "2012Q1",
+        "value": -13.6755,
+        "n": 6
+      },
+      {
+        "period": "2012Q2",
+        "value": -11.1351,
+        "n": 6
+      },
+      {
+        "period": "2012Q3",
+        "value": -6.323,
+        "n": 6
+      },
+      {
+        "period": "2012Q4",
+        "value": 8.1763,
+        "n": 6
+      },
+      {
+        "period": "2013Q1",
+        "value": 18.871,
+        "n": 4
+      },
+      {
+        "period": "2013Q2",
+        "value": 26.989,
+        "n": 4
+      },
+      {
+        "period": "2013Q3",
+        "value": 24.3398,
+        "n": 4
+      },
+      {
+        "period": "2013Q4",
+        "value": 15.1211,
+        "n": 4
+      },
+      {
+        "period": "2014Q1",
+        "value": 8.9992,
+        "n": 6
+      },
+      {
+        "period": "2014Q2",
+        "value": 5.4904,
+        "n": 6
+      },
+      {
+        "period": "2014Q3",
+        "value": 10.3791,
+        "n": 6
+      },
+      {
+        "period": "2014Q4",
+        "value": 12.7019,
+        "n": 6
+      },
+      {
+        "period": "2015Q1",
+        "value": 16.8435,
+        "n": 6
+      },
+      {
+        "period": "2015Q2",
+        "value": 11.2885,
+        "n": 6
+      },
+      {
+        "period": "2015Q3",
+        "value": 11.8446,
+        "n": 6
+      },
+      {
+        "period": "2015Q4",
+        "value": 3.7579,
+        "n": 6
+      },
+      {
+        "period": "2016Q1",
+        "value": -0.4485,
+        "n": 6
+      },
+      {
+        "period": "2016Q2",
+        "value": -0.1946,
+        "n": 6
+      },
+      {
+        "period": "2016Q3",
+        "value": 2.4008,
+        "n": 6
+      },
+      {
+        "period": "2016Q4",
+        "value": 6.5166,
+        "n": 6
+      },
+      {
+        "period": "2017Q1",
+        "value": 4.5121,
+        "n": 6
+      },
+      {
+        "period": "2017Q2",
+        "value": 8.1407,
+        "n": 6
+      },
+      {
+        "period": "2017Q3",
+        "value": 13.6079,
+        "n": 6
+      },
+      {
+        "period": "2017Q4",
+        "value": 26.9119,
+        "n": 7
+      },
+      {
+        "period": "2018Q1",
+        "value": 35.5163,
+        "n": 7
+      },
+      {
+        "period": "2018Q2",
+        "value": 37.0486,
+        "n": 7
+      },
+      {
+        "period": "2018Q3",
+        "value": 30.5574,
+        "n": 7
+      },
+      {
+        "period": "2018Q4",
+        "value": 23.4112,
+        "n": 6
+      },
+      {
+        "period": "2019Q1",
+        "value": 17.219,
+        "n": 6
+      },
+      {
+        "period": "2019Q2",
+        "value": -10.7717,
+        "n": 6
+      },
+      {
+        "period": "2019Q3",
+        "value": -13.2231,
+        "n": 6
+      },
+      {
+        "period": "2019Q4",
+        "value": -9.9437,
+        "n": 6
+      },
+      {
+        "period": "2020Q1",
+        "value": -4.8242,
+        "n": 5
+      },
+      {
+        "period": "2020Q2",
+        "value": -2.3524,
+        "n": 5
+      },
+      {
+        "period": "2020Q3",
+        "value": 18.2646,
+        "n": 5
+      },
+      {
+        "period": "2020Q4",
+        "value": 15.561,
+        "n": 5
+      },
+      {
+        "period": "2021Q1",
+        "value": 23.4551,
+        "n": 5
+      },
+      {
+        "period": "2021Q2",
+        "value": 36.7516,
+        "n": 4
+      },
+      {
+        "period": "2021Q3",
+        "value": 29.7092,
+        "n": 5
+      },
+      {
+        "period": "2021Q4",
+        "value": 15.5884,
+        "n": 5
+      },
+      {
+        "period": "2022Q1",
+        "value": 14.3624,
+        "n": 5
+      },
+      {
+        "period": "2022Q2",
+        "value": 4.6961,
+        "n": 6
+      },
+      {
+        "period": "2022Q3",
+        "value": -4.1736,
+        "n": 6
+      },
+      {
+        "period": "2022Q4",
+        "value": -12.7626,
+        "n": 6
+      },
+      {
+        "period": "2023Q1",
+        "value": -18.3836,
+        "n": 6
+      },
+      {
+        "period": "2023Q2",
+        "value": -13.6489,
+        "n": 5
+      },
+      {
+        "period": "2023Q3",
+        "value": -5.274,
+        "n": 5
+      },
+      {
+        "period": "2023Q4",
+        "value": 7.418,
+        "n": 5
+      },
+      {
+        "period": "2024Q1",
+        "value": 9.2338,
+        "n": 5
+      },
+      {
+        "period": "2024Q2",
+        "value": 16.1896,
+        "n": 6
+      },
+      {
+        "period": "2024Q3",
+        "value": 8.9225,
+        "n": 6
+      },
+      {
+        "period": "2024Q4",
+        "value": 7.6012,
+        "n": 6
+      },
+      {
+        "period": "2025Q1",
+        "value": 8.1691,
+        "n": 6
+      },
+      {
+        "period": "2025Q2",
+        "value": 7.1773,
+        "n": 6
+      },
+      {
+        "period": "2025Q3",
+        "value": 7.6321,
+        "n": 6
+      },
+      {
+        "period": "2025Q4",
+        "value": 9.2538,
+        "n": 5
+      },
+      {
+        "period": "2026Q1",
+        "value": 14.7762,
+        "n": 5
+      },
+      {
+        "period": "2026Q2",
+        "value": 27.9883,
+        "n": 5
+      },
+      {
+        "period": "2026Q3",
+        "value": 35.9904,
+        "n": 5
+      }
+    ],
+    "latest": {
+      "period": "2026Q3",
+      "value": 35.99,
+      "n": 5,
+      "percentile": 95.6,
+      "percentileCount": 87,
+      "percentileN": 91,
+      "historyMedian": 8.92,
+      "historyMax": 71.5,
+      "historyMaxPeriod": "2010Q1"
+    },
+    "companies": [
+      {
+        "name": "村田电容器",
+        "company": "Murata 村田",
+        "period": "2026Q3",
+        "value": 35.99,
+        "url": "https://corporate.murata.com/-/media/corporate/about/newsroom/news/irnews/irnews/2026/1030/26q2-e-fls.ashx",
+        "inMedian": true,
+        "provisional": false,
+        "breakNote": ""
+      },
+      {
+        "name": "太阳诱电电容器",
+        "company": "Taiyo Yuden 太阳诱电",
+        "period": "2026Q3",
+        "value": 26.41,
+        "url": "https://pdf.irpocket.com/C6976/xoA3/DnNg/pZTB/oheo.pdf",
+        "inMedian": true,
+        "provisional": false,
+        "breakNote": ""
+      },
+      {
+        "name": "TDK 被动元件",
+        "company": "TDK",
+        "period": "2026Q3",
+        "value": 22.84,
+        "url": "https://www.tdk.com/system/files/2026103000_1i3qdleu_en.pdf",
+        "inMedian": true,
+        "provisional": false,
+        "breakNote": ""
+      },
+      {
+        "name": "三星电机元件",
+        "company": "SEMCO 三星电机",
+        "period": "2026Q3",
+        "value": 36.33,
+        "url": "https://www.samsungsem.com/resources/file/global/ir/earnings_release/3Q26_Earnings_Release_eng.pdf",
+        "inMedian": true,
+        "provisional": false,
+        "breakNote": ""
+      },
+      {
+        "name": "国巨",
+        "company": "Yageo 国巨",
+        "period": "2026Q3",
+        "value": 49.7,
+        "url": "https://api.finmindtrade.com/api/v4/data?dataset=TaiwanStockMonthRevenue&data_id=2327",
+        "inMedian": false,
+        "provisional": true,
+        "breakNote": "口径断点，不进中位数"
+      },
+      {
+        "name": "华新科",
+        "company": "Walsin Tech 华新科",
+        "period": "2026Q3",
+        "value": 47.17,
+        "url": "https://api.finmindtrade.com/api/v4/data?dataset=TaiwanStockMonthRevenue&data_id=2492",
+        "inMedian": true,
+        "provisional": true,
+        "breakNote": ""
+      },
+      {
+        "name": "AVX",
+        "company": "AVX",
+        "period": null,
+        "value": null,
+        "url": "",
+        "inMedian": false,
+        "provisional": false,
+        "breakNote": ""
+      }
+    ],
+    "troughs": [
+      {
+        "period": "2005Q1",
+        "value": -11
+      },
+      {
+        "period": "2009Q1",
+        "value": -47.1
+      },
+      {
+        "period": "2011Q4",
+        "value": -16.2
+      },
+      {
+        "period": "2016Q1",
+        "value": -0.4
+      },
+      {
+        "period": "2019Q3",
+        "value": -13.2
+      },
+      {
+        "period": "2023Q1",
+        "value": -18.4
+      }
+    ],
+    "gaps": [
+      16,
+      11,
+      17,
+      14,
+      14
+    ],
+    "averageGapQuarters": 14.4,
+    "upturn": {
+      "from": "2023Q1",
+      "to": "2026Q3",
+      "quarters": 14,
+      "confirmedPeak": false,
+      "pastQuarters": [
+        4,
+        4,
+        6,
+        9,
+        7
+      ],
+      "past": [
+        {
+          "from": "2005Q1",
+          "to": "2006Q1",
+          "quarters": 4,
+          "peak": 36.53
+        },
+        {
+          "from": "2009Q1",
+          "to": "2010Q1",
+          "quarters": 4,
+          "peak": 71.51
+        },
+        {
+          "from": "2011Q4",
+          "to": "2013Q2",
+          "quarters": 6,
+          "peak": 26.99
+        },
+        {
+          "from": "2016Q1",
+          "to": "2018Q2",
+          "quarters": 9,
+          "peak": 37.05
+        },
+        {
+          "from": "2019Q3",
+          "to": "2021Q2",
+          "quarters": 7,
+          "peak": 36.75
+        }
+      ],
+      "longestPast": 9
+    }
+  },
+  "bookToBill": {
+    "points": [
+      {
+        "period": "2002Q2",
+        "value": 1.0096
+      },
+      {
+        "period": "2002Q3",
+        "value": 0.9494
+      },
+      {
+        "period": "2002Q4",
+        "value": 0.9703
+      },
+      {
+        "period": "2003Q1",
+        "value": 0.9615
+      },
+      {
+        "period": "2003Q2",
+        "value": 1.0085
+      },
+      {
+        "period": "2003Q3",
+        "value": 1.0449
+      },
+      {
+        "period": "2003Q4",
+        "value": 1.0907
+      },
+      {
+        "period": "2004Q1",
+        "value": 1.0174
+      },
+      {
+        "period": "2004Q2",
+        "value": 1.0009
+      },
+      {
+        "period": "2004Q3",
+        "value": 0.9484
+      },
+      {
+        "period": "2004Q4",
+        "value": 0.968
+      },
+      {
+        "period": "2005Q1",
+        "value": 0.9851
+      },
+      {
+        "period": "2005Q2",
+        "value": 1.0124
+      },
+      {
+        "period": "2005Q3",
+        "value": 1.0867
+      },
+      {
+        "period": "2005Q4",
+        "value": 1.0543
+      },
+      {
+        "period": "2006Q1",
+        "value": 1.0235
+      },
+      {
+        "period": "2006Q2",
+        "value": 1.0623
+      },
+      {
+        "period": "2006Q3",
+        "value": 1.0716
+      },
+      {
+        "period": "2006Q4",
+        "value": 1.0403
+      },
+      {
+        "period": "2007Q1",
+        "value": 1.0004
+      },
+      {
+        "period": "2007Q2",
+        "value": 0.9479
+      },
+      {
+        "period": "2007Q3",
+        "value": 1.0154
+      },
+      {
+        "period": "2007Q4",
+        "value": 0.9634
+      },
+      {
+        "period": "2008Q1",
+        "value": 0.9277
+      },
+      {
+        "period": "2008Q2",
+        "value": 0.9654
+      },
+      {
+        "period": "2008Q3",
+        "value": 0.9679
+      },
+      {
+        "period": "2008Q4",
+        "value": 0.83
+      },
+      {
+        "period": "2009Q1",
+        "value": 0.9584
+      },
+      {
+        "period": "2009Q2",
+        "value": 1.1941
+      },
+      {
+        "period": "2009Q3",
+        "value": 1.0986
+      },
+      {
+        "period": "2009Q4",
+        "value": 1.0066
+      },
+      {
+        "period": "2010Q1",
+        "value": 1.1832
+      },
+      {
+        "period": "2010Q2",
+        "value": 1.1
+      },
+      {
+        "period": "2010Q3",
+        "value": 0.8954
+      },
+      {
+        "period": "2010Q4",
+        "value": 0.9199
+      },
+      {
+        "period": "2011Q1",
+        "value": 1.0591
+      },
+      {
+        "period": "2011Q2",
+        "value": 0.9804
+      },
+      {
+        "period": "2011Q3",
+        "value": 0.8913
+      },
+      {
+        "period": "2011Q4",
+        "value": 0.9444
+      },
+      {
+        "period": "2012Q1",
+        "value": 1.0008
+      },
+      {
+        "period": "2012Q2",
+        "value": 1.0431
+      },
+      {
+        "period": "2012Q3",
+        "value": 0.9706
+      },
+      {
+        "period": "2012Q4",
+        "value": 0.9793
+      },
+      {
+        "period": "2013Q1",
+        "value": 1.0576
+      },
+      {
+        "period": "2013Q2",
+        "value": 1.0328
+      },
+      {
+        "period": "2013Q3",
+        "value": 1.0141
+      },
+      {
+        "period": "2013Q4",
+        "value": 0.9823
+      },
+      {
+        "period": "2014Q1",
+        "value": 1.0975
+      },
+      {
+        "period": "2014Q2",
+        "value": 1.064
+      },
+      {
+        "period": "2014Q3",
+        "value": 1.0124
+      },
+      {
+        "period": "2014Q4",
+        "value": 1.0053
+      },
+      {
+        "period": "2015Q1",
+        "value": 0.9973
+      },
+      {
+        "period": "2015Q2",
+        "value": 1.0243
+      },
+      {
+        "period": "2015Q3",
+        "value": 0.9626
+      },
+      {
+        "period": "2015Q4",
+        "value": 0.9901
+      },
+      {
+        "period": "2016Q1",
+        "value": 1.0226
+      },
+      {
+        "period": "2016Q2",
+        "value": 1.0114
+      },
+      {
+        "period": "2016Q3",
+        "value": 1.0605
+      },
+      {
+        "period": "2016Q4",
+        "value": 1.101
+      },
+      {
+        "period": "2017Q1",
+        "value": 1.1208
+      },
+      {
+        "period": "2017Q2",
+        "value": 1.2214
+      },
+      {
+        "period": "2017Q3",
+        "value": 1.1526
+      },
+      {
+        "period": "2017Q4",
+        "value": 1.2065
+      },
+      {
+        "period": "2018Q1",
+        "value": 1.1874
+      },
+      {
+        "period": "2018Q2",
+        "value": 1.3203
+      },
+      {
+        "period": "2018Q3",
+        "value": 1.0444
+      },
+      {
+        "period": "2018Q4",
+        "value": 0.7914
+      },
+      {
+        "period": "2019Q1",
+        "value": 0.734
+      },
+      {
+        "period": "2019Q2",
+        "value": 0.801
+      },
+      {
+        "period": "2019Q3",
+        "value": 0.8528
+      },
+      {
+        "period": "2019Q4",
+        "value": 1.072
+      },
+      {
+        "period": "2020Q1",
+        "value": 1.1178
+      },
+      {
+        "period": "2020Q2",
+        "value": 0.8738
+      },
+      {
+        "period": "2020Q3",
+        "value": 1.0699
+      },
+      {
+        "period": "2020Q4",
+        "value": 1.1945
+      },
+      {
+        "period": "2021Q1",
+        "value": 1.3194
+      },
+      {
+        "period": "2021Q2",
+        "value": 1.1828
+      },
+      {
+        "period": "2021Q3",
+        "value": 0.9789
+      },
+      {
+        "period": "2021Q4",
+        "value": 0.9463
+      },
+      {
+        "period": "2022Q1",
+        "value": 1.0968
+      },
+      {
+        "period": "2022Q2",
+        "value": 0.9769
+      },
+      {
+        "period": "2022Q3",
+        "value": 0.8479
+      },
+      {
+        "period": "2022Q4",
+        "value": 0.7898
+      },
+      {
+        "period": "2023Q1",
+        "value": 0.8733
+      },
+      {
+        "period": "2023Q2",
+        "value": 0.9696
+      },
+      {
+        "period": "2023Q3",
+        "value": 0.966
+      },
+      {
+        "period": "2023Q4",
+        "value": 1.0285
+      },
+      {
+        "period": "2024Q1",
+        "value": 1.0609
+      },
+      {
+        "period": "2024Q2",
+        "value": 1.0488
+      },
+      {
+        "period": "2024Q3",
+        "value": 0.9565
+      },
+      {
+        "period": "2024Q4",
+        "value": 0.9724
+      },
+      {
+        "period": "2025Q1",
+        "value": 1.0304
+      },
+      {
+        "period": "2025Q2",
+        "value": 1.0307
+      },
+      {
+        "period": "2025Q3",
+        "value": 1.0178
+      },
+      {
+        "period": "2025Q4",
+        "value": 1.121
+      },
+      {
+        "period": "2026Q1",
+        "value": 1.3602
+      },
+      {
+        "period": "2026Q2",
+        "value": 1.4708
+      },
+      {
+        "period": "2026Q3",
+        "value": 1.3864
+      }
+    ],
+    "latest": {
+      "period": "2026Q3",
+      "value": 1.39,
+      "url": "https://corporate.murata.com/-/media/corporate/about/newsroom/news/irnews/irnews/2026/1030/26q2-e-fls.ashx",
+      "previousPeriod": "2026Q2",
+      "previous": 1.47,
+      "percentile": 99,
+      "maxPeriod": "2026Q2",
+      "max": 1.47
+    },
+    "lead": {
+      "lag": 2,
+      "r": 0.63,
+      "n": 91
+    }
+  },
+  "inventory": {
+    "limitation": "存货天数是全公司口径，村田、太阳诱电、国巨、华新科都含电容以外的业务。TDK 和三星电机的全公司存货不拿来算。",
+    "companies": [
+      {
+        "name": "村田",
+        "period": "2026Q3",
+        "days": 152.1,
+        "percentile": 80.6,
+        "medianDays": 111,
+        "maxDays": 239.4,
+        "maxPeriod": "2023Q2",
+        "url": "https://corporate.murata.com/-/media/corporate/about/newsroom/news/irnews/irnews/2026/1030/26q2-e-fls.ashx",
+        "previous": {
+          "period": "2026Q2",
+          "days": 180.1
+        }
+      },
+      {
+        "name": "太阳诱电",
+        "period": "2026Q3",
+        "days": 143.1,
+        "percentile": 78.6,
+        "medianDays": 97.7,
+        "maxDays": 193.5,
+        "maxPeriod": "2022Q3",
+        "url": "https://pdf.irpocket.com/C6976/xoA3/DnNg/pZTB/oheo.pdf",
+        "previous": {
+          "period": "2026Q2",
+          "days": 161.1
+        }
+      },
+      {
+        "name": "国巨",
+        "period": "2026Q2",
+        "days": 119.4,
+        "percentile": 64.2,
+        "medianDays": 102.6,
+        "maxDays": 178.9,
+        "maxPeriod": "2020Q2",
+        "url": "https://api.finmindtrade.com/api/v4/data?dataset=TaiwanStockBalanceSheet&data_id=2327",
+        "previous": {
+          "period": "2026Q1",
+          "days": 128.6
+        }
+      },
+      {
+        "name": "华新科",
+        "period": "2026Q2",
+        "days": 95,
+        "percentile": 63,
+        "medianDays": 90.9,
+        "maxDays": 131.9,
+        "maxPeriod": "2018Q4",
+        "url": "https://api.finmindtrade.com/api/v4/data?dataset=TaiwanStockBalanceSheet&data_id=2492",
+        "previous": {
+          "period": "2026Q1",
+          "days": 108.2
+        }
+      }
+    ],
+    "group": {
+      "period": "2026Q2",
+      "days": 140.3,
+      "n": 4
+    }
+  },
+  "utilization": "缺失",
+  "lights": [
+    {
+      "id": "level",
+      "name": "景气位置",
+      "judgment": true,
+      "light": "red",
+      "label": "历史高位",
+      "rule": "判断：中位同比处在样本第 90 百分位及以上，标成历史高位。这只说明现在高，不说明这一季是峰。",
+      "latest": "2026Q3 中位同比 +36.0%（5 家）。91 个季度里有 87 个不高于这一季（95.6%）。"
+    },
+    {
+      "id": "length",
+      "name": "上行长度",
+      "judgment": true,
+      "light": "yellow",
+      "label": "长于以往，未确认见顶",
+      "rule": "判断：已经走完的上行是 4、4、6、9、7 个季度。本轮已 14 个季度，而且 2026Q3 是序列最后一点，不把它写成峰。",
+      "latest": "从 2023Q1 的谷底算到 2026Q3，已经 14 个季度。这一季的中位数仍高于上一季。"
+    },
+    {
+      "id": "book",
+      "name": "村田电容器订单出货比",
+      "judgment": true,
+      "light": "yellow",
+      "label": "从纪录高点回落",
+      "rule": "判断：订单出货比从本样本的最高点回落，标成第一次转松。它仍然高于 1，不能单独写成下行已经开始。领先约 2 个季度是相关，不是到货日期。",
+      "latest": "2026Q2 1.47，2026Q3 1.39。98 季里有 97 季不高于 1.39（99.0%）。"
+    },
+    {
+      "id": "inventory",
+      "name": "存货天数",
+      "judgment": true,
+      "light": "yellow",
+      "label": "全公司口径，天数不低",
+      "rule": "判断：存货天数用全公司存货和营业成本，含电容以外的业务。高于自家历史中位数，只说明账上不瘦，不能当成见顶。",
+      "latest": "村田 2026Q3 152.1 天（约第 81 百分位）；太阳诱电 2026Q3 143.1 天（约第 79 百分位）；国巨 2026Q2 119.4 天（约第 64 百分位）；华新科 2026Q2 95 天（约第 63 百分位）"
+    },
+    {
+      "id": "utilization",
+      "name": "产能利用率",
+      "judgment": false,
+      "light": "unknown",
+      "label": "缺失",
+      "rule": "公司公开文件里没有可引用的稼动率数字，这里留空，不估算。",
+      "latest": "缺失。"
+    }
+  ]
+}

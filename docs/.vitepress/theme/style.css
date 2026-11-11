@@ -487,10 +487,15 @@
   align-items: center;
 }
 
+.mlcc-head h2,
 .mlcc-head h3 {
   margin: 0;
   border: 0;
   font-size: 1.08rem;
+}
+
+.mlcc-head h2 {
+  font-size: 1.2rem;
 }
 
 .mlcc-latest {

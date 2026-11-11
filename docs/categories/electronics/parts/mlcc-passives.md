@@ -9,7 +9,7 @@ description: 片式电容、电阻、电感、钽电容怎么定价，周期看�
 
 被动件自己不放大信号。MLCC 是片式多层陶瓷电容，加上片式电阻、电感、钽电容，占 BOM 金额往往不大，缺一颗就能停线。2017 到 2018 年就是这样，见 [MLCC 案例](../cases/mlcc-2017-2018)。钽粉的长约是另一课，见 [钽电容案例](../cases/tantalum)。
 
-每周能看的公开曲线在 [MLCC 采购信号](/dashboard/mlcc/)。怎么把电容和其他料放在一起读，见 [怎么读周期](../how-to-read-the-cycle)。
+每周能看的公开曲线在 [MLCC 采购信号](/dashboard/mlcc/)，二十年的谷底在 [用二十年财报看被动元件](/columns/passive-cycle/twenty-years)。怎么把电容和其他料放在一起读，见 [怎么读周期](../how-to-read-the-cycle)。
 
 ## 这条链怎么转，谁在定价
 

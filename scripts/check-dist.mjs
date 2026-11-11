@@ -82,6 +82,7 @@ const pages = [
   'dashboard/index.html',
   'dashboard/mlcc/index.html',
   'dashboard/ic/index.html',
+  'dashboard/shipping/index.html',
   'briefs/index.html',
   'briefs/inp.html',
   'briefs/fiber.html',
@@ -100,6 +101,11 @@ const pages = [
   'columns/company-lens/huatian-2026q3.html',
   'columns/semi-cycle/index.html',
   'columns/semi-cycle/twenty-years.html',
+  'columns/cycle/index.html',
+  'columns/passive-cycle/index.html',
+  'columns/passive-cycle/twenty-years.html',
+  'columns/shipping-cycle/index.html',
+  'columns/shipping-cycle/twenty-years.html',
   'data/electronics/series.json',
   'sitemap.xml'
 ]
@@ -267,6 +273,17 @@ if (!sitemap.includes('https://johnpeng-cn.github.io/supplychain-insights/catego
 if (!sitemap.includes('https://johnpeng-cn.github.io/supplychain-insights/columns/semi-cycle/')) {
   console.error('站点地图没有半导体周期栏目')
   process.exit(1)
+}
+for (const path of [
+  'columns/cycle/',
+  'columns/passive-cycle/twenty-years.html',
+  'columns/shipping-cycle/twenty-years.html',
+  'dashboard/shipping/'
+]) {
+  if (!sitemap.includes(`https://johnpeng-cn.github.io/supplychain-insights/${path}`)) {
+    console.error(`站点地图没有：${path}`)
+    process.exit(1)
+  }
 }
 if (!sitemap.includes('https://johnpeng-cn.github.io/supplychain-insights/categories/electronics/')) {
   console.error('站点地图没有包含正确的项目站路径')
@@ -680,6 +697,125 @@ for (const img of [
     console.error(`半导体周期缺图：${img}`)
     process.exit(1)
   }
+}
+
+function articleOf(page) {
+  const html = read(page)
+  const start = html.indexOf('class="vp-doc')
+  const end = html.indexOf('VPDocFooter')
+  return start >= 0 && end > start ? html.slice(start, end) : html
+}
+
+const priceRise = /\d+\s*%\s*的?涨|涨了?约?\s*\d+\s*%|合约价环比/
+const memoryWords = /DRAM|NAND|Micron|美光|DRAMeXchange/
+for (const page of [
+  'columns/passive-cycle/twenty-years.html',
+  'columns/shipping-cycle/twenty-years.html',
+  'dashboard/shipping/index.html',
+  'dashboard/mlcc/index.html'
+]) {
+  const article = articleOf(page)
+  if (priceRise.test(article) || memoryWords.test(article)) {
+    console.error(`${page} 混入了存储行情或涨价幅度`)
+    process.exit(1)
+  }
+}
+const passiveArticle = articleOf('columns/passive-cycle/twenty-years.html')
+for (const text of [
+  '不预测',
+  '待 John 补充',
+  '判断',
+  '事实',
+  '自算',
+  '缺失',
+  '1.47',
+  '1.39',
+  '14 个季度',
+  '/dashboard/mlcc/',
+  '/columns/semi-cycle/twenty-years',
+  '/supplychain-insights/columns/passive-cycle/data.csv',
+  '现场观察'
+]) {
+  if (!passiveArticle.includes(text)) {
+    console.error(`被动元件周期这一篇缺少：${text}`)
+    process.exit(1)
+  }
+}
+const shippingArticle = articleOf('columns/shipping-cycle/twenty-years.html')
+for (const text of [
+  '不预测',
+  '待 John 补充',
+  '集装箱',
+  '干散货',
+  '油轮',
+  '3.3',
+  '3.1',
+  '4.0',
+  '18.2',
+  '38.7',
+  '112.3',
+  '24.6',
+  '现场观察',
+  '/supplychain-insights/columns/shipping-cycle/data.csv'
+]) {
+  if (!shippingArticle.includes(text)) {
+    console.error(`航运周期这一篇缺少：${text}`)
+    process.exit(1)
+  }
+}
+if (/航运业中位数|全行业同比|三组平均/.test(shippingArticle)) {
+  console.error('航运周期把三组合成了一个结论')
+  process.exit(1)
+}
+const shippingBoard = articleOf('dashboard/shipping/index.html')
+for (const text of ['不预测', '集装箱', '干散货', '油轮', '待 John 补充', '判断']) {
+  if (!shippingBoard.includes(text)) {
+    console.error(`航运看板缺少：${text}`)
+    process.exit(1)
+  }
+}
+if (/航运业中位数|三组平均/.test(shippingBoard)) {
+  console.error('航运看板把三组合成了一个结论')
+  process.exit(1)
+}
+const mlccCycle = articleOf('dashboard/mlcc/index.html')
+for (const text of ['周期位置', '不预测', '1.47', '1.39', '14']) {
+  if (!mlccCycle.includes(text)) {
+    console.error(`MLCC 周期位置缺少：${text}`)
+    process.exit(1)
+  }
+}
+for (const csvName of ['columns/passive-cycle/data.csv', 'columns/shipping-cycle/data.csv']) {
+  const csv = read(csvName).replace(/^\uFEFF/, '')
+  if (!csv.includes('source_url') || memoryWords.test(csv)) {
+    console.error(`周期数据集不对，或混入了存储：${csvName}`)
+    process.exit(1)
+  }
+  if (csv.split('\n').some((line) => line && !line.includes('http') && !line.startsWith('cluster,'))) {
+    console.error(`周期数据集有行缺少来源：${csvName}`)
+    process.exit(1)
+  }
+}
+for (const img of [
+  'columns/passive-cycle/passive-revenue-yoy.png',
+  'columns/passive-cycle/murata-book-to-bill.png',
+  'columns/shipping-cycle/container-revenue-yoy.png',
+  'columns/shipping-cycle/drybulk-revenue-yoy.png',
+  'columns/shipping-cycle/tanker-revenue-yoy.png',
+  'columns/shipping-cycle/unctad-orderbook-fleet.png'
+]) {
+  if (!existsSync(resolve(dist, img))) {
+    console.error(`周期专栏缺图：${img}`)
+    process.exit(1)
+  }
+}
+if (!read('columns/cycle/index.html').includes('/columns/semi-cycle/twenty-years')) {
+  console.error('周期专栏目录没有链到半导体那一篇')
+  process.exit(1)
+}
+if (!read('columns/semi-cycle/index.html').includes('/columns/cycle/')) {
+  console.error('半导体周期栏目没有链回周期目录')
+  process.exit(1)
 }
 
 const assets = read('index.html')

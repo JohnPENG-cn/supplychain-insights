@@ -98,9 +98,11 @@ const briefs = [
   { text: 'T玻璃：底座里那块布', link: '/briefs/tglass' }
 ]
 
-const semiCycle = [
-  { text: '这一栏写什么', link: '/columns/semi-cycle/' },
-  { text: '用二十年财报看库存和投资', link: '/columns/semi-cycle/twenty-years' }
+const cycleColumn = [
+  { text: '这一栏写什么', link: '/columns/cycle/' },
+  { text: '半导体：库存大约四年一轮', link: '/columns/semi-cycle/twenty-years' },
+  { text: '被动元件：谷底大约三年半一轮', link: '/columns/passive-cycle/twenty-years' },
+  { text: '航运：三组各算各的', link: '/columns/shipping-cycle/twenty-years' }
 ]
 
 const companyLens = [
@@ -243,9 +245,9 @@ export default defineConfig({
         items: companyLens
       },
       {
-        text: '半导体周期',
-        link: '/columns/semi-cycle/',
-        items: semiCycle
+        text: '用财报看周期',
+        link: '/columns/cycle/',
+        items: cycleColumn
       },
       { text: '产业链看板', link: '/dashboard/' }
     ],
@@ -282,15 +284,16 @@ export default defineConfig({
         items: companyLens
       },
       {
-        text: '半导体周期',
-        items: semiCycle
+        text: '用财报看周期',
+        items: cycleColumn
       },
       {
         text: '产业链看板',
         items: [
           { text: '看板目录', link: '/dashboard/' },
           { text: 'MLCC 采购信号', link: '/dashboard/mlcc/' },
-          { text: 'IC 采购信号（模拟/MCU）', link: '/dashboard/ic/' }
+          { text: 'IC 采购信号（模拟/MCU）', link: '/dashboard/ic/' },
+          { text: '航运周期', link: '/dashboard/shipping/' }
         ]
       }
     ],

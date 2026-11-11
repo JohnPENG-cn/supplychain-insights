@@ -1,5 +1,6 @@
 <script setup>
 import { onMounted, ref } from 'vue'
+import CyclePosition from './CyclePosition.vue'
 import { buildChart } from '../../../../scripts/mlcc/chart.mjs'
 import { formatNumber, formatPercent, isoDate } from '../../../../scripts/mlcc/dates.mjs'
 import { evaluateMlcc, formatChartValue } from '../../../../scripts/mlcc/signals.mjs'
@@ -161,6 +162,9 @@ const statusLabel = { tentative: '暂定', unverified: '日期未核实', confir
       </details>
 
       <p><strong>建议动作。</strong>{{ signal.action }}</p>
+      <p v-if="signal.id === 's2'" class="mlcc-note">
+        这一盏灯仍只用人工台账。二十年的村田电容器订单出货比在下面的「周期位置」，两处不要合成一个数。
+      </p>
       <p v-for="note in signal.notes" :key="note" class="mlcc-note">{{ note }}</p>
       <p v-if="!signal.events" class="mlcc-meta">
         来源：
@@ -173,6 +177,8 @@ const statusLabel = { tentative: '暂定', unverified: '日期未核实', confir
         >{{ source.name }}</a>
       </p>
     </article>
+
+    <CyclePosition />
 
     <aside class="mlcc-schedule">
       <h2>关键日程</h2>
