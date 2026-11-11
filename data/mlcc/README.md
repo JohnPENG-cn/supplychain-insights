@@ -8,7 +8,8 @@
 | `meti-ceramic-capacitors.json` | 定时任务。产量是千个，金额是百万日元 |
 | `fetch-status.json` | 定时任务。失败时 `ok` 为 false，页面显示数据过期 |
 | `signal-config.json` | 改阈值才动。要一起改测试 |
-| `manual/book-to-bill.json` | 每季人工录入订单出货比和稼动率 |
+| `manual/book-to-bill.json` | 每季人工录入订单出货比和稼动率。不要改成二十年序列 |
+| `cycle-position.json` | 由 `docs/public/columns/passive-cycle/data.csv` 算出。改数据集后运行 `node scripts/cycle/build-json.mjs` |
 | `manual/lead-time.json` | 人工录入灯和链接，不抄交期表 |
 | `manual/notices.json` | 人工录入涨价、停产摘要 |
 | `manual/turn-watch.json` | 人工标拐点哨兵里那两条判断 |

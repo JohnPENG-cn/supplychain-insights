@@ -29,7 +29,7 @@ features:
     link: /methods/
     linkText: 看方法
   - title: 产业链看板
-    details: MLCC 和模拟/MCU 两块采购信号已上线。其他指标还在建设中，没有曲线。
+    details: MLCC、模拟/MCU 和航运三组周期已上线。其他指标还在建设中，没有曲线。
     link: /dashboard/
     linkText: 看看板
   - title: 产业链情报中心
@@ -55,4 +55,4 @@ features:
 
 ## 建议从哪篇看
 
-忙的话，先看 [电子元器件这一类在说什么](/categories/electronics/)。想搞清货是从哪一层来的，看 [产业链一张图](/categories/electronics/chain-map)。手里正在涨价，看 [价格和交期为什么会变](/categories/electronics/price-and-leadtime) 和 [实战打法](/categories/electronics/playbook)。拿到一件新的缺货或跌价，先走 [产业链洞察](/methods/industry-chain-insight) 的八步，再对照 [历史案例](/categories/electronics/cases/) 末尾的复盘。想用海关、公告和许可看这一轮卡在哪一层，打开 [产业链情报中心](/briefs/)。想用财报看代工、封测、模拟和设备这四组走到哪了，打开 [半导体周期](/columns/semi-cycle/)。
+忙的话，先看 [电子元器件这一类在说什么](/categories/electronics/)。想搞清货是从哪一层来的，看 [产业链一张图](/categories/electronics/chain-map)。手里正在涨价，看 [价格和交期为什么会变](/categories/electronics/price-and-leadtime) 和 [实战打法](/categories/electronics/playbook)。拿到一件新的缺货或跌价，先走 [产业链洞察](/methods/industry-chain-insight) 的八步，再对照 [历史案例](/categories/electronics/cases/) 末尾的复盘。想用海关、公告和许可看这一轮卡在哪一层，打开 [产业链情报中心](/briefs/)。想用财报看周期，打开 [用财报看周期](/columns/cycle/)：半导体、被动元件、航运各一篇。半导体那一篇的旧地址还在 [半导体周期](/columns/semi-cycle/)。

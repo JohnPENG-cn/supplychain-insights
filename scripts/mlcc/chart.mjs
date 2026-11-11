@@ -34,6 +34,7 @@ export function buildChart(series, options = {}) {
     polylines: series.map((item) => ({
       name: item.name,
       color: item.color,
+      dash: item.dash || '',
       points: item.points
         .filter((point) => Number.isFinite(point.value))
         .map((point) => `${xOf(point.date).toFixed(1)},${yOf(point.value).toFixed(1)}`)
