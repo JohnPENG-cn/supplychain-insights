@@ -750,10 +750,10 @@ for (const text of [
   '油轮',
   '3.3',
   '3.1',
-  '4.0',
   '18.2',
   '38.7',
-  '112.3',
+  '96.5',
+  '3.8',
   '24.6',
   '现场观察',
   '/supplychain-insights/columns/shipping-cycle/data.csv'

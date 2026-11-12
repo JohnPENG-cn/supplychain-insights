@@ -1,6 +1,6 @@
 {
   "extractedFrom": "/columns/shipping-cycle/data.csv",
-  "asOf": "2026-11-11",
+  "asOf": "2026-11-12",
   "disclaimer": "本看板不预测下一次下行落在哪一季。集装箱、干散货、油轮分开读。这里没有把三组合成一个中位数，也不下全组一起怎样的结论。",
   "segments": [
     {
@@ -680,6 +680,7 @@
           "n": 52
         }
       },
+      "halfYearOverlay": null,
       "troughs": [
         {
           "period": "2009Q1",
@@ -753,7 +754,7 @@
     {
       "id": "drybulk",
       "name": "干散货",
-      "note": "中位数是星散、Genco、Safe Bulkers、Diana。太平洋航运只有半年报，不进季度中位数。可靠阶段大约从 2015 年起，2008–2009 年样本薄。",
+      "note": "中位数是星散、Genco、Safe Bulkers、Diana。太平洋航运和招商轮船只有半年数，不进季度中位数。可靠阶段大约从 2015 年起，2008–2009 年样本薄。",
       "points": [
         {
           "period": "2010Q3",
@@ -1114,6 +1115,130 @@
         }
       ],
       "overlay": null,
+      "halfYearOverlay": {
+        "name": "招商轮船干散货分部",
+        "inMedian": false,
+        "basis": "半年分部营收同比，对照本组两个季度中位数的平均",
+        "exclude": [
+          "2018H1",
+          "2018H2",
+          "2019H1"
+        ],
+        "points": [
+          {
+            "period": "2015H1",
+            "value": -15.41,
+            "group": -18.41
+          },
+          {
+            "period": "2015H2",
+            "value": 0.29,
+            "group": -9.21
+          },
+          {
+            "period": "2016H1",
+            "value": 60.02,
+            "group": -18.77
+          },
+          {
+            "period": "2016H2",
+            "value": 32.36,
+            "group": -9.18
+          },
+          {
+            "period": "2017H1",
+            "value": 22.81,
+            "group": 38.98
+          },
+          {
+            "period": "2017H2",
+            "value": 44.44,
+            "group": 52.59
+          },
+          {
+            "period": "2019H2",
+            "value": -22.54,
+            "group": 2.97
+          },
+          {
+            "period": "2020H1",
+            "value": 21.72,
+            "group": -6.82
+          },
+          {
+            "period": "2020H2",
+            "value": 50.4,
+            "group": -16.1
+          },
+          {
+            "period": "2021H1",
+            "value": 54.45,
+            "group": 37.62
+          },
+          {
+            "period": "2021H2",
+            "value": 63.42,
+            "group": 81.1
+          },
+          {
+            "period": "2022H1",
+            "value": 18.12,
+            "group": 41
+          },
+          {
+            "period": "2022H2",
+            "value": -8.45,
+            "group": -12.02
+          },
+          {
+            "period": "2023H1",
+            "value": -42.78,
+            "group": -25.48
+          },
+          {
+            "period": "2023H2",
+            "value": -36.19,
+            "group": -22.34
+          },
+          {
+            "period": "2024H1",
+            "value": 15.44,
+            "group": 15.1
+          },
+          {
+            "period": "2024H2",
+            "value": 8.22,
+            "group": 2.16
+          },
+          {
+            "period": "2025H1",
+            "value": -6.5,
+            "group": -20.78
+          },
+          {
+            "period": "2025H2",
+            "value": 27.28,
+            "group": -7.63
+          },
+          {
+            "period": "2026H1",
+            "value": 38.34,
+            "group": 28.75
+          }
+        ],
+        "latest": {
+          "period": "2026H1",
+          "value": 38.3,
+          "group": 28.8,
+          "url": "https://static.cninfo.com.cn/finalpage/2026-08-31/1225535203.PDF"
+        },
+        "correlation": {
+          "r": 0.57,
+          "n": 20,
+          "from": "2015H1",
+          "to": "2026H1"
+        }
+      },
       "troughs": [
         {
           "period": "2012Q4",
@@ -1181,22 +1306,22 @@
     {
       "id": "tanker",
       "name": "油轮",
-      "note": "中位数是 Frontline、DHT、Teekay Tankers、International Seaways、Scorpio。原油和成品油放在一组，不含 LNG。中远海能含 LNG，只留在数据集里，不进中位数。可靠阶段大约从 2016 年起。",
+      "note": "中位数是 Frontline、DHT、Teekay Tankers、International Seaways、Scorpio。原油和成品油放在一组，不含 LNG。中远海能含 LNG，招商轮船只有油轮分部的半年数，都不进中位数。可靠阶段大约从 2016 年起。",
       "points": [
         {
           "period": "2016Q1",
-          "value": 32.9365,
-          "n": 4
+          "value": 12.4641,
+          "n": 3
         },
         {
           "period": "2016Q2",
-          "value": -4.0227,
-          "n": 4
+          "value": 19.1481,
+          "n": 3
         },
         {
           "period": "2016Q3",
-          "value": -21.418,
-          "n": 4
+          "value": -29.5078,
+          "n": 3
         },
         {
           "period": "2016Q4",
@@ -1205,12 +1330,12 @@
         },
         {
           "period": "2017Q1",
-          "value": -23.8194,
-          "n": 4
+          "value": -22.0059,
+          "n": 5
         },
         {
           "period": "2017Q2",
-          "value": -13.6983,
+          "value": -21.6984,
           "n": 5
         },
         {
@@ -1305,12 +1430,12 @@
         },
         {
           "period": "2022Q1",
-          "value": 18.3835,
+          "value": 16.9964,
           "n": 4
         },
         {
           "period": "2022Q2",
-          "value": 86.6298,
+          "value": 86.5523,
           "n": 4
         },
         {
@@ -1320,7 +1445,7 @@
         },
         {
           "period": "2022Q4",
-          "value": 148.4673,
+          "value": 148.256,
           "n": 5
         },
         {
@@ -1340,7 +1465,7 @@
         },
         {
           "period": "2023Q4",
-          "value": -21.7847,
+          "value": -21.718,
           "n": 5
         },
         {
@@ -1390,7 +1515,7 @@
         },
         {
           "period": "2026Q2",
-          "value": 112.2504,
+          "value": 96.489,
           "n": 5
         },
         {
@@ -1408,22 +1533,22 @@
       },
       "safe": {
         "period": "2026Q2",
-        "value": 112.3,
+        "value": 96.5,
         "n": 5,
-        "percentile": 90.7,
-        "percentileCount": 39,
+        "percentile": 88.4,
+        "percentileCount": 38,
         "percentileN": 43
       },
       "companies": [
         {
           "name": "Frontline",
           "period": "2026Q2",
-          "value": 112.3,
-          "url": "https://emweb.eastmoney.com/PC_USF10/pages/index.html?code=FRO&type=web",
+          "value": 96.5,
+          "url": "https://www.sec.gov/Archives/edgar/data/913290/000091957426005942/p15060813_ex-1.htm",
           "inMedian": true,
           "newestPeriod": "2026Q2",
-          "newestValue": 112.3,
-          "newestUrl": "https://emweb.eastmoney.com/PC_USF10/pages/index.html?code=FRO&type=web"
+          "newestValue": 96.5,
+          "newestUrl": "https://www.sec.gov/Archives/edgar/data/913290/000091957426005942/p15060813_ex-1.htm"
         },
         {
           "name": "DHT",
@@ -1467,12 +1592,135 @@
         }
       ],
       "overlay": null,
-      "troughs": [
-        {
-          "period": "2017Q1",
-          "value": -23.8,
-          "n": 4
+      "halfYearOverlay": {
+        "name": "招商轮船油轮分部",
+        "inMedian": false,
+        "basis": "半年分部营收同比，对照本组两个季度中位数的平均",
+        "exclude": [
+          "2015H1",
+          "2015H2"
+        ],
+        "points": [
+          {
+            "period": "2016H1",
+            "value": 3.15,
+            "group": 15.81
+          },
+          {
+            "period": "2016H2",
+            "value": -20.56,
+            "group": -26.08
+          },
+          {
+            "period": "2017H1",
+            "value": -0.22,
+            "group": -21.85
+          },
+          {
+            "period": "2017H2",
+            "value": -8.37,
+            "group": -5.23
+          },
+          {
+            "period": "2018H1",
+            "value": -27.19,
+            "group": 1.18
+          },
+          {
+            "period": "2018H2",
+            "value": 34.58,
+            "group": 24.53
+          },
+          {
+            "period": "2019H1",
+            "value": 55.32,
+            "group": 30.98
+          },
+          {
+            "period": "2019H2",
+            "value": 46.25,
+            "group": 23.7
+          },
+          {
+            "period": "2020H1",
+            "value": 95.58,
+            "group": 73.01
+          },
+          {
+            "period": "2020H2",
+            "value": -35.7,
+            "group": -10.36
+          },
+          {
+            "period": "2021H1",
+            "value": -66.96,
+            "group": -58.99
+          },
+          {
+            "period": "2021H2",
+            "value": -28.79,
+            "group": -8.88
+          },
+          {
+            "period": "2022H1",
+            "value": 25.76,
+            "group": 51.77
+          },
+          {
+            "period": "2022H2",
+            "value": 141.08,
+            "group": 144.67
+          },
+          {
+            "period": "2023H1",
+            "value": 109.42,
+            "group": 89.99
+          },
+          {
+            "period": "2023H2",
+            "value": -0.68,
+            "group": -9.83
+          },
+          {
+            "period": "2024H1",
+            "value": -3.02,
+            "group": -2.26
+          },
+          {
+            "period": "2024H2",
+            "value": -6.84,
+            "group": -14.37
+          },
+          {
+            "period": "2025H1",
+            "value": -10.46,
+            "group": -29.57
+          },
+          {
+            "period": "2025H2",
+            "value": 37.77,
+            "group": 5.54
+          },
+          {
+            "period": "2026H1",
+            "value": 115.66,
+            "group": 76.88
+          }
+        ],
+        "latest": {
+          "period": "2026H1",
+          "value": 115.7,
+          "group": 76.9,
+          "url": "https://static.cninfo.com.cn/finalpage/2026-08-31/1225535203.PDF"
         },
+        "correlation": {
+          "r": 0.94,
+          "n": 21,
+          "from": "2016H1",
+          "to": "2026H1"
+        }
+      },
+      "troughs": [
         {
           "period": "2021Q2",
           "value": -59.7,
@@ -1485,14 +1733,13 @@
         }
       ],
       "gaps": [
-        17,
         15
       ],
-      "averageGapQuarters": 16,
-      "averageGapYears": 4,
+      "averageGapQuarters": 15,
+      "averageGapYears": 3.75,
       "historyMax": {
         "period": "2022Q4",
-        "value": 148.5
+        "value": 148.3
       },
       "historyMin": {
         "period": "2021Q2",
@@ -1503,8 +1750,8 @@
           "id": "tanker-level",
           "name": "相对自身历史",
           "judgment": true,
-          "light": "red",
-          "label": "历史高位",
+          "light": "yellow",
+          "label": "偏高",
           "rule": "判断：当前读数用最近一个至少 4 家公司的季度。它在本组中位数历史里不低于第 90 百分位才标红。这不是见顶，也不预测下一季。",
           "latest": ""
         },

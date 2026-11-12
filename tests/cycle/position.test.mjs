@@ -87,16 +87,40 @@ test('航运三组分开算，页面 JSON 跟 CSV 一致', () => {
     ['2012Q4', '2016Q1', '2020Q3', '2023Q3', '2025Q1']
   )
   assert.equal(dry.companies.some((company) => company.name.includes('太平洋')), false)
+  assert.equal(dry.companies.some((company) => company.name.includes('招商')), false)
+  assert.equal(dry.halfYearOverlay.inMedian, false)
+  assert.equal(dry.halfYearOverlay.correlation.r, 0.57)
+  assert.equal(dry.halfYearOverlay.correlation.n, 20)
+  assert.equal(dry.halfYearOverlay.latest.value, 38.3)
+  assert.equal(dry.halfYearOverlay.latest.group, 28.8)
+  assert.equal(built.segments[0].halfYearOverlay, null)
 
   const tanker = built.segments[2]
   assert.equal(tanker.safe.period, '2026Q2')
-  assert.equal(tanker.safe.value, 112.3)
+  assert.equal(tanker.safe.value, 96.5)
   assert.equal(tanker.safe.n, 5)
+  assert.equal(tanker.safe.percentile, 88.4)
+  assert.equal(tanker.safe.percentileCount, 38)
+  assert.equal(tanker.safe.percentileN, 43)
   assert.equal(tanker.latest.n, 3)
   assert.equal(tanker.latest.value, 146)
-  assert.equal(tanker.averageGapYears, 4)
-  assert.equal(tanker.gaps.length, 2)
+  assert.equal(tanker.averageGapYears, 3.75)
+  assert.deepEqual(tanker.gaps, [15])
+  assert.deepEqual(
+    tanker.troughs.map((point) => point.period),
+    ['2021Q2', '2025Q1']
+  )
+  assert.equal(tanker.lights[0].light, 'yellow')
+  assert.equal(tanker.lights[0].label, '偏高')
   assert.equal(tanker.companies.some((company) => company.name.includes('中远海能')), false)
+  assert.equal(tanker.companies.some((company) => company.name.includes('招商')), false)
+  assert.equal(tanker.halfYearOverlay.inMedian, false)
+  assert.equal(tanker.halfYearOverlay.correlation.r, 0.94)
+  assert.equal(tanker.halfYearOverlay.correlation.n, 21)
+  assert.equal(tanker.halfYearOverlay.latest.value, 115.7)
+  assert.equal(tanker.halfYearOverlay.latest.group, 76.9)
+  const frontline = tanker.companies.find((company) => company.name === 'Frontline')
+  assert.equal(frontline.value, 96.5)
   const scorpio = tanker.companies.find((company) => company.name.includes('Scorpio'))
   assert.equal(scorpio.newestValue, 10.4)
 
