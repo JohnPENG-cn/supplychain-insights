@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-11",
+  "updatedAt": "2026-11-12",
   "items": [
     {
       "date": "2026-10-28",
@@ -84,8 +84,12 @@
       "date": "2026-11-09",
       "text": "国巨公布 10 月营收",
       "status": "published",
-      "note": "自结营收 175.97 亿元新台币。证交所 OpenAPI 在 2026-11-11 仍只有到 2026-09，自动文件没有手补",
+      "note": "证交所 OpenAPI 已换到资料年月 2026-10，出表日期 2026-11-11。正式数字：国巨 175.97 亿元新台币，月增 3.1%，年增 55.01%；华新科 44.70 亿元，月减 8.57%，年增 57.11%；禾伸堂 14.32 亿元，月减 10.39%，年增 33.35%。国巨 11 月 9 日自结的 175.97 亿元与 OpenAPI 一致",
       "links": [
+        {
+          "name": "证交所 OpenAPI 上市公司每月营收",
+          "url": "https://openapi.twse.com.tw/v1/opendata/t187ap05_L"
+        },
         {
           "name": "钜亨转载重大讯息",
           "url": "https://news.cnyes.com/news/id/6653364"
@@ -94,10 +98,14 @@
     },
     {
       "date": "2026-11-10",
-      "text": "国巨、华新科申报 10 月营收的截止日",
-      "status": "confirmed",
-      "note": "证交所规定每月 10 日前申报上月营业额，遇到例假日顺延一日。2026-11-10 不在当年休市表里",
+      "text": "国巨、华新科、禾伸堂申报 10 月营收的截止日",
+      "status": "published",
+      "note": "截止日已过，OpenAPI 已换到 2026-10，出表日期 2026-11-11。国巨 175.97 亿元新台币，月增 3.1%，年增 55.01%；华新科 44.70 亿元，月减 8.57%，年增 57.11%；禾伸堂 14.32 亿元，月减 10.39%，年增 33.35%",
       "links": [
+        {
+          "name": "证交所 OpenAPI 上市公司每月营收",
+          "url": "https://openapi.twse.com.tw/v1/opendata/t187ap05_L"
+        },
         {
           "name": "证交所申报事项",
           "url": "https://twse-regulation.twse.com.tw/m/LawContent.aspx?FID=FL007250"
@@ -117,6 +125,22 @@
         {
           "name": "e-Stat 公布预定",
           "url": "https://www.e-stat.go.jp/release-calendar/detail/00550200/202611161330"
+        },
+        {
+          "name": "经产省统计公布日程",
+          "url": "https://www.meti.go.jp/statistics/toppage/kohyo.html"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-30",
+      "text": "经产省公布生产动态统计 2026 年 10 月速报",
+      "status": "confirmed",
+      "note": "08:50 日本时间",
+      "links": [
+        {
+          "name": "e-Stat 公布预定",
+          "url": "https://www.e-stat.go.jp/release-calendar/detail/00550200/202611300850"
         },
         {
           "name": "经产省统计公布日程",
