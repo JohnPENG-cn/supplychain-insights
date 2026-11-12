@@ -39,12 +39,12 @@ function signal(result, id) {
 test('当前读数和报告里的灯一致', () => {
   const result = validateMlcc()
   const s1 = signal(result, 's1')
-  assert.match(s1.latest, /国巨 \+46\.1%/)
-  assert.match(s1.latest, /华新科 \+53\.9%/)
-  assert.match(s1.latest, /禾伸堂 \+27\.1%/)
-  assert.match(s1.latest, /\+11\.4%、\+22\.3%、\+10\.8%/)
+  assert.match(s1.latest, /国巨 \+55\.0%/)
+  assert.match(s1.latest, /华新科 \+57\.1%/)
+  assert.match(s1.latest, /禾伸堂 \+33\.4%/)
+  assert.match(s1.latest, /\+9\.6%、\+15\.1%、\+7\.2%/)
   assert.match(s1.notes.join('\n'), /4 到 5 个百分/)
-  assert.match(s1.notes.join('\n'), /28\.7%/)
+  assert.match(s1.notes.join('\n'), /主要係因客戶需求強勁/)
   const s3 = signal(result, 's3')
   assert.match(s3.latest, /产量同比 \+15\.0%/)
   assert.match(s3.latest, /单位产值同比 -9\.3%/)
@@ -184,7 +184,7 @@ test('抓取失败时保留原数字，并标数据过期', () => {
   status.twse = { ...status.twse, ok: false, error: 'HTTP 503', fetchedAt: '2026-10-21' }
   const result = run({ status })
   assert.equal(signal(result, 's1').stale, true)
-  assert.match(signal(result, 's1').latest, /国巨 \+46\.1%/)
+  assert.match(signal(result, 's1').latest, /国巨 \+55\.0%/)
   assert.equal(signal(result, 's3').stale, false)
 })
 
@@ -202,7 +202,7 @@ test('补月份不会冲掉更新的申报，失败路径则完全不调用合�
   )
   assert.equal(merged.months.length, before)
   assert.equal(merged.months.find((row) => row.month === '2026-08')['2327'], 1)
-  assert.equal(merged.latestFiling.month, '2026-09')
+  assert.equal(merged.latestFiling.month, '2026-10')
   assert.equal(revenue.months.find((row) => row.month === '2026-08')['2327'], 16332196)
 
   const source = baseInput().meti

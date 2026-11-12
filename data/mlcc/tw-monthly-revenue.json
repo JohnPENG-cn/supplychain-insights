@@ -294,29 +294,35 @@
       "2492": 4889022,
       "3026": 1597836,
       "month": "2026-09"
+    },
+    {
+      "2327": 17597421,
+      "2492": 4470082,
+      "3026": 1431792,
+      "month": "2026-10"
     }
   ],
   "latestFiling": {
-    "month": "2026-09",
-    "publishedAt": "2026-10-17",
+    "month": "2026-10",
+    "publishedAt": "2026-11-11",
     "sourceUrl": "https://openapi.twse.com.tw/v1/opendata/t187ap05_L",
     "rows": {
       "2327": {
-        "reportedYearAgo": 11680869,
-        "reportedYoYPercent": 46.12,
-        "reportedMomPercent": 4.51,
-        "remark": ""
+        "reportedYearAgo": 11352460,
+        "reportedYoYPercent": 55.01,
+        "reportedMomPercent": 3.1,
+        "remark": "主要係因客戶需求強勁"
       },
       "2492": {
-        "reportedYearAgo": 3176158,
-        "reportedYoYPercent": 53.93,
-        "reportedMomPercent": 7.01,
-        "remark": "主要受惠於中國大陸十一長假前出貨動能增強,及AI/資料中心及汽車電子等應用需求強勁,產品組合與定價持續優化。"
+        "reportedYearAgo": 2845172,
+        "reportedYoYPercent": 57.11,
+        "reportedMomPercent": -8.57,
+        "remark": "受AI/資料中心及汽車電子等應用需求強勁，產品組合與定價持續優化，營收較去年同期/累計成長。"
       },
       "3026": {
-        "reportedYearAgo": 1257041,
-        "reportedYoYPercent": 27.11,
-        "reportedMomPercent": 10.98,
+        "reportedYearAgo": 1073704,
+        "reportedYoYPercent": 33.35,
+        "reportedMomPercent": -10.39,
         "remark": ""
       }
     }
