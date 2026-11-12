@@ -124,6 +124,18 @@ function barWidth(value) {
         和中位数同期相关 {{ segment.overlay.correlation.r }}（{{ segment.overlay.correlation.n }} 季，自算）。不进中位数。
         <a :href="segment.overlay.latest.url" target="_blank" rel="noopener noreferrer">来源</a>
       </p>
+      <p v-if="segment.halfYearOverlay && segment.halfYearOverlay.latest" class="mlcc-note">
+        {{ segment.halfYearOverlay.name }}不进季度中位数，只作半年对照。
+        {{ segment.halfYearOverlay.latest.period }} 分部营收同比 {{ signed(segment.halfYearOverlay.latest.value) }}%，
+        同期两个季度中位数的平均是 {{ signed(segment.halfYearOverlay.latest.group) }}%。
+        <template v-if="segment.halfYearOverlay.correlation">
+          {{ segment.halfYearOverlay.correlation.from }} 到 {{ segment.halfYearOverlay.correlation.to }}，
+          和这组半年平均相关 {{ segment.halfYearOverlay.correlation.r }}
+          （{{ segment.halfYearOverlay.correlation.n }} 个半年，自算，断点半年已剔除）。
+        </template>
+        集团营收是油轮、干散货、集装箱等混在一起，不进任何一组。
+        <a :href="segment.halfYearOverlay.latest.url" target="_blank" rel="noopener noreferrer">来源</a>
+      </p>
     </article>
 
     <article class="mlcc-card">

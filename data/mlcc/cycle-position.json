@@ -517,7 +517,7 @@
         "company": "Yageo 国巨",
         "period": "2026Q3",
         "value": 49.7,
-        "url": "https://api.finmindtrade.com/api/v4/data?dataset=TaiwanStockMonthRevenue&data_id=2327",
+        "url": "https://api.finmindtrade.com/api/v4/data?dataset=TaiwanStockMonthRevenue&data_id=2327&start_date=2000-01-01",
         "inMedian": false,
         "provisional": true,
         "breakNote": "口径断点，不进中位数"
@@ -527,7 +527,7 @@
         "company": "Walsin Tech 华新科",
         "period": "2026Q3",
         "value": 47.17,
-        "url": "https://api.finmindtrade.com/api/v4/data?dataset=TaiwanStockMonthRevenue&data_id=2492",
+        "url": "https://api.finmindtrade.com/api/v4/data?dataset=TaiwanStockMonthRevenue&data_id=2492&start_date=2000-01-01",
         "inMedian": true,
         "provisional": true,
         "breakNote": ""
@@ -1074,7 +1074,7 @@
         "medianDays": 102.6,
         "maxDays": 178.9,
         "maxPeriod": "2020Q2",
-        "url": "https://api.finmindtrade.com/api/v4/data?dataset=TaiwanStockBalanceSheet&data_id=2327",
+        "url": "https://api.finmindtrade.com/api/v4/data?dataset=TaiwanStockBalanceSheet&data_id=2327&start_date=2000-01-01",
         "previous": {
           "period": "2026Q1",
           "days": 128.6
@@ -1088,7 +1088,7 @@
         "medianDays": 90.9,
         "maxDays": 131.9,
         "maxPeriod": "2018Q4",
-        "url": "https://api.finmindtrade.com/api/v4/data?dataset=TaiwanStockBalanceSheet&data_id=2492",
+        "url": "https://api.finmindtrade.com/api/v4/data?dataset=TaiwanStockBalanceSheet&data_id=2492&start_date=2000-01-01",
         "previous": {
           "period": "2026Q1",
           "days": 108.2

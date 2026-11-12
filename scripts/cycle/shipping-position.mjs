@@ -18,8 +18,15 @@ const segments = [
     cluster: 'Dry bulk 干散货',
     members: ['Star Bulk 星散', 'Genco', 'Safe Bulkers', 'Diana Shipping'],
     overlay: null,
+    halfYearOverlay: {
+      company: 'CMES 招商轮船',
+      metric: 'drybulk_segment_revenue_yoy_pct',
+      name: '招商轮船干散货分部',
+      from: '2015H1',
+      exclude: ['2018H1', '2018H2', '2019H1']
+    },
     minSafe: 4,
-    note: '中位数是星散、Genco、Safe Bulkers、Diana。太平洋航运只有半年报，不进季度中位数。可靠阶段大约从 2015 年起，2008–2009 年样本薄。'
+    note: '中位数是星散、Genco、Safe Bulkers、Diana。太平洋航运和招商轮船只有半年数，不进季度中位数。可靠阶段大约从 2015 年起，2008–2009 年样本薄。'
   },
   {
     id: 'tanker',
@@ -27,10 +34,23 @@ const segments = [
     cluster: 'Tanker 油轮',
     members: ['Frontline', 'DHT', 'Teekay Tankers', 'International Seaways', 'Scorpio Tankers'],
     overlay: null,
+    halfYearOverlay: {
+      company: 'CMES 招商轮船',
+      metric: 'tanker_segment_revenue_yoy_pct',
+      name: '招商轮船油轮分部',
+      from: '2016H1',
+      exclude: ['2015H1', '2015H2']
+    },
     minSafe: 4,
-    note: '中位数是 Frontline、DHT、Teekay Tankers、International Seaways、Scorpio。原油和成品油放在一组，不含 LNG。中远海能含 LNG，只留在数据集里，不进中位数。可靠阶段大约从 2016 年起。'
+    note: '中位数是 Frontline、DHT、Teekay Tankers、International Seaways、Scorpio。原油和成品油放在一组，不含 LNG。中远海能含 LNG，招商轮船只有油轮分部的半年数，都不进中位数。可靠阶段大约从 2016 年起。'
   }
 ]
+
+function halfIndex(period) {
+  const match = /^(\d{4})H([12])$/.exec(period)
+  if (!match) return null
+  return Number(match[1]) * 2 + Number(match[2])
+}
 
 function pointsOf(rows, cluster, company, metric) {
   const points = []
@@ -96,6 +116,69 @@ function orderbookOf(rows) {
   const order = ['FY2009', 'FY2014', 'FY2015', 'FY2022', 'FY2023', 'FY2024']
   global.sort((left, right) => order.indexOf(left.period) - order.indexOf(right.period))
   return { global, bySegment, fleet }
+}
+
+function halfAverage(medianPoints, period) {
+  const year = period.slice(0, 4)
+  const quarters = period.endsWith('H1') ? [`${year}Q1`, `${year}Q2`] : [`${year}Q3`, `${year}Q4`]
+  const found = quarters.map((quarter) => medianPoints.find((point) => point.period === quarter))
+  if (found.some((point) => !point)) return null
+  return (found[0].value + found[1].value) / 2
+}
+
+function halfYearOverlayOf(rows, medianPoints, spec) {
+  if (!spec) return null
+  const excluded = new Set(spec.exclude || [])
+  const from = halfIndex(spec.from)
+  const points = []
+  for (const row of rows) {
+    if (row.company !== spec.company || row.metric !== spec.metric) continue
+    if (halfIndex(row.period) == null) continue
+    const value = Number(row.value)
+    if (!Number.isFinite(value)) continue
+    points.push({ period: row.period, value, url: row.source_url })
+  }
+  points.sort((left, right) => halfIndex(left.period) - halfIndex(right.period))
+  const paired = []
+  for (const point of points) {
+    if (halfIndex(point.period) < from || excluded.has(point.period)) continue
+    const group = halfAverage(medianPoints, point.period)
+    if (group == null) continue
+    paired.push({ period: point.period, value: point.value, group, url: point.url })
+  }
+  const latest = paired[paired.length - 1] || null
+  const overlayCorrelation = correlation(
+    paired.map((point) => point.value),
+    paired.map((point) => point.group)
+  )
+  return {
+    name: spec.name,
+    inMedian: false,
+    basis: '半年分部营收同比，对照本组两个季度中位数的平均',
+    exclude: [...excluded],
+    points: paired.map((point) => ({
+      period: point.period,
+      value: round(point.value, 2),
+      group: round(point.group, 2)
+    })),
+    latest: latest
+      ? {
+          period: latest.period,
+          value: round(latest.value, 1),
+          group: round(latest.group, 1),
+          url: latest.url
+        }
+      : null,
+    correlation:
+      overlayCorrelation == null
+        ? null
+        : {
+            r: round(overlayCorrelation, 2),
+            n: paired.length,
+            from: paired[0].period,
+            to: paired[paired.length - 1].period
+          }
+  }
 }
 
 function buildSegment(rows, breaks, spec) {
@@ -174,6 +257,7 @@ function buildSegment(rows, breaks, spec) {
   const historyMax = medianPoints.reduce((best, point) => (point.value > best.value ? point : best))
   const historyMin = medianPoints.reduce((best, point) => (point.value < best.value ? point : best))
   const levelLight = safeRank.percent >= 90 ? 'red' : safeRank.percent >= 70 ? 'yellow' : 'green'
+  const halfYearOverlay = halfYearOverlayOf(rows, medianPoints, spec.halfYearOverlay)
   return {
     id: spec.id,
     name: spec.name,
@@ -196,6 +280,7 @@ function buildSegment(rows, breaks, spec) {
     },
     companies,
     overlay,
+    halfYearOverlay,
     troughs: troughs.map((point) => ({ period: point.period, value: round(point.value, 1), n: point.n })),
     gaps,
     averageGapQuarters: gaps.length ? round(gaps.reduce((sum, gap) => sum + gap, 0) / gaps.length, 2) : null,
@@ -270,7 +355,7 @@ export function buildShippingPosition(rows, breaks) {
   })
   return {
     extractedFrom: `/${shippingCsvPath.replace(/^docs\/public\//, '')}`,
-    asOf: '2026-11-11',
+    asOf: '2026-11-12',
     disclaimer:
       '本看板不预测下一次下行落在哪一季。集装箱、干散货、油轮分开读。这里没有把三组合成一个中位数，也不下全组一起怎样的结论。',
     segments: built,

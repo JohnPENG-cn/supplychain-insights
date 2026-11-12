@@ -201,7 +201,7 @@ description: 村田电容器、太阳诱电电容器、TDK 被动元件、三星
 下面是报告原文能对上的话，不是本站的预测。上半年的同比，是用数据集里的两个季度加总以后自算，用来核对短信里的那一句。
 
 ::: fact
-村田，2026 年 10 月 30 日，FY2026 第二季度短信（自然年第二季加第三季）：电容器上半年营收自算 +33.1%，和短信里的 +33.1% 对得上。公司说电容器营收在较多用途上增长，主要是数据中心；MLCC 在数据中心、代理商和汽车方面增长。[短信 PDF](https://corporate.murata.com/-/media/corporate/about/newsroom/news/irnews/irnews/2026/1030/26q2-e-fls.ashx)
+村田，2026 年 10 月 30 日，截至 2027 年 3 月 31 日那个财年的上半年短信（FY2027 上半年，自然年 4 月到 9 月）：电容器上半年营收自算 +33.1%，和短信里的 +33.1% 对得上。上面的 FY2026 指的是已经结束的、截至 2026 年 3 月的那一年，不要和这份半年报混成同一个财年。公司说电容器营收在较多用途上增长，主要是数据中心；MLCC 在数据中心、代理商和汽车方面增长。[短信 PDF](https://corporate.murata.com/-/media/corporate/about/newsroom/news/irnews/irnews/2026/1030/26q2-e-fls.ashx)
 
 TDK，同一天的上半年决算：被动元件上半年营收自算 +25.3%。公司说数据中心相关需求带动被动元件增长；电容器主要来自工业设备，电感主要来自汽车。[决算 PDF](https://www.tdk.com/system/files/2026103000_1i3qdleu_en.pdf)
 
@@ -260,7 +260,7 @@ TDK，同一天的上半年决算：被动元件上半年营收自算 +25.3%。�
 
 **村田、TDK、太阳诱电、三星电机的投资者关系 PDF。** 最近一季的入口：
 
-1. 村田，2026-10-30，[FY2026 第二季度短信](https://corporate.murata.com/-/media/corporate/about/newsroom/news/irnews/irnews/2026/1030/26q2-e-fls.ashx)。
+1. 村田，2026-10-30，[截至 2027 年 3 月财年的上半年短信](https://corporate.murata.com/-/media/corporate/about/newsroom/news/irnews/irnews/2026/1030/26q2-e-fls.ashx)。
 2. TDK，2026-10-30，[上半年决算](https://www.tdk.com/system/files/2026103000_1i3qdleu_en.pdf)。
 3. 太阳诱电，[2027 年 3 月期中期短信](https://pdf.irpocket.com/C6976/xoA3/DnNg/pZTB/oheo.pdf)。
 4. 三星电机，[3Q26 业绩稿](https://www.samsungsem.com/resources/file/global/ir/earnings_release/3Q26_Earnings_Release_eng.pdf)。
