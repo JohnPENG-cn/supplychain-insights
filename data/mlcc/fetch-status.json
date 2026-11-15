@@ -1,16 +1,16 @@
 {
   "lastRun": {
-    "date": "2026-11-12",
+    "date": "2026-11-15",
     "sources": [
       "twse"
     ]
   },
   "twse": {
     "ok": true,
-    "fetchedAt": "2026-11-12",
-    "lastAttemptAt": "2026-11-12",
+    "fetchedAt": "2026-11-15",
+    "lastAttemptAt": "2026-11-15",
     "dataThrough": "2026-10",
-    "staleAfter": "2026-12-27",
+    "staleAfter": "2026-12-30",
     "staleAfterDays": 45,
     "error": null
   },
