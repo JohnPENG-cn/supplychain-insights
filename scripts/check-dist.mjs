@@ -107,6 +107,8 @@ const pages = [
   'columns/passive-cycle/twenty-years.html',
   'columns/shipping-cycle/index.html',
   'columns/shipping-cycle/twenty-years.html',
+  'columns/sunspots-soy/index.html',
+  'columns/sunspots-soy/sunspots-vs-yield.html',
   'data/electronics/series.json',
   'sitemap.xml'
 ]
@@ -882,6 +884,52 @@ if (!read('columns/cycle/index.html').includes('/columns/semi-cycle/twenty-years
 if (!read('columns/semi-cycle/index.html').includes('/columns/cycle/')) {
   console.error('半导体周期栏目没有链回周期目录')
   process.exit(1)
+}
+
+const sunspotArticle = articleOf('columns/sunspots-soy/sunspots-vs-yield.html')
+for (const text of [
+  '没有可靠关系',
+  '文献说法',
+  '判断',
+  '未知',
+  '自算',
+  '0.11',
+  '0.46',
+  '0.026',
+  '0.65',
+  '/supplychain-insights/columns/sunspots-soy/data.csv',
+  '/supplychain-insights/columns/sunspots-soy/chart1_sunspot_vs_us_yield.png',
+  '/supplychain-insights/columns/sunspots-soy/chart4_enso_vs_sunspot.png'
+]) {
+  if (!sunspotArticle.includes(text)) {
+    console.error(`太阳黑子与大豆这一篇缺少：${text}`)
+    process.exit(1)
+  }
+}
+if (/DRAM|NAND|美光|DRAMeXchange/.test(sunspotArticle)) {
+  console.error('太阳黑子与大豆这一篇混入了存储行情')
+  process.exit(1)
+}
+if (sunspotArticle.includes('现场观察')) {
+  console.error('太阳黑子与大豆这一篇不该有现场观察')
+  process.exit(1)
+}
+if (!read('columns/sunspots-soy/index.html').includes('/columns/sunspots-soy/sunspots-vs-yield')) {
+  console.error('太阳黑子栏目目录没有链到正文')
+  process.exit(1)
+}
+for (const asset of [
+  'columns/sunspots-soy/data.csv',
+  'columns/sunspots-soy/analysis.py',
+  'columns/sunspots-soy/chart1_sunspot_vs_us_yield.png',
+  'columns/sunspots-soy/chart2_xcorr.png',
+  'columns/sunspots-soy/chart3_phase_composite.png',
+  'columns/sunspots-soy/chart4_enso_vs_sunspot.png'
+]) {
+  if (!existsSync(resolve(dist, asset))) {
+    console.error(`太阳黑子专栏缺文件：${asset}`)
+    process.exit(1)
+  }
 }
 
 const assets = read('index.html')
