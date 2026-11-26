@@ -87,6 +87,7 @@ const pages = [
   'briefs/inp.html',
   'briefs/fiber.html',
   'briefs/tglass.html',
+  'briefs/ccl.html',
   'columns/company-lens/index.html',
   'columns/company-lens/micron-fy26q4.html',
   'columns/company-lens/ti-2026q3.html',
@@ -266,6 +267,10 @@ if (!sitemap.includes('https://johnpeng-cn.github.io/supplychain-insights/briefs
   console.error('站点地图没有产业链情报中心')
   process.exit(1)
 }
+if (!sitemap.includes('https://johnpeng-cn.github.io/supplychain-insights/briefs/ccl')) {
+  console.error('站点地图没有覆铜板这篇')
+  process.exit(1)
+}
 if (!sitemap.includes('https://johnpeng-cn.github.io/supplychain-insights/categories/plastics/')) {
   console.error('站点地图没有塑料章节')
   process.exit(1)
@@ -304,9 +309,13 @@ for (const text of [
   '未核实',
   '更新 2026-10-28',
   '更新 2026-11-08',
+  '更新 2026-11-26',
   '光纤涨了5倍，2028年最危险的是中国普通光纤',
+  '全世界都在抢着给 AI 做电路板底料，2028 年会不会做多了？',
   '音频约 12:44',
   '音频约 7:33',
+  '音频约 13:35',
+  '覆铜板：扩产潮和 2028',
   '订单很热，但不是所有客户都能拿够货'
 ]) {
   if (!briefIndex.includes(text)) {
@@ -314,7 +323,7 @@ for (const text of [
     process.exit(1)
   }
 }
-for (const href of ['/briefs/inp.html', '/briefs/fiber.html', '/briefs/tglass.html']) {
+for (const href of ['/briefs/inp.html', '/briefs/fiber.html', '/briefs/tglass.html', '/briefs/ccl.html']) {
   if (!briefIndex.includes(href)) {
     console.error(`情报栏目首页没有链到 ${href}`)
     process.exit(1)
@@ -382,6 +391,63 @@ for (const [page, audioSrc, duration, marker, unverified, published, updated] of
 if (!read('categories/electronics/parts/pcb-ccl.html').includes('/briefs/tglass')) {
   console.error('覆铜板页没有链到 T 玻璃')
   process.exit(1)
+}
+if (!read('categories/electronics/parts/pcb-ccl.html').includes('/briefs/ccl')) {
+  console.error('覆铜板品类页没有链到扩产潮这篇')
+  process.exit(1)
+}
+const ccl = read('briefs/ccl.html')
+if (!ccl.includes('<audio') || !ccl.includes('controls') || !ccl.includes('preload="metadata"')) {
+  console.error('briefs/ccl.html 的音频播放器不完整')
+  process.exit(1)
+}
+if (!ccl.includes('/supplychain-insights/audio/ccl.mp3')) {
+  console.error('briefs/ccl.html 的音频路径没有带上基础路径')
+  process.exit(1)
+}
+if (!ccl.includes('听这篇（约13:35）')) {
+  console.error('briefs/ccl.html 的音频时长说明不对')
+  process.exit(1)
+}
+if (!ccl.includes('不构成投资建议') || !ccl.includes('首发2026-11-26') || !ccl.includes('未核实清单')) {
+  console.error('briefs/ccl.html 缺少免责声明、首发日期或未核实说明')
+  process.exit(1)
+}
+if (!ccl.includes('全世界都在抢着给 AI 做电路板底料，2028 年会不会做多了？')) {
+  console.error('briefs/ccl.html 标题不对')
+  process.exit(1)
+}
+if (!ccl.includes('1,415') || !ccl.includes('<table')) {
+  console.error('briefs/ccl.html 缺少原稿数字或表格')
+  process.exit(1)
+}
+if (!ccl.includes('href="https://www.emctw.com/upload/media/New_Investors/Financial_Information/Presentation_Materials/CH/115/Investor%20Conference%20Presentation_20261028%20final%20CH.pdf"')) {
+  console.error('覆铜板页脚注链接不可点，或把日期括号吃进了链接')
+  process.exit(1)
+}
+if (ccl.includes('%EF%BC%88')) {
+  console.error('覆铜板页脚注链接把中文括号吃进去了')
+  process.exit(1)
+}
+const cclAudio = resolve(dist, 'audio/ccl.mp3')
+if (!existsSync(cclAudio) || statSync(cclAudio).size < 100000) {
+  console.error('音频文件缺失或过小：audio/ccl.mp3')
+  process.exit(1)
+}
+for (const img of [
+  'briefs/ccl/c1_capacity_vs_demand.png',
+  'briefs/ccl/c2_emc_revisions.png',
+  'briefs/ccl/c3_timeline.png',
+  'briefs/ccl/c4_margins.png'
+]) {
+  if (!existsSync(resolve(dist, img))) {
+    console.error(`覆铜板缺图：${img}`)
+    process.exit(1)
+  }
+  if (!ccl.includes(`/supplychain-insights/${img}`)) {
+    console.error(`覆铜板页没有引用图片：${img}`)
+    process.exit(1)
+  }
 }
 if (!read('categories/electronics/parts/memory.html').includes('/briefs/tglass')) {
   console.error('存储页没有链到 T 玻璃')
