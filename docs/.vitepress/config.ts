@@ -95,7 +95,8 @@ const briefs = [
   { text: '这一栏写什么', link: '/briefs/' },
   { text: '磷化铟：光芯片的底座', link: '/briefs/inp' },
   { text: '光纤：涨价和 2028', link: '/briefs/fiber' },
-  { text: 'T玻璃：底座里那块布', link: '/briefs/tglass' }
+  { text: 'T玻璃：底座里那块布', link: '/briefs/tglass' },
+  { text: '覆铜板：扩产潮和 2028', link: '/briefs/ccl' }
 ]
 
 const cycleColumn = [
