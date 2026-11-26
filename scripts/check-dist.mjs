@@ -316,7 +316,8 @@ for (const text of [
   '全世界都在抢着给 AI 做电路板底料，2028 年会不会做多了？',
   '音频约 12:44',
   '音频约 7:33',
-  '音频约 13:35',
+  '音频约 8:19',
+  '按半导体周期的方法看，这个行业在“过热”的前半段、还没掉头。',
   '覆铜板：扩产潮和 2028',
   '订单很热，但不是所有客户都能拿够货'
 ]) {
@@ -407,20 +408,36 @@ if (!ccl.includes('/supplychain-insights/audio/ccl.mp3')) {
   console.error('briefs/ccl.html 的音频路径没有带上基础路径')
   process.exit(1)
 }
-if (!ccl.includes('听这篇（约13:35）')) {
+if (!ccl.includes('听这篇（约8:19）')) {
   console.error('briefs/ccl.html 的音频时长说明不对')
   process.exit(1)
 }
-if (!ccl.includes('不构成投资建议') || !ccl.includes('首发2026-11-26') || !ccl.includes('未核实清单')) {
-  console.error('briefs/ccl.html 缺少免责声明、首发日期或未核实说明')
+if (ccl.includes('听这篇（约13:35）')) {
+  console.error('briefs/ccl.html 还留着旧音频时长')
+  process.exit(1)
+}
+if (!ccl.includes('不构成投资建议') || !ccl.includes('首发2026-11-26') || !ccl.includes('更新2026-11-26（第二版）') || !ccl.includes('未核实清单')) {
+  console.error('briefs/ccl.html 缺少免责声明、首发日期、第二版更新日期或未核实说明')
   process.exit(1)
 }
 if (!ccl.includes('全世界都在抢着给 AI 做电路板底料，2028 年会不会做多了？')) {
   console.error('briefs/ccl.html 标题不对')
   process.exit(1)
 }
+if (!ccl.includes('第二版：用半导体周期的方法，看覆铜板这一轮走到了哪一段')) {
+  console.error('briefs/ccl.html 缺少第二版副标题')
+  process.exit(1)
+}
+if (!ccl.includes('一、先把东西讲清楚') || !ccl.includes('七、这一轮周期走到哪了（第二版新增）')) {
+  console.error('briefs/ccl.html 缺少第二版关键标题')
+  process.exit(1)
+}
 if (!ccl.includes('1,415') || !ccl.includes('<table')) {
   console.error('briefs/ccl.html 缺少原稿数字或表格')
+  process.exit(1)
+}
+if (!ccl.includes('台光电扩产表两次下调') || ccl.includes('台光电扩产表的三次修改')) {
+  console.error('briefs/ccl.html 的 c2 图说明没有改成两次下调')
   process.exit(1)
 }
 if (!ccl.includes('href="https://www.emctw.com/upload/media/New_Investors/Financial_Information/Presentation_Materials/CH/115/Investor%20Conference%20Presentation_20261028%20final%20CH.pdf"')) {
@@ -440,7 +457,11 @@ for (const img of [
   'briefs/ccl/c1_capacity_vs_demand.png',
   'briefs/ccl/c2_emc_revisions.png',
   'briefs/ccl/c3_timeline.png',
-  'briefs/ccl/c4_margins.png'
+  'briefs/ccl/c4_margins.png',
+  'briefs/ccl/c5_cycle_revenue.png',
+  'briefs/ccl/c6_margin_inventory.png',
+  'briefs/ccl/c7_book_to_bill.png',
+  'briefs/ccl/c8_capex_cash.png'
 ]) {
   if (!existsSync(resolve(dist, img))) {
     console.error(`覆铜板缺图：${img}`)
