@@ -109,6 +109,8 @@ const pages = [
   'columns/shipping-cycle/twenty-years.html',
   'columns/sunspots-soy/index.html',
   'columns/sunspots-soy/sunspots-vs-yield.html',
+  'columns/enso-soy/index.html',
+  'columns/enso-soy/enso-vs-soy.html',
   'data/electronics/series.json',
   'sitemap.xml'
 ]
@@ -928,6 +930,56 @@ for (const asset of [
 ]) {
   if (!existsSync(resolve(dist, asset))) {
     console.error(`太阳黑子专栏缺文件：${asset}`)
+    process.exit(1)
+  }
+}
+
+const ensoArticle = articleOf('columns/enso-soy/enso-vs-soy.html')
+for (const text of [
+  '只在阿根廷站得住',
+  '文献说法',
+  '机构说法',
+  '判断',
+  '未知',
+  '自算',
+  '0.31',
+  '0.030',
+  '0.007',
+  '12.5',
+  '0.22',
+  '/supplychain-insights/columns/enso-soy/data.csv',
+  '/supplychain-insights/columns/enso-soy/chart1_oni_vs_argentina.png',
+  '/supplychain-insights/columns/enso-soy/chart4_price_enso.png',
+  '/supplychain-insights/columns/sunspots-soy/sunspots-vs-yield'
+]) {
+  if (!ensoArticle.includes(text)) {
+    console.error(`厄尔尼诺与大豆这一篇缺少：${text}`)
+    process.exit(1)
+  }
+}
+if (/DRAM|NAND|美光|DRAMeXchange/.test(ensoArticle)) {
+  console.error('厄尔尼诺与大豆这一篇混入了存储行情')
+  process.exit(1)
+}
+if (ensoArticle.includes('现场观察')) {
+  console.error('厄尔尼诺与大豆这一篇不该有现场观察')
+  process.exit(1)
+}
+if (!read('columns/enso-soy/index.html').includes('/columns/enso-soy/enso-vs-soy')) {
+  console.error('厄尔尼诺栏目目录没有链到正文')
+  process.exit(1)
+}
+for (const asset of [
+  'columns/enso-soy/data.csv',
+  'columns/enso-soy/analysis.py',
+  'columns/enso-soy/chart1_oni_vs_argentina.png',
+  'columns/enso-soy/chart2_corr_by_country.png',
+  'columns/enso-soy/chart3_composite.png',
+  'columns/enso-soy/chart4_price_enso.png',
+  'columns/enso-soy/chart5_now_vs_past.png'
+]) {
+  if (!existsSync(resolve(dist, asset))) {
+    console.error(`厄尔尼诺专栏缺文件：${asset}`)
     process.exit(1)
   }
 }
