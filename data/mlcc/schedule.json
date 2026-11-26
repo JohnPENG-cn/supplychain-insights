@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-12",
+  "updatedAt": "2026-11-26",
   "items": [
     {
       "date": "2026-10-28",
@@ -119,16 +119,16 @@
     {
       "date": "2026-11-16",
       "text": "经产省公布生产动态统计 2026 年 9 月确报",
-      "status": "confirmed",
-      "note": "13:30 日本时间",
+      "status": "published",
+      "note": "13:30 日本时间。陶瓷电容数量 119,755,938 千个，金额 77,073 百万日元，与速报相同",
       "links": [
         {
-          "name": "e-Stat 公布预定",
-          "url": "https://www.e-stat.go.jp/release-calendar/detail/00550200/202611161330"
+          "name": "经产省统计表一览",
+          "url": "https://www.meti.go.jp/statistics/tyo/seidou/result/ichiran/08_seidou.html"
         },
         {
-          "name": "经产省统计公布日程",
-          "url": "https://www.meti.go.jp/statistics/toppage/kohyo.html"
+          "name": "9 月确报 Excel",
+          "url": "https://www.meti.go.jp/statistics/tyo/seidou/result/ichiran/resourceData/08_seidou/kakuho/2026/h2daa202609_jikei.xlsx"
         }
       ]
     },
