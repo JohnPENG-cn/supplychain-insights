@@ -55,4 +55,4 @@ features:
 
 ## 建议从哪篇看
 
-忙的话，先看 [电子元器件这一类在说什么](/categories/electronics/)。想搞清货是从哪一层来的，看 [产业链一张图](/categories/electronics/chain-map)。手里正在涨价，看 [价格和交期为什么会变](/categories/electronics/price-and-leadtime) 和 [实战打法](/categories/electronics/playbook)。拿到一件新的缺货或跌价，先走 [产业链洞察](/methods/industry-chain-insight) 的八步，再对照 [历史案例](/categories/electronics/cases/) 末尾的复盘。想用海关、公告和许可看这一轮卡在哪一层，打开 [产业链情报中心](/briefs/)。想用财报看周期，打开 [用财报看周期](/columns/cycle/)：半导体、被动元件、航运各一篇。半导体那一篇的旧地址还在 [半导体周期](/columns/semi-cycle/)。想核对「太阳黑子能不能预测大豆收成」，打开 [太阳黑子和大豆](/columns/sunspots-soy/)。
+忙的话，先看 [电子元器件这一类在说什么](/categories/electronics/)。想搞清货是从哪一层来的，看 [产业链一张图](/categories/electronics/chain-map)。手里正在涨价，看 [价格和交期为什么会变](/categories/electronics/price-and-leadtime) 和 [实战打法](/categories/electronics/playbook)。拿到一件新的缺货或跌价，先走 [产业链洞察](/methods/industry-chain-insight) 的八步，再对照 [历史案例](/categories/electronics/cases/) 末尾的复盘。想用海关、公告和许可看这一轮卡在哪一层，打开 [产业链情报中心](/briefs/)。想用财报看周期，打开 [用财报看周期](/columns/cycle/)：半导体、被动元件、航运各一篇。半导体那一篇的旧地址还在 [半导体周期](/columns/semi-cycle/)。想核对「太阳黑子能不能预测大豆收成」，打开 [太阳黑子和大豆](/columns/sunspots-soy/)。想核对「厄尔尼诺能预测大豆收成和价格吗」，打开 [厄尔尼诺和大豆](/columns/enso-soy/)。

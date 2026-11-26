@@ -111,6 +111,11 @@ const sunspotsSoy = [
   { text: '太阳黑子能预测大豆收成吗', link: '/columns/sunspots-soy/sunspots-vs-yield' }
 ]
 
+const ensoSoy = [
+  { text: '这一栏写什么', link: '/columns/enso-soy/' },
+  { text: '厄尔尼诺能预测大豆收成和价格吗', link: '/columns/enso-soy/enso-vs-soy' }
+]
+
 const companyLens = [
   { text: '这一栏写什么', link: '/columns/company-lens/' },
   { text: '美光：该不该签存储长协', link: '/columns/company-lens/micron-fy26q4' },
@@ -189,7 +194,9 @@ export default defineConfig({
   // 分析脚本和说明放在 public 里供下载。VitePress 不把 .py 当成站内页面，README.md 又会被当成文章链接。
   ignoreDeadLinks: [
     /^\/columns\/sunspots-soy\/analysis\.py$/,
-    /^\/columns\/sunspots-soy\/README/
+    /^\/columns\/sunspots-soy\/README/,
+    /^\/columns\/enso-soy\/analysis\.py$/,
+    /^\/columns\/enso-soy\/README/
   ],
   lastUpdated: true,
   sitemap: {
@@ -265,6 +272,11 @@ export default defineConfig({
         link: '/columns/sunspots-soy/',
         items: sunspotsSoy
       },
+      {
+        text: '厄尔尼诺和大豆',
+        link: '/columns/enso-soy/',
+        items: ensoSoy
+      },
       { text: '产业链看板', link: '/dashboard/' }
     ],
     sidebar: [
@@ -306,6 +318,10 @@ export default defineConfig({
       {
         text: '太阳黑子和大豆',
         items: sunspotsSoy
+      },
+      {
+        text: '厄尔尼诺和大豆',
+        items: ensoSoy
       },
       {
         text: '产业链看板',

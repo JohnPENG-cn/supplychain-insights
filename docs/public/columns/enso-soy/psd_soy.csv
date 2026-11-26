@@ -1,0 +1,1772 @@
+Country_Name,Market_Year,Attribute_Description,Unit_Description,Value
+Argentina,1977,Area Harvested,(1000 HA),1250.0
+Argentina,1977,Domestic Consumption,(1000 MT),832.0
+Argentina,1977,Ending Stocks,(1000 MT),628.0
+Argentina,1977,Exports,(1000 MT),1972.0
+Argentina,1977,Imports,(1000 MT),732.0
+Argentina,1977,Production,(1000 MT),2700.0
+Argentina,1977,Yield,(MT/HA),2.16
+Argentina,1978,Area Harvested,(1000 HA),1600.0
+Argentina,1978,Domestic Consumption,(1000 MT),930.0
+Argentina,1978,Ending Stocks,(1000 MT),606.0
+Argentina,1978,Exports,(1000 MT),2792.0
+Argentina,1978,Imports,(1000 MT),0.0
+Argentina,1978,Production,(1000 MT),3700.0
+Argentina,1978,Yield,(MT/HA),2.31
+Argentina,1979,Area Harvested,(1000 HA),2030.0
+Argentina,1979,Domestic Consumption,(1000 MT),889.0
+Argentina,1979,Ending Stocks,(1000 MT),1008.0
+Argentina,1979,Exports,(1000 MT),2309.0
+Argentina,1979,Imports,(1000 MT),0.0
+Argentina,1979,Production,(1000 MT),3600.0
+Argentina,1979,Yield,(MT/HA),1.77
+Argentina,1980,Area Harvested,(1000 HA),1740.0
+Argentina,1980,Domestic Consumption,(1000 MT),1109.0
+Argentina,1980,Ending Stocks,(1000 MT),699.0
+Argentina,1980,Exports,(1000 MT),2700.0
+Argentina,1980,Imports,(1000 MT),0.0
+Argentina,1980,Production,(1000 MT),3500.0
+Argentina,1980,Yield,(MT/HA),2.01
+Argentina,1981,Area Harvested,(1000 HA),1986.0
+Argentina,1981,Domestic Consumption,(1000 MT),1541.0
+Argentina,1981,Ending Stocks,(1000 MT),1432.0
+Argentina,1981,Exports,(1000 MT),1876.0
+Argentina,1981,Imports,(1000 MT),0.0
+Argentina,1981,Production,(1000 MT),4150.0
+Argentina,1981,Yield,(MT/HA),2.09
+Argentina,1982,Area Harvested,(1000 HA),2281.0
+Argentina,1982,Domestic Consumption,(1000 MT),2371.0
+Argentina,1982,Ending Stocks,(1000 MT),1844.0
+Argentina,1982,Exports,(1000 MT),1417.0
+Argentina,1982,Imports,(1000 MT),0.0
+Argentina,1982,Production,(1000 MT),4200.0
+Argentina,1982,Yield,(MT/HA),1.84
+Argentina,1983,Area Harvested,(1000 HA),2910.0
+Argentina,1983,Domestic Consumption,(1000 MT),3275.0
+Argentina,1983,Ending Stocks,(1000 MT),2599.0
+Argentina,1983,Exports,(1000 MT),2970.0
+Argentina,1983,Imports,(1000 MT),0.0
+Argentina,1983,Production,(1000 MT),7000.0
+Argentina,1983,Yield,(MT/HA),2.41
+Argentina,1984,Area Harvested,(1000 HA),3270.0
+Argentina,1984,Domestic Consumption,(1000 MT),4192.0
+Argentina,1984,Ending Stocks,(1000 MT),1865.0
+Argentina,1984,Exports,(1000 MT),3292.0
+Argentina,1984,Imports,(1000 MT),0.0
+Argentina,1984,Production,(1000 MT),6750.0
+Argentina,1984,Yield,(MT/HA),2.06
+Argentina,1985,Area Harvested,(1000 HA),3316.0
+Argentina,1985,Domestic Consumption,(1000 MT),4722.0
+Argentina,1985,Ending Stocks,(1000 MT),1902.0
+Argentina,1985,Exports,(1000 MT),2541.0
+Argentina,1985,Imports,(1000 MT),0.0
+Argentina,1985,Production,(1000 MT),7300.0
+Argentina,1985,Yield,(MT/HA),2.2
+Argentina,1986,Area Harvested,(1000 HA),3510.0
+Argentina,1986,Domestic Consumption,(1000 MT),5256.0
+Argentina,1986,Ending Stocks,(1000 MT),2313.0
+Argentina,1986,Exports,(1000 MT),1333.0
+Argentina,1986,Imports,(1000 MT),0.0
+Argentina,1986,Production,(1000 MT),7000.0
+Argentina,1986,Yield,(MT/HA),1.99
+Argentina,1987,Area Harvested,(1000 HA),4260.0
+Argentina,1987,Domestic Consumption,(1000 MT),5827.0
+Argentina,1987,Ending Stocks,(1000 MT),4395.0
+Argentina,1987,Exports,(1000 MT),2091.0
+Argentina,1987,Imports,(1000 MT),0.0
+Argentina,1987,Production,(1000 MT),10000.0
+Argentina,1987,Yield,(MT/HA),2.35
+Argentina,1988,Area Harvested,(1000 HA),4000.0
+Argentina,1988,Domestic Consumption,(1000 MT),6487.0
+Argentina,1988,Ending Stocks,(1000 MT),3963.0
+Argentina,1988,Exports,(1000 MT),445.0
+Argentina,1988,Imports,(1000 MT),0.0
+Argentina,1988,Production,(1000 MT),6500.0
+Argentina,1988,Yield,(MT/HA),1.63
+Argentina,1989,Area Harvested,(1000 HA),4950.0
+Argentina,1989,Domestic Consumption,(1000 MT),6737.0
+Argentina,1989,Ending Stocks,(1000 MT),5008.0
+Argentina,1989,Exports,(1000 MT),2968.0
+Argentina,1989,Imports,(1000 MT),0.0
+Argentina,1989,Production,(1000 MT),10750.0
+Argentina,1989,Yield,(MT/HA),2.17
+Argentina,1990,Area Harvested,(1000 HA),4750.0
+Argentina,1990,Domestic Consumption,(1000 MT),7456.0
+Argentina,1990,Ending Stocks,(1000 MT),4583.0
+Argentina,1990,Exports,(1000 MT),4469.0
+Argentina,1990,Imports,(1000 MT),0.0
+Argentina,1990,Production,(1000 MT),11500.0
+Argentina,1990,Yield,(MT/HA),2.42
+Argentina,1991,Area Harvested,(1000 HA),4800.0
+Argentina,1991,Domestic Consumption,(1000 MT),8228.0
+Argentina,1991,Ending Stocks,(1000 MT),4492.0
+Argentina,1991,Exports,(1000 MT),3213.0
+Argentina,1991,Imports,(1000 MT),0.0
+Argentina,1991,Production,(1000 MT),11350.0
+Argentina,1991,Yield,(MT/HA),2.36
+Argentina,1992,Area Harvested,(1000 HA),4900.0
+Argentina,1992,Domestic Consumption,(1000 MT),9024.0
+Argentina,1992,Ending Stocks,(1000 MT),4611.0
+Argentina,1992,Exports,(1000 MT),2211.0
+Argentina,1992,Imports,(1000 MT),4.0
+Argentina,1992,Production,(1000 MT),11350.0
+Argentina,1992,Yield,(MT/HA),2.32
+Argentina,1993,Area Harvested,(1000 HA),5400.0
+Argentina,1993,Domestic Consumption,(1000 MT),9320.0
+Argentina,1993,Ending Stocks,(1000 MT),4728.0
+Argentina,1993,Exports,(1000 MT),3023.0
+Argentina,1993,Imports,(1000 MT),60.0
+Argentina,1993,Production,(1000 MT),12400.0
+Argentina,1993,Yield,(MT/HA),2.3
+Argentina,1994,Area Harvested,(1000 HA),5700.0
+Argentina,1994,Domestic Consumption,(1000 MT),9265.0
+Argentina,1994,Ending Stocks,(1000 MT),5470.0
+Argentina,1994,Exports,(1000 MT),2581.0
+Argentina,1994,Imports,(1000 MT),88.0
+Argentina,1994,Production,(1000 MT),12500.0
+Argentina,1994,Yield,(MT/HA),2.19
+Argentina,1995,Area Harvested,(1000 HA),5980.0
+Argentina,1995,Domestic Consumption,(1000 MT),10855.0
+Argentina,1995,Ending Stocks,(1000 MT),5084.0
+Argentina,1995,Exports,(1000 MT),2103.0
+Argentina,1995,Imports,(1000 MT),92.0
+Argentina,1995,Production,(1000 MT),12480.0
+Argentina,1995,Yield,(MT/HA),2.09
+Argentina,1996,Area Harvested,(1000 HA),6200.0
+Argentina,1996,Domestic Consumption,(1000 MT),11666.0
+Argentina,1996,Ending Stocks,(1000 MT),4217.0
+Argentina,1996,Exports,(1000 MT),757.0
+Argentina,1996,Imports,(1000 MT),356.0
+Argentina,1996,Production,(1000 MT),11200.0
+Argentina,1996,Yield,(MT/HA),1.81
+Argentina,1997,Area Harvested,(1000 HA),6954.0
+Argentina,1997,Domestic Consumption,(1000 MT),13586.0
+Argentina,1997,Ending Stocks,(1000 MT),8258.0
+Argentina,1997,Exports,(1000 MT),2821.0
+Argentina,1997,Imports,(1000 MT),948.0
+Argentina,1997,Production,(1000 MT),19500.0
+Argentina,1997,Yield,(MT/HA),2.8
+Argentina,1998,Area Harvested,(1000 HA),8165.0
+Argentina,1998,Domestic Consumption,(1000 MT),18327.0
+Argentina,1998,Ending Stocks,(1000 MT),7145.0
+Argentina,1998,Exports,(1000 MT),3061.0
+Argentina,1998,Imports,(1000 MT),275.0
+Argentina,1998,Production,(1000 MT),20000.0
+Argentina,1998,Yield,(MT/HA),2.45
+Argentina,1999,Area Harvested,(1000 HA),8583.0
+Argentina,1999,Domestic Consumption,(1000 MT),17934.0
+Argentina,1999,Ending Stocks,(1000 MT),6504.0
+Argentina,1999,Exports,(1000 MT),4125.0
+Argentina,1999,Imports,(1000 MT),218.0
+Argentina,1999,Production,(1000 MT),21200.0
+Argentina,1999,Yield,(MT/HA),2.47
+Argentina,2000,Area Harvested,(1000 HA),10400.0
+Argentina,2000,Domestic Consumption,(1000 MT),18340.0
+Argentina,2000,Ending Stocks,(1000 MT),8980.0
+Argentina,2000,Exports,(1000 MT),7304.0
+Argentina,2000,Imports,(1000 MT),320.0
+Argentina,2000,Production,(1000 MT),27800.0
+Argentina,2000,Yield,(MT/HA),2.67
+Argentina,2001,Area Harvested,(1000 HA),11400.0
+Argentina,2001,Domestic Consumption,(1000 MT),21999.0
+Argentina,2001,Ending Stocks,(1000 MT),11272.0
+Argentina,2001,Exports,(1000 MT),5960.0
+Argentina,2001,Imports,(1000 MT),251.0
+Argentina,2001,Production,(1000 MT),30000.0
+Argentina,2001,Yield,(MT/HA),2.63
+Argentina,2002,Area Harvested,(1000 HA),12600.0
+Argentina,2002,Domestic Consumption,(1000 MT),24793.0
+Argentina,2002,Ending Stocks,(1000 MT),13738.0
+Argentina,2002,Exports,(1000 MT),8624.0
+Argentina,2002,Imports,(1000 MT),383.0
+Argentina,2002,Production,(1000 MT),35500.0
+Argentina,2002,Yield,(MT/HA),2.82
+Argentina,2003,Area Harvested,(1000 HA),14000.0
+Argentina,2003,Domestic Consumption,(1000 MT),26440.0
+Argentina,2003,Ending Stocks,(1000 MT),14094.0
+Argentina,2003,Exports,(1000 MT),6741.0
+Argentina,2003,Imports,(1000 MT),537.0
+Argentina,2003,Production,(1000 MT),33000.0
+Argentina,2003,Yield,(MT/HA),2.36
+Argentina,2004,Area Harvested,(1000 HA),14400.0
+Argentina,2004,Domestic Consumption,(1000 MT),28753.0
+Argentina,2004,Ending Stocks,(1000 MT),15465.0
+Argentina,2004,Exports,(1000 MT),9568.0
+Argentina,2004,Imports,(1000 MT),692.0
+Argentina,2004,Production,(1000 MT),39000.0
+Argentina,2004,Yield,(MT/HA),2.71
+Argentina,2005,Area Harvested,(1000 HA),15200.0
+Argentina,2005,Domestic Consumption,(1000 MT),33408.0
+Argentina,2005,Ending Stocks,(1000 MT),15892.0
+Argentina,2005,Exports,(1000 MT),7249.0
+Argentina,2005,Imports,(1000 MT),584.0
+Argentina,2005,Production,(1000 MT),40500.0
+Argentina,2005,Yield,(MT/HA),2.66
+Argentina,2006,Area Harvested,(1000 HA),16300.0
+Argentina,2006,Domestic Consumption,(1000 MT),35216.0
+Argentina,2006,Ending Stocks,(1000 MT),21902.0
+Argentina,2006,Exports,(1000 MT),9560.0
+Argentina,2006,Imports,(1000 MT),1986.0
+Argentina,2006,Production,(1000 MT),48800.0
+Argentina,2006,Yield,(MT/HA),2.99
+Argentina,2007,Area Harvested,(1000 HA),16371.0
+Argentina,2007,Domestic Consumption,(1000 MT),36332.0
+Argentina,2007,Ending Stocks,(1000 MT),20885.0
+Argentina,2007,Exports,(1000 MT),13839.0
+Argentina,2007,Imports,(1000 MT),2954.0
+Argentina,2007,Production,(1000 MT),46200.0
+Argentina,2007,Yield,(MT/HA),2.82
+Argentina,2008,Area Harvested,(1000 HA),16000.0
+Argentina,2008,Domestic Consumption,(1000 MT),33093.0
+Argentina,2008,Ending Stocks,(1000 MT),15443.0
+Argentina,2008,Exports,(1000 MT),5590.0
+Argentina,2008,Imports,(1000 MT),1241.0
+Argentina,2008,Production,(1000 MT),32000.0
+Argentina,2008,Yield,(MT/HA),2.0
+Argentina,2009,Area Harvested,(1000 HA),18600.0
+Argentina,2009,Domestic Consumption,(1000 MT),36427.0
+Argentina,2009,Ending Stocks,(1000 MT),20429.0
+Argentina,2009,Exports,(1000 MT),13088.0
+Argentina,2009,Imports,(1000 MT),1.0
+Argentina,2009,Production,(1000 MT),54500.0
+Argentina,2009,Yield,(MT/HA),2.93
+Argentina,2010,Area Harvested,(1000 HA),18300.0
+Argentina,2010,Domestic Consumption,(1000 MT),39994.0
+Argentina,2010,Ending Stocks,(1000 MT),20242.0
+Argentina,2010,Exports,(1000 MT),9206.0
+Argentina,2010,Imports,(1000 MT),13.0
+Argentina,2010,Production,(1000 MT),49000.0
+Argentina,2010,Yield,(MT/HA),2.68
+Argentina,2011,Area Harvested,(1000 HA),17577.0
+Argentina,2011,Domestic Consumption,(1000 MT),38636.0
+Argentina,2011,Ending Stocks,(1000 MT),14338.0
+Argentina,2011,Exports,(1000 MT),7368.0
+Argentina,2011,Imports,(1000 MT),0.0
+Argentina,2011,Production,(1000 MT),40100.0
+Argentina,2011,Yield,(MT/HA),2.28
+Argentina,2012,Area Harvested,(1000 HA),19750.0
+Argentina,2012,Domestic Consumption,(1000 MT),38611.0
+Argentina,2012,Ending Stocks,(1000 MT),17291.0
+Argentina,2012,Exports,(1000 MT),7738.0
+Argentina,2012,Imports,(1000 MT),2.0
+Argentina,2012,Production,(1000 MT),49300.0
+Argentina,2012,Yield,(MT/HA),2.5
+Argentina,2013,Area Harvested,(1000 HA),19250.0
+Argentina,2013,Domestic Consumption,(1000 MT),41173.0
+Argentina,2013,Ending Stocks,(1000 MT),21677.0
+Argentina,2013,Exports,(1000 MT),7842.0
+Argentina,2013,Imports,(1000 MT),1.0
+Argentina,2013,Production,(1000 MT),53400.0
+Argentina,2013,Yield,(MT/HA),2.77
+Argentina,2014,Area Harvested,(1000 HA),19350.0
+Argentina,2014,Domestic Consumption,(1000 MT),45485.0
+Argentina,2014,Ending Stocks,(1000 MT),27069.0
+Argentina,2014,Exports,(1000 MT),10575.0
+Argentina,2014,Imports,(1000 MT),2.0
+Argentina,2014,Production,(1000 MT),61450.0
+Argentina,2014,Yield,(MT/HA),3.18
+Argentina,2015,Area Harvested,(1000 HA),19350.0
+Argentina,2015,Domestic Consumption,(1000 MT),49467.0
+Argentina,2015,Ending Stocks,(1000 MT),27156.0
+Argentina,2015,Exports,(1000 MT),9922.0
+Argentina,2015,Imports,(1000 MT),676.0
+Argentina,2015,Production,(1000 MT),58800.0
+Argentina,2015,Yield,(MT/HA),3.04
+Argentina,2016,Area Harvested,(1000 HA),17335.0
+Argentina,2016,Domestic Consumption,(1000 MT),49809.0
+Argentina,2016,Ending Stocks,(1000 MT),26996.0
+Argentina,2016,Exports,(1000 MT),7025.0
+Argentina,2016,Imports,(1000 MT),1674.0
+Argentina,2016,Production,(1000 MT),55000.0
+Argentina,2016,Yield,(MT/HA),3.17
+Argentina,2017,Area Harvested,(1000 HA),16300.0
+Argentina,2017,Domestic Consumption,(1000 MT),43633.0
+Argentina,2017,Ending Stocks,(1000 MT),23734.0
+Argentina,2017,Exports,(1000 MT),2132.0
+Argentina,2017,Imports,(1000 MT),4703.0
+Argentina,2017,Production,(1000 MT),37800.0
+Argentina,2017,Yield,(MT/HA),2.32
+Argentina,2018,Area Harvested,(1000 HA),16600.0
+Argentina,2018,Domestic Consumption,(1000 MT),47467.0
+Argentina,2018,Ending Stocks,(1000 MT),28871.0
+Argentina,2018,Exports,(1000 MT),9104.0
+Argentina,2018,Imports,(1000 MT),6408.0
+Argentina,2018,Production,(1000 MT),55300.0
+Argentina,2018,Yield,(MT/HA),3.33
+Argentina,2019,Area Harvested,(1000 HA),16700.0
+Argentina,2019,Domestic Consumption,(1000 MT),46020.0
+Argentina,2019,Ending Stocks,(1000 MT),26529.0
+Argentina,2019,Exports,(1000 MT),10004.0
+Argentina,2019,Imports,(1000 MT),4882.0
+Argentina,2019,Production,(1000 MT),48800.0
+Argentina,2019,Yield,(MT/HA),2.92
+Argentina,2020,Area Harvested,(1000 HA),16470.0
+Argentina,2020,Domestic Consumption,(1000 MT),47512.0
+Argentina,2020,Ending Stocks,(1000 MT),24838.0
+Argentina,2020,Exports,(1000 MT),5195.0
+Argentina,2020,Imports,(1000 MT),4816.0
+Argentina,2020,Production,(1000 MT),46200.0
+Argentina,2020,Yield,(MT/HA),2.81
+Argentina,2021,Area Harvested,(1000 HA),15900.0
+Argentina,2021,Domestic Consumption,(1000 MT),46000.0
+Argentina,2021,Ending Stocks,(1000 MT),23716.0
+Argentina,2021,Exports,(1000 MT),2861.0
+Argentina,2021,Imports,(1000 MT),3839.0
+Argentina,2021,Production,(1000 MT),43900.0
+Argentina,2021,Yield,(MT/HA),2.76
+Argentina,2022,Area Harvested,(1000 HA),14400.0
+Argentina,2022,Domestic Consumption,(1000 MT),36591.0
+Argentina,2022,Ending Stocks,(1000 MT),16999.0
+Argentina,2022,Exports,(1000 MT),4185.0
+Argentina,2022,Imports,(1000 MT),9059.0
+Argentina,2022,Production,(1000 MT),25000.0
+Argentina,2022,Yield,(MT/HA),1.74
+Argentina,2023,Area Harvested,(1000 HA),16370.0
+Argentina,2023,Domestic Consumption,(1000 MT),43833.0
+Argentina,2023,Ending Stocks,(1000 MT),24049.0
+Argentina,2023,Exports,(1000 MT),5114.0
+Argentina,2023,Imports,(1000 MT),7787.0
+Argentina,2023,Production,(1000 MT),48210.0
+Argentina,2023,Yield,(MT/HA),2.95
+Argentina,2024,Area Harvested,(1000 HA),17455.0
+Argentina,2024,Domestic Consumption,(1000 MT),48936.0
+Argentina,2024,Ending Stocks,(1000 MT),24671.0
+Argentina,2024,Exports,(1000 MT),7874.0
+Argentina,2024,Imports,(1000 MT),6324.0
+Argentina,2024,Production,(1000 MT),51108.0
+Argentina,2024,Yield,(MT/HA),2.93
+Argentina,2025,Area Harvested,(1000 HA),16038.0
+Argentina,2025,Domestic Consumption,(1000 MT),48834.0
+Argentina,2025,Ending Stocks,(1000 MT),23641.0
+Argentina,2025,Exports,(1000 MT),8952.0
+Argentina,2025,Imports,(1000 MT),7496.0
+Argentina,2025,Production,(1000 MT),49260.0
+Argentina,2025,Yield,(MT/HA),3.07
+Argentina,2026,Area Harvested,(1000 HA),17100.0
+Argentina,2026,Domestic Consumption,(1000 MT),49650.0
+Argentina,2026,Ending Stocks,(1000 MT),23741.0
+Argentina,2026,Exports,(1000 MT),6750.0
+Argentina,2026,Imports,(1000 MT),6500.0
+Argentina,2026,Production,(1000 MT),50000.0
+Argentina,2026,Yield,(MT/HA),2.92
+Brazil,1977,Area Harvested,(1000 HA),7782.0
+Brazil,1977,Domestic Consumption,(1000 MT),10700.0
+Brazil,1977,Ending Stocks,(1000 MT),3665.0
+Brazil,1977,Exports,(1000 MT),830.0
+Brazil,1977,Imports,(1000 MT),5654.0
+Brazil,1977,Production,(1000 MT),9541.0
+Brazil,1977,Yield,(MT/HA),1.23
+Brazil,1978,Area Harvested,(1000 HA),8256.0
+Brazil,1978,Domestic Consumption,(1000 MT),10516.0
+Brazil,1978,Ending Stocks,(1000 MT),2968.0
+Brazil,1978,Exports,(1000 MT),638.0
+Brazil,1978,Imports,(1000 MT),217.0
+Brazil,1978,Production,(1000 MT),10240.0
+Brazil,1978,Yield,(MT/HA),1.24
+Brazil,1979,Area Harvested,(1000 HA),8774.0
+Brazil,1979,Domestic Consumption,(1000 MT),11511.0
+Brazil,1979,Ending Stocks,(1000 MT),5825.0
+Brazil,1979,Exports,(1000 MT),1155.0
+Brazil,1979,Imports,(1000 MT),367.0
+Brazil,1979,Production,(1000 MT),15156.0
+Brazil,1979,Yield,(MT/HA),1.73
+Brazil,1980,Area Harvested,(1000 HA),8501.0
+Brazil,1980,Domestic Consumption,(1000 MT),14718.0
+Brazil,1980,Ending Stocks,(1000 MT),5579.0
+Brazil,1980,Exports,(1000 MT),1798.0
+Brazil,1980,Imports,(1000 MT),1070.0
+Brazil,1980,Production,(1000 MT),15200.0
+Brazil,1980,Yield,(MT/HA),1.79
+Brazil,1981,Area Harvested,(1000 HA),8202.0
+Brazil,1981,Domestic Consumption,(1000 MT),13727.0
+Brazil,1981,Ending Stocks,(1000 MT),5064.0
+Brazil,1981,Exports,(1000 MT),858.0
+Brazil,1981,Imports,(1000 MT),1235.0
+Brazil,1981,Production,(1000 MT),12835.0
+Brazil,1981,Yield,(MT/HA),1.56
+Brazil,1982,Area Harvested,(1000 HA),8136.0
+Brazil,1982,Domestic Consumption,(1000 MT),14744.0
+Brazil,1982,Ending Stocks,(1000 MT),3843.0
+Brazil,1982,Exports,(1000 MT),1307.0
+Brazil,1982,Imports,(1000 MT),80.0
+Brazil,1982,Production,(1000 MT),14750.0
+Brazil,1982,Yield,(MT/HA),1.81
+Brazil,1983,Area Harvested,(1000 HA),9421.0
+Brazil,1983,Domestic Consumption,(1000 MT),13659.0
+Brazil,1983,Ending Stocks,(1000 MT),4137.0
+Brazil,1983,Exports,(1000 MT),1591.0
+Brazil,1983,Imports,(1000 MT),3.0
+Brazil,1983,Production,(1000 MT),15541.0
+Brazil,1983,Yield,(MT/HA),1.65
+Brazil,1984,Area Harvested,(1000 HA),10153.0
+Brazil,1984,Domestic Consumption,(1000 MT),14255.0
+Brazil,1984,Ending Stocks,(1000 MT),5060.0
+Brazil,1984,Exports,(1000 MT),3476.0
+Brazil,1984,Imports,(1000 MT),376.0
+Brazil,1984,Production,(1000 MT),18278.0
+Brazil,1984,Yield,(MT/HA),1.8
+Brazil,1985,Area Harvested,(1000 HA),9450.0
+Brazil,1985,Domestic Consumption,(1000 MT),13507.0
+Brazil,1985,Ending Stocks,(1000 MT),4751.0
+Brazil,1985,Exports,(1000 MT),1187.0
+Brazil,1985,Imports,(1000 MT),285.0
+Brazil,1985,Production,(1000 MT),14100.0
+Brazil,1985,Yield,(MT/HA),1.49
+Brazil,1986,Area Harvested,(1000 HA),9270.0
+Brazil,1986,Domestic Consumption,(1000 MT),15690.0
+Brazil,1986,Ending Stocks,(1000 MT),3356.0
+Brazil,1986,Exports,(1000 MT),3294.0
+Brazil,1986,Imports,(1000 MT),289.0
+Brazil,1986,Production,(1000 MT),17300.0
+Brazil,1986,Yield,(MT/HA),1.87
+Brazil,1987,Area Harvested,(1000 HA),10550.0
+Brazil,1987,Domestic Consumption,(1000 MT),14308.0
+Brazil,1987,Ending Stocks,(1000 MT),4829.0
+Brazil,1987,Exports,(1000 MT),2710.0
+Brazil,1987,Imports,(1000 MT),471.0
+Brazil,1987,Production,(1000 MT),18020.0
+Brazil,1987,Yield,(MT/HA),1.71
+Brazil,1988,Area Harvested,(1000 HA),12150.0
+Brazil,1988,Domestic Consumption,(1000 MT),15912.0
+Brazil,1988,Ending Stocks,(1000 MT),7741.0
+Brazil,1988,Exports,(1000 MT),4839.0
+Brazil,1988,Imports,(1000 MT),63.0
+Brazil,1988,Production,(1000 MT),23600.0
+Brazil,1988,Yield,(MT/HA),1.94
+Brazil,1989,Area Harvested,(1000 HA),11550.0
+Brazil,1989,Domestic Consumption,(1000 MT),17104.0
+Brazil,1989,Ending Stocks,(1000 MT),7107.0
+Brazil,1989,Exports,(1000 MT),3933.0
+Brazil,1989,Imports,(1000 MT),63.0
+Brazil,1989,Production,(1000 MT),20340.0
+Brazil,1989,Yield,(MT/HA),1.76
+Brazil,1990,Area Harvested,(1000 HA),9750.0
+Brazil,1990,Domestic Consumption,(1000 MT),15406.0
+Brazil,1990,Ending Stocks,(1000 MT),5099.0
+Brazil,1990,Exports,(1000 MT),2478.0
+Brazil,1990,Imports,(1000 MT),126.0
+Brazil,1990,Production,(1000 MT),15750.0
+Brazil,1990,Yield,(MT/HA),1.62
+Brazil,1991,Area Harvested,(1000 HA),9700.0
+Brazil,1991,Domestic Consumption,(1000 MT),16201.0
+Brazil,1991,Ending Stocks,(1000 MT),4605.0
+Brazil,1991,Exports,(1000 MT),3872.0
+Brazil,1991,Imports,(1000 MT),279.0
+Brazil,1991,Production,(1000 MT),19300.0
+Brazil,1991,Yield,(MT/HA),1.99
+Brazil,1992,Area Harvested,(1000 HA),10625.0
+Brazil,1992,Domestic Consumption,(1000 MT),16977.0
+Brazil,1992,Ending Stocks,(1000 MT),6447.0
+Brazil,1992,Exports,(1000 MT),4056.0
+Brazil,1992,Imports,(1000 MT),375.0
+Brazil,1992,Production,(1000 MT),22500.0
+Brazil,1992,Yield,(MT/HA),2.12
+Brazil,1993,Area Harvested,(1000 HA),11440.0
+Brazil,1993,Domestic Consumption,(1000 MT),20046.0
+Brazil,1993,Ending Stocks,(1000 MT),5857.0
+Brazil,1993,Exports,(1000 MT),5434.0
+Brazil,1993,Imports,(1000 MT),190.0
+Brazil,1993,Production,(1000 MT),24700.0
+Brazil,1993,Yield,(MT/HA),2.16
+Brazil,1994,Area Harvested,(1000 HA),11680.0
+Brazil,1994,Domestic Consumption,(1000 MT),21838.0
+Brazil,1994,Ending Stocks,(1000 MT),7553.0
+Brazil,1994,Exports,(1000 MT),3566.0
+Brazil,1994,Imports,(1000 MT),1200.0
+Brazil,1994,Production,(1000 MT),25900.0
+Brazil,1994,Yield,(MT/HA),2.22
+Brazil,1995,Area Harvested,(1000 HA),10950.0
+Brazil,1995,Domestic Consumption,(1000 MT),23239.0
+Brazil,1995,Ending Stocks,(1000 MT),6056.0
+Brazil,1995,Exports,(1000 MT),3458.0
+Brazil,1995,Imports,(1000 MT),1050.0
+Brazil,1995,Production,(1000 MT),24150.0
+Brazil,1995,Yield,(MT/HA),2.21
+Brazil,1996,Area Harvested,(1000 HA),11800.0
+Brazil,1996,Domestic Consumption,(1000 MT),21617.0
+Brazil,1996,Ending Stocks,(1000 MT),4255.0
+Brazil,1996,Exports,(1000 MT),8424.0
+Brazil,1996,Imports,(1000 MT),940.0
+Brazil,1996,Production,(1000 MT),27300.0
+Brazil,1996,Yield,(MT/HA),2.31
+Brazil,1997,Area Harvested,(1000 HA),13000.0
+Brazil,1997,Domestic Consumption,(1000 MT),21692.0
+Brazil,1997,Ending Stocks,(1000 MT),7894.0
+Brazil,1997,Exports,(1000 MT),8760.0
+Brazil,1997,Imports,(1000 MT),1591.0
+Brazil,1997,Production,(1000 MT),32500.0
+Brazil,1997,Yield,(MT/HA),2.5
+Brazil,1998,Area Harvested,(1000 HA),12900.0
+Brazil,1998,Domestic Consumption,(1000 MT),22906.0
+Brazil,1998,Ending Stocks,(1000 MT),8086.0
+Brazil,1998,Exports,(1000 MT),8932.0
+Brazil,1998,Imports,(1000 MT),730.0
+Brazil,1998,Production,(1000 MT),31300.0
+Brazil,1998,Yield,(MT/HA),2.43
+Brazil,1999,Area Harvested,(1000 HA),13600.0
+Brazil,1999,Domestic Consumption,(1000 MT),22608.0
+Brazil,1999,Ending Stocks,(1000 MT),9751.0
+Brazil,1999,Exports,(1000 MT),11101.0
+Brazil,1999,Imports,(1000 MT),674.0
+Brazil,1999,Production,(1000 MT),34700.0
+Brazil,1999,Yield,(MT/HA),2.55
+Brazil,2000,Area Harvested,(1000 HA),13934.0
+Brazil,2000,Domestic Consumption,(1000 MT),24342.0
+Brazil,2000,Ending Stocks,(1000 MT),10173.0
+Brazil,2000,Exports,(1000 MT),15469.0
+Brazil,2000,Imports,(1000 MT),733.0
+Brazil,2000,Production,(1000 MT),39500.0
+Brazil,2000,Yield,(MT/HA),2.83
+Brazil,2001,Area Harvested,(1000 HA),16350.0
+Brazil,2001,Domestic Consumption,(1000 MT),26593.0
+Brazil,2001,Ending Stocks,(1000 MT),13688.0
+Brazil,2001,Exports,(1000 MT),14504.0
+Brazil,2001,Imports,(1000 MT),1112.0
+Brazil,2001,Production,(1000 MT),43500.0
+Brazil,2001,Yield,(MT/HA),2.66
+Brazil,2002,Area Harvested,(1000 HA),18448.0
+Brazil,2002,Domestic Consumption,(1000 MT),29268.0
+Brazil,2002,Ending Stocks,(1000 MT),18112.0
+Brazil,2002,Exports,(1000 MT),19629.0
+Brazil,2002,Imports,(1000 MT),1321.0
+Brazil,2002,Production,(1000 MT),52000.0
+Brazil,2002,Yield,(MT/HA),2.82
+Brazil,2003,Area Harvested,(1000 HA),21520.0
+Brazil,2003,Domestic Consumption,(1000 MT),31472.0
+Brazil,2003,Ending Stocks,(1000 MT),17551.0
+Brazil,2003,Exports,(1000 MT),20417.0
+Brazil,2003,Imports,(1000 MT),328.0
+Brazil,2003,Production,(1000 MT),51000.0
+Brazil,2003,Yield,(MT/HA),2.37
+Brazil,2004,Area Harvested,(1000 HA),22917.0
+Brazil,2004,Domestic Consumption,(1000 MT),31892.0
+Brazil,2004,Ending Stocks,(1000 MT),18997.0
+Brazil,2004,Exports,(1000 MT),20137.0
+Brazil,2004,Imports,(1000 MT),475.0
+Brazil,2004,Production,(1000 MT),53000.0
+Brazil,2004,Yield,(MT/HA),2.31
+Brazil,2005,Area Harvested,(1000 HA),22229.0
+Brazil,2005,Domestic Consumption,(1000 MT),30736.0
+Brazil,2005,Ending Stocks,(1000 MT),19413.0
+Brazil,2005,Exports,(1000 MT),25911.0
+Brazil,2005,Imports,(1000 MT),63.0
+Brazil,2005,Production,(1000 MT),57000.0
+Brazil,2005,Yield,(MT/HA),2.56
+Brazil,2006,Area Harvested,(1000 HA),20700.0
+Brazil,2006,Domestic Consumption,(1000 MT),33534.0
+Brazil,2006,Ending Stocks,(1000 MT),21447.0
+Brazil,2006,Exports,(1000 MT),23485.0
+Brazil,2006,Imports,(1000 MT),53.0
+Brazil,2006,Production,(1000 MT),59000.0
+Brazil,2006,Yield,(MT/HA),2.85
+Brazil,2007,Area Harvested,(1000 HA),21300.0
+Brazil,2007,Domestic Consumption,(1000 MT),34567.0
+Brazil,2007,Ending Stocks,(1000 MT),22666.0
+Brazil,2007,Exports,(1000 MT),25364.0
+Brazil,2007,Imports,(1000 MT),150.0
+Brazil,2007,Production,(1000 MT),61000.0
+Brazil,2007,Yield,(MT/HA),2.86
+Brazil,2008,Area Harvested,(1000 HA),21700.0
+Brazil,2008,Domestic Consumption,(1000 MT),34219.0
+Brazil,2008,Ending Stocks,(1000 MT),16304.0
+Brazil,2008,Exports,(1000 MT),29987.0
+Brazil,2008,Imports,(1000 MT),44.0
+Brazil,2008,Production,(1000 MT),57800.0
+Brazil,2008,Yield,(MT/HA),2.66
+Brazil,2009,Area Harvested,(1000 HA),23500.0
+Brazil,2009,Domestic Consumption,(1000 MT),36100.0
+Brazil,2009,Ending Stocks,(1000 MT),20800.0
+Brazil,2009,Exports,(1000 MT),28578.0
+Brazil,2009,Imports,(1000 MT),174.0
+Brazil,2009,Production,(1000 MT),69000.0
+Brazil,2009,Yield,(MT/HA),2.94
+Brazil,2010,Area Harvested,(1000 HA),24200.0
+Brazil,2010,Domestic Consumption,(1000 MT),38730.0
+Brazil,2010,Ending Stocks,(1000 MT),27456.0
+Brazil,2010,Exports,(1000 MT),29951.0
+Brazil,2010,Imports,(1000 MT),37.0
+Brazil,2010,Production,(1000 MT),75300.0
+Brazil,2010,Yield,(MT/HA),3.11
+Brazil,2011,Area Harvested,(1000 HA),25000.0
+Brazil,2011,Domestic Consumption,(1000 MT),40483.0
+Brazil,2011,Ending Stocks,(1000 MT),17344.0
+Brazil,2011,Exports,(1000 MT),36257.0
+Brazil,2011,Imports,(1000 MT),128.0
+Brazil,2011,Production,(1000 MT),66500.0
+Brazil,2011,Yield,(MT/HA),2.66
+Brazil,2012,Area Harvested,(1000 HA),27700.0
+Brazil,2012,Domestic Consumption,(1000 MT),37610.0
+Brazil,2012,Ending Stocks,(1000 MT),20225.0
+Brazil,2012,Exports,(1000 MT),41904.0
+Brazil,2012,Imports,(1000 MT),395.0
+Brazil,2012,Production,(1000 MT),82000.0
+Brazil,2012,Yield,(MT/HA),2.96
+Brazil,2013,Area Harvested,(1000 HA),30100.0
+Brazil,2013,Domestic Consumption,(1000 MT),39411.0
+Brazil,2013,Ending Stocks,(1000 MT),20790.0
+Brazil,2013,Exports,(1000 MT),46829.0
+Brazil,2013,Imports,(1000 MT),605.0
+Brazil,2013,Production,(1000 MT),86200.0
+Brazil,2013,Yield,(MT/HA),2.86
+Brazil,2014,Area Harvested,(1000 HA),32100.0
+Brazil,2014,Domestic Consumption,(1000 MT),43085.0
+Brazil,2014,Ending Stocks,(1000 MT),24498.0
+Brazil,2014,Exports,(1000 MT),50612.0
+Brazil,2014,Imports,(1000 MT),305.0
+Brazil,2014,Production,(1000 MT),97100.0
+Brazil,2014,Yield,(MT/HA),3.02
+Brazil,2015,Area Harvested,(1000 HA),33300.0
+Brazil,2015,Domestic Consumption,(1000 MT),42422.0
+Brazil,2015,Ending Stocks,(1000 MT),23803.0
+Brazil,2015,Exports,(1000 MT),54383.0
+Brazil,2015,Imports,(1000 MT),410.0
+Brazil,2015,Production,(1000 MT),95700.0
+Brazil,2015,Yield,(MT/HA),2.87
+Brazil,2016,Area Harvested,(1000 HA),33900.0
+Brazil,2016,Domestic Consumption,(1000 MT),43186.0
+Brazil,2016,Ending Stocks,(1000 MT),32632.0
+Brazil,2016,Exports,(1000 MT),63137.0
+Brazil,2016,Imports,(1000 MT),252.0
+Brazil,2016,Production,(1000 MT),114900.0
+Brazil,2016,Yield,(MT/HA),3.39
+Brazil,2017,Area Harvested,(1000 HA),35150.0
+Brazil,2017,Domestic Consumption,(1000 MT),47040.0
+Brazil,2017,Ending Stocks,(1000 MT),33031.0
+Brazil,2017,Exports,(1000 MT),76136.0
+Brazil,2017,Imports,(1000 MT),175.0
+Brazil,2017,Production,(1000 MT),123400.0
+Brazil,2017,Yield,(MT/HA),3.51
+Brazil,2018,Area Harvested,(1000 HA),35900.0
+Brazil,2018,Domestic Consumption,(1000 MT),45427.0
+Brazil,2018,Ending Stocks,(1000 MT),33357.0
+Brazil,2018,Exports,(1000 MT),74887.0
+Brazil,2018,Imports,(1000 MT),140.0
+Brazil,2018,Production,(1000 MT),120500.0
+Brazil,2018,Yield,(MT/HA),3.36
+Brazil,2019,Area Harvested,(1000 HA),37400.0
+Brazil,2019,Domestic Consumption,(1000 MT),49842.0
+Brazil,2019,Ending Stocks,(1000 MT),20429.0
+Brazil,2019,Exports,(1000 MT),92135.0
+Brazil,2019,Imports,(1000 MT),549.0
+Brazil,2019,Production,(1000 MT),128500.0
+Brazil,2019,Yield,(MT/HA),3.44
+Brazil,2020,Area Harvested,(1000 HA),39800.0
+Brazil,2020,Domestic Consumption,(1000 MT),49875.0
+Brazil,2020,Ending Stocks,(1000 MT),29419.0
+Brazil,2020,Exports,(1000 MT),81650.0
+Brazil,2020,Imports,(1000 MT),1015.0
+Brazil,2020,Production,(1000 MT),139500.0
+Brazil,2020,Yield,(MT/HA),3.51
+Brazil,2021,Area Harvested,(1000 HA),41800.0
+Brazil,2021,Domestic Consumption,(1000 MT),54017.0
+Brazil,2021,Ending Stocks,(1000 MT),27378.0
+Brazil,2021,Exports,(1000 MT),79063.0
+Brazil,2021,Imports,(1000 MT),539.0
+Brazil,2021,Production,(1000 MT),130500.0
+Brazil,2021,Yield,(MT/HA),3.12
+Brazil,2022,Area Harvested,(1000 HA),44600.0
+Brazil,2022,Domestic Consumption,(1000 MT),57209.0
+Brazil,2022,Ending Stocks,(1000 MT),36819.0
+Brazil,2022,Exports,(1000 MT),95504.0
+Brazil,2022,Imports,(1000 MT),154.0
+Brazil,2022,Production,(1000 MT),162000.0
+Brazil,2022,Yield,(MT/HA),3.63
+Brazil,2023,Area Harvested,(1000 HA),46150.0
+Brazil,2023,Domestic Consumption,(1000 MT),58255.0
+Brazil,2023,Ending Stocks,(1000 MT),29761.0
+Brazil,2023,Exports,(1000 MT),104170.0
+Brazil,2023,Imports,(1000 MT),867.0
+Brazil,2023,Production,(1000 MT),154500.0
+Brazil,2023,Yield,(MT/HA),3.35
+Brazil,2024,Area Harvested,(1000 HA),47400.0
+Brazil,2024,Domestic Consumption,(1000 MT),62162.0
+Brazil,2024,Ending Stocks,(1000 MT),37688.0
+Brazil,2024,Exports,(1000 MT),103142.0
+Brazil,2024,Imports,(1000 MT),731.0
+Brazil,2024,Production,(1000 MT),172500.0
+Brazil,2024,Yield,(MT/HA),3.64
+Brazil,2025,Area Harvested,(1000 HA),48500.0
+Brazil,2025,Domestic Consumption,(1000 MT),66900.0
+Brazil,2025,Ending Stocks,(1000 MT),37881.0
+Brazil,2025,Exports,(1000 MT),114460.0
+Brazil,2025,Imports,(1000 MT),1053.0
+Brazil,2025,Production,(1000 MT),180500.0
+Brazil,2025,Yield,(MT/HA),3.72
+Brazil,2026,Area Harvested,(1000 HA),50000.0
+Brazil,2026,Domestic Consumption,(1000 MT),69600.0
+Brazil,2026,Ending Stocks,(1000 MT),37281.0
+Brazil,2026,Exports,(1000 MT),118000.0
+Brazil,2026,Imports,(1000 MT),1000.0
+Brazil,2026,Production,(1000 MT),186000.0
+Brazil,2026,Yield,(MT/HA),3.72
+China,1964,Area Harvested,(1000 HA),10009.0
+China,1964,Domestic Consumption,(1000 MT),7293.0
+China,1964,Ending Stocks,(1000 MT),0.0
+China,1964,Exports,(1000 MT),577.0
+China,1964,Imports,(1000 MT),0.0
+China,1964,Production,(1000 MT),7870.0
+China,1964,Yield,(MT/HA),0.79
+China,1965,Area Harvested,(1000 HA),8593.0
+China,1965,Domestic Consumption,(1000 MT),5590.0
+China,1965,Ending Stocks,(1000 MT),0.0
+China,1965,Exports,(1000 MT),550.0
+China,1965,Imports,(1000 MT),0.0
+China,1965,Production,(1000 MT),6140.0
+China,1965,Yield,(MT/HA),0.71
+China,1966,Area Harvested,(1000 HA),8425.0
+China,1966,Domestic Consumption,(1000 MT),7705.0
+China,1966,Ending Stocks,(1000 MT),0.0
+China,1966,Exports,(1000 MT),565.0
+China,1966,Imports,(1000 MT),0.0
+China,1966,Production,(1000 MT),8270.0
+China,1966,Yield,(MT/HA),0.98
+China,1967,Area Harvested,(1000 HA),8503.0
+China,1967,Domestic Consumption,(1000 MT),7699.0
+China,1967,Ending Stocks,(1000 MT),0.0
+China,1967,Exports,(1000 MT),571.0
+China,1967,Imports,(1000 MT),0.0
+China,1967,Production,(1000 MT),8270.0
+China,1967,Yield,(MT/HA),0.97
+China,1968,Area Harvested,(1000 HA),8363.0
+China,1968,Domestic Consumption,(1000 MT),7552.0
+China,1968,Ending Stocks,(1000 MT),0.0
+China,1968,Exports,(1000 MT),488.0
+China,1968,Imports,(1000 MT),0.0
+China,1968,Production,(1000 MT),8040.0
+China,1968,Yield,(MT/HA),0.96
+China,1969,Area Harvested,(1000 HA),8329.0
+China,1969,Domestic Consumption,(1000 MT),7206.0
+China,1969,Ending Stocks,(1000 MT),0.0
+China,1969,Exports,(1000 MT),424.0
+China,1969,Imports,(1000 MT),0.0
+China,1969,Production,(1000 MT),7630.0
+China,1969,Yield,(MT/HA),0.92
+China,1970,Area Harvested,(1000 HA),7985.0
+China,1970,Domestic Consumption,(1000 MT),8250.0
+China,1970,Ending Stocks,(1000 MT),0.0
+China,1970,Exports,(1000 MT),460.0
+China,1970,Imports,(1000 MT),0.0
+China,1970,Production,(1000 MT),8710.0
+China,1970,Yield,(MT/HA),1.09
+China,1971,Area Harvested,(1000 HA),7791.0
+China,1971,Domestic Consumption,(1000 MT),8242.0
+China,1971,Ending Stocks,(1000 MT),0.0
+China,1971,Exports,(1000 MT),370.0
+China,1971,Imports,(1000 MT),2.0
+China,1971,Production,(1000 MT),8610.0
+China,1971,Yield,(MT/HA),1.11
+China,1972,Area Harvested,(1000 HA),7583.0
+China,1972,Domestic Consumption,(1000 MT),6395.0
+China,1972,Ending Stocks,(1000 MT),0.0
+China,1972,Exports,(1000 MT),310.0
+China,1972,Imports,(1000 MT),255.0
+China,1972,Production,(1000 MT),6450.0
+China,1972,Yield,(MT/HA),0.85
+China,1973,Area Harvested,(1000 HA),7408.0
+China,1973,Domestic Consumption,(1000 MT),8649.0
+China,1973,Ending Stocks,(1000 MT),0.0
+China,1973,Exports,(1000 MT),340.0
+China,1973,Imports,(1000 MT),619.0
+China,1973,Production,(1000 MT),8370.0
+China,1973,Yield,(MT/HA),1.13
+China,1974,Area Harvested,(1000 HA),7261.0
+China,1974,Domestic Consumption,(1000 MT),7176.0
+China,1974,Ending Stocks,(1000 MT),0.0
+China,1974,Exports,(1000 MT),330.0
+China,1974,Imports,(1000 MT),36.0
+China,1974,Production,(1000 MT),7470.0
+China,1974,Yield,(MT/HA),1.03
+China,1975,Area Harvested,(1000 HA),6999.0
+China,1975,Domestic Consumption,(1000 MT),7087.0
+China,1975,Ending Stocks,(1000 MT),0.0
+China,1975,Exports,(1000 MT),178.0
+China,1975,Imports,(1000 MT),25.0
+China,1975,Production,(1000 MT),7240.0
+China,1975,Yield,(MT/HA),1.03
+China,1976,Area Harvested,(1000 HA),6691.0
+China,1976,Domestic Consumption,(1000 MT),6778.0
+China,1976,Ending Stocks,(1000 MT),0.0
+China,1976,Exports,(1000 MT),115.0
+China,1976,Imports,(1000 MT),253.0
+China,1976,Production,(1000 MT),6640.0
+China,1976,Yield,(MT/HA),0.99
+China,1977,Area Harvested,(1000 HA),6850.0
+China,1977,Domestic Consumption,(1000 MT),7358.0
+China,1977,Ending Stocks,(1000 MT),0.0
+China,1977,Exports,(1000 MT),90.0
+China,1977,Imports,(1000 MT),188.0
+China,1977,Production,(1000 MT),7260.0
+China,1977,Yield,(MT/HA),1.06
+China,1978,Area Harvested,(1000 HA),7144.0
+China,1978,Domestic Consumption,(1000 MT),7552.0
+China,1978,Ending Stocks,(1000 MT),0.0
+China,1978,Exports,(1000 MT),274.0
+China,1978,Imports,(1000 MT),261.0
+China,1978,Production,(1000 MT),7565.0
+China,1978,Yield,(MT/HA),1.06
+China,1979,Area Harvested,(1000 HA),7247.0
+China,1979,Domestic Consumption,(1000 MT),8063.0
+China,1979,Ending Stocks,(1000 MT),0.0
+China,1979,Exports,(1000 MT),207.0
+China,1979,Imports,(1000 MT),810.0
+China,1979,Production,(1000 MT),7460.0
+China,1979,Yield,(MT/HA),1.03
+China,1980,Area Harvested,(1000 HA),7226.0
+China,1980,Domestic Consumption,(1000 MT),8337.0
+China,1980,Ending Stocks,(1000 MT),0.0
+China,1980,Exports,(1000 MT),143.0
+China,1980,Imports,(1000 MT),540.0
+China,1980,Production,(1000 MT),7940.0
+China,1980,Yield,(MT/HA),1.1
+China,1981,Area Harvested,(1000 HA),8024.0
+China,1981,Domestic Consumption,(1000 MT),9745.0
+China,1981,Ending Stocks,(1000 MT),0.0
+China,1981,Exports,(1000 MT),110.0
+China,1981,Imports,(1000 MT),530.0
+China,1981,Production,(1000 MT),9325.0
+China,1981,Yield,(MT/HA),1.16
+China,1982,Area Harvested,(1000 HA),8419.0
+China,1982,Domestic Consumption,(1000 MT),8740.0
+China,1982,Ending Stocks,(1000 MT),0.0
+China,1982,Exports,(1000 MT),320.0
+China,1982,Imports,(1000 MT),30.0
+China,1982,Production,(1000 MT),9030.0
+China,1982,Yield,(MT/HA),1.07
+China,1983,Area Harvested,(1000 HA),7567.0
+China,1983,Domestic Consumption,(1000 MT),8960.0
+China,1983,Ending Stocks,(1000 MT),0.0
+China,1983,Exports,(1000 MT),800.0
+China,1983,Imports,(1000 MT),0.0
+China,1983,Production,(1000 MT),9760.0
+China,1983,Yield,(MT/HA),1.29
+China,1984,Area Harvested,(1000 HA),7286.0
+China,1984,Domestic Consumption,(1000 MT),8615.0
+China,1984,Ending Stocks,(1000 MT),0.0
+China,1984,Exports,(1000 MT),1080.0
+China,1984,Imports,(1000 MT),0.0
+China,1984,Production,(1000 MT),9695.0
+China,1984,Yield,(MT/HA),1.33
+China,1985,Area Harvested,(1000 HA),7718.0
+China,1985,Domestic Consumption,(1000 MT),9529.0
+China,1985,Ending Stocks,(1000 MT),0.0
+China,1985,Exports,(1000 MT),1260.0
+China,1985,Imports,(1000 MT),280.0
+China,1985,Production,(1000 MT),10509.0
+China,1985,Yield,(MT/HA),1.36
+China,1986,Area Harvested,(1000 HA),8295.0
+China,1986,Domestic Consumption,(1000 MT),10054.0
+China,1986,Ending Stocks,(1000 MT),0.0
+China,1986,Exports,(1000 MT),1750.0
+China,1986,Imports,(1000 MT),190.0
+China,1986,Production,(1000 MT),11614.0
+China,1986,Yield,(MT/HA),1.4
+China,1987,Area Harvested,(1000 HA),8445.0
+China,1987,Domestic Consumption,(1000 MT),10910.0
+China,1987,Ending Stocks,(1000 MT),0.0
+China,1987,Exports,(1000 MT),1482.0
+China,1987,Imports,(1000 MT),208.0
+China,1987,Production,(1000 MT),12184.0
+China,1987,Yield,(MT/HA),1.44
+China,1988,Area Harvested,(1000 HA),8120.0
+China,1988,Domestic Consumption,(1000 MT),10469.0
+China,1988,Ending Stocks,(1000 MT),0.0
+China,1988,Exports,(1000 MT),1209.0
+China,1988,Imports,(1000 MT),33.0
+China,1988,Production,(1000 MT),11645.0
+China,1988,Yield,(MT/HA),1.43
+China,1989,Area Harvested,(1000 HA),8034.0
+China,1989,Domestic Consumption,(1000 MT),9121.0
+China,1989,Ending Stocks,(1000 MT),0.0
+China,1989,Exports,(1000 MT),1107.0
+China,1989,Imports,(1000 MT),1.0
+China,1989,Production,(1000 MT),10227.0
+China,1989,Yield,(MT/HA),1.27
+China,1990,Area Harvested,(1000 HA),7560.0
+China,1990,Domestic Consumption,(1000 MT),9713.0
+China,1990,Ending Stocks,(1000 MT),0.0
+China,1990,Exports,(1000 MT),1288.0
+China,1990,Imports,(1000 MT),1.0
+China,1990,Production,(1000 MT),11000.0
+China,1990,Yield,(MT/HA),1.46
+China,1991,Area Harvested,(1000 HA),7041.0
+China,1991,Domestic Consumption,(1000 MT),8756.0
+China,1991,Ending Stocks,(1000 MT),0.0
+China,1991,Exports,(1000 MT),1090.0
+China,1991,Imports,(1000 MT),136.0
+China,1991,Production,(1000 MT),9710.0
+China,1991,Yield,(MT/HA),1.38
+China,1992,Area Harvested,(1000 HA),7221.0
+China,1992,Domestic Consumption,(1000 MT),10150.0
+China,1992,Ending Stocks,(1000 MT),0.0
+China,1992,Exports,(1000 MT),300.0
+China,1992,Imports,(1000 MT),150.0
+China,1992,Production,(1000 MT),10300.0
+China,1992,Yield,(MT/HA),1.43
+China,1993,Area Harvested,(1000 HA),9454.0
+China,1993,Domestic Consumption,(1000 MT),14335.0
+China,1993,Ending Stocks,(1000 MT),0.0
+China,1993,Exports,(1000 MT),1100.0
+China,1993,Imports,(1000 MT),125.0
+China,1993,Production,(1000 MT),15310.0
+China,1993,Yield,(MT/HA),1.62
+China,1994,Area Harvested,(1000 HA),9222.0
+China,1994,Domestic Consumption,(1000 MT),15761.0
+China,1994,Ending Stocks,(1000 MT),0.0
+China,1994,Exports,(1000 MT),394.0
+China,1994,Imports,(1000 MT),155.0
+China,1994,Production,(1000 MT),16000.0
+China,1994,Yield,(MT/HA),1.74
+China,1995,Area Harvested,(1000 HA),8127.0
+China,1995,Domestic Consumption,(1000 MT),14075.0
+China,1995,Ending Stocks,(1000 MT),0.0
+China,1995,Exports,(1000 MT),222.0
+China,1995,Imports,(1000 MT),795.0
+China,1995,Production,(1000 MT),13502.0
+China,1995,Yield,(MT/HA),1.66
+China,1996,Area Harvested,(1000 HA),7471.0
+China,1996,Domestic Consumption,(1000 MT),14309.0
+China,1996,Ending Stocks,(1000 MT),990.0
+China,1996,Exports,(1000 MT),195.0
+China,1996,Imports,(1000 MT),2274.0
+China,1996,Production,(1000 MT),13220.0
+China,1996,Yield,(MT/HA),1.77
+China,1997,Area Harvested,(1000 HA),8346.0
+China,1997,Domestic Consumption,(1000 MT),15472.0
+China,1997,Ending Stocks,(1000 MT),3018.0
+China,1997,Exports,(1000 MT),168.0
+China,1997,Imports,(1000 MT),2940.0
+China,1997,Production,(1000 MT),14728.0
+China,1997,Yield,(MT/HA),1.76
+China,1998,Area Harvested,(1000 HA),8500.0
+China,1998,Domestic Consumption,(1000 MT),19929.0
+China,1998,Ending Stocks,(1000 MT),1904.0
+China,1998,Exports,(1000 MT),187.0
+China,1998,Imports,(1000 MT),3850.0
+China,1998,Production,(1000 MT),15152.0
+China,1998,Yield,(MT/HA),1.78
+China,1999,Area Harvested,(1000 HA),7962.0
+China,1999,Domestic Consumption,(1000 MT),22854.0
+China,1999,Ending Stocks,(1000 MT),3170.0
+China,1999,Exports,(1000 MT),230.0
+China,1999,Imports,(1000 MT),10100.0
+China,1999,Production,(1000 MT),14250.0
+China,1999,Yield,(MT/HA),1.79
+China,2000,Area Harvested,(1000 HA),9307.0
+China,2000,Domestic Consumption,(1000 MT),26706.0
+China,2000,Ending Stocks,(1000 MT),4910.0
+China,2000,Exports,(1000 MT),208.0
+China,2000,Imports,(1000 MT),13245.0
+China,2000,Production,(1000 MT),15409.0
+China,2000,Yield,(MT/HA),1.66
+China,2001,Area Harvested,(1000 HA),9482.0
+China,2001,Domestic Consumption,(1000 MT),28310.0
+China,2001,Ending Stocks,(1000 MT),2095.0
+China,2001,Exports,(1000 MT),300.0
+China,2001,Imports,(1000 MT),10385.0
+China,2001,Production,(1000 MT),15410.0
+China,2001,Yield,(MT/HA),1.63
+China,2002,Area Harvested,(1000 HA),8720.0
+China,2002,Domestic Consumption,(1000 MT),35290.0
+China,2002,Ending Stocks,(1000 MT),4464.0
+China,2002,Exports,(1000 MT),265.0
+China,2002,Imports,(1000 MT),21417.0
+China,2002,Production,(1000 MT),16507.0
+China,2002,Yield,(MT/HA),1.89
+China,2003,Area Harvested,(1000 HA),9313.0
+China,2003,Domestic Consumption,(1000 MT),34372.0
+China,2003,Ending Stocks,(1000 MT),2100.0
+China,2003,Exports,(1000 MT),319.0
+China,2003,Imports,(1000 MT),16933.0
+China,2003,Production,(1000 MT),15394.0
+China,2003,Yield,(MT/HA),1.65
+China,2004,Area Harvested,(1000 HA),9589.0
+China,2004,Domestic Consumption,(1000 MT),40213.0
+China,2004,Ending Stocks,(1000 MT),4700.0
+China,2004,Exports,(1000 MT),390.0
+China,2004,Imports,(1000 MT),25802.0
+China,2004,Production,(1000 MT),17401.0
+China,2004,Yield,(MT/HA),1.81
+China,2005,Area Harvested,(1000 HA),9591.0
+China,2005,Domestic Consumption,(1000 MT),44440.0
+China,2005,Ending Stocks,(1000 MT),4573.0
+China,2005,Exports,(1000 MT),354.0
+China,2005,Imports,(1000 MT),28317.0
+China,2005,Production,(1000 MT),16350.0
+China,2005,Yield,(MT/HA),1.7
+China,2006,Area Harvested,(1000 HA),9304.0
+China,2006,Domestic Consumption,(1000 MT),46126.0
+China,2006,Ending Stocks,(1000 MT),1809.0
+China,2006,Exports,(1000 MT),446.0
+China,2006,Imports,(1000 MT),28726.0
+China,2006,Production,(1000 MT),15082.0
+China,2006,Yield,(MT/HA),1.62
+China,2007,Area Harvested,(1000 HA),8801.0
+China,2007,Domestic Consumption,(1000 MT),49568.0
+China,2007,Ending Stocks,(1000 MT),2397.0
+China,2007,Exports,(1000 MT),453.0
+China,2007,Imports,(1000 MT),37816.0
+China,2007,Production,(1000 MT),12793.0
+China,2007,Yield,(MT/HA),1.45
+China,2008,Area Harvested,(1000 HA),9225.0
+China,2008,Domestic Consumption,(1000 MT),51500.0
+China,2008,Ending Stocks,(1000 MT),7304.0
+China,2008,Exports,(1000 MT),400.0
+China,2008,Imports,(1000 MT),41098.0
+China,2008,Production,(1000 MT),15709.0
+China,2008,Yield,(MT/HA),1.7
+China,2009,Area Harvested,(1000 HA),9339.0
+China,2009,Domestic Consumption,(1000 MT),59700.0
+China,2009,Ending Stocks,(1000 MT),12982.0
+China,2009,Exports,(1000 MT),184.0
+China,2009,Imports,(1000 MT),50338.0
+China,2009,Production,(1000 MT),15224.0
+China,2009,Yield,(MT/HA),1.63
+China,2010,Area Harvested,(1000 HA),8700.0
+China,2010,Domestic Consumption,(1000 MT),66000.0
+China,2010,Ending Stocks,(1000 MT),14541.0
+China,2010,Exports,(1000 MT),190.0
+China,2010,Imports,(1000 MT),52339.0
+China,2010,Production,(1000 MT),15410.0
+China,2010,Yield,(MT/HA),1.77
+China,2011,Area Harvested,(1000 HA),8103.0
+China,2011,Domestic Consumption,(1000 MT),72300.0
+China,2011,Ending Stocks,(1000 MT),16076.0
+China,2011,Exports,(1000 MT),275.0
+China,2011,Imports,(1000 MT),59231.0
+China,2011,Production,(1000 MT),14879.0
+China,2011,Yield,(MT/HA),1.84
+China,2012,Area Harvested,(1000 HA),7405.0
+China,2012,Domestic Consumption,(1000 MT),76700.0
+China,2012,Ending Stocks,(1000 MT),12411.0
+China,2012,Exports,(1000 MT),266.0
+China,2012,Imports,(1000 MT),59865.0
+China,2012,Production,(1000 MT),13436.0
+China,2012,Yield,(MT/HA),1.81
+China,2013,Area Harvested,(1000 HA),7050.0
+China,2013,Domestic Consumption,(1000 MT),81000.0
+China,2013,Ending Stocks,(1000 MT),13967.0
+China,2013,Exports,(1000 MT),215.0
+China,2013,Imports,(1000 MT),70364.0
+China,2013,Production,(1000 MT),12407.0
+China,2013,Yield,(MT/HA),1.76
+China,2014,Area Harvested,(1000 HA),7098.0
+China,2014,Domestic Consumption,(1000 MT),87800.0
+China,2014,Ending Stocks,(1000 MT),17060.0
+China,2014,Exports,(1000 MT),143.0
+China,2014,Imports,(1000 MT),78350.0
+China,2014,Production,(1000 MT),12686.0
+China,2014,Yield,(MT/HA),1.79
+China,2015,Area Harvested,(1000 HA),6827.0
+China,2015,Domestic Consumption,(1000 MT),95900.0
+China,2015,Ending Stocks,(1000 MT),16643.0
+China,2015,Exports,(1000 MT),114.0
+China,2015,Imports,(1000 MT),83230.0
+China,2015,Production,(1000 MT),12367.0
+China,2015,Yield,(MT/HA),1.81
+China,2016,Area Harvested,(1000 HA),7599.0
+China,2016,Domestic Consumption,(1000 MT),103500.0
+China,2016,Ending Stocks,(1000 MT),20120.0
+China,2016,Exports,(1000 MT),114.0
+China,2016,Imports,(1000 MT),93495.0
+China,2016,Production,(1000 MT),13596.0
+China,2016,Yield,(MT/HA),1.79
+China,2017,Area Harvested,(1000 HA),8245.0
+China,2017,Domestic Consumption,(1000 MT),106800.0
+China,2017,Ending Stocks,(1000 MT),22562.0
+China,2017,Exports,(1000 MT),134.0
+China,2017,Imports,(1000 MT),94093.0
+China,2017,Production,(1000 MT),15283.0
+China,2017,Yield,(MT/HA),1.85
+China,2018,Area Harvested,(1000 HA),8413.0
+China,2018,Domestic Consumption,(1000 MT),102600.0
+China,2018,Ending Stocks,(1000 MT),18350.0
+China,2018,Exports,(1000 MT),116.0
+China,2018,Imports,(1000 MT),82537.0
+China,2018,Production,(1000 MT),15967.0
+China,2018,Yield,(MT/HA),1.9
+China,2019,Area Harvested,(1000 HA),9332.0
+China,2019,Domestic Consumption,(1000 MT),110400.0
+China,2019,Ending Stocks,(1000 MT),24484.0
+China,2019,Exports,(1000 MT),90.0
+China,2019,Imports,(1000 MT),98532.0
+China,2019,Production,(1000 MT),18092.0
+China,2019,Yield,(MT/HA),1.94
+China,2020,Area Harvested,(1000 HA),9883.0
+China,2020,Domestic Consumption,(1000 MT),114900.0
+China,2020,Ending Stocks,(1000 MT),28856.0
+China,2020,Exports,(1000 MT),70.0
+China,2020,Imports,(1000 MT),99740.0
+China,2020,Production,(1000 MT),19602.0
+China,2020,Yield,(MT/HA),1.98
+China,2021,Area Harvested,(1000 HA),8415.0
+China,2021,Domestic Consumption,(1000 MT),110300.0
+China,2021,Ending Stocks,(1000 MT),25146.0
+China,2021,Exports,(1000 MT),102.0
+China,2021,Imports,(1000 MT),90297.0
+China,2021,Production,(1000 MT),16395.0
+China,2021,Yield,(MT/HA),1.95
+China,2022,Area Harvested,(1000 HA),10244.0
+China,2022,Domestic Consumption,(1000 MT),117500.0
+China,2022,Ending Stocks,(1000 MT),32341.0
+China,2022,Exports,(1000 MT),89.0
+China,2022,Imports,(1000 MT),104500.0
+China,2022,Production,(1000 MT),20284.0
+China,2022,Yield,(MT/HA),1.98
+China,2023,Area Harvested,(1000 HA),10470.0
+China,2023,Domestic Consumption,(1000 MT),121800.0
+China,2023,Ending Stocks,(1000 MT),43311.0
+China,2023,Exports,(1000 MT),70.0
+China,2023,Imports,(1000 MT),112000.0
+China,2023,Production,(1000 MT),20840.0
+China,2023,Yield,(MT/HA),1.99
+China,2024,Area Harvested,(1000 HA),10333.0
+China,2024,Domestic Consumption,(1000 MT),127400.0
+China,2024,Ending Stocks,(1000 MT),44489.0
+China,2024,Exports,(1000 MT),72.0
+China,2024,Imports,(1000 MT),108000.0
+China,2024,Production,(1000 MT),20650.0
+China,2024,Yield,(MT/HA),2.0
+China,2025,Area Harvested,(1000 HA),10300.0
+China,2025,Domestic Consumption,(1000 MT),133900.0
+China,2025,Ending Stocks,(1000 MT),44358.0
+China,2025,Exports,(1000 MT),131.0
+China,2025,Imports,(1000 MT),113000.0
+China,2025,Production,(1000 MT),20900.0
+China,2025,Yield,(MT/HA),2.03
+China,2026,Area Harvested,(1000 HA),10300.0
+China,2026,Domestic Consumption,(1000 MT),136000.0
+China,2026,Ending Stocks,(1000 MT),44258.0
+China,2026,Exports,(1000 MT),100.0
+China,2026,Imports,(1000 MT),115000.0
+China,2026,Production,(1000 MT),21000.0
+China,2026,Yield,(MT/HA),2.04
+United States,1964,Area Harvested,(1000 HA),12462.0
+United States,1964,Domestic Consumption,(1000 MT),14326.0
+United States,1964,Ending Stocks,(1000 MT),808.0
+United States,1964,Exports,(1000 MT),5774.0
+United States,1964,Imports,(1000 MT),0.0
+United States,1964,Production,(1000 MT),19076.0
+United States,1964,Yield,(MT/HA),1.53
+United States,1965,Area Harvested,(1000 HA),13941.0
+United States,1965,Domestic Consumption,(1000 MT),16032.0
+United States,1965,Ending Stocks,(1000 MT),970.0
+United States,1965,Exports,(1000 MT),6820.0
+United States,1965,Imports,(1000 MT),0.0
+United States,1965,Production,(1000 MT),23014.0
+United States,1965,Yield,(MT/HA),1.65
+United States,1966,Area Harvested,(1000 HA),14790.0
+United States,1966,Domestic Consumption,(1000 MT),16667.0
+United States,1966,Ending Stocks,(1000 MT),2453.0
+United States,1966,Exports,(1000 MT),7119.0
+United States,1966,Imports,(1000 MT),0.0
+United States,1966,Production,(1000 MT),25269.0
+United States,1966,Yield,(MT/HA),1.71
+United States,1967,Area Harvested,(1000 HA),16109.0
+United States,1967,Domestic Consumption,(1000 MT),17246.0
+United States,1967,Ending Stocks,(1000 MT),4527.0
+United States,1967,Exports,(1000 MT),7255.0
+United States,1967,Imports,(1000 MT),0.0
+United States,1967,Production,(1000 MT),26575.0
+United States,1967,Yield,(MT/HA),1.65
+United States,1968,Area Harvested,(1000 HA),16751.0
+United States,1968,Domestic Consumption,(1000 MT),17954.0
+United States,1968,Ending Stocks,(1000 MT),8895.0
+United States,1968,Exports,(1000 MT),7805.0
+United States,1968,Imports,(1000 MT),0.0
+United States,1968,Production,(1000 MT),30127.0
+United States,1968,Yield,(MT/HA),1.8
+United States,1969,Area Harvested,(1000 HA),16729.0
+United States,1969,Domestic Consumption,(1000 MT),21706.0
+United States,1969,Ending Stocks,(1000 MT),6255.0
+United States,1969,Exports,(1000 MT),11773.0
+United States,1969,Imports,(1000 MT),0.0
+United States,1969,Production,(1000 MT),30839.0
+United States,1969,Yield,(MT/HA),1.84
+United States,1970,Area Harvested,(1000 HA),17098.0
+United States,1970,Domestic Consumption,(1000 MT),22436.0
+United States,1970,Ending Stocks,(1000 MT),2688.0
+United States,1970,Exports,(1000 MT),11806.0
+United States,1970,Imports,(1000 MT),0.0
+United States,1970,Production,(1000 MT),30675.0
+United States,1970,Yield,(MT/HA),1.79
+United States,1971,Area Harvested,(1000 HA),17282.0
+United States,1971,Domestic Consumption,(1000 MT),21395.0
+United States,1971,Ending Stocks,(1000 MT),1958.0
+United States,1971,Exports,(1000 MT),11344.0
+United States,1971,Imports,(1000 MT),0.0
+United States,1971,Production,(1000 MT),32009.0
+United States,1971,Yield,(MT/HA),1.85
+United States,1972,Area Harvested,(1000 HA),18488.0
+United States,1972,Domestic Consumption,(1000 MT),21868.0
+United States,1972,Ending Stocks,(1000 MT),1623.0
+United States,1972,Exports,(1000 MT),13048.0
+United States,1972,Imports,(1000 MT),0.0
+United States,1972,Production,(1000 MT),34581.0
+United States,1972,Yield,(MT/HA),1.87
+United States,1973,Area Harvested,(1000 HA),22528.0
+United States,1973,Domestic Consumption,(1000 MT),24421.0
+United States,1973,Ending Stocks,(1000 MT),4647.0
+United States,1973,Exports,(1000 MT),14673.0
+United States,1973,Imports,(1000 MT),0.0
+United States,1973,Production,(1000 MT),42118.0
+United States,1973,Yield,(MT/HA),1.87
+United States,1974,Area Harvested,(1000 HA),20777.0
+United States,1974,Domestic Consumption,(1000 MT),21178.0
+United States,1974,Ending Stocks,(1000 MT),5121.0
+United States,1974,Exports,(1000 MT),11450.0
+United States,1974,Imports,(1000 MT),0.0
+United States,1974,Production,(1000 MT),33102.0
+United States,1974,Yield,(MT/HA),1.59
+United States,1975,Area Harvested,(1000 HA),21698.0
+United States,1975,Domestic Consumption,(1000 MT),25487.0
+United States,1975,Ending Stocks,(1000 MT),6666.0
+United States,1975,Exports,(1000 MT),15107.0
+United States,1975,Imports,(1000 MT),0.0
+United States,1975,Production,(1000 MT),42139.0
+United States,1975,Yield,(MT/HA),1.94
+United States,1976,Area Harvested,(1000 HA),19992.0
+United States,1976,Domestic Consumption,(1000 MT),23584.0
+United States,1976,Ending Stocks,(1000 MT),2801.0
+United States,1976,Exports,(1000 MT),15351.0
+United States,1976,Imports,(1000 MT),0.0
+United States,1976,Production,(1000 MT),35070.0
+United States,1976,Yield,(MT/HA),1.75
+United States,1977,Area Harvested,(1000 HA),23403.0
+United States,1977,Domestic Consumption,(1000 MT),27451.0
+United States,1977,Ending Stocks,(1000 MT),4386.0
+United States,1977,Exports,(1000 MT),19061.0
+United States,1977,Imports,(1000 MT),0.0
+United States,1977,Production,(1000 MT),48097.0
+United States,1977,Yield,(MT/HA),2.06
+United States,1978,Area Harvested,(1000 HA),25764.0
+United States,1978,Domestic Consumption,(1000 MT),30349.0
+United States,1978,Ending Stocks,(1000 MT),4779.0
+United States,1978,Exports,(1000 MT),20117.0
+United States,1978,Imports,(1000 MT),0.0
+United States,1978,Production,(1000 MT),50859.0
+United States,1978,Yield,(MT/HA),1.97
+United States,1979,Area Harvested,(1000 HA),28467.0
+United States,1979,Domestic Consumption,(1000 MT),32730.0
+United States,1979,Ending Stocks,(1000 MT),9756.0
+United States,1979,Exports,(1000 MT),23818.0
+United States,1979,Imports,(1000 MT),0.0
+United States,1979,Production,(1000 MT),61525.0
+United States,1979,Yield,(MT/HA),2.16
+United States,1980,Area Harvested,(1000 HA),27443.0
+United States,1980,Domestic Consumption,(1000 MT),30446.0
+United States,1980,Ending Stocks,(1000 MT),8519.0
+United States,1980,Exports,(1000 MT),19712.0
+United States,1980,Imports,(1000 MT),0.0
+United States,1980,Production,(1000 MT),48921.0
+United States,1980,Yield,(MT/HA),1.78
+United States,1981,Area Harvested,(1000 HA),26776.0
+United States,1981,Domestic Consumption,(1000 MT),30443.0
+United States,1981,Ending Stocks,(1000 MT),6926.0
+United States,1981,Exports,(1000 MT),25285.0
+United States,1981,Imports,(1000 MT),0.0
+United States,1981,Production,(1000 MT),54135.0
+United States,1981,Yield,(MT/HA),2.02
+United States,1982,Area Harvested,(1000 HA),28102.0
+United States,1982,Domestic Consumption,(1000 MT),32523.0
+United States,1982,Ending Stocks,(1000 MT),9379.0
+United States,1982,Exports,(1000 MT),24634.0
+United States,1982,Imports,(1000 MT),0.0
+United States,1982,Production,(1000 MT),59610.0
+United States,1982,Yield,(MT/HA),2.12
+United States,1983,Area Harvested,(1000 HA),25303.0
+United States,1983,Domestic Consumption,(1000 MT),28888.0
+United States,1983,Ending Stocks,(1000 MT),4788.0
+United States,1983,Exports,(1000 MT),20221.0
+United States,1983,Imports,(1000 MT),0.0
+United States,1983,Production,(1000 MT),44518.0
+United States,1983,Yield,(MT/HA),1.76
+United States,1984,Area Harvested,(1000 HA),26755.0
+United States,1984,Domestic Consumption,(1000 MT),30575.0
+United States,1984,Ending Stocks,(1000 MT),8592.0
+United States,1984,Exports,(1000 MT),16265.0
+United States,1984,Imports,(1000 MT),0.0
+United States,1984,Production,(1000 MT),50644.0
+United States,1984,Yield,(MT/HA),1.89
+United States,1985,Area Harvested,(1000 HA),24929.0
+United States,1985,Domestic Consumption,(1000 MT),30981.0
+United States,1985,Ending Stocks,(1000 MT),14580.0
+United States,1985,Exports,(1000 MT),20158.0
+United States,1985,Imports,(1000 MT),0.0
+United States,1985,Production,(1000 MT),57127.0
+United States,1985,Yield,(MT/HA),2.29
+United States,1986,Area Harvested,(1000 HA),23598.0
+United States,1986,Domestic Consumption,(1000 MT),34972.0
+United States,1986,Ending Stocks,(1000 MT),11876.0
+United States,1986,Exports,(1000 MT),20600.0
+United States,1986,Imports,(1000 MT),0.0
+United States,1986,Production,(1000 MT),52868.0
+United States,1986,Yield,(MT/HA),2.24
+United States,1987,Area Harvested,(1000 HA),23137.0
+United States,1987,Domestic Consumption,(1000 MT),34544.0
+United States,1987,Ending Stocks,(1000 MT),8232.0
+United States,1987,Exports,(1000 MT),21870.0
+United States,1987,Imports,(1000 MT),34.0
+United States,1987,Production,(1000 MT),52736.0
+United States,1987,Yield,(MT/HA),2.28
+United States,1988,Area Harvested,(1000 HA),23218.0
+United States,1988,Domestic Consumption,(1000 MT),31174.0
+United States,1988,Ending Stocks,(1000 MT),4954.0
+United States,1988,Exports,(1000 MT),14355.0
+United States,1988,Imports,(1000 MT),98.0
+United States,1988,Production,(1000 MT),42153.0
+United States,1988,Yield,(MT/HA),1.82
+United States,1989,Area Harvested,(1000 HA),24094.0
+United States,1989,Domestic Consumption,(1000 MT),33935.0
+United States,1989,Ending Stocks,(1000 MT),6508.0
+United States,1989,Exports,(1000 MT),16933.0
+United States,1989,Imports,(1000 MT),68.0
+United States,1989,Production,(1000 MT),52354.0
+United States,1989,Yield,(MT/HA),2.17
+United States,1990,Area Harvested,(1000 HA),22870.0
+United States,1990,Domestic Consumption,(1000 MT),34914.0
+United States,1990,Ending Stocks,(1000 MT),8955.0
+United States,1990,Exports,(1000 MT),15150.0
+United States,1990,Imports,(1000 MT),95.0
+United States,1990,Production,(1000 MT),52416.0
+United States,1990,Yield,(MT/HA),2.29
+United States,1991,Area Harvested,(1000 HA),23477.0
+United States,1991,Domestic Consumption,(1000 MT),36922.0
+United States,1991,Ending Stocks,(1000 MT),7578.0
+United States,1991,Exports,(1000 MT),18614.0
+United States,1991,Imports,(1000 MT),94.0
+United States,1991,Production,(1000 MT),54065.0
+United States,1991,Yield,(MT/HA),2.3
+United States,1992,Area Harvested,(1000 HA),23566.0
+United States,1992,Domestic Consumption,(1000 MT),38319.0
+United States,1992,Ending Stocks,(1000 MT),7955.0
+United States,1992,Exports,(1000 MT),20972.0
+United States,1992,Imports,(1000 MT),56.0
+United States,1992,Production,(1000 MT),59612.0
+United States,1992,Yield,(MT/HA),2.53
+United States,1993,Area Harvested,(1000 HA),23191.0
+United States,1993,Domestic Consumption,(1000 MT),37318.0
+United States,1993,Ending Stocks,(1000 MT),5691.0
+United States,1993,Exports,(1000 MT),16006.0
+United States,1993,Imports,(1000 MT),175.0
+United States,1993,Production,(1000 MT),50885.0
+United States,1993,Yield,(MT/HA),2.19
+United States,1994,Area Harvested,(1000 HA),24609.0
+United States,1994,Domestic Consumption,(1000 MT),42305.0
+United States,1994,Ending Stocks,(1000 MT),9112.0
+United States,1994,Exports,(1000 MT),22867.0
+United States,1994,Imports,(1000 MT),149.0
+United States,1994,Production,(1000 MT),68444.0
+United States,1994,Yield,(MT/HA),2.78
+United States,1995,Area Harvested,(1000 HA),24906.0
+United States,1995,Domestic Consumption,(1000 MT),40306.0
+United States,1995,Ending Stocks,(1000 MT),4993.0
+United States,1995,Exports,(1000 MT),23108.0
+United States,1995,Imports,(1000 MT),121.0
+United States,1995,Production,(1000 MT),59174.0
+United States,1995,Yield,(MT/HA),2.38
+United States,1996,Area Harvested,(1000 HA),25637.0
+United States,1996,Domestic Consumption,(1000 MT),42317.0
+United States,1996,Ending Stocks,(1000 MT),3588.0
+United States,1996,Exports,(1000 MT),24110.0
+United States,1996,Imports,(1000 MT),242.0
+United States,1996,Production,(1000 MT),64780.0
+United States,1996,Yield,(MT/HA),2.53
+United States,1997,Area Harvested,(1000 HA),27968.0
+United States,1997,Domestic Consumption,(1000 MT),47666.0
+United States,1997,Ending Stocks,(1000 MT),5438.0
+United States,1997,Exports,(1000 MT),23796.0
+United States,1997,Imports,(1000 MT),136.0
+United States,1997,Production,(1000 MT),73176.0
+United States,1997,Yield,(MT/HA),2.62
+United States,1998,Area Harvested,(1000 HA),28507.0
+United States,1998,Domestic Consumption,(1000 MT),48749.0
+United States,1998,Ending Stocks,(1000 MT),9484.0
+United States,1998,Exports,(1000 MT),21899.0
+United States,1998,Imports,(1000 MT),96.0
+United States,1998,Production,(1000 MT),74598.0
+United States,1998,Yield,(MT/HA),2.62
+United States,1999,Area Harvested,(1000 HA),29318.0
+United States,1999,Domestic Consumption,(1000 MT),47388.0
+United States,1999,Ending Stocks,(1000 MT),7897.0
+United States,1999,Exports,(1000 MT),26537.0
+United States,1999,Imports,(1000 MT),114.0
+United States,1999,Production,(1000 MT),72224.0
+United States,1999,Yield,(MT/HA),2.46
+United States,2000,Area Harvested,(1000 HA),29303.0
+United States,2000,Domestic Consumption,(1000 MT),49203.0
+United States,2000,Ending Stocks,(1000 MT),6743.0
+United States,2000,Exports,(1000 MT),27103.0
+United States,2000,Imports,(1000 MT),97.0
+United States,2000,Production,(1000 MT),75055.0
+United States,2000,Yield,(MT/HA),2.56
+United States,2001,Area Harvested,(1000 HA),29532.0
+United States,2001,Domestic Consumption,(1000 MT),50867.0
+United States,2001,Ending Stocks,(1000 MT),5663.0
+United States,2001,Exports,(1000 MT),28948.0
+United States,2001,Imports,(1000 MT),63.0
+United States,2001,Production,(1000 MT),78672.0
+United States,2001,Yield,(MT/HA),2.66
+United States,2002,Area Harvested,(1000 HA),29338.0
+United States,2002,Domestic Consumption,(1000 MT),47524.0
+United States,2002,Ending Stocks,(1000 MT),4853.0
+United States,2002,Exports,(1000 MT),28423.0
+United States,2002,Imports,(1000 MT),127.0
+United States,2002,Production,(1000 MT),75010.0
+United States,2002,Yield,(MT/HA),2.56
+United States,2003,Area Harvested,(1000 HA),29330.0
+United States,2003,Domestic Consumption,(1000 MT),44600.0
+United States,2003,Ending Stocks,(1000 MT),3059.0
+United States,2003,Exports,(1000 MT),24128.0
+United States,2003,Imports,(1000 MT),151.0
+United States,2003,Production,(1000 MT),66783.0
+United States,2003,Yield,(MT/HA),2.28
+United States,2004,Area Harvested,(1000 HA),29930.0
+United States,2004,Domestic Consumption,(1000 MT),51407.0
+United States,2004,Ending Stocks,(1000 MT),6960.0
+United States,2004,Exports,(1000 MT),29860.0
+United States,2004,Imports,(1000 MT),152.0
+United States,2004,Production,(1000 MT),85016.0
+United States,2004,Yield,(MT/HA),2.84
+United States,2005,Area Harvested,(1000 HA),28834.0
+United States,2005,Domestic Consumption,(1000 MT),52751.0
+United States,2005,Ending Stocks,(1000 MT),12229.0
+United States,2005,Exports,(1000 MT),25579.0
+United States,2005,Imports,(1000 MT),92.0
+United States,2005,Production,(1000 MT),83507.0
+United States,2005,Yield,(MT/HA),2.9
+United States,2006,Area Harvested,(1000 HA),30190.0
+United States,2006,Domestic Consumption,(1000 MT),53473.0
+United States,2006,Ending Stocks,(1000 MT),15617.0
+United States,2006,Exports,(1000 MT),30386.0
+United States,2006,Imports,(1000 MT),246.0
+United States,2006,Production,(1000 MT),87001.0
+United States,2006,Yield,(MT/HA),2.88
+United States,2007,Area Harvested,(1000 HA),25959.0
+United States,2007,Domestic Consumption,(1000 MT),51627.0
+United States,2007,Ending Stocks,(1000 MT),5580.0
+United States,2007,Exports,(1000 MT),31538.0
+United States,2007,Imports,(1000 MT),269.0
+United States,2007,Production,(1000 MT),72859.0
+United States,2007,Yield,(MT/HA),2.81
+United States,2008,Area Harvested,(1000 HA),30222.0
+United States,2008,Domestic Consumption,(1000 MT),48112.0
+United States,2008,Ending Stocks,(1000 MT),3761.0
+United States,2008,Exports,(1000 MT),34817.0
+United States,2008,Imports,(1000 MT),361.0
+United States,2008,Production,(1000 MT),80749.0
+United States,2008,Yield,(MT/HA),2.67
+United States,2009,Area Harvested,(1000 HA),30907.0
+United States,2009,Domestic Consumption,(1000 MT),50724.0
+United States,2009,Ending Stocks,(1000 MT),4106.0
+United States,2009,Exports,(1000 MT),40798.0
+United States,2009,Imports,(1000 MT),397.0
+United States,2009,Production,(1000 MT),91470.0
+United States,2009,Yield,(MT/HA),2.96
+United States,2010,Area Harvested,(1000 HA),31003.0
+United States,2010,Domestic Consumption,(1000 MT),48351.0
+United States,2010,Ending Stocks,(1000 MT),5852.0
+United States,2010,Exports,(1000 MT),40959.0
+United States,2010,Imports,(1000 MT),393.0
+United States,2010,Production,(1000 MT),90663.0
+United States,2010,Yield,(MT/HA),2.92
+United States,2011,Area Harvested,(1000 HA),29856.0
+United States,2011,Domestic Consumption,(1000 MT),48786.0
+United States,2011,Ending Stocks,(1000 MT),4610.0
+United States,2011,Exports,(1000 MT),37186.0
+United States,2011,Imports,(1000 MT),439.0
+United States,2011,Production,(1000 MT),84291.0
+United States,2011,Yield,(MT/HA),2.82
+United States,2012,Area Harvested,(1000 HA),30814.0
+United States,2012,Domestic Consumption,(1000 MT),48550.0
+United States,2012,Ending Stocks,(1000 MT),3825.0
+United States,2012,Exports,(1000 MT),36129.0
+United States,2012,Imports,(1000 MT),1103.0
+United States,2012,Production,(1000 MT),82791.0
+United States,2012,Yield,(MT/HA),2.69
+United States,2013,Area Harvested,(1000 HA),30850.0
+United States,2013,Domestic Consumption,(1000 MT),50043.0
+United States,2013,Ending Stocks,(1000 MT),2504.0
+United States,2013,Exports,(1000 MT),44594.0
+United States,2013,Imports,(1000 MT),1953.0
+United States,2013,Production,(1000 MT),91363.0
+United States,2013,Yield,(MT/HA),2.96
+United States,2014,Area Harvested,(1000 HA),33431.0
+United States,2014,Domestic Consumption,(1000 MT),54989.0
+United States,2014,Ending Stocks,(1000 MT),5188.0
+United States,2014,Exports,(1000 MT),50136.0
+United States,2014,Imports,(1000 MT),904.0
+United States,2014,Production,(1000 MT),106905.0
+United States,2014,Yield,(MT/HA),3.2
+United States,2015,Area Harvested,(1000 HA),33080.0
+United States,2015,Domestic Consumption,(1000 MT),54475.0
+United States,2015,Ending Stocks,(1000 MT),5354.0
+United States,2015,Exports,(1000 MT),52869.0
+United States,2015,Imports,(1000 MT),641.0
+United States,2015,Production,(1000 MT),106869.0
+United States,2015,Yield,(MT/HA),3.23
+United States,2016,Area Harvested,(1000 HA),33470.0
+United States,2016,Domestic Consumption,(1000 MT),55719.0
+United States,2016,Ending Stocks,(1000 MT),8208.0
+United States,2016,Exports,(1000 MT),58964.0
+United States,2016,Imports,(1000 MT),606.0
+United States,2016,Production,(1000 MT),116931.0
+United States,2016,Yield,(MT/HA),3.49
+United States,2017,Area Harvested,(1000 HA),36236.0
+United States,2017,Domestic Consumption,(1000 MT),58873.0
+United States,2017,Ending Stocks,(1000 MT),11923.0
+United States,2017,Exports,(1000 MT),58071.0
+United States,2017,Imports,(1000 MT),594.0
+United States,2017,Production,(1000 MT),120065.0
+United States,2017,Yield,(MT/HA),3.31
+United States,2018,Area Harvested,(1000 HA),35448.0
+United States,2018,Domestic Consumption,(1000 MT),59924.0
+United States,2018,Ending Stocks,(1000 MT),25176.0
+United States,2018,Exports,(1000 MT),47721.0
+United States,2018,Imports,(1000 MT),383.0
+United States,2018,Production,(1000 MT),120515.0
+United States,2018,Yield,(MT/HA),3.4
+United States,2019,Area Harvested,(1000 HA),30318.0
+United States,2019,Domestic Consumption,(1000 MT),61782.0
+United States,2019,Ending Stocks,(1000 MT),14657.0
+United States,2019,Exports,(1000 MT),45800.0
+United States,2019,Imports,(1000 MT),419.0
+United States,2019,Production,(1000 MT),96644.0
+United States,2019,Yield,(MT/HA),3.19
+United States,2020,Area Harvested,(1000 HA),33428.0
+United States,2020,Domestic Consumption,(1000 MT),61287.0
+United States,2020,Ending Stocks,(1000 MT),6994.0
+United States,2020,Exports,(1000 MT),61664.0
+United States,2020,Imports,(1000 MT),539.0
+United States,2020,Production,(1000 MT),114749.0
+United States,2020,Yield,(MT/HA),3.43
+United States,2021,Area Harvested,(1000 HA),34921.0
+United States,2021,Domestic Consumption,(1000 MT),62893.0
+United States,2021,Ending Stocks,(1000 MT),7468.0
+United States,2021,Exports,(1000 MT),58570.0
+United States,2021,Imports,(1000 MT),433.0
+United States,2021,Production,(1000 MT),121504.0
+United States,2021,Yield,(MT/HA),3.48
+United States,2022,Area Harvested,(1000 HA),34873.0
+United States,2022,Domestic Consumption,(1000 MT),63302.0
+United States,2022,Ending Stocks,(1000 MT),7190.0
+United States,2022,Exports,(1000 MT),53864.0
+United States,2022,Imports,(1000 MT),667.0
+United States,2022,Production,(1000 MT),116221.0
+United States,2022,Yield,(MT/HA),3.33
+United States,2023,Area Harvested,(1000 HA),33294.0
+United States,2023,Domestic Consumption,(1000 MT),65361.0
+United States,2023,Ending Stocks,(1000 MT),9319.0
+United States,2023,Exports,(1000 MT),46350.0
+United States,2023,Imports,(1000 MT),567.0
+United States,2023,Production,(1000 MT),113273.0
+United States,2023,Yield,(MT/HA),3.4
+United States,2024,Area Harvested,(1000 HA),34887.0
+United States,2024,Domestic Consumption,(1000 MT),68837.0
+United States,2024,Ending Stocks,(1000 MT),8840.0
+United States,2024,Exports,(1000 MT),51495.0
+United States,2024,Imports,(1000 MT),806.0
+United States,2024,Production,(1000 MT),119047.0
+United States,2024,Yield,(MT/HA),3.41
+United States,2025,Area Harvested,(1000 HA),32544.0
+United States,2025,Domestic Consumption,(1000 MT),75592.0
+United States,2025,Ending Stocks,(1000 MT),8577.0
+United States,2025,Exports,(1000 MT),41243.0
+United States,2025,Imports,(1000 MT),606.0
+United States,2025,Production,(1000 MT),115966.0
+United States,2025,Yield,(MT/HA),3.56
+United States,2026,Area Harvested,(1000 HA),34755.0
+United States,2026,Domestic Consumption,(1000 MT),78758.0
+United States,2026,Ending Stocks,(1000 MT),8166.0
+United States,2026,Exports,(1000 MT),46811.0
+United States,2026,Imports,(1000 MT),680.0
+United States,2026,Production,(1000 MT),124478.0
+United States,2026,Yield,(MT/HA),3.58
+"World(各国加总,自算)",1964,Domestic Consumption,(1000 MT),29927.0
+"World(各国加总,自算)",1964,Ending Stocks,(1000 MT),1440.0
+"World(各国加总,自算)",1964,Production,(1000 MT),28699.0
+"World(各国加总,自算)",1965,Domestic Consumption,(1000 MT),31115.0
+"World(各国加总,自算)",1965,Ending Stocks,(1000 MT),1592.0
+"World(各国加总,自算)",1965,Production,(1000 MT),31080.0
+"World(各国加总,自算)",1966,Domestic Consumption,(1000 MT),34543.0
+"World(各国加总,自算)",1966,Ending Stocks,(1000 MT),3190.0
+"World(各国加总,自算)",1966,Production,(1000 MT),35732.0
+"World(各国加总,自算)",1967,Domestic Consumption,(1000 MT),35477.0
+"World(各国加总,自算)",1967,Ending Stocks,(1000 MT),5242.0
+"World(各国加总,自算)",1967,Production,(1000 MT),37098.0
+"World(各国加总,自算)",1968,Domestic Consumption,(1000 MT),37287.0
+"World(各国加总,自算)",1968,Ending Stocks,(1000 MT),9525.0
+"World(各国加总,自算)",1968,Production,(1000 MT),40611.0
+"World(各国加总,自算)",1969,Domestic Consumption,(1000 MT),43537.0
+"World(各国加总,自算)",1969,Ending Stocks,(1000 MT),6960.0
+"World(各国加总,自算)",1969,Production,(1000 MT),40943.0
+"World(各国加总,自算)",1970,Domestic Consumption,(1000 MT),45985.0
+"World(各国加总,自算)",1970,Ending Stocks,(1000 MT),3394.0
+"World(各国加总,自算)",1970,Production,(1000 MT),42134.0
+"World(各国加总,自算)",1971,Domestic Consumption,(1000 MT),46243.0
+"World(各国加总,自算)",1971,Ending Stocks,(1000 MT),2606.0
+"World(各国加总,自算)",1971,Production,(1000 MT),43438.0
+"World(各国加总,自算)",1972,Domestic Consumption,(1000 MT),45194.0
+"World(各国加总,自算)",1972,Ending Stocks,(1000 MT),2498.0
+"World(各国加总,自算)",1972,Production,(1000 MT),43906.0
+"World(各国加总,自算)",1973,Domestic Consumption,(1000 MT),52995.0
+"World(各国加总,自算)",1973,Ending Stocks,(1000 MT),5495.0
+"World(各国加总,自算)",1973,Production,(1000 MT),54007.0
+"World(各国加总,自算)",1974,Domestic Consumption,(1000 MT),47893.0
+"World(各国加总,自算)",1974,Ending Stocks,(1000 MT),6086.0
+"World(各国加总,自算)",1974,Production,(1000 MT),44249.0
+"World(各国加总,自算)",1975,Domestic Consumption,(1000 MT),55462.0
+"World(各国加总,自算)",1975,Ending Stocks,(1000 MT),8302.0
+"World(各国加总,自算)",1975,Production,(1000 MT),53633.0
+"World(各国加总,自算)",1976,Domestic Consumption,(1000 MT),53821.0
+"World(各国加总,自算)",1976,Ending Stocks,(1000 MT),3688.0
+"World(各国加总,自算)",1976,Production,(1000 MT),45465.0
+"World(各国加总,自算)",1977,Domestic Consumption,(1000 MT),72540.0
+"World(各国加总,自算)",1977,Ending Stocks,(1000 MT),10128.0
+"World(各国加总,自算)",1977,Production,(1000 MT),72151.0
+"World(各国加总,自算)",1978,Domestic Consumption,(1000 MT),78658.0
+"World(各国加总,自算)",1978,Ending Stocks,(1000 MT),9912.0
+"World(各国加总,自算)",1978,Production,(1000 MT),77408.0
+"World(各国加总,自算)",1979,Domestic Consumption,(1000 MT),84718.0
+"World(各国加总,自算)",1979,Ending Stocks,(1000 MT),18664.0
+"World(各国加总,自算)",1979,Production,(1000 MT),93389.0
+"World(各国加总,自算)",1980,Domestic Consumption,(1000 MT),83922.0
+"World(各国加总,自算)",1980,Ending Stocks,(1000 MT),16545.0
+"World(各国加总,自算)",1980,Production,(1000 MT),80928.0
+"World(各国加总,自算)",1981,Domestic Consumption,(1000 MT),87316.0
+"World(各国加总,自算)",1981,Ending Stocks,(1000 MT),15103.0
+"World(各国加总,自算)",1981,Production,(1000 MT),86083.0
+"World(各国加总,自算)",1982,Domestic Consumption,(1000 MT),90962.0
+"World(各国加总,自算)",1982,Ending Stocks,(1000 MT),17348.0
+"World(各国加总,自算)",1982,Production,(1000 MT),93458.0
+"World(各国加总,自算)",1983,Domestic Consumption,(1000 MT),86028.0
+"World(各国加总,自算)",1983,Ending Stocks,(1000 MT),13718.0
+"World(各国加总,自算)",1983,Production,(1000 MT),83116.0
+"World(各国加总,自算)",1984,Domestic Consumption,(1000 MT),88993.0
+"World(各国加总,自算)",1984,Ending Stocks,(1000 MT),17970.0
+"World(各国加总,自算)",1984,Production,(1000 MT),93075.0
+"World(各国加总,自算)",1985,Domestic Consumption,(1000 MT),92638.0
+"World(各国加总,自算)",1985,Ending Stocks,(1000 MT),23602.0
+"World(各国加总,自算)",1985,Production,(1000 MT),97006.0
+"World(各国加总,自算)",1986,Domestic Consumption,(1000 MT),102091.0
+"World(各国加总,自算)",1986,Ending Stocks,(1000 MT),20052.0
+"World(各国加总,自算)",1986,Production,(1000 MT),98022.0
+"World(各国加总,自算)",1987,Domestic Consumption,(1000 MT),101076.0
+"World(各国加总,自算)",1987,Ending Stocks,(1000 MT),20636.0
+"World(各国加总,自算)",1987,Production,(1000 MT),103631.0
+"World(各国加总,自算)",1988,Domestic Consumption,(1000 MT),97621.0
+"World(各国加总,自算)",1988,Ending Stocks,(1000 MT),19276.0
+"World(各国加总,自算)",1988,Production,(1000 MT),95833.0
+"World(各国加总,自算)",1989,Domestic Consumption,(1000 MT),104140.0
+"World(各国加总,自算)",1989,Ending Stocks,(1000 MT),21550.0
+"World(各国加总,自算)",1989,Production,(1000 MT),107202.0
+"World(各国加总,自算)",1990,Domestic Consumption,(1000 MT),104614.0
+"World(各国加总,自算)",1990,Ending Stocks,(1000 MT),21389.0
+"World(各国加总,自算)",1990,Production,(1000 MT),104288.0
+"World(各国加总,自算)",1991,Domestic Consumption,(1000 MT),94249.0
+"World(各国加总,自算)",1991,Ending Stocks,(1000 MT),18923.0
+"World(各国加总,自算)",1991,Production,(1000 MT),105742.0
+"World(各国加总,自算)",1992,Domestic Consumption,(1000 MT),99810.0
+"World(各国加总,自算)",1992,Ending Stocks,(1000 MT),20900.0
+"World(各国加总,自算)",1992,Production,(1000 MT),115930.0
+"World(各国加总,自算)",1993,Domestic Consumption,(1000 MT),106963.0
+"World(各国加总,自算)",1993,Ending Stocks,(1000 MT),18202.0
+"World(各国加总,自算)",1993,Production,(1000 MT),116758.0
+"World(各国加总,自算)",1994,Domestic Consumption,(1000 MT),115418.0
+"World(各国加总,自算)",1994,Ending Stocks,(1000 MT),23916.0
+"World(各国加总,自算)",1994,Production,(1000 MT),136607.0
+"World(各国加总,自算)",1995,Domestic Consumption,(1000 MT),116189.0
+"World(各国加总,自算)",1995,Ending Stocks,(1000 MT),17778.0
+"World(各国加总,自算)",1995,Production,(1000 MT),123744.0
+"World(各国加总,自算)",1996,Domestic Consumption,(1000 MT),118552.0
+"World(各国加总,自算)",1996,Ending Stocks,(1000 MT),14735.0
+"World(各国加总,自算)",1996,Production,(1000 MT),130788.0
+"World(各国加总,自算)",1997,Domestic Consumption,(1000 MT),128743.0
+"World(各国加总,自算)",1997,Ending Stocks,(1000 MT),26155.0
+"World(各国加总,自算)",1997,Production,(1000 MT),156393.0
+"World(各国加总,自算)",1998,Domestic Consumption,(1000 MT),142142.0
+"World(各国加总,自算)",1998,Ending Stocks,(1000 MT),28105.0
+"World(各国加总,自算)",1998,Production,(1000 MT),158290.0
+"World(各国加总,自算)",1999,Domestic Consumption,(1000 MT),143199.0
+"World(各国加总,自算)",1999,Ending Stocks,(1000 MT),29393.0
+"World(各国加总,自算)",1999,Production,(1000 MT),158776.0
+"World(各国加总,自算)",2000,Domestic Consumption,(1000 MT),152307.0
+"World(各国加总,自算)",2000,Ending Stocks,(1000 MT),33270.0
+"World(各国加总,自算)",2000,Production,(1000 MT),174452.0
+"World(各国加总,自算)",2001,Domestic Consumption,(1000 MT),163562.0
+"World(各国加总,自算)",2001,Ending Stocks,(1000 MT),36008.0
+"World(各国加总,自算)",2001,Production,(1000 MT),183430.0
+"World(各国加总,自算)",2002,Domestic Consumption,(1000 MT),172465.0
+"World(各国加总,自算)",2002,Ending Stocks,(1000 MT),43978.0
+"World(各国加总,自算)",2002,Production,(1000 MT),195705.0
+"World(各国加总,自算)",2003,Domestic Consumption,(1000 MT),173454.0
+"World(各国加总,自算)",2003,Ending Stocks,(1000 MT),39485.0
+"World(各国加总,自算)",2003,Production,(1000 MT),185571.0
+"World(各国加总,自算)",2004,Domestic Consumption,(1000 MT),188699.0
+"World(各国加总,自算)",2004,Ending Stocks,(1000 MT),49301.0
+"World(各国加总,自算)",2004,Production,(1000 MT),214325.0
+"World(各国加总,自算)",2005,Domestic Consumption,(1000 MT),199745.0
+"World(各国加总,自算)",2005,Ending Stocks,(1000 MT),54883.0
+"World(各国加总,自算)",2005,Production,(1000 MT),219483.0
+"World(各国加总,自算)",2006,Domestic Consumption,(1000 MT),208680.0
+"World(各国加总,自算)",2006,Ending Stocks,(1000 MT),64103.0
+"World(各国加总,自算)",2006,Production,(1000 MT),234374.0
+"World(各国加总,自算)",2007,Domestic Consumption,(1000 MT),213415.0
+"World(各国加总,自算)",2007,Ending Stocks,(1000 MT),53954.0
+"World(各国加总,自算)",2007,Production,(1000 MT),218495.0
+"World(各国加总,自算)",2008,Domestic Consumption,(1000 MT),208307.0
+"World(各国加总,自算)",2008,Ending Stocks,(1000 MT),45186.0
+"World(各国加总,自算)",2008,Production,(1000 MT),211548.0
+"World(各国加总,自算)",2009,Domestic Consumption,(1000 MT),225738.0
+"World(各国加总,自算)",2009,Ending Stocks,(1000 MT),62267.0
+"World(各国加总,自算)",2009,Production,(1000 MT),260035.0
+"World(各国加总,自算)",2010,Domestic Consumption,(1000 MT),239467.0
+"World(各国加总,自算)",2010,Ending Stocks,(1000 MT),72670.0
+"World(各国加总,自算)",2010,Production,(1000 MT),263848.0
+"World(各国加总,自算)",2011,Domestic Consumption,(1000 MT),246856.0
+"World(各国加总,自算)",2011,Ending Stocks,(1000 MT),56575.0
+"World(各国加总,自算)",2011,Production,(1000 MT),239945.0
+"World(各国加总,自算)",2012,Domestic Consumption,(1000 MT),251593.0
+"World(各国加总,自算)",2012,Ending Stocks,(1000 MT),57235.0
+"World(各国加总,自算)",2012,Production,(1000 MT),267973.0
+"World(各国加总,自算)",2013,Domestic Consumption,(1000 MT),264006.0
+"World(各国加总,自算)",2013,Ending Stocks,(1000 MT),62582.0
+"World(各国加总,自算)",2013,Production,(1000 MT),282105.0
+"World(各国加总,自算)",2014,Domestic Consumption,(1000 MT),287851.0
+"World(各国加总,自算)",2014,Ending Stocks,(1000 MT),78452.0
+"World(各国加总,自算)",2014,Production,(1000 MT),319605.0
+"World(各国加总,自算)",2015,Domestic Consumption,(1000 MT),300288.0
+"World(各国加总,自算)",2015,Ending Stocks,(1000 MT),78135.0
+"World(各国加总,自算)",2015,Production,(1000 MT),313740.0
+"World(各国加总,自算)",2016,Domestic Consumption,(1000 MT),316615.0
+"World(各国加总,自算)",2016,Ending Stocks,(1000 MT),94658.0
+"World(各国加总,自算)",2016,Production,(1000 MT),348340.0
+"World(各国加总,自算)",2017,Domestic Consumption,(1000 MT),324212.0
+"World(各国加总,自算)",2017,Ending Stocks,(1000 MT),98633.0
+"World(各国加总,自算)",2017,Production,(1000 MT),341013.0
+"World(各国加总,自算)",2018,Domestic Consumption,(1000 MT),329026.0
+"World(各国加总,自算)",2018,Ending Stocks,(1000 MT),112903.0
+"World(各国加总,自算)",2018,Production,(1000 MT),360714.0
+"World(各国加总,自算)",2019,Domestic Consumption,(1000 MT),343039.0
+"World(各国加总,自算)",2019,Ending Stocks,(1000 MT),93588.0
+"World(各国加总,自算)",2019,Production,(1000 MT),339017.0
+"World(各国加总,自算)",2020,Domestic Consumption,(1000 MT),349764.0
+"World(各国加总,自算)",2020,Ending Stocks,(1000 MT),97384.0
+"World(各国加总,自算)",2020,Production,(1000 MT),367026.0
+"World(各国加总,自算)",2021,Domestic Consumption,(1000 MT),349148.0
+"World(各国加总,自算)",2021,Ending Stocks,(1000 MT),92126.0
+"World(各国加总,自算)",2021,Production,(1000 MT),357798.0
+"World(各国加总,自算)",2022,Domestic Consumption,(1000 MT),351060.0
+"World(各国加总,自算)",2022,Ending Stocks,(1000 MT),100509.0
+"World(各国加总,自算)",2022,Production,(1000 MT),375600.0
+"World(各国加总,自算)",2023,Domestic Consumption,(1000 MT),367794.0
+"World(各国加总,自算)",2023,Ending Stocks,(1000 MT),113797.0
+"World(各国加总,自算)",2023,Production,(1000 MT),393725.0
+"World(各国加总,自算)",2024,Domestic Consumption,(1000 MT),395108.0
+"World(各国加总,自算)",2024,Ending Stocks,(1000 MT),124449.0
+"World(各国加总,自算)",2024,Production,(1000 MT),425321.0
+"World(各国加总,自算)",2025,Domestic Consumption,(1000 MT),416483.0
+"World(各国加总,自算)",2025,Ending Stocks,(1000 MT),123462.0
+"World(各国加总,自算)",2025,Production,(1000 MT),426409.0
+"World(各国加总,自算)",2026,Domestic Consumption,(1000 MT),426432.0
+"World(各国加总,自算)",2026,Ending Stocks,(1000 MT),122203.0
+"World(各国加总,自算)",2026,Production,(1000 MT),439796.0

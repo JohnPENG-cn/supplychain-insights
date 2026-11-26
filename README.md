@@ -41,6 +41,7 @@ npm run build
    - 半导体周期（四组公司的长历史，不下全行业结论）：`docs/columns/semi-cycle/`。栏目首页是 `index.md`，新文章要在首页「已经发布」里加一条。文首引用 `@/snippets/semi-cycle-note.md`。图片和可下载的数据集放在 `docs/public/columns/semi-cycle/`，文章里写 `/columns/semi-cycle/文件名.png`。数字只来自文内表格和数据集，自算的数在备注里标「自算」。不写存储合约价、现货价和涨跌幅，也不把存储厂放进这四组。
    - 产业链情报（按篇发布的公开信号，不是品类页）：`docs/briefs/`。栏目首页是 `index.md`。音频放在 `docs/public/audio/`，文章里写 `/audio/文件名.mp3`，由站点加上 `/supplychain-insights/`，不要写死域名。标题下面用 `ListenBar`，时长用稿子里的 `audio_duration`，不要改成另一套数字。文首引用 `@/snippets/brief-note.md`。
    - 太阳黑子和大豆（公开数据核对一个说法）：`docs/columns/sunspots-soy/`。栏目首页是 `index.md`，新文章要在首页「已经发布」里加一条。文首引用 `@/snippets/sunspots-soy-note.md`。图片、`data.csv` 和可重跑的 `analysis.py` 放在 `docs/public/columns/sunspots-soy/`，文章里写 `/columns/sunspots-soy/文件名`。自算的数标明「自算」。不写存储的合约价、现货价和涨跌幅。FAO 压缩包、NASS 的 PDF、PSD 的大表不要提交。
+   - 厄尔尼诺和大豆（公开数据核对厄尔尼诺能预测大豆收成和价格吗）：`docs/columns/enso-soy/`。栏目首页是 `index.md`，新文章要在首页「已经发布」里加一条。文首引用 `@/snippets/enso-soy-note.md`。图片、`data.csv` 和可重跑的 `analysis.py` 放在 `docs/public/columns/enso-soy/`，文章里写 `/columns/enso-soy/文件名`。自算的数标明「自算」。不写存储的合约价、现货价和涨跌幅。FAO 压缩包、NASS 的 PDF、PSD 的大表不要提交。
 2. 新建文件，文件名用英文小写和短横线，例如 `safety-stock.md`。目录页用 `index.md`。
 3.    文首写清标签。电子类文章可以引用现成的说明：
 
