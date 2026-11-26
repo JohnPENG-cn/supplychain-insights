@@ -827,8 +827,6 @@ for (const text of [
   '判断',
   '未知',
   '自算',
-  '现场观察',
-  '待 John 补充',
   '0.11',
   '0.46',
   '0.026',
@@ -844,6 +842,10 @@ for (const text of [
 }
 if (/DRAM|NAND|美光|DRAMeXchange/.test(sunspotArticle)) {
   console.error('太阳黑子与大豆这一篇混入了存储行情')
+  process.exit(1)
+}
+if (sunspotArticle.includes('现场观察')) {
+  console.error('太阳黑子与大豆这一篇不该有现场观察')
   process.exit(1)
 }
 if (!read('columns/sunspots-soy/index.html').includes('/columns/sunspots-soy/sunspots-vs-yield')) {
