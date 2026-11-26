@@ -83,6 +83,7 @@ const pages = [
   'dashboard/mlcc/index.html',
   'dashboard/ic/index.html',
   'dashboard/shipping/index.html',
+  'dashboard/soy/index.html',
   'briefs/index.html',
   'briefs/inp.html',
   'briefs/fiber.html',
@@ -287,7 +288,8 @@ for (const path of [
   'columns/cycle/',
   'columns/passive-cycle/twenty-years.html',
   'columns/shipping-cycle/twenty-years.html',
-  'dashboard/shipping/'
+  'dashboard/shipping/',
+  'dashboard/soy/'
 ]) {
   if (!sitemap.includes(`https://johnpeng-cn.github.io/supplychain-insights/${path}`)) {
     console.error(`站点地图没有：${path}`)
@@ -874,6 +876,54 @@ for (const text of ['不预测', '集装箱', '干散货', '油轮', '待 John �
 if (/航运业中位数|三组平均/.test(shippingBoard)) {
   console.error('航运看板把三组合成了一个结论')
   process.exit(1)
+}
+const soyBoard = articleOf('dashboard/soy/index.html')
+for (const text of [
+  '大豆周期信号',
+  '不构成投资建议',
+  '中性偏紧',
+  '只是概率',
+  '不作信号',
+  '自算',
+  '判断',
+  '6.5%',
+  '+2.46',
+  '26.8%',
+  '28.7%',
+  '12.10',
+  '515',
+  '第三方',
+  '/columns/enso-soy/enso-vs-soy',
+  '/columns/sunspots-soy/sunspots-vs-yield',
+  '/supplychain-insights/dashboard/soy/us-stu-price.png',
+  '/supplychain-insights/dashboard/soy/oni.png'
+]) {
+  if (!soyBoard.includes(text)) {
+    console.error(`大豆看板缺少：${text}`)
+    process.exit(1)
+  }
+}
+if (soyBoard.includes('现场观察')) {
+  console.error('大豆看板不该有现场观察')
+  process.exit(1)
+}
+if (/DRAM|NAND|美光|DRAMeXchange|合约价环比/.test(soyBoard)) {
+  console.error('大豆看板混入了存储行情')
+  process.exit(1)
+}
+if (!read('dashboard/index.html').includes('大豆周期信号')) {
+  console.error('看板目录没有链到大豆周期信号')
+  process.exit(1)
+}
+if (!read('index.html').includes('大豆周期信号')) {
+  console.error('首页没有大豆周期信号')
+  process.exit(1)
+}
+for (const img of ['dashboard/soy/us-stu-price.png', 'dashboard/soy/oni.png', 'dashboard/soy/annual.csv']) {
+  if (!existsSync(resolve(dist, img))) {
+    console.error(`大豆看板缺文件：${img}`)
+    process.exit(1)
+  }
 }
 const mlccCycle = articleOf('dashboard/mlcc/index.html')
 for (const text of ['周期位置', '不预测', '1.47', '1.39', '14']) {

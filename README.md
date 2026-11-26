@@ -143,6 +143,30 @@ npm run build
 
 三盏灯都是判断。页面写明不预测下一次下行落在哪一季。
 
+## 更新大豆周期信号
+
+页面在 `/dashboard/soy/`。没有自动抓取。WASDE 每月中旬发布，ONI 每月更新（诊断讨论大约每月中上旬）。改的是手工文件，改完跑 `npm run build`。不要把存储价格写进来。
+
+1. `docs/public/dashboard/soy/annual.csv`  
+   新的营销年度，或 USDA 修订了已经写在最后一行的预测时，改这一行的库存消费比。历史年不要手改，除非 PSD 回溯修订，并且在页面注明。美国营销年度是 9 月到次年 8 月。营销年度没走完，不要把单月的世界银行价格写进年均列。2026 年那一行的价格列是空的，就保持空的。
+
+2. 图  
+   改了 CSV，或专栏的 `docs/public/columns/enso-soy/oni.txt` 有了新的 ONI，就运行：
+
+   ```bash
+   python3 docs/public/dashboard/soy/chart.py
+   ```
+
+   脚本只画折线，不重新估计相关系数和拟合价格。那些数在页面正文里，要改就改正文。
+
+3. `data/soy/board.json`  
+   只改三盏灯的短句、颜色和日期。`light` 只能是 `yellow`（中性偏紧）、`green`（供应偏松的一侧）、`unknown`（背景，不打红黄绿）。颜色是判断。阈值不要随手改：美国库存消费比 ≤5% 偏紧、5–12% 中性、>12% 偏松；ONI 的 ±0.5 来自厄尔尼诺专栏。
+
+4. `docs/dashboard/soy/index.md`  
+   和 JSON 一起改。事实带来源链接，自算的数标「自算」，判断放进 `::: judgment`。全球那盏灯保持「只作背景」。不要加「现场观察」。不要写买卖建议。
+
+灯的规则和免责声明在页面文首。三盏灯不合成一个买卖结论。
+
 ## 更新周期专栏的两份数据集
 
 被动元件在 `docs/public/columns/passive-cycle/data.csv`，航运在 `docs/public/columns/shipping-cycle/data.csv`。每一行都要有 `source_url`。不要写入存储价格。

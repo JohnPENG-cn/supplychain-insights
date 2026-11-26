@@ -1,6 +1,6 @@
 # 指标数据怎么接
 
-MLCC 采购信号在 [`mlcc/`](mlcc/README.md)，不写进下面的电子元器件序列。台湾月营收和日本产量由定时任务更新；订单出货比、交期灯、涨价台账人工改。页内「周期位置」从被动元件公开数据集算出，见 `mlcc/cycle-position.json`。模拟/MCU 采购信号在 [`ic/`](ic/README.md)，季度数从半导体周期数据集抽出，电话会条目人工改。航运三组在 [`shipping/`](shipping/position.json)，从航运公开数据集算出，三组不要合并。不要把存储价格写进这个公开仓库。
+MLCC 采购信号在 [`mlcc/`](mlcc/README.md)，不写进下面的电子元器件序列。台湾月营收和日本产量由定时任务更新；订单出货比、交期灯、涨价台账人工改。页内「周期位置」从被动元件公开数据集算出，见 `mlcc/cycle-position.json`。模拟/MCU 采购信号在 [`ic/`](ic/README.md)，季度数从半导体周期数据集抽出，电话会条目人工改。航运三组在 [`shipping/`](shipping/position.json)，从航运公开数据集算出，三组不要合并。大豆周期信号不进这个目录的序列文件：年度表在 `docs/public/dashboard/soy/annual.csv`，三盏灯的短句在 [`soy/board.json`](soy/board.json)，手工改。不要把存储价格写进这个公开仓库。
 
 电子元器件看板只读这个目录，现在没有数值。
 
