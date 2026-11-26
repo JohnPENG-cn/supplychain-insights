@@ -7,7 +7,7 @@ description: "台光电、联茂、台燿等扩产约九成：2027 年仍被玻�
 
 <p class="brief-meta">首发2026-11-26，更新2026-11-26（第二版）</p>
 
-<ListenBar src="/audio/ccl.mp3" duration="8:19" />
+<ListenBar src="/audio/ccl.mp3" duration="8:18" />
 
 <!--@include: @/snippets/brief-note.md-->
 
@@ -481,7 +481,7 @@ John 的方法把周期分成四段[96]。放到板材上，每一段大致是�
 
 ## 来源
 
-编号 1–94 和第一版数据包 `data_pack.md` 一致，95–126 是这次新加的周期数据，见 `v2/data_pack_cycle.md`。等级：A＝公司原件或官方数据，本轮已打开核对；A-＝经数据商整理的原始数据，或沿用 10 月研究的公司原件；B＝媒体、券商转述或业绩说明会的第三方整理；C＝专家纪要或自媒体，只当线索。
+编号 1–94 与第一版公开来源一致，95–126 是这次新加的周期数据，底稿未公开。等级：A＝公司原件或官方数据，本轮已打开核对；A-＝经数据商整理的原始数据，或沿用 10 月研究的公司原件；B＝媒体、券商转述或业绩说明会的第三方整理；C＝专家纪要或自媒体，只当线索。
 
 1\. 台光电法说会简报 <https://www.emctw.com/upload/media/New_Investors/Financial_Information/Presentation_Materials/CH/115/Investor%20Conference%20Presentation_20261028%20final%20CH.pdf>（2026-10-28；等级 A）
 
@@ -621,7 +621,7 @@ John 的方法把周期分成四段[96]。放到板材上，每一段大致是�
 
 94\. 中新网 <https://www.chinanews.com.cn/cj/2022/11-07/9889314.shtml> ；上海有色网 <https://news.smm.cn/news/BFFTPIKB5TD6MPE3UU7AJQ3L7EUVROUQWHR5JDQ>（2022-11-07 / 2025-01；等级 B）
 
-95\. 采购实战笔记《用二十年财报看半导体：库存大约四年走一轮》<https://johnpeng-cn.github.io/supplychain-insights/columns/semi-cycle/twenty-years.html> （本地存档 `/workspace/cycle_audit/live/columns_semi-cycle_twenty-years.html.txt`）（2026-11-10；等级 A）
+95\. 采购实战笔记《用二十年财报看半导体：库存大约四年走一轮》<https://johnpeng-cn.github.io/supplychain-insights/columns/semi-cycle/twenty-years.html>（2026-11-10；等级 A）
 
 96\. 《怎么读电子料的周期》<https://johnpeng-cn.github.io/supplychain-insights/categories/electronics/how-to-read-the-cycle>（2026-10-20；等级 A）
 
@@ -639,7 +639,7 @@ John 的方法把周期分成四段[96]。放到板材上，每一段大致是�
 
 103\. 公开资讯观测站月营收，经 FinMind API：<https://api.finmindtrade.com/api/v4/data?dataset=TaiwanStockMonthRevenue&data_id=2383> （6213、6274 同）（2026-11-26；等级 A-；自算）
 
-104\. 公开资讯观测站月营收，经 FinMind API：<https://api.finmindtrade.com/api/v4/data?dataset=TaiwanStockMonthRevenue&data_id=2383> （6213、6274 同）；`v2/cycle/analyze.py`（2026-11-26；等级 自算）
+104\. 公开资讯观测站月营收，经 FinMind API：<https://api.finmindtrade.com/api/v4/data?dataset=TaiwanStockMonthRevenue&data_id=2383> （6213、6274 同）；作者据上述公开月营收计算，底稿未公开（2026-11-26；等级 自算）
 
 105\. 同上（2026-11-26；等级 自算）
 
@@ -681,7 +681,7 @@ John 的方法把周期分成四段[96]。放到板材上，每一段大致是�
 
 124\. Taiwan News 转述中央社 <https://www.taiwannews.com.tw/news/6461431>（2026-10-20；等级 B）
 
-125\. Prismark 季报摘要 <https://www.prismark.com/_files/ugd/950e51_6ec67f0d891a4be4bf32bc5e7fd8399d.pdf> 及 <https://www.prismark.com/_files/ugd/950e51_f051e20bf9dc4317baa5019b5a5a4e0e.pdf> （本地 `v2/raw/prismark_pcb_summaries_2024_2026.pdf`、`../raw/prismark_may26.pdf`）（2025-07 至 2026-09；等级 A）
+125\. Prismark 季报摘要 <https://www.prismark.com/_files/ugd/950e51_6ec67f0d891a4be4bf32bc5e7fd8399d.pdf> 及 <https://www.prismark.com/_files/ugd/950e51_f051e20bf9dc4317baa5019b5a5a4e0e.pdf>（原件 PDF，作者已下载）（2025-07 至 2026-09；等级 A）
 
 126\. 采购实战笔记《周期史》<https://johnpeng-cn.github.io/supplychain-insights/categories/electronics/cycle-history.html>（2026-10-20；等级 A（转引 TrendForce））
 

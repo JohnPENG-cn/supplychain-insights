@@ -316,7 +316,7 @@ for (const text of [
   '全世界都在抢着给 AI 做电路板底料，2028 年会不会做多了？',
   '音频约 12:44',
   '音频约 7:33',
-  '音频约 8:19',
+  '音频约 8:18',
   '按半导体周期的方法看，这个行业在“过热”的前半段、还没掉头。',
   '覆铜板：扩产潮和 2028',
   '订单很热，但不是所有客户都能拿够货'
@@ -408,13 +408,19 @@ if (!ccl.includes('/supplychain-insights/audio/ccl.mp3')) {
   console.error('briefs/ccl.html 的音频路径没有带上基础路径')
   process.exit(1)
 }
-if (!ccl.includes('听这篇（约8:19）')) {
+if (!ccl.includes('听这篇（约8:18）')) {
   console.error('briefs/ccl.html 的音频时长说明不对')
   process.exit(1)
 }
-if (ccl.includes('听这篇（约13:35）')) {
+if (ccl.includes('听这篇（约13:35）') || ccl.includes('听这篇（约8:19）')) {
   console.error('briefs/ccl.html 还留着旧音频时长')
   process.exit(1)
+}
+for (const leak of ['/workspace', 'data_pack', '.py', 'v2/']) {
+  if (ccl.includes(leak)) {
+    console.error(`briefs/ccl.html 还留着本地路径字样：${leak}`)
+    process.exit(1)
+  }
 }
 if (!ccl.includes('不构成投资建议') || !ccl.includes('首发2026-11-26') || !ccl.includes('更新2026-11-26（第二版）') || !ccl.includes('未核实清单')) {
   console.error('briefs/ccl.html 缺少免责声明、首发日期、第二版更新日期或未核实说明')
