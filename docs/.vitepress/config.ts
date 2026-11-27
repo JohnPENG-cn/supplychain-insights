@@ -196,7 +196,8 @@ export default defineConfig({
     /^\/columns\/sunspots-soy\/analysis\.py$/,
     /^\/columns\/sunspots-soy\/README/,
     /^\/columns\/enso-soy\/analysis\.py$/,
-    /^\/columns\/enso-soy\/README/
+    /^\/columns\/enso-soy\/README/,
+    /^\/dashboard\/soy\/chart\.py$/
   ],
   lastUpdated: true,
   sitemap: {
@@ -329,7 +330,8 @@ export default defineConfig({
           { text: '看板目录', link: '/dashboard/' },
           { text: 'MLCC 采购信号', link: '/dashboard/mlcc/' },
           { text: 'IC 采购信号（模拟/MCU）', link: '/dashboard/ic/' },
-          { text: '航运周期', link: '/dashboard/shipping/' }
+          { text: '航运周期', link: '/dashboard/shipping/' },
+          { text: '大豆周期信号', link: '/dashboard/soy/' }
         ]
       }
     ],
