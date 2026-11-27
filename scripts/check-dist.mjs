@@ -89,6 +89,7 @@ const pages = [
   'briefs/fiber.html',
   'briefs/tglass.html',
   'briefs/ccl.html',
+  'briefs/hog.html',
   'columns/company-lens/index.html',
   'columns/company-lens/micron-fy26q4.html',
   'columns/company-lens/ti-2026q3.html',
@@ -276,6 +277,10 @@ if (!sitemap.includes('https://johnpeng-cn.github.io/supplychain-insights/briefs
   console.error('站点地图没有覆铜板这篇')
   process.exit(1)
 }
+if (!sitemap.includes('https://johnpeng-cn.github.io/supplychain-insights/briefs/hog')) {
+  console.error('站点地图没有猪周期这篇')
+  process.exit(1)
+}
 if (!sitemap.includes('https://johnpeng-cn.github.io/supplychain-insights/categories/plastics/')) {
   console.error('站点地图没有塑料章节')
   process.exit(1)
@@ -316,11 +321,15 @@ for (const text of [
   '更新 2026-10-28',
   '更新 2026-11-08',
   '更新 2026-11-26',
+  '更新 2026-11-27',
   '光纤涨了5倍，2028年最危险的是中国普通光纤',
   '全世界都在抢着给 AI 做电路板底料，2028 年会不会做多了？',
+  '猪价跌到 11 年最低，猪周期到底了吗？',
   '音频约 12:44',
   '音频约 7:33',
   '音频约 8:18',
+  '音频约 10:51',
+  '用半导体周期的方法给猪周期量体温：猪价在底部磨底，明确拐点大约在 2027 年下半年（推断）；期货 16 次里 14 次猜高，股票比猪价早动五个月。',
   '按半导体周期的方法看，这个行业在“过热”的前半段、还没掉头。',
   '覆铜板：扩产潮和 2028',
   '订单很热，但不是所有客户都能拿够货'
@@ -330,7 +339,7 @@ for (const text of [
     process.exit(1)
   }
 }
-for (const href of ['/briefs/inp.html', '/briefs/fiber.html', '/briefs/tglass.html', '/briefs/ccl.html']) {
+for (const href of ['/briefs/inp.html', '/briefs/fiber.html', '/briefs/tglass.html', '/briefs/ccl.html', '/briefs/hog.html']) {
   if (!briefIndex.includes(href)) {
     console.error(`情报栏目首页没有链到 ${href}`)
     process.exit(1)
@@ -479,6 +488,77 @@ for (const img of [
   }
   if (!ccl.includes(`/supplychain-insights/${img}`)) {
     console.error(`覆铜板页没有引用图片：${img}`)
+    process.exit(1)
+  }
+}
+const hog = read('briefs/hog.html')
+if (!hog.includes('<audio') || !hog.includes('controls') || !hog.includes('preload="metadata"')) {
+  console.error('briefs/hog.html 的音频播放器不完整')
+  process.exit(1)
+}
+if (!hog.includes('/supplychain-insights/audio/hog.mp3')) {
+  console.error('briefs/hog.html 的音频路径没有带上基础路径')
+  process.exit(1)
+}
+if (!hog.includes('听这篇（约10:51）')) {
+  console.error('briefs/hog.html 的音频时长说明不对')
+  process.exit(1)
+}
+for (const leak of ['/workspace', '/home', 'data_pack', '.py', 'script.txt', 'segs', 'scorecard.md', 'raw/']) {
+  if (hog.includes(leak)) {
+    console.error(`briefs/hog.html 还留着本地路径字样：${leak}`)
+    process.exit(1)
+  }
+}
+if (!hog.includes('不构成投资建议') || !hog.includes('首发2026-11-27') || !hog.includes('更新2026-11-27') || !hog.includes('未核实清单')) {
+  console.error('briefs/hog.html 缺少免责声明、首发日期、更新日期或未核实说明')
+  process.exit(1)
+}
+if (!hog.includes('猪价跌到 11 年最低，猪周期到底了吗？')) {
+  console.error('briefs/hog.html 标题不对')
+  process.exit(1)
+}
+if (!hog.includes('用看半导体周期的方法')) {
+  console.error('briefs/hog.html 缺少副标题')
+  process.exit(1)
+}
+if (!hog.includes('一、先把猪周期讲清楚') || !hog.includes('七、记分卡：12 项指标')) {
+  console.error('briefs/hog.html 缺少关键标题')
+  process.exit(1)
+}
+if (!hog.includes('8.63') || !hog.includes('<table')) {
+  console.error('briefs/hog.html 缺少原稿数字或表格')
+  process.exit(1)
+}
+if (!hog.includes('href="https://www.stats.gov.cn/sj/zxfbhjd/202610/t20261019_1965646.html"')) {
+  console.error('猪周期页脚注链接不可点，或把日期括号吃进了链接')
+  process.exit(1)
+}
+if (hog.includes('%EF%BC%88')) {
+  console.error('猪周期页脚注链接把中文括号吃进去了')
+  process.exit(1)
+}
+const hogAudio = resolve(dist, 'audio/hog.mp3')
+if (!existsSync(hogAudio) || statSync(hogAudio).size < 100000) {
+  console.error('音频文件缺失或过小：audio/hog.mp3')
+  process.exit(1)
+}
+for (const img of [
+  'briefs/hog/c1_price_history.png',
+  'briefs/hog/c2_sows_productivity.png',
+  'briefs/hog/c3_supply_projection.png',
+  'briefs/hog/c4_futures_backtest.png',
+  'briefs/hog/c5_futures_curve.png',
+  'briefs/hog/c6_company_output.png',
+  'briefs/hog/c7_balance_capex.png',
+  'briefs/hog/c8_stock_vs_hog.png'
+]) {
+  if (!existsSync(resolve(dist, img))) {
+    console.error(`猪周期缺图：${img}`)
+    process.exit(1)
+  }
+  if (!hog.includes(`/supplychain-insights/${img}`)) {
+    console.error(`猪周期页没有引用图片：${img}`)
     process.exit(1)
   }
 }
